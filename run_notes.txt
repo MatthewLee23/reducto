@@ -1,0 +1,6 @@
+Aeres: total of fair_value_raw for 'HOLDINGS' type rows equals $830M which is equal to the private assets but misses the $192M in 
+short term investments. The accurate total investments figure is $1,022M. It appears that the extraction model did not populate accurate
+fair_raw_value which is in the report because there is no explicit header for this figure. the $192M in fair_value inherits the header
+from the previous table on the same page
+
+

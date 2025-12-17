@@ -1,0 +1,33 @@
+# Reducto Project Rules
+
+## Reducto SDK References
+- **ALWAYS** reference `@Reducto Python SDK` when making changes to reducto actions or when working with the Reducto SDK
+- When modifying code that interacts with the Reducto API, consult the Reducto Python SDK documentation first
+- Use the Reducto SDK documentation to ensure API calls, parameters, and configurations are correct
+
+## Project Context
+- This project uses the Reducto Python SDK for PDF processing and document splitting
+- Main entry point is `main.py`
+- Environment variables are loaded from `.env` file using `python-dotenv`
+- The project processes PDF files using Reducto's split functionality with custom configurations
+
+## Code Style
+- Follow PEP 8 Python style guidelines
+- Use type hints where appropriate
+- Prefer `pathlib.Path` for file operations
+- Use environment variables for sensitive configuration (API keys, etc.)
+
+## File Handling
+- PDF files should be handled using `pathlib.Path` objects
+- Results are typically saved as JSON files with proper formatting (indent=2)
+- Use `default=str` when serializing JSON to handle non-serializable objects
+
+## Error Handling
+- Include appropriate error handling for API calls
+- Validate environment variables before use
+- Handle file operations with proper error checking
+
+## Documentation
+- When making changes, ensure code comments explain complex configurations
+- Document any changes to Reducto API usage patterns
+- Keep configuration dictionaries well-structured and readable
