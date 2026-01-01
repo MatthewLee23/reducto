@@ -14,6 +14,7 @@ from __future__ import annotations
 import argparse
 import re
 from dataclasses import dataclass, field
+from datetime import datetime
 from html import escape as html_escape
 from pathlib import Path
 from typing import Iterable, Iterator, List, Optional, Tuple
@@ -60,6 +61,12 @@ SECTION_HEADER_RE = re.compile(
 
 # Separator lines used in SEC ASCII tables
 SEPARATOR_LINE_RE = re.compile(r"^[\s\-=_]{10,}$")
+
+# Pattern for detecting numeric data rows (contains dollar amounts, percentages, or numbers)
+NUMERIC_DATA_RE = re.compile(r"[\$]?\s*[\d,]+\.?\d*\s*%?|\(\s*[\d,]+\.?\d*\s*\)")
+
+# Max lines for a "short" text block that should stay with following table
+SHORT_PREFACE_MAX_LINES = 15
 
 
 # =============================================================================
@@ -183,10 +190,11 @@ def _extract_table_header(lines: List[str]) -> List[str]:
     """
     Extract the header portion of an SEC ASCII table for repetition.
     
-    Heuristics:
-    - Include <CAPTION> lines
-    - Include column header lines (before first data row)
+    Conservative approach:
+    - Include <CAPTION> region
+    - Include <S> and <C> layout definition lines
     - Include the first separator line (----)
+    - Stop before any line that looks like numeric data
     """
     header: List[str] = []
     in_caption = False
@@ -213,6 +221,10 @@ def _extract_table_header(lines: List[str]) -> List[str]:
             header.append(line)
             continue
         
+        # Skip pure SGML tag lines (don't add to header, but don't stop)
+        if INVISIBLE_LINE_RE.match(stripped):
+            continue
+        
         # Include separator lines (first one marks end of header)
         if SEPARATOR_LINE_RE.match(stripped):
             header.append(line)
@@ -220,14 +232,16 @@ def _extract_table_header(lines: List[str]) -> List[str]:
             # After first separator, we're done with header
             break
         
+        # Stop if we hit a line with numeric data (actual table content)
+        if NUMERIC_DATA_RE.search(stripped):
+            break
+        
         # Include non-empty lines before separator (column headers)
         if stripped and not found_separator:
-            # Skip pure SGML tag lines
-            if not INVISIBLE_LINE_RE.match(stripped):
-                header.append(line)
+            header.append(line)
         
-        # Stop if we hit actual data (after a few header lines)
-        if len(header) > 15:
+        # Stop if we hit too many header lines (safety limit)
+        if len(header) > 10:
             break
     
     return header
@@ -357,51 +371,38 @@ def _paginate_table_block(
     *,
     max_visible_lines: int,
     header_lines: List[str],
-) -> Iterator[Tuple[List[str], bool]]:
+    preface_lines: int = 0,
+) -> Iterator[Tuple[List[str], List[str], bool]]:
     """
-    Paginate a TableBlock, yielding (chunk, is_continuation).
+    Paginate a TableBlock, yielding (header_for_page, body_chunk, is_continuation).
     
-    On continuation pages, the header should be repeated.
+    Now includes header on the first page too, and accounts for preface lines.
     """
-    lines = block.lines
-    header_set = set(header_lines)
-    
-    # Find where body starts (after header)
-    body_start = 0
-    for i, line in enumerate(lines):
-        if line in header_set:
-            body_start = i + 1
-        else:
-            if body_start > 0:
-                break
-    
-    body_lines = lines[body_start:]
+    all_lines = block.lines
     header_visible = _count_visible_lines(header_lines)
     
-    # First chunk includes full header
-    effective_max = max_visible_lines - header_visible if header_visible < max_visible_lines else max_visible_lines
+    # First page budget accounts for preface + header
+    first_page_budget = max_visible_lines - preface_lines - header_visible
+    if first_page_budget < 5:
+        first_page_budget = max_visible_lines // 2  # Safety fallback
+    
+    # Continuation pages just have header
+    continuation_budget = max_visible_lines - header_visible
+    if continuation_budget < 5:
+        continuation_budget = max_visible_lines // 2
     
     current: List[str] = []
     visible_count = 0
     is_first = True
     
-    def flush(is_continuation: bool) -> Optional[Tuple[List[str], bool]]:
-        nonlocal current, visible_count, is_first
-        if not current:
-            return None
-        chunk = current
-        current = []
-        visible_count = 0
-        was_first = is_first
-        is_first = False
-        return (chunk, not was_first)
-    
-    for i, line in enumerate(body_lines):
+    for line in all_lines:
         current.append(line)
         if not INVISIBLE_LINE_RE.match(line):
             visible_count += 1
         
-        if visible_count >= effective_max:
+        budget = first_page_budget if is_first else continuation_budget
+        
+        if visible_count >= budget:
             # Find a good break point (prefer separator or blank)
             best_break = None
             for back in range(min(6, len(current))):
@@ -416,16 +417,16 @@ def _paginate_table_block(
             chunk = current[:best_break]
             remainder = current[best_break:]
             
-            result = flush(is_continuation=not is_first)
-            if result:
-                yield (chunk, result[1])
+            # Yield: (header, body, is_continuation)
+            yield (header_lines, chunk, not is_first)
             
+            is_first = False
             current = remainder
             visible_count = _count_visible_lines(current)
-            # After first chunk, effective_max stays the same (header repeats)
     
+    # Yield remaining content
     if current:
-        yield (current, not is_first)
+        yield (header_lines, current, not is_first)
 
 
 # =============================================================================
@@ -460,6 +461,8 @@ def _build_html(
     Build HTML from SEC documents with proper pagination.
     
     Uses fixed pixel line-height synced with Python pagination math.
+    Keeps short preface text (last chunk before table) with the table.
+    Skips empty pages after SGML stripping.
     """
     # Calculate max visible lines per page (with safety buffer)
     usable_height_px = page_height_px * (1.0 - safety_buffer_pct)
@@ -470,7 +473,8 @@ def _build_html(
     page_width_in = page_width_px / dpi
     page_height_in = page_height_px / dpi
     
-    body_parts: List[str] = []
+    # Collect all page HTML parts
+    all_pages: List[str] = []
     
     # Process documents in order (primary first)
     order = [primary_idx] + [i for i in range(len(docs)) if i != primary_idx]
@@ -480,36 +484,121 @@ def _build_html(
         heading = f'<div class="docHeader">DOCUMENT TYPE: {html_escape(doc.doc_type)}</div>'
         
         blocks = _segment_into_blocks(doc.text)
-        block_html_parts: List[str] = []
         
-        for block in blocks:
+        # First page of each document gets the heading
+        doc_first_page = True
+        
+        i = 0
+        while i < len(blocks):
+            block = blocks[i]
+            
             if isinstance(block, TextBlock):
-                for chunk in _paginate_text_block(block, max_visible_lines=max_visible_lines):
+                # Check if next block is a table
+                next_is_table = (i + 1 < len(blocks) and isinstance(blocks[i + 1], TableBlock))
+                
+                # Paginate the text block and collect all chunks
+                chunks = list(_paginate_text_block(block, max_visible_lines=max_visible_lines))
+                
+                # If next block is table, check if last chunk is short enough to keep with table
+                last_chunk_for_table: Optional[List[str]] = None
+                if next_is_table and chunks:
+                    last_chunk = chunks[-1]
+                    last_chunk_visible = _count_visible_lines(last_chunk)
+                    if last_chunk_visible <= SHORT_PREFACE_MAX_LINES:
+                        last_chunk_for_table = chunks.pop()  # Remove from chunks, save for table
+                
+                # Emit all text chunks (except the one saved for table)
+                for chunk in chunks:
                     clean_text = _strip_sgml_tags_for_display("\n".join(chunk))
-                    block_html_parts.append(f'<pre class="filing">{html_escape(clean_text)}</pre>')
+                    
+                    # Skip empty pages
+                    if not clean_text.strip():
+                        continue
+                    
+                    page_parts = []
+                    if doc_first_page:
+                        page_parts.append(heading)
+                        doc_first_page = False
+                    
+                    page_parts.append(f'<pre class="filing">{html_escape(clean_text)}</pre>')
+                    all_pages.append("".join(page_parts))
+                
+                # If we have a last chunk to keep with table, process table now
+                if last_chunk_for_table is not None:
+                    preface_lines = last_chunk_for_table
+                    preface_visible = _count_visible_lines(preface_lines)
+                    
+                    # Move to the table block
+                    i += 1
+                    table_block = blocks[i]
+                    
+                    # Generate table pages with preface on first page
+                    first_table_page = True
+                    for header, body_chunk, is_continuation in _paginate_table_block(
+                        table_block,
+                        max_visible_lines=max_visible_lines,
+                        header_lines=table_block.header_lines,
+                        preface_lines=preface_visible if first_table_page else 0,
+                    ):
+                        page_parts = []
+                        
+                        # Add doc heading on first page of document
+                        if doc_first_page:
+                            page_parts.append(heading)
+                            doc_first_page = False
+                        
+                        # Add preface on first table page
+                        if first_table_page:
+                            clean_preface = _strip_sgml_tags_for_display("\n".join(preface_lines))
+                            if clean_preface.strip():
+                                page_parts.append(f'<pre class="filing">{html_escape(clean_preface)}</pre>')
+                            first_table_page = False
+                        
+                        # Add table header
+                        clean_header = _strip_sgml_tags_for_display("\n".join(header))
+                        if clean_header.strip():
+                            page_parts.append(f'<pre class="filing table-header">{html_escape(clean_header)}</pre>')
+                        
+                        # Add table body
+                        clean_body = _strip_sgml_tags_for_display("\n".join(body_chunk))
+                        if clean_body.strip():
+                            page_parts.append(f'<pre class="filing">{html_escape(clean_body)}</pre>')
+                        
+                        # Only emit page if there's actual content
+                        if page_parts:
+                            all_pages.append("".join(page_parts))
             
             elif isinstance(block, TableBlock):
-                header_lines = block.header_lines
-                clean_header = _strip_sgml_tags_for_display("\n".join(header_lines))
-                
-                for chunk, is_continuation in _paginate_table_block(
+                # Table without preface
+                for header, body_chunk, is_continuation in _paginate_table_block(
                     block,
                     max_visible_lines=max_visible_lines,
-                    header_lines=header_lines,
+                    header_lines=block.header_lines,
                 ):
-                    clean_body = _strip_sgml_tags_for_display("\n".join(chunk))
-                    if is_continuation and clean_header.strip():
-                        # Repeat header on continuation pages
-                        table_html = f'<pre class="filing table-header">{html_escape(clean_header)}</pre>'
-                        table_html += f'<pre class="filing">{html_escape(clean_body)}</pre>'
-                    else:
-                        table_html = f'<pre class="filing">{html_escape(clean_body)}</pre>'
-                    block_html_parts.append(table_html)
-        
-        doc_body = '<div class="pagebreak"></div>'.join(block_html_parts)
-        body_parts.append(f'<section class="docSection">{heading}{doc_body}</section>')
+                    page_parts = []
+                    
+                    if doc_first_page:
+                        page_parts.append(heading)
+                        doc_first_page = False
+                    
+                    # Add table header (on all pages now)
+                    clean_header = _strip_sgml_tags_for_display("\n".join(header))
+                    if clean_header.strip():
+                        page_parts.append(f'<pre class="filing table-header">{html_escape(clean_header)}</pre>')
+                    
+                    # Add table body
+                    clean_body = _strip_sgml_tags_for_display("\n".join(body_chunk))
+                    if clean_body.strip():
+                        page_parts.append(f'<pre class="filing">{html_escape(clean_body)}</pre>')
+                    
+                    # Only emit page if there's actual content
+                    if page_parts and any('<pre' in p for p in page_parts):
+                        all_pages.append("".join(page_parts))
+            
+            i += 1
     
-    body = '<div class="pagebreak"></div>'.join(body_parts)
+    # Join pages with page breaks
+    body = '<div class="pagebreak"></div>'.join(all_pages)
     
     css = f"""
 @page {{
@@ -673,6 +762,31 @@ def iter_input_files(input_dir: Path, pattern: str, recursive: bool) -> Iterable
     return sorted(input_dir.glob(pattern))
 
 
+def _generate_timestamped_output_dir(base_dir: Path) -> Path:
+    """
+    Generate a timestamped output directory path.
+    
+    Format: <base_dir>/output/<YYYY-MM-DD_HHMMSS>/
+    If that exists, append -1, -2, etc.
+    """
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
+    output_base = base_dir / "output"
+    candidate = output_base / timestamp
+    
+    if not candidate.exists():
+        return candidate
+    
+    # Add suffix if already exists
+    suffix = 1
+    while True:
+        candidate = output_base / f"{timestamp}-{suffix}"
+        if not candidate.exists():
+            return candidate
+        suffix += 1
+        if suffix > 1000:  # Safety limit
+            raise RuntimeError(f"Too many output directories with timestamp {timestamp}")
+
+
 # =============================================================================
 # CLI
 # =============================================================================
@@ -687,7 +801,7 @@ def main() -> int:
     parser.add_argument("--input-dir", type=Path, default=Path("."),
                         help="Folder containing .txt filings.")
     parser.add_argument("--output-dir", type=Path, default=None,
-                        help="Where to write PDFs (default: <input-dir>/output).")
+                        help="Where to write PDFs (default: <input-dir>/output/<timestamp>/).")
     parser.add_argument("--glob", dest="glob_pattern", default="*.txt",
                         help="Glob pattern for input files.")
     parser.add_argument("--recursive", action="store_true", default=True,
@@ -721,7 +835,12 @@ def main() -> int:
     args = parser.parse_args()
     
     input_dir = args.input_dir.resolve()
-    output_dir = (args.output_dir or (input_dir / "output")).resolve()
+    
+    # Use timestamped output directory if not explicitly provided
+    if args.output_dir is not None:
+        output_dir = args.output_dir.resolve()
+    else:
+        output_dir = _generate_timestamped_output_dir(input_dir)
     
     files = [p for p in iter_input_files(input_dir, args.glob_pattern, args.recursive) if p.is_file()]
     if not files:

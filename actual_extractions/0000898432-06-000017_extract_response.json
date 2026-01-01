@@ -1,0 +1,90 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "SCHEDULE OF INVESTMENTS CALIFORNIA INTERMEDIATE MUNICIPAL FUND INC.",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.020208332935969034,
+            "width": 0.6233333446361401,
+            "height": 0.008645834525426228,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "SCHEDULE OF INVESTMENTS CALIFORNIA INTERMEDIATE MUNICIPAL FUND INC.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.8415322959423065
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "October 31, 2005",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.10555555555555556,
+            "top": 0.2604166666666667,
+            "width": 0.14722222222222223,
+            "height": 0.007291666666666667,
+            "page": 17,
+            "original_page": 17
+          },
+          "content": "October 31, 2005",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.0,
+            "parse_confidence": 0.8052790969610214
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "",
+      "citations": [
+        {
+          "type": "Footer",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.019791666666666666,
+            "width": 0.6231481481481481,
+            "height": 0.008854166666666666,
+            "page": 1,
+            "original_page": 20
+          },
+          "content": "SCHEDULE OF INVESTMENTS CALIFORNIA INTERMEDIATE MUNICIPAL FUND INC.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.5,
+            "parse_confidence": 0.8415322959423065
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": {
+      "value": null,
+      "citations": []
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 18,
+    "credits": 72.0
+  },
+  "job_id": "a998c837-7101-40b6-8fa2-078c514f44ef",
+  "studio_link": "https://studio.reducto.ai/job/a998c837-7101-40b6-8fa2-078c514f44ef"
+}

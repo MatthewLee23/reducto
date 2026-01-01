@@ -1,0 +1,85 @@
+{
+  "source_name": "massmutual-2022-03-31",
+  "total_rows": 45,
+  "holding_count": 40,
+  "subtotal_count": 4,
+  "total_count": 1,
+  "error_count": 0,
+  "warning_count": 1,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": "109650559",
+  "extracted_total_fv": "109650559",
+  "computed_sums": {
+    "Primary Fund Investments": {
+      "calculated_fv": "11400321",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "11400321",
+      "extracted_cost": "9915460",
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Secondary Fund Investments": {
+      "calculated_fv": "49303367",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "49303367",
+      "extracted_cost": "42683304",
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "Co-Investments": {
+      "calculated_fv": "21256407",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "21256407",
+      "extracted_cost": "20843847",
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "SHORT-TERM INVESTMENTS > Commercial Paper": {
+      "calculated_fv": "27690464",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 22,
+      "child_count": 0
+    },
+    "SHORT-TERM INVESTMENTS": {
+      "calculated_fv": "27690464",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "27690464",
+      "extracted_cost": "27688275",
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "109650559",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "109650559",
+      "extracted_cost": "101130886",
+      "extracted_pct": "98.3",
+      "label": "TOTAL INVESTMENTS \u2014 98.3% (Cost $101,130,886)"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 22 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SHORT-TERM INVESTMENTS > Commercial Paper"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1891 @@
+{
+  "source_name": "0000088053-17-001401",
+  "total_rows": 68,
+  "holding_count": 51,
+  "subtotal_count": 14,
+  "total_count": 3,
+  "error_count": 3,
+  "warning_count": 161,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "231112989",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "324525168",
+  "extracted_total_fv": "324525168",
+  "computed_sums": {
+    "Germany 80.5% > Common Stocks 75.9% > Aerospace & Defense 3.0%": {
+      "calculated_fv": "8845980",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Germany 80.5% > Common Stocks 75.9% > Auto Components 0.8%": {
+      "calculated_fv": "2347034",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Germany 80.5% > Common Stocks 75.9% > Chemicals 11.4%": {
+      "calculated_fv": "33446272",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "33446272",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "Germany 80.5% > Common Stocks 75.9% > Commercial Services & Supplies 0.5%": {
+      "calculated_fv": "1395795",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Germany 80.5% > Common Stocks 75.9% > Construction & Engineering 0.7%": {
+      "calculated_fv": "1916118",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Germany 80.5% > Common Stocks 75.9% > Electrical Equipment 4.3%": {
+      "calculated_fv": "12481035",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Germany 80.5% > Common Stocks 75.9% > Electronic Equipment, Instruments & Components 0.5%": {
+      "calculated_fv": "1554873",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Germany 80.5% > Common Stocks 75.9% > Food & Staples Retailing 3.6%": {
+      "calculated_fv": "10560606",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Germany 80.5% > Common Stocks 75.9% > Food Products 0.5%": {
+      "calculated_fv": "1585913",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Germany 80.5% > Common Stocks 75.9%": {
+      "calculated_fv": "74133626",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 9
+    },
+    "Germany 80.5%": {
+      "calculated_fv": "74133626",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Independent Power & Renewable Electricity Producers 1.9%": {
+      "calculated_fv": "5424451",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Industrial Conglomerates 0.6%": {
+      "calculated_fv": "1697676",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Insurance 2.4%": {
+      "calculated_fv": "7175211",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "7175211",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Internet & Direct Marketing Retail 4.2%": {
+      "calculated_fv": "12341599",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Internet Software & Services 5.6%": {
+      "calculated_fv": "16406264",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "16406264",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "IT Services": {
+      "calculated_fv": "7764493",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Life Sciences Tools & Services": {
+      "calculated_fv": "3782171",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Machinery": {
+      "calculated_fv": "14221145",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "4.9",
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Media": {
+      "calculated_fv": "2369453",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Metals & Mining": {
+      "calculated_fv": "11217322",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.8",
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Multi-Utilities": {
+      "calculated_fv": "837183",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Pharmaceuticals": {
+      "calculated_fv": "4544615",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Real Estate Management & Development": {
+      "calculated_fv": "16256188",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "16256188",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Semiconductors & Semiconductor Equipment": {
+      "calculated_fv": "8334154",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Software": {
+      "calculated_fv": "5049949",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Textiles, Apparel & Luxury Goods": {
+      "calculated_fv": "2979962",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Trading Companies & Distributors": {
+      "calculated_fv": "12067832",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Transportation Infrastructure": {
+      "calculated_fv": "7104320",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Wireless Telecommunication Services": {
+      "calculated_fv": "4260204",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Preferred Stocks > Auto Components": {
+      "calculated_fv": "3740871",
+      "calculated_cost": "3601053",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Preferred Stocks > Health Care Equipment & Supplies": {
+      "calculated_fv": "5045649",
+      "calculated_cost": "3004067",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Preferred Stocks": {
+      "calculated_fv": "8786520",
+      "calculated_cost": "6605120",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Germany": {
+      "calculated_fv": "4802726",
+      "calculated_cost": "3253751",
+      "calculated_pct": null,
+      "extracted_fv": "235915715",
+      "extracted_cost": "159353827",
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Netherlands > Common Stocks > Aerospace & Defense": {
+      "calculated_fv": "32715439",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Netherlands > Common Stocks > Household Durables": {
+      "calculated_fv": "10203405",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Netherlands > Common Stocks > Life Sciences Tools & Services": {
+      "calculated_fv": "13607709",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Netherlands > Common Stocks": {
+      "calculated_fv": "56526553",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Netherlands": {
+      "calculated_fv": "56526553",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "56526553",
+      "extracted_cost": "30496253",
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Securities Lending Collateral": {
+      "calculated_fv": "30939207",
+      "calculated_cost": "30939207",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Cash Equivalents": {
+      "calculated_fv": "1143693",
+      "calculated_cost": "1143693",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "324525168",
+      "calculated_cost": "41941771",
+      "calculated_pct": null,
+      "extracted_fv": "324525168",
+      "extracted_cost": "221932980",
+      "extracted_pct": "110.8",
+      "label": "Total Investment Portfolio  (Cost $221,932,980)**"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=19 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=19 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=19 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 1
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=19 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 1
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=19 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 2
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=19 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 2
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=20 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 3
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=19 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 3
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=20 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 4
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=20 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 4
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=20 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 5
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=20 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 5
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=20 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 6
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=20 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 6
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 7
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=20 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 7
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=20 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 8
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=20 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 8
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=20 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 9
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=20 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 9
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=21 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 10
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=21 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 10
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=21 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 11
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=21 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 11
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=21 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 12
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=21 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 12
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=21 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 13
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=21 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 13
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=22 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 14
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=22 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 14
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=22 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 15
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=22 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 15
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=22 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 16
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=22 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 16
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=22 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 17
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=22 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 17
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=22 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 18
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=22 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 18
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 19
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=22 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 19
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=23 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 20
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=23 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 20
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=23 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 21
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=23 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 21
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=23 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 22
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=23 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 22
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=23 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 23
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=23 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 23
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=23 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 24
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=23 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 24
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 25
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=23 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 25
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 26
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 26
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 27
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 28
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 28
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 29
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 29
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 30
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 31
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 32
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 32
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 33
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=24 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 33
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 34
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 35
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 36
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 36
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 37
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 37
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 38
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 39
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 40
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 40
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 41
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 41
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=25 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 42
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=26 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 43
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=26 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 43
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=26 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 44
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=26 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 44
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=26 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 45
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=26 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 45
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=26 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 46
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=26 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 46
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=26 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 47
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=26 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 47
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=27 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 48
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=27 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=27 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=27 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=27 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=27 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 51
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=27 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 51
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=27 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 52
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=27 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 52
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=28 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 53
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=28 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 53
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=28 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 54
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=28 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 54
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=28 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 55
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=28 outside [1, 16]",
+      "context": {
+        "field": "cost_raw",
+        "row": 55
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=28 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 55
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=28 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 56
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=28 outside [1, 16]",
+      "context": {
+        "field": "cost_raw",
+        "row": 56
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=28 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 56
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=29 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 57
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=29 outside [1, 16]",
+      "context": {
+        "field": "cost_raw",
+        "row": 57
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=29 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 57
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=29 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 58
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=29 outside [1, 16]",
+      "context": {
+        "field": "cost_raw",
+        "row": 58
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=29 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 59
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=29 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 59
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=29 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 60
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=29 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 60
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 61
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 61
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 62
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "cost_raw",
+        "row": 62
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 63
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "cost_raw",
+        "row": 63
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 63
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 64
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "cost_raw",
+        "row": 64
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 64
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 65
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "cost_raw",
+        "row": 65
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=30 outside [1, 16]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 65
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=31 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 66
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=31 outside [1, 16]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 66
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=31 outside [1, 16]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 67
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=31 outside [1, 16]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 67
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Germany 80.5% > Common Stocks 75.9% > Aerospace & Defense 3.0%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Germany 80.5% > Common Stocks 75.9% > Auto Components 0.8%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Germany 80.5% > Common Stocks 75.9% > Commercial Services & Supplies 0.5%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Germany 80.5% > Common Stocks 75.9% > Construction & Engineering 0.7%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Germany 80.5% > Common Stocks 75.9% > Electrical Equipment 4.3%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Germany 80.5% > Common Stocks 75.9% > Electronic Equipment, Instruments & Components 0.5%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Germany 80.5% > Common Stocks 75.9% > Food & Staples Retailing 3.6%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Germany 80.5% > Common Stocks 75.9% > Food Products 0.5%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Independent Power & Renewable Electricity Producers 1.9%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Industrial Conglomerates 0.6%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Internet & Direct Marketing Retail 4.2%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "IT Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Multi-Utilities"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Pharmaceuticals"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Semiconductors & Semiconductor Equipment"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Software"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Textiles, Apparel & Luxury Goods"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Trading Companies & Distributors"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Transportation Infrastructure"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Wireless Telecommunication Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Preferred Stocks > Auto Components"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Preferred Stocks > Health Care Equipment & Supplies"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (4802726) != extracted (235915715), diff=$231112989",
+      "context": {
+        "section_path": "Germany",
+        "label": "Total Germany  (Cost $159,353,827)",
+        "calculated": "4802726",
+        "extracted": "235915715",
+        "diff": "231112989"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_COST",
+      "message": "Calculated cost (3253751) != extracted (159353827), diff=$156100076",
+      "context": {
+        "section_path": "Germany",
+        "label": "Total Germany  (Cost $159,353,827)",
+        "calculated": "3253751",
+        "extracted": "159353827",
+        "diff": "156100076"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Netherlands > Common Stocks > Aerospace & Defense"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Netherlands > Common Stocks > Household Durables"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Netherlands > Common Stocks > Life Sciences Tools & Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Securities Lending Collateral"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Cash Equivalents"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_COST",
+      "message": "Sum of all costs (41941771) != Total row (221932980), diff=$179991209",
+      "context": {
+        "label": "Total Investment Portfolio  (Cost $221,932,980)**",
+        "calculated": "41941771",
+        "extracted": "221932980",
+        "diff": "179991209"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2017) differs from filename (8053)",
+      "context": {
+        "as_of_date": "June 30, 2017",
+        "filename_date": "8053-17-00"
+      }
+    }
+  ]
+}

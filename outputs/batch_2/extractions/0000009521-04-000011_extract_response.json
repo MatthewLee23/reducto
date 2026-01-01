@@ -1,0 +1,90 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "Portfolio of Investments",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.18427082697550456,
+            "width": 0.22000000565140337,
+            "height": 0.008645836512247734,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "Portfolio of Investments",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.8510865181684494
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "April 30, 2004",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.262037037037037,
+            "top": 0.184375,
+            "width": 0.12777777777777777,
+            "height": 0.00625,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "April 30, 2004",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.8510865181684494
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "unaudited",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.4,
+            "top": 0.18427082697550456,
+            "width": 0.10092592592592597,
+            "height": 0.008645836512247734,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "(unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.835,
+            "parse_confidence": 0.8510865181684494
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": {
+      "value": null,
+      "citations": []
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 6,
+    "credits": 24.0
+  },
+  "job_id": "ce04c7b7-deb0-4351-9847-64069c1a8286",
+  "studio_link": "https://studio.reducto.ai/job/ce04c7b7-deb0-4351-9847-64069c1a8286"
+}

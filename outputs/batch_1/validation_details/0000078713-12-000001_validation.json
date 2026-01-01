@@ -1,0 +1,5834 @@
+{
+  "source_name": "0000078713-12-000001",
+  "total_rows": 565,
+  "holding_count": 396,
+  "subtotal_count": 158,
+  "total_count": 11,
+  "error_count": 15,
+  "warning_count": 390,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "471515211",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "553481507",
+  "extracted_total_fv": "81966296",
+  "computed_sums": {
+    "COLLATERALIZED LOAN OBLIGATIONS > BANKS > Diversified Banks": {
+      "calculated_fv": "1949302",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1949302",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "COLLATERALIZED LOAN OBLIGATIONS > BANKS > Thrifts & Mortgage Finance": {
+      "calculated_fv": "4082010",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4082010",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "COLLATERALIZED LOAN OBLIGATIONS > BANKS": {
+      "calculated_fv": "6031312",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6031312",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "COLLATERALIZED LOAN OBLIGATIONS": {
+      "calculated_fv": "6031312",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6031312",
+      "extracted_cost": "6561153",
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > BANKS > Thrifts & Mortgage Finance": {
+      "calculated_fv": "1458844",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > BANKS": {
+      "calculated_fv": "1458844",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1458844",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > ENERGY > Coal & Consumable Fuels": {
+      "calculated_fv": "1000001",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > ENERGY > Integrated Oil & Gas": {
+      "calculated_fv": "1384477",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > ENERGY > Oil & Gas Drilling": {
+      "calculated_fv": "1055919",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1055919",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > ENERGY > Oil & Gas Equipment & Services": {
+      "calculated_fv": "5364724",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5364724",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > ENERGY > Oil & Gas Refining & Marketing": {
+      "calculated_fv": "399000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > ENERGY > Oil & Gas Storage & Transportation": {
+      "calculated_fv": "1440787",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > ENERGY": {
+      "calculated_fv": "10644908",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "10644908",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 6
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > MATERIALS > Aluminum": {
+      "calculated_fv": "2438581",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2438581",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > MATERIALS > Diversified Chemicals": {
+      "calculated_fv": "4515403",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4515403",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > MATERIALS > Diversified Metals & Mining": {
+      "calculated_fv": "1636671",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1636671",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > MATERIALS > Metal & Glass Containers": {
+      "calculated_fv": "225298",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "225298",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > MATERIALS > Paper Packaging": {
+      "calculated_fv": "2711868",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2711868",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > MATERIALS > Paper Products": {
+      "calculated_fv": "2385405",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2385405",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > MATERIALS > Precious Metals & Minerals": {
+      "calculated_fv": "2081250",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > MATERIALS > Specialty Chemicals": {
+      "calculated_fv": "7585027",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "7585027",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > MATERIALS": {
+      "calculated_fv": "23579503",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "23579503",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 8
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > CAPITAL GOODS > Aerospace & Defense": {
+      "calculated_fv": "15583861",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "15583861",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > CAPITAL GOODS > Building Products": {
+      "calculated_fv": "6375772",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6375772",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > CAPITAL GOODS > Construction & Farm Machinery & Heavy Trucks": {
+      "calculated_fv": "2550414",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2550414",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > CAPITAL GOODS > Electrical Components & Equipment": {
+      "calculated_fv": "4493088",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4493088",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > CAPITAL GOODS > Industrial Machinery": {
+      "calculated_fv": "3487750",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3487750",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > CAPITAL GOODS": {
+      "calculated_fv": "32490885",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "32490885",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > COMMERCIAL & PROFESSIONAL SERVICES > Environmental & Facilities Services": {
+      "calculated_fv": "2995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > COMMERCIAL & PROFESSIONAL SERVICES > Human Resource & Employment Services": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > COMMERCIAL & PROFESSIONAL SERVICES": {
+      "calculated_fv": "3990000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3990000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > TRANSPORTATION > Air Freight & Logistics": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > TRANSPORTATION > Trucking": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > TRANSPORTATION": {
+      "calculated_fv": "1990000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1990000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > CONSUMER DURABLES & APPAREL > Homebuilding": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > CONSUMER DURABLES & APPAREL": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > CONSUMER SERVICES > Hotels, Resorts & Cruise Lines": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > CONSUMER SERVICES": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > RETAILING > Automotive Retail": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > RETAILING": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > FOOD & STAPLES RETAILING > Food Distributors": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > FOOD & STAPLES RETAILING": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > FOOD, BEVERAGE & TOBACCO > Packaged Foods & Meats": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > FOOD, BEVERAGE & TOBACCO": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > HEALTH CARE EQUIPMENT & SERVICES > Health Care Services": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > HEALTH CARE EQUIPMENT & SERVICES": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > PHARMACEUTICALS, BIOTECH & LIFE SCIENCES > Health Care Supplies": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS > PHARMACEUTICALS, BIOTECH & LIFE SCIENCES": {
+      "calculated_fv": "995000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "995000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "SENIOR FLOATING RATE LOAN INTERESTS": {
+      "calculated_fv": "81119140",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 13
+    },
+    "Capital Goods > Construction & Engineering": {
+      "calculated_fv": "4480653",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6375772",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Capital Goods > Construction & Farm Machinery & Heavy Trucks": {
+      "calculated_fv": "2550414",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2550414",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Capital Goods > Electrical Components & Equipment": {
+      "calculated_fv": "4493088",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4493088",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Capital Goods > Industrial Conglomerates": {
+      "calculated_fv": "1247823",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Capital Goods > Industrial Machinery": {
+      "calculated_fv": "1699909",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1699909",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Capital Goods": {
+      "calculated_fv": "14471887",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "31950867",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 6
+    },
+    "Commercial & Professional Services > Commercial Printing": {
+      "calculated_fv": "1468151",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Commercial & Professional Services > Diversified Commercial & Professional Services": {
+      "calculated_fv": "3954843",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3954843",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Commercial & Professional Services > Diversified Support Services": {
+      "calculated_fv": "4311481",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4311481",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Commercial & Professional Services > Environmental & Facilities Services": {
+      "calculated_fv": "2878018",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2878018",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Commercial & Professional Services > Human Resource & Employment Services": {
+      "calculated_fv": "1824332",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Commercial & Professional Services > Research & Consulting Services": {
+      "calculated_fv": "2726227",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Commercial & Professional Services > Security & Alarm Services": {
+      "calculated_fv": "860421",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Commercial & Professional Services": {
+      "calculated_fv": "18023473",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "18023473",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 7
+    },
+    "Transportation > Airlines": {
+      "calculated_fv": "5956784",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5956784",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "Transportation > Trucking": {
+      "calculated_fv": "5251839",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5251839",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Transportation": {
+      "calculated_fv": "11208623",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "11208623",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Automobiles & Components > Auto Parts & Equipment": {
+      "calculated_fv": "13093307",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "13093307",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "Automobiles & Components > Automobile Manufacturers": {
+      "calculated_fv": "3332547",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Automobiles & Components": {
+      "calculated_fv": "16425854",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "16425854",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Consumer Durables & Apparel > Homebuilding": {
+      "calculated_fv": "373750",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "373750",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Consumer Durables & Apparel > Housewares & Specialties": {
+      "calculated_fv": "3392440",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3392440",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Consumer Durables & Apparel > Leisure Products": {
+      "calculated_fv": "971975",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Consumer Durables & Apparel": {
+      "calculated_fv": "4738165",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4738165",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Consumer Services > Casinos & Gaming": {
+      "calculated_fv": "4892050",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4892050",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "Consumer Services > Education Services": {
+      "calculated_fv": "6663491",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6663491",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Consumer Services > Hotels, Resorts & Cruise Lines": {
+      "calculated_fv": "1095395",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Consumer Services > Leisure Facilities": {
+      "calculated_fv": "1715617",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Consumer Services > Restaurants": {
+      "calculated_fv": "6619241",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6619241",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Consumer Services > Specialized Consumer Services": {
+      "calculated_fv": "4978706",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4978706",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Consumer Services": {
+      "calculated_fv": "25964500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "25964500",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 6
+    },
+    "Restaurants": {
+      "calculated_fv": "4743413",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6619241",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Specialized Consumer Services": {
+      "calculated_fv": "4978706",
+      "calculated_cost": null,
+      "calculated_pct": "1.6",
+      "extracted_fv": "4978706",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "MEDIA > Advertising": {
+      "calculated_fv": "5829308",
+      "calculated_cost": null,
+      "calculated_pct": "1.9",
+      "extracted_fv": "5829308",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "MEDIA > Broadcasting": {
+      "calculated_fv": "12805805",
+      "calculated_cost": null,
+      "calculated_pct": "4.2",
+      "extracted_fv": "12805805",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "MEDIA > Cable & Satellite": {
+      "calculated_fv": "27417998",
+      "calculated_cost": null,
+      "calculated_pct": "9.0",
+      "extracted_fv": "27417998",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0
+    },
+    "MEDIA > Movies & Entertainment": {
+      "calculated_fv": "11122720",
+      "calculated_cost": null,
+      "calculated_pct": "3.6",
+      "extracted_fv": "11122720",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "MEDIA > Publishing": {
+      "calculated_fv": "2537248",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": "2537248",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "MEDIA": {
+      "calculated_fv": "59713079",
+      "calculated_cost": null,
+      "calculated_pct": "19.5",
+      "extracted_fv": "59713079",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5
+    },
+    "RETAILING > Apparel Retail": {
+      "calculated_fv": "2771728",
+      "calculated_cost": null,
+      "calculated_pct": "0.9",
+      "extracted_fv": "2771728",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "RETAILING > Automotive Retail": {
+      "calculated_fv": "1519030",
+      "calculated_cost": null,
+      "calculated_pct": "0.5",
+      "extracted_fv": "1519030",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "RETAILING > General Merchandise Stores": {
+      "calculated_fv": "7100234",
+      "calculated_cost": null,
+      "calculated_pct": "2.3",
+      "extracted_fv": "7100234",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "RETAILING > Home Improvement Retail": {
+      "calculated_fv": "1873377",
+      "calculated_cost": null,
+      "calculated_pct": "0.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "RETAILING > Specialty Stores": {
+      "calculated_fv": "4593535",
+      "calculated_cost": null,
+      "calculated_pct": "1.5",
+      "extracted_fv": "4593535",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "RETAILING": {
+      "calculated_fv": "17857904",
+      "calculated_cost": null,
+      "calculated_pct": "5.8",
+      "extracted_fv": "19426209",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5
+    },
+    "Oil & Gas": {
+      "calculated_fv": "1568305",
+      "calculated_cost": null,
+      "calculated_pct": "0.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "FOOD & STAPLES RETAILING > Drug Retail": {
+      "calculated_fv": "1510348",
+      "calculated_cost": null,
+      "calculated_pct": "0.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "FOOD & STAPLES RETAILING > Food Retail": {
+      "calculated_fv": "5106729",
+      "calculated_cost": null,
+      "calculated_pct": "1.6",
+      "extracted_fv": "5106729",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "FOOD & STAPLES RETAILING": {
+      "calculated_fv": "6617077",
+      "calculated_cost": null,
+      "calculated_pct": "2.1",
+      "extracted_fv": "6617077",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "FOOD, BEVERAGE & TOBACCO > Agricultural Products": {
+      "calculated_fv": "1341602",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "FOOD, BEVERAGE & TOBACCO > Distillers & Vintners": {
+      "calculated_fv": "742047",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": "742047",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "FOOD, BEVERAGE & TOBACCO > Packaged Foods & Meats": {
+      "calculated_fv": "11216442",
+      "calculated_cost": null,
+      "calculated_pct": "3.7",
+      "extracted_fv": "11216442",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "FOOD, BEVERAGE & TOBACCO": {
+      "calculated_fv": "13300091",
+      "calculated_cost": null,
+      "calculated_pct": "4.3",
+      "extracted_fv": "13300091",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "HOUSEHOLD & PERSONAL PRODUCTS > Household Products": {
+      "calculated_fv": "2162089",
+      "calculated_cost": null,
+      "calculated_pct": "0.7",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "HOUSEHOLD & PERSONAL PRODUCTS > Personal Products": {
+      "calculated_fv": "2451839",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "HOUSEHOLD & PERSONAL PRODUCTS": {
+      "calculated_fv": "4613928",
+      "calculated_cost": null,
+      "calculated_pct": "1.5",
+      "extracted_fv": "4613928",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "HEALTH CARE EQUIPMENT & SERVICES > Health Care Equipment": {
+      "calculated_fv": "6896057",
+      "calculated_cost": null,
+      "calculated_pct": "2.3",
+      "extracted_fv": "6896057",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "HEALTH CARE EQUIPMENT & SERVICES > Health Care Facilities": {
+      "calculated_fv": "11157372",
+      "calculated_cost": null,
+      "calculated_pct": "5.2",
+      "extracted_fv": "9156372",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0
+    },
+    "HEALTH CARE EQUIPMENT & SERVICES > Health Care Services": {
+      "calculated_fv": "17730000",
+      "calculated_cost": null,
+      "calculated_pct": "10.3",
+      "extracted_fv": "9850000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "HEALTH CARE EQUIPMENT & SERVICES": {
+      "calculated_fv": "35783429",
+      "calculated_cost": null,
+      "calculated_pct": "17.8",
+      "extracted_fv": "25902429",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Health Care Facilities": {
+      "calculated_fv": "16015535",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "16015535",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "Health Care Services": {
+      "calculated_fv": "24678942",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "24678942",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 19,
+      "child_count": 0
+    },
+    "Health Care Supplies": {
+      "calculated_fv": "3734755",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3734755",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Health Care Technology": {
+      "calculated_fv": "2329068",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2329068",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Managed Health Care": {
+      "calculated_fv": "910762",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Pharmaceuticals & Biotechnology & Life Sciences > Biotechnology": {
+      "calculated_fv": "10564879",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "10564879",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "Pharmaceuticals & Biotechnology & Life Sciences > Pharmaceuticals": {
+      "calculated_fv": "1117243",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1117243",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Pharmaceuticals & Biotechnology & Life Sciences": {
+      "calculated_fv": "11682122",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "11682122",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Diversified Financials > Consumer Finance": {
+      "calculated_fv": "2189582",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Diversified Financials > Investment Banking & Brokerage": {
+      "calculated_fv": "560552",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "560552",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Diversified Financials > Other Diversified Financial Services": {
+      "calculated_fv": "2251667",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2251667",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Diversified Financials > Specialized Finance": {
+      "calculated_fv": "3531871",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3531871",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Diversified Financials": {
+      "calculated_fv": "8533672",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "8533672",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4
+    },
+    "Insurance > Insurance Brokers": {
+      "calculated_fv": "5071212",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5071212",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Insurance > Multi-line Insurance": {
+      "calculated_fv": "224765",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Insurance": {
+      "calculated_fv": "5295977",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5295977",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Real Estate > Diversified Real Estate Investment Trust": {
+      "calculated_fv": "2312500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Real Estate > Real Estate Development": {
+      "calculated_fv": "522050",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Real Estate > Real Estate Services": {
+      "calculated_fv": "1948450",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1948450",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Real Estate": {
+      "calculated_fv": "6731450",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4783000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 3
+    },
+    "Software & Services > Application Software": {
+      "calculated_fv": "27486528",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "12550015",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 20,
+      "child_count": 0
+    },
+    "Software & Services > Data Processing & Outsourced Services": {
+      "calculated_fv": "4301891",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "Software & Services > IT Consulting & Other Services": {
+      "calculated_fv": "4080209",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Software & Services > Systems Software": {
+      "calculated_fv": "9958710",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0
+    },
+    "Software & Services": {
+      "calculated_fv": "45827338",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "12550015",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4
+    },
+    "Technology Hardware & Equipment > Communications Equipment": {
+      "calculated_fv": "2472726",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Technology Hardware & Equipment > Electronic Components": {
+      "calculated_fv": "1580605",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Technology Hardware & Equipment > Electronic Equipment & Instruments": {
+      "calculated_fv": "1584139",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Technology Hardware & Equipment > Electronic Manufacturing Services": {
+      "calculated_fv": "1151295",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Technology Hardware & Equipment > Technology Distributors": {
+      "calculated_fv": "1192037",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Technology Hardware & Equipment": {
+      "calculated_fv": "7980802",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2472726",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5
+    },
+    "Semiconductors & Semiconductor Equipment > Semiconductors": {
+      "calculated_fv": "2340837",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Semiconductors & Semiconductor Equipment > Semiconductor Equipment": {
+      "calculated_fv": "1957220",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Semiconductors & Semiconductor Equipment": {
+      "calculated_fv": "4298057",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2340837",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Telecommunication Services > Alternative Carriers": {
+      "calculated_fv": "6631422",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Telecommunication Services > Integrated Telecommunication Services": {
+      "calculated_fv": "9635165",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "Telecommunication Services > Wireless Telecommunication Services": {
+      "calculated_fv": "6661223",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Telecommunication Services": {
+      "calculated_fv": "22927810",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6631422",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Utilities > Electric Utilities": {
+      "calculated_fv": "4537416",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Utilities > Independent Power Producers & Energy Traders": {
+      "calculated_fv": "4389089",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Utilities": {
+      "calculated_fv": "8926505",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4537416",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Corporate Bonds & Notes > Energy > Oil & Gas Drilling": {
+      "calculated_fv": "643500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Energy > Oil & Gas Exploration & Production": {
+      "calculated_fv": "2704763",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Energy": {
+      "calculated_fv": "3348263",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3348263",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Corporate Bonds & Notes > Materials > Paper Packaging": {
+      "calculated_fv": "980000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Materials > Paper Products": {
+      "calculated_fv": "1715000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Materials": {
+      "calculated_fv": "2695000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2695000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Corporate Bonds & Notes > Capital Goods > Aerospace & Defense": {
+      "calculated_fv": "1965625",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Capital Goods > Construction & Farm Machinery & Heavy Trucks": {
+      "calculated_fv": "1032500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Capital Goods": {
+      "calculated_fv": "2998125",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2998125",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Corporate Bonds & Notes > Consumer Durables & Apparel > Housewares & Specialties": {
+      "calculated_fv": "1080000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Consumer Durables & Apparel": {
+      "calculated_fv": "1080000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1080000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Corporate Bonds & Notes > Media > Advertising": {
+      "calculated_fv": "996840",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Media": {
+      "calculated_fv": "996840",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "996840",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Corporate Bonds & Notes > Retailing > Catalog Retail": {
+      "calculated_fv": "1939063",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Retailing": {
+      "calculated_fv": "1939063",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1939063",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Corporate Bonds & Notes > Pharmaceuticals & Biotechnology & Life Sciences > Pharmaceuticals": {
+      "calculated_fv": "15673871",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Pharmaceuticals & Biotechnology & Life Sciences": {
+      "calculated_fv": "15673871",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "15673871",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Corporate Bonds & Notes > Diversified Financials > Consumer Finance": {
+      "calculated_fv": "218714",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Diversified Financials > Other Diversified Financial Services": {
+      "calculated_fv": "998650",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Diversified Financials": {
+      "calculated_fv": "1217364",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1217364",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Corporate Bonds & Notes > Real Estate > Specialized Real Estate Investment Trusts": {
+      "calculated_fv": "814713",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Real Estate": {
+      "calculated_fv": "814713",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "814713",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Corporate Bonds & Notes > Telecommunication Services > Integrated Telecommunication Services": {
+      "calculated_fv": "309750",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Telecommunication Services": {
+      "calculated_fv": "309750",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "309750",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Corporate Bonds & Notes > Transportation > Airlines": {
+      "calculated_fv": "576000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Bonds & Notes > Transportation": {
+      "calculated_fv": "576000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "576000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Corporate Bonds & Notes": {
+      "calculated_fv": "31648989",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 11
+    },
+    "Common Stocks > Energy > Oil & Gas Drilling": {
+      "calculated_fv": "1302",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Common Stocks > Energy": {
+      "calculated_fv": "1302",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1302",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Common Stocks > Materials > Commodity Chemicals": {
+      "calculated_fv": "360187",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Materials": {
+      "calculated_fv": "360187",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "360187",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Common Stocks > Transportation > Airlines": {
+      "calculated_fv": "30856",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Transportation > Trucking": {
+      "calculated_fv": "193305",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Transportation": {
+      "calculated_fv": "224161",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "224161",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Common Stocks > Automobiles & Components > Auto Parts & Equipment": {
+      "calculated_fv": "15238375",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Automobiles & Components": {
+      "calculated_fv": "15238375",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "15238375",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Common Stocks > Consumer Durables & Apparel > Apparel, Accessories & Luxury Goods": {
+      "calculated_fv": "1422",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Consumer Durables & Apparel": {
+      "calculated_fv": "1422",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1422",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Common Stocks > Consumer Services > Leisure Facilities": {
+      "calculated_fv": "762990",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Common Stocks > Consumer Services": {
+      "calculated_fv": "762990",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "762990",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Common Stocks > Media > Broadcasting": {
+      "calculated_fv": "991700",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Media > Movies & Entertainment": {
+      "calculated_fv": "2683572",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Media": {
+      "calculated_fv": "3675272",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3675272",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Common Stocks > Health Care Equipment & Services > Health Care Services": {
+      "calculated_fv": "60136",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Health Care Equipment & Services": {
+      "calculated_fv": "60136",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "60136",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Common Stocks > Telecommunication Services > Alternative Carriers": {
+      "calculated_fv": "102907",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Telecommunication Services": {
+      "calculated_fv": "102907",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "102907",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Common Stocks > Utilities > Electric Utilities": {
+      "calculated_fv": "16",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Utilities": {
+      "calculated_fv": "16",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "16",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Common Stocks": {
+      "calculated_fv": "20426768",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 10
+    },
+    "Convertible Preferred Stock > Pharmaceuticals & Biotechnology & Life Sciences > Biotechnology": {
+      "calculated_fv": "1689094",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Convertible Preferred Stock > Pharmaceuticals & Biotechnology & Life Sciences": {
+      "calculated_fv": "1689094",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1689094",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Convertible Preferred Stock": {
+      "calculated_fv": "1689094",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1689094",
+      "extracted_cost": "1305209",
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Rights/Warrants > Media > Broadcasting": {
+      "calculated_fv": "2684975",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Rights/Warrants > Media": {
+      "calculated_fv": "2684975",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2684975",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Rights/Warrants": {
+      "calculated_fv": "2684975",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2684975",
+      "extracted_cost": "2002318",
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "553481507",
+      "calculated_cost": null,
+      "calculated_pct": "53.1",
+      "extracted_fv": "81966296",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "label": "Total Senior Floating Rate Loan Interests"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '27331162'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 0,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '951289' don't match citation content digits '10751131'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 2,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1949302' don't match citation content digits '6375772'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 3,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '709890' don't match citation content digits '2550414'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 6,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6031312' don't match citation content digits '4493088'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 10,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '399000' don't match citation content digits '4311481'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 23,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1448027' don't match citation content digits '15919801'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 24,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '232439' don't match citation content digits '2878018'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 26,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2233125' don't match citation content digits '18905001'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 27,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '156281' don't match citation content digits '8457503575'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 31,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1418853' don't match citation content digits '420171291077'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 33,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1047375' don't match citation content digits '35500003'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 35,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '19404' don't match citation content digits '22669991'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 39,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1535451' don't match citation content digits '11208623'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 41,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2239388' don't match citation content digits '4307193'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 44,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4017500' don't match citation content digits '4766316742477'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 48,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '697933' don't match citation content digits '55726171122145'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 50,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1028844' don't match citation content digits '13093307'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 51,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '23579503' don't match citation content digits '16425854'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 53,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2884221' don't match citation content digits '100000013'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 54,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '757268' don't match citation content digits '450000023'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 55,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2077181' don't match citation content digits '373750'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 56,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1611429' don't match citation content digits '10000003'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 58,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '995006' don't match citation content digits '4738165'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 62,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '725723' don't match citation content digits '1500003'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 63,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2733116' don't match citation content digits '33386'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 67,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '864407' don't match citation content digits '166109'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 68,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1075561' don't match citation content digits '4892050'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 69,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1610963' don't match citation content digits '38328152'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 71,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2550414' don't match citation content digits '6663491'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 73,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2039588' don't match citation content digits '171455521'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 75,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '995000' don't match citation content digits '6619241'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 80,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3990000' don't match citation content digits '6619241'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 88,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '995000' don't match citation content digits '5251217171471381'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 93,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '12277463'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 95,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '2493753'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 98,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '97169952'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 101,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '995000' don't match citation content digits '2248115137558772'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 105,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '995000' don't match citation content digits '122636141584'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 106,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '995000' don't match citation content digits '36296164263321'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 107,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '43185991'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 107,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '995000' don't match citation content digits '27417998'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 110,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '995000' don't match citation content digits '225261231131444625'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 112,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '958581' don't match citation content digits '369101314347026'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 119,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '955000' don't match citation content digits '89112932'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 119,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1266825' don't match citation content digits '609563'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 125,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1203158' don't match citation content digits '134343'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 126,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '497503' don't match citation content digits '2771728'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 127,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1502949' don't match citation content digits '15678152'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 135,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4311481' don't match citation content digits '19102122'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 137,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1292008' don't match citation content digits '4593535'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 139,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2878018' don't match citation content digits '19426209'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 140,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '837292' don't match citation content digits '6617077'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 145,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '250000' don't match citation content digits '4958352'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 148,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3063650' don't match citation content digits '742047'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 149,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2714539' don't match citation content digits '15840401'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 152,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2266999' don't match citation content digits '35640001'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 153,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2680183' don't match citation content digits '11216442'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 156,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '783532' don't match citation content digits '13300091'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 157,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '430719' don't match citation content digits '21586891'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 158,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '13093307' don't match citation content digits '17162921'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 165,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3616438' don't match citation content digits '50225171526070'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 166,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6896057' don't match citation content digits '12550015'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 281,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1978750' don't match citation content digits '454310163334051'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 285,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2000000' don't match citation content digits '19368651'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 287,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1970000' don't match citation content digits '52571816491281'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 291,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1970000' don't match citation content digits '425732418672489'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 292,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1970000' don't match citation content digits '3748228142479168'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 297,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2000000' don't match citation content digits '16233623'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 298,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1970000' don't match citation content digits '55128161457114'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 300,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '56109' don't match citation content digits '1466667'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 303,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1057330' don't match citation content digits '651'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 304,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1092001' don't match citation content digits '2533333'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 304,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3309470' don't match citation content digits '20646251'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 305,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1920156' don't match citation content digits '2472726'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 308,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1150901' don't match citation content digits '22171483116'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 310,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '926984' don't match citation content digits '4323752'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 314,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '496106' don't match citation content digits '1151295'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 317,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1418818' don't match citation content digits '37211113576202'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 319,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1440424' don't match citation content digits '58983925'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 319,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '95510' don't match citation content digits '23182340837'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 323,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '818923' don't match citation content digits '23350002575'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 324,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=63 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 325
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2836800' don't match citation content digits '1957220'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 325,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=63 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 326
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=63 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 326
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=63 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 327
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=63 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 327
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=63 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 328
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=63 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 329
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=63 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 330
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=63 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 330
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2233125' don't match citation content digits '650000033'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 330,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=63 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 331
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 332
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1424081' don't match citation content digits '9635165'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 332,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 333
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 333
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 334
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 334
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 335
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 336
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1364643' don't match citation content digits '593512915930000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 336,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 336
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1370640' don't match citation content digits '1000000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 336,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 337
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 337
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 338
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 339
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 339
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 340
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 341
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2160000' don't match citation content digits '31241217151151677'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 341,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=64 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 341
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2160000' don't match citation content digits '115722232'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 341,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 342
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2959801' don't match citation content digits '6661223'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 342,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 343
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 343
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 344
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 344
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 345
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 345
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 346
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 347
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '421898' don't match citation content digits '4537416'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 347,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 348
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 348
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '852857' don't match citation content digits '8431993'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 348,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 349
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 349
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '586339' don't match citation content digits '792952'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 349,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 350
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 351
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=65 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 351
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=66 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 352
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1101240' don't match citation content digits '4389089'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 352,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=66 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 353
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=66 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 354
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=66 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 355
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=66 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 355
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2500000' don't match citation content digits '2759413'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 355,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=66 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 356
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=66 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 356
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=66 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 357
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '313152' don't match citation content digits '8926505'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 357,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=66 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 358
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 359
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 360
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 361
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '989167' don't match citation content digits '00'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 361,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 361
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 362
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2251667' don't match citation content digits '00'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 362,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 363
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1934512' don't match citation content digits '00'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 363,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 363
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 364
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1597359' don't match citation content digits '00'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 364,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 364
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 365
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3531871' don't match citation content digits '00'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 365,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 366
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8533672' don't match citation content digits '00'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 366,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 367
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '828835' don't match citation content digits '00'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 367,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 367
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 368
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=67 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 369
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=68 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 370
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=68 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 370
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=68 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 371
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=68 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 372
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=68 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 373
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=68 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 374
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=68 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 374
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=68 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 375
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 376
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 376
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 377
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 377
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 378
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 379
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 380
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '964328' don't match citation content digits '1080000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 380,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 381
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 381
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 382
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1567445' don't match citation content digits '996840'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 382,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 383
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 383
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=69 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 384
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 385
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 385
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 386
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 386
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 387
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '488775' don't match citation content digits '222139556101514144199925'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 387,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 387
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 388
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 389
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '234022' don't match citation content digits '15673871'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 389,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 390
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 390
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 391
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 391
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 392
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=70 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 392
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=71 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 393
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6896057' don't match citation content digits '1217364'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 393,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=71 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 394
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=71 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 394
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=71 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 395
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '12550015' don't match citation content digits '814713'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 395,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=71 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 396
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=71 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 396
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '974069' don't match citation content digits '3000002825'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 396,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=71 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 397
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=72 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 398
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=72 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 398
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1573345' don't match citation content digits '600000320112'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 398,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=72 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 399
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3334051' don't match citation content digits '576000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 399,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=72 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 400
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=72 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 401
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1901357' don't match citation content digits '1'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 401,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=72 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 401
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1936865' don't match citation content digits '138'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 401,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=72 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 402
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=72 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 402
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=72 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 403
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '488775' don't match citation content digits '1302'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 403,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=73 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 404
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=73 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 405
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=73 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 406
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '672489' don't match citation content digits '380030856'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 406,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=73 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 406
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=73 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 407
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=73 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 407
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=73 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 408
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1601987' don't match citation content digits '224161'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 408,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=73 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 409
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=73 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 409
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=73 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 410
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4080209' don't match citation content digits '15238375'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 410,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=74 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 411
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=74 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 411
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2500000' don't match citation content digits '5691422'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 411,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=74 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 412
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=74 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 413
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=74 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 414
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1457114' don't match citation content digits '95243'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 414,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=74 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 414
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1488750' don't match citation content digits '95243'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 414,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=74 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 415
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1254500' don't match citation content digits '762990'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 415,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=74 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 416
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=74 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 416
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=74 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 417
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=74 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 417
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=74 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 418
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2014000' don't match citation content digits '3675272'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 418,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=75 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 419
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=75 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 419
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=75 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 420
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=75 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 421
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=75 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 422
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=75 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 423
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=75 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 423
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=75 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 424
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=75 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 425
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=75 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 426
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=75 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 426
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=76 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 427
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=76 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 428
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=76 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 429
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1584139' don't match citation content digits '4995000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 429,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=76 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 430
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=76 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 431
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1151295' don't match citation content digits '3377886'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 431,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=76 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 432
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '575093' don't match citation content digits '1689094'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 432,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=76 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 433
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=76 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 434
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1192037' don't match citation content digits '4995000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 434,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=76 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 435
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=76 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 435
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1208656' don't match citation content digits '3377886'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 435,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 436
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 437
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 438
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 438
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2335000' don't match citation content digits '3871515'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 438,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 439
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 440
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '472566' don't match citation content digits '5871515'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 440,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 440
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 441
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1484654' don't match citation content digits '6671515'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 441,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 441
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1496250' don't match citation content digits '6671515'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 441,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 442
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4298057' don't match citation content digits '7571515'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 442,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 443
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 444
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 444
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=77 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 445
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=78 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 446
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=78 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 447
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=78 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 448
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '345405' don't match citation content digits '6319276090'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 448,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=78 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 449
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=78 outside [1, 62]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 450
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SENIOR FLOATING RATE LOAN INTERESTS > BANKS > Thrifts & Mortgage Finance"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SENIOR FLOATING RATE LOAN INTERESTS > ENERGY > Coal & Consumable Fuels"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SENIOR FLOATING RATE LOAN INTERESTS > ENERGY > Integrated Oil & Gas"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SENIOR FLOATING RATE LOAN INTERESTS > ENERGY > Oil & Gas Refining & Marketing"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SENIOR FLOATING RATE LOAN INTERESTS > ENERGY > Oil & Gas Storage & Transportation"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SENIOR FLOATING RATE LOAN INTERESTS > MATERIALS > Precious Metals & Minerals"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SENIOR FLOATING RATE LOAN INTERESTS > TRANSPORTATION > Air Freight & Logistics"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SENIOR FLOATING RATE LOAN INTERESTS > TRANSPORTATION > Trucking"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (4480653) != extracted (6375772), diff=$1895119",
+      "context": {
+        "section_path": "Capital Goods > Construction & Engineering",
+        "label": "Construction & Engineering",
+        "calculated": "4480653",
+        "extracted": "6375772",
+        "diff": "1895119"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Capital Goods > Industrial Conglomerates"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 7 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Capital Goods > Aerospace & Defense"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (14471887) != extracted (31950867), diff=$17478980",
+      "context": {
+        "section_path": "Capital Goods",
+        "label": "Total Capital Goods",
+        "calculated": "14471887",
+        "extracted": "31950867",
+        "diff": "17478980"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Commercial & Professional Services > Commercial Printing"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Commercial & Professional Services > Human Resource & Employment Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Commercial & Professional Services > Research & Consulting Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Commercial & Professional Services > Security & Alarm Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Automobiles & Components > Automobile Manufacturers"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Consumer Durables & Apparel > Leisure Products"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Consumer Services > Hotels, Resorts & Cruise Lines"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Consumer Services > Leisure Facilities"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (4743413) != extracted (6619241), diff=$1875828",
+      "context": {
+        "section_path": "Restaurants",
+        "label": "$ 6,619,241",
+        "calculated": "4743413",
+        "extracted": "6619241",
+        "diff": "1875828"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "RETAILING > Home Improvement Retail"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (17857904) != extracted (19426209), diff=$1568305",
+      "context": {
+        "section_path": "RETAILING",
+        "label": "Total Retailing",
+        "calculated": "17857904",
+        "extracted": "19426209",
+        "diff": "1568305"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Oil & Gas"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "FOOD & STAPLES RETAILING > Drug Retail"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "FOOD, BEVERAGE & TOBACCO > Agricultural Products"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "HOUSEHOLD & PERSONAL PRODUCTS > Household Products"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "HOUSEHOLD & PERSONAL PRODUCTS > Personal Products"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (11157372) != extracted (9156372), diff=$2001000",
+      "context": {
+        "section_path": "HEALTH CARE EQUIPMENT & SERVICES > Health Care Facilities",
+        "label": "$ 9,156,372",
+        "calculated": "11157372",
+        "extracted": "9156372",
+        "diff": "2001000"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (17730000) != extracted (9850000), diff=$7880000",
+      "context": {
+        "section_path": "HEALTH CARE EQUIPMENT & SERVICES > Health Care Services",
+        "label": "$ 9,850,000",
+        "calculated": "17730000",
+        "extracted": "9850000",
+        "diff": "7880000"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (35783429) != extracted (25902429), diff=$9881000",
+      "context": {
+        "section_path": "HEALTH CARE EQUIPMENT & SERVICES",
+        "label": "Total Health Care Equipment & Services",
+        "calculated": "35783429",
+        "extracted": "25902429",
+        "diff": "9881000"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Managed Health Care"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Diversified Financials > Consumer Finance"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Insurance > Multi-line Insurance"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Real Estate > Diversified Real Estate Investment Trust"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Real Estate > Real Estate Development"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (6731450) != extracted (4783000), diff=$1948450",
+      "context": {
+        "section_path": "Real Estate",
+        "label": "Total Real Estate",
+        "calculated": "6731450",
+        "extracted": "4783000",
+        "diff": "1948450"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (27486528) != extracted (12550015), diff=$14936513",
+      "context": {
+        "section_path": "Software & Services > Application Software",
+        "label": "$ 12,550,015",
+        "calculated": "27486528",
+        "extracted": "12550015",
+        "diff": "14936513"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 5 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Software & Services > Data Processing & Outsourced Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Software & Services > IT Consulting & Other Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 7 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Software & Services > Systems Software"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (45827338) != extracted (12550015), diff=$33277323",
+      "context": {
+        "section_path": "Software & Services",
+        "label": "Application Software",
+        "calculated": "45827338",
+        "extracted": "12550015",
+        "diff": "33277323"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Technology Hardware & Equipment > Communications Equipment"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Technology Hardware & Equipment > Electronic Components"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Technology Hardware & Equipment > Electronic Equipment & Instruments"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Technology Hardware & Equipment > Electronic Manufacturing Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Technology Hardware & Equipment > Technology Distributors"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (7980802) != extracted (2472726), diff=$5508076",
+      "context": {
+        "section_path": "Technology Hardware & Equipment",
+        "label": "Communications Equipment",
+        "calculated": "7980802",
+        "extracted": "2472726",
+        "diff": "5508076"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Semiconductors & Semiconductor Equipment > Semiconductors"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Semiconductors & Semiconductor Equipment > Semiconductor Equipment"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (4298057) != extracted (2340837), diff=$1957220",
+      "context": {
+        "section_path": "Semiconductors & Semiconductor Equipment",
+        "label": "Semiconductors",
+        "calculated": "4298057",
+        "extracted": "2340837",
+        "diff": "1957220"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Telecommunication Services > Alternative Carriers"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 9 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Telecommunication Services > Integrated Telecommunication Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Telecommunication Services > Wireless Telecommunication Services"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (22927810) != extracted (6631422), diff=$16296388",
+      "context": {
+        "section_path": "Telecommunication Services",
+        "label": "Alternative Carriers",
+        "calculated": "22927810",
+        "extracted": "6631422",
+        "diff": "16296388"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 4 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Utilities > Electric Utilities"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 4 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Utilities > Independent Power Producers & Energy Traders"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (8926505) != extracted (4537416), diff=$4389089",
+      "context": {
+        "section_path": "Utilities",
+        "label": "Electric Utilities",
+        "calculated": "8926505",
+        "extracted": "4537416",
+        "diff": "4389089"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Energy > Oil & Gas Drilling"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Energy > Oil & Gas Exploration & Production"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Materials > Paper Packaging"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Materials > Paper Products"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Capital Goods > Aerospace & Defense"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Capital Goods > Construction & Farm Machinery & Heavy Trucks"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Consumer Durables & Apparel > Housewares & Specialties"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Media > Advertising"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Retailing > Catalog Retail"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 4 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Pharmaceuticals & Biotechnology & Life Sciences > Pharmaceuticals"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Diversified Financials > Consumer Finance"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Diversified Financials > Other Diversified Financial Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Real Estate > Specialized Real Estate Investment Trusts"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Telecommunication Services > Integrated Telecommunication Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Bonds & Notes > Transportation > Airlines"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Energy > Oil & Gas Drilling"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Materials > Commodity Chemicals"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Transportation > Airlines"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Transportation > Trucking"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Automobiles & Components > Auto Parts & Equipment"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Consumer Durables & Apparel > Apparel, Accessories & Luxury Goods"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Consumer Services > Leisure Facilities"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Media > Broadcasting"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Media > Movies & Entertainment"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Health Care Equipment & Services > Health Care Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Telecommunication Services > Alternative Carriers"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Utilities > Electric Utilities"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Convertible Preferred Stock > Pharmaceuticals & Biotechnology & Life Sciences > Biotechnology"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Liquidating Trusts > Energy > Oil & Gas Drilling"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Liquidating Trusts > Consumer Services > Hotels, Resorts & Cruise Lines"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 5 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Rights/Warrants > Consumer Services > Leisure Facilities"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Rights/Warrants > Media > Broadcasting"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (553481507) != Total row (81966296), diff=$471515211",
+      "context": {
+        "label": "Total Senior Floating Rate Loan Interests",
+        "calculated": "553481507",
+        "extracted": "81966296",
+        "diff": "471515211"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2011) differs from filename (8713)",
+      "context": {
+        "as_of_date": "November 30, 2011",
+        "filename_date": "8713-12-00"
+      }
+    }
+  ]
+}

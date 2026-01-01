@@ -1,0 +1,1890 @@
+{
+  "source_name": "0000216851-06-000012",
+  "total_rows": 94,
+  "holding_count": 78,
+  "subtotal_count": 9,
+  "total_count": 7,
+  "error_count": 1,
+  "warning_count": 189,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "22997168",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "768020000",
+  "extracted_total_fv": "745022832",
+  "computed_sums": {
+    "Stocks and Convertible Securities > Energy > Internationals": {
+      "calculated_fv": "170692500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "170692500",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Energy > Domestics": {
+      "calculated_fv": "86403542",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "86403542",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Energy > Producers": {
+      "calculated_fv": "154915200",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "154915200",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Energy > Distributors": {
+      "calculated_fv": "93795779",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "93795779",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Energy > Services": {
+      "calculated_fv": "153853092",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "153853092",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Energy": {
+      "calculated_fv": "659660113",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5
+    },
+    "Stocks and Convertible Securities": {
+      "calculated_fv": "659660113",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Paper and Forest Products": {
+      "calculated_fv": "4251000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments > U.S. Government Obligations": {
+      "calculated_fv": "7462529",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments > Time Deposit": {
+      "calculated_fv": "463973",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments > Commercial Paper": {
+      "calculated_fv": "9241920",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "9241920",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "17168422",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Securities Lending Collateral": {
+      "calculated_fv": "5809478",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SCHEDULE OF OUTSTANDING OPTION CONTRACTS > COVERED CALLS": {
+      "calculated_fv": "-35372",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "-35372",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 16,
+      "child_count": 0
+    },
+    "SCHEDULE OF OUTSTANDING OPTION CONTRACTS > COLLATERALIZED PUTS": {
+      "calculated_fv": "54640",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "54640",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0
+    },
+    "SCHEDULE OF OUTSTANDING OPTION CONTRACTS": {
+      "calculated_fv": "19268",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "768020000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "745022832",
+      "extracted_cost": "316230755",
+      "extracted_pct": null,
+      "label": "Total Stocks and Convertible Securities"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 1
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 1
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 2
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 2
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 3
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 3
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 4
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 4
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 5
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 6
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 6
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 7
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 7
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 8
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 8
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 9
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 9
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 10
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 10
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 11
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 11
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 12
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 12
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 13
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 14
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 14
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 15
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 15
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 16
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 16
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 17
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 17
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 18
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 18
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 19
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 19
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 20
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 20
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 21
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 21
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 22
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 22
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 23
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 24
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 24
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 25
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 25
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 26
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 26
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 27
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 27
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 28
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 28
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 29
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 29
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 30
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 30
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 31
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 31
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 32
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 32
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 33
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 33
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 34
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 35
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 35
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 36
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 36
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 37
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 37
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 38
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 38
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 39
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 39
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 40
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 40
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 41
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 41
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 42
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 42
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 43
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 43
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 44
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 44
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 45
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 46
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 46
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 47
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 47
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 48
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 48
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 51
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 51
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 52
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 52
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 53
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 53
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 54
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 54
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 55
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 55
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 56
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 8]",
+      "context": {
+        "field": "cost_raw",
+        "row": 56
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 57
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 57
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 58
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 59
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 59
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 60
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 60
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 61
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 61
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 62
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "cost_raw",
+        "row": 62
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 63
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 64
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "cost_raw",
+        "row": 64
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 65
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "cost_raw",
+        "row": 65
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 65
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 66
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 66
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 67
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 8]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 67
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 68
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 68
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 69
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 69
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 70
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 70
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 71
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 71
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 72
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 72
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 73
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 73
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 74
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 74
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 75
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 75
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 76
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 76
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 77
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 77
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 78
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 78
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 79
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 79
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 80
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 80
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 81
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 81
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 82
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 82
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 83
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 83
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 84
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 84
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 84
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 85
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 85
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 86
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 86
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 87
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 87
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 88
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 88
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 89
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 89
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 90
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 90
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 91
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 91
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 92
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 92
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 92
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "TOTAL row has empty label",
+      "context": {
+        "row": 93
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 93
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Paper and Forest Products"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > U.S. Government Obligations"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > Time Deposit"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Securities Lending Collateral"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (768020000) != Total row (745022832), diff=$22997168",
+      "context": {
+        "label": "Total Stocks and Convertible Securities",
+        "calculated": "768020000",
+        "extracted": "745022832",
+        "diff": "22997168"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2005) differs from filename (6851)",
+      "context": {
+        "as_of_date": "December 31, 2005",
+        "filename_date": "6851-06-00"
+      }
+    }
+  ]
+}

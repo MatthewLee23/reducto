@@ -1,0 +1,78 @@
+{
+  "source_name": "0000216851-06-000012",
+  "total_rows": 38,
+  "holding_count": 35,
+  "subtotal_count": 2,
+  "total_count": 1,
+  "error_count": 0,
+  "warning_count": 6,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "GRAND_TOTAL": {
+      "calculated_fv": null,
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "label": "TOTAL"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 16
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '150' don't match citation content digits '200'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 20,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 24
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "TOTAL row has empty label",
+      "context": {
+        "row": 25
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 12 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "CHANGES IN PORTFOLIO SECURITIES"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2005) differs from filename (6851)",
+      "context": {
+        "as_of_date": "December 31, 2005",
+        "filename_date": "6851-06-00"
+      }
+    }
+  ]
+}

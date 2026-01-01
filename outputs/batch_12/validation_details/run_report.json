@@ -1,0 +1,52 @@
+{
+  "batch_number": 12,
+  "run_timestamp": "Dec 30, 2025 at 01:55 PM",
+  "summary": {
+    "total_files": 10,
+    "successful": 10,
+    "skipped": 0,
+    "failed": 0,
+    "validated": 10,
+    "total_rows_extracted": 322,
+    "validation_errors": 19,
+    "validation_warnings": 24,
+    "files_with_arithmetic_errors": 2,
+    "files_with_root_mismatch": 1
+  },
+  "errors": [],
+  "skipped": [],
+  "validation_issues_by_code": {
+    "SUBTOTAL_PATH_MISMATCH": 10,
+    "DATE_MISMATCH": 8,
+    "CITATION_VALUE_MISMATCH": 7,
+    "ARITH_MISMATCH_PCT": 4,
+    "ORPHANED_TOTAL": 4,
+    "TOTAL_MISMATCH_PCT": 2,
+    "TOTAL_MISMATCH_FV": 2,
+    "TOTAL_MISSING_NUMERIC": 1,
+    "NORMALIZATION_APPLIED": 1,
+    "TOTAL_MISMATCH_COST": 1,
+    "ROOT_TOTAL_MISMATCH_FV": 1,
+    "ROOT_TOTAL_MISMATCH_COST": 1,
+    "ROOT_TOTAL_MISMATCH_PCT": 1
+  },
+  "files_with_validation_errors": [
+    "0000009521-04-000011",
+    "0000009521-04-000022"
+  ],
+  "files_with_validation_warnings": [
+    "0000009521-05-000006",
+    "0000009521-05-000013",
+    "0000009521-06-000013",
+    "0000009521-06-000021",
+    "0000009521-07-000011",
+    "0000078713-08-000045"
+  ],
+  "files_with_arithmetic_errors": [
+    "0000009521-04-000011",
+    "0000009521-04-000022"
+  ],
+  "files_with_root_mismatch": [
+    "0000009521-04-000022"
+  ]
+}

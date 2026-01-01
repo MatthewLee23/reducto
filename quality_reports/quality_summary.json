@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-12-18T15:11:11.386039",
+  "total_files": 703,
+  "status_counts": {
+    "ok": 88,
+    "warn": 0,
+    "poor": 18,
+    "empty": 597
+  },
+  "average_quality_score": 71.55660377358491,
+  "issue_counts": {
+    "Empty extraction": 597,
+    "Low fair_value coverage": 95,
+    "Low section categorization": 20,
+    "No HOLDING rows": 18,
+    "Low investment name coverage": 18,
+    "Arithmetic mismatch": 7
+  },
+  "best_files": [
+    "e9af592f-a06a-4bae-8ce2-ebc2bf918ad6",
+    "01e69c24-b339-4564-8f3a-d429b5db8bb1",
+    "8904b64e-d21b-4f11-a665-65dc8566e6ae",
+    "a74af8a7-068c-450a-ba5d-e281735b7593",
+    "eed6fd35-dde8-4e2c-a669-b903d2fceb6c",
+    "54dab3ed-19ba-486f-a337-e36542705cd3",
+    "b3e0cb34-4f0c-46b9-80fa-02fc6f0872e4",
+    "94a1595f-78cb-4b88-b1df-2ca6b5437236",
+    "dda3a4d2-e461-4fd6-b57d-85cbf4470f7c",
+    "91d85897-c379-486e-9838-c26a616637de"
+  ],
+  "worst_files": [
+    "0000002230-05-000033",
+    "0000002230-07-000062",
+    "0000276776-12-000020",
+    "0000828803-10-000008",
+    "0000866095-03-000012",
+    "0000866095-04-000007",
+    "0000891804-09-000813",
+    "0000891804-10-003548",
+    "0000891804-10-003553",
+    "1fae636e-c4fb-40b2-ade6-c0f383947375"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "INVESTMENTS IN SECURITIES OF UNAFFILIATED ISSUERS",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03425925925925926,
+            "top": 0.18541666666666667,
+            "width": 0.44722222222222224,
+            "height": 0.005729166666666674,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "INVESTMENTS IN SECURITIES OF UNAFFILIATED ISSUERS",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.981,
+            "parse_confidence": 0.8308564037084579
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "April 30, 2003",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03148148148148148,
+            "top": 0.1953125,
+            "width": 0.1277777777777778,
+            "height": 0.0078125,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "April 30, 2003",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.978,
+            "parse_confidence": 0.8308564037084579
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03148148148148148,
+            "top": 0.175,
+            "width": 0.45,
+            "height": 0.028125,
+            "page": 1,
+            "original_page": 18
+          },
+          "content": "BMC FUND, INC.\nINVESTMENTS IN SECURITIES OF UNAFFILIATED ISSUERS\nApril 30, 2003",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.489,
+            "parse_confidence": 0.8308564037084579
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": []
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 20,
+    "credits": 80.0
+  },
+  "job_id": "e51a53e8-5360-4cb9-a20e-92e271cb522b",
+  "studio_link": "https://studio.reducto.ai/job/e51a53e8-5360-4cb9-a20e-92e271cb522b"
+}

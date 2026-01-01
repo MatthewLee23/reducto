@@ -1,0 +1,589 @@
+{
+  "source_name": "0000002230-05-000014",
+  "total_rows": 186,
+  "holding_count": 139,
+  "subtotal_count": 40,
+  "total_count": 7,
+  "error_count": 5,
+  "warning_count": 15,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "168541",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "1351020954",
+  "extracted_total_fv": "1351189495",
+  "computed_sums": {
+    "Stocks and Convertible Securities > Consumer > Consumer Discretionary": {
+      "calculated_fv": "105999950",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "105999950",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Consumer > Consumer Staples": {
+      "calculated_fv": "88698090",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "88698090",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Consumer": {
+      "calculated_fv": "194698040",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Energy": {
+      "calculated_fv": "116211176",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "116211176",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Financial > Banking": {
+      "calculated_fv": "149396831",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "149396831",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Financial > Insurance": {
+      "calculated_fv": "79718188",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "79718188",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Financial": {
+      "calculated_fv": "229115019",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Health Care": {
+      "calculated_fv": "162411147",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "162411147",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Industrials": {
+      "calculated_fv": "150915500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "150915500",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology > Communication Equipment": {
+      "calculated_fv": "34694100",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "34694100",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology > Computer Related": {
+      "calculated_fv": "119547975",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "119547975",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology > Electronics": {
+      "calculated_fv": "37151400",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "37151400",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology": {
+      "calculated_fv": "191393475",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 3,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Materials": {
+      "calculated_fv": "71115476",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "71115476",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Telecom Services": {
+      "calculated_fv": "54944908",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "54944908",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Utilities": {
+      "calculated_fv": "86227560",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "86227560",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities": {
+      "calculated_fv": "1257032301",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 9,
+      "subtotal_count": 9,
+      "total_count": 1,
+      "total_label": "Total Stocks and Convertible Securities (Cost $913,193,345) (E).....",
+      "total_extracted_fv": "1257032301"
+    },
+    "Short-Term Investments > U.S. Government Obligations": {
+      "calculated_fv": "19947778",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Short-Term Investments > Commercial Paper": {
+      "calculated_fv": "13965675",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "33913453",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "total_label": "Total Short-Term Investments (Cost $33,913,453).",
+      "total_extracted_fv": "33913453"
+    },
+    "Securities Lending Collateral > Money Market Fund": {
+      "calculated_fv": "29041898",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Securities Lending Collateral > Certificates of Deposit": {
+      "calculated_fv": "1500392",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Securities Lending Collateral > Commercial Paper": {
+      "calculated_fv": "29701451",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 14,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Securities Lending Collateral": {
+      "calculated_fv": "60243741",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "total_label": "Total Securities Lending Collateral (Cost $60,243,741)",
+      "total_extracted_fv": "60243741"
+    },
+    "COVERED CALLS": {
+      "calculated_fv": "-365651",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "-365651",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 20,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "COLLATERALIZED PUTS": {
+      "calculated_fv": "197110",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "197107",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 15,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "(root)": {
+      "calculated_fv": "1351020954",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5,
+      "subtotal_count": 0,
+      "total_count": 4,
+      "total_label": "Total Investments -- 104.3% (Cost $1,007,350,539)..",
+      "total_extracted_fv": "1351189495"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '150' don't match citation content digits '200' (overlap: 33%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 173,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '150' don't match citation content digits '200' (overlap: 33%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 178,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '150' don't match citation content digits '200' (overlap: 33%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 181,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (197110) != extracted subtotal (197107), diff=$3",
+      "context": {
+        "section_path": "COLLATERALIZED PUTS",
+        "label": "Total",
+        "calculated": "197110",
+        "extracted": "197107",
+        "diff": "3"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_FV",
+      "message": "Grand total of all holdings (1351020954) != extracted Total (1351189495), diff=$168541",
+      "context": {
+        "section_path": "(root)",
+        "label": "Total Investments -- 104.3% (Cost $1,007,350,539)..",
+        "calculated": "1351020954",
+        "extracted": "1351189495",
+        "diff": "168541"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Banking 11.5%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities > Financial",
+        "label": "Banking 11.5%",
+        "keywords": [
+          "banking"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Insurance -- 6.2%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities > Financial",
+        "label": "Insurance -- 6.2%",
+        "keywords": [
+          "insurance"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Communication Equipment -- 2.7%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities > Information Technology",
+        "label": "Communication Equipment -- 2.7%",
+        "keywords": [
+          "communication",
+          "equipment"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Computer Related - 9.2%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities > Information Technology",
+        "label": "Computer Related - 9.2%",
+        "keywords": [
+          "computer",
+          "related"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Electronics -- 2.9%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities > Information Technology",
+        "label": "Electronics -- 2.9%",
+        "keywords": [
+          "electronics"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Consumer - 15.0%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities",
+        "label": "Consumer - 15.0%",
+        "keywords": [
+          "consumer"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Energy 9.0%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities",
+        "label": "Energy 9.0%",
+        "keywords": [
+          "energy"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Financial -- 17.7%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities",
+        "label": "Financial -- 17.7%",
+        "keywords": [
+          "financial"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Health Care -- 12.5%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities",
+        "label": "Health Care -- 12.5%",
+        "keywords": [
+          "health",
+          "care"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Industrials -- 11.6%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities",
+        "label": "Industrials -- 11.6%",
+        "keywords": [
+          "industrials"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Information Technology -- 14.8%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities",
+        "label": "Information Technology -- 14.8%",
+        "keywords": [
+          "information",
+          "technology"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Materials -- 5.5%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities",
+        "label": "Materials -- 5.5%",
+        "keywords": [
+          "materials"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Telecom Services -- 4.2%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities",
+        "label": "Telecom Services -- 4.2%",
+        "keywords": [
+          "telecom",
+          "services"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Utilities -- 6.7%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks and Convertible Securities",
+        "label": "Utilities -- 6.7%",
+        "keywords": [
+          "utilities"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2004) differs from filename (2230)",
+      "context": {
+        "as_of_date": "December 31, 2004",
+        "filename_date": "2230-05-00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "source_name": "0000216851-06-000041",
+  "total_rows": 89,
+  "holding_count": 62,
+  "subtotal_count": 21,
+  "total_count": 6,
+  "error_count": 1,
+  "warning_count": 13,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "66927741",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "862064108",
+  "extracted_total_fv": "795136367",
+  "computed_sums": {
+    "Stocks And Convertible Securities > Energy > Integrated": {
+      "calculated_fv": "324627546",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "39.4",
+      "holding_count": 15,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Energy > Exploration & Production": {
+      "calculated_fv": "128823437",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "15.6",
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Energy > Services": {
+      "calculated_fv": "184508997",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "22.4",
+      "holding_count": 11,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Energy > Utilities": {
+      "calculated_fv": "97265629",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "11.8",
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Energy > Coals": {
+      "calculated_fv": "5008700",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Energy": {
+      "calculated_fv": "740234309",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "89.8",
+      "holding_count": 0,
+      "child_count": 5
+    },
+    "Stocks And Convertible Securities > Basic Industries > Basic Materials & Other": {
+      "calculated_fv": "54902058",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "6.6",
+      "holding_count": 8,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Basic Industries": {
+      "calculated_fv": "54902058",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "6.6",
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Stocks And Convertible Securities": {
+      "calculated_fv": "795136367",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "96.4",
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Short-Term Investments > U.S. Government Obligations > U.S. Treasury Bills": {
+      "calculated_fv": "17391704",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments > U.S. Government Obligations": {
+      "calculated_fv": "17391704",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.1",
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Short-Term Investments > Time Deposit": {
+      "calculated_fv": "112494",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments > Commercial Paper": {
+      "calculated_fv": "7785433",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.0",
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "25289631",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.1",
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Securities Lending Collateral": {
+      "calculated_fv": "41638110",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "5.1",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "862064108",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "795136367",
+      "extracted_cost": "328230601",
+      "extracted_pct": null,
+      "label": "Total Stocks And Convertible Securities (Cost $328,230,601) (D)"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '224' don't match citation content digits '964'",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 30,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '16747500' don't match citation content digits '964'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 33,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '290000' don't match citation content digits '964'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 33,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '200000' don't match citation content digits '964'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 37,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9960000' don't match citation content digits '964'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 38,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '300000' don't match citation content digits '964'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 38,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7148750' don't match citation content digits '964'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 40,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '175000' don't match citation content digits '964'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 40,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7990000' don't match citation content digits '97265629'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 61,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '14990208' don't match citation content digits '5008700'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 66,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '795136367' don't match citation content digits '1808112'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 70,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > U.S. Government Obligations > U.S. Treasury Bills"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (862064108) != Total row (795136367), diff=$66927741",
+      "context": {
+        "label": "Total Stocks And Convertible Securities (Cost $328,230,601) (D)",
+        "calculated": "862064108",
+        "extracted": "795136367",
+        "diff": "66927741"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2006) differs from filename (6851)",
+      "context": {
+        "as_of_date": "June 30, 2006",
+        "filename_date": "6851-06-00"
+      }
+    }
+  ]
+}

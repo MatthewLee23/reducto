@@ -1,0 +1,73 @@
+{
+  "batch_number": 4,
+  "run_timestamp": "Dec 27, 2025 at 03:03 PM",
+  "summary": {
+    "total_files": 14,
+    "successful": 14,
+    "skipped": 0,
+    "failed": 0,
+    "validated": 14,
+    "total_rows_extracted": 2154,
+    "validation_errors": 193,
+    "validation_warnings": 218,
+    "files_with_arithmetic_errors": 10,
+    "files_with_root_mismatch": 10
+  },
+  "errors": [],
+  "skipped": [],
+  "validation_issues_by_code": {
+    "CITATION_VALUE_MISMATCH": 181,
+    "SUBTOTAL_MISSING_LABEL": 93,
+    "SUBTOTAL_PATH_MISMATCH": 55,
+    "MISSING_SUBTOTAL": 30,
+    "DATE_MISMATCH": 14,
+    "BBOX_OUT_OF_RANGE": 12,
+    "ROOT_TOTAL_MISMATCH_FV": 10,
+    "TOTAL_MISSING_NUMERIC": 7,
+    "ORPHANED_TOTAL": 7,
+    "ARITH_MISMATCH_FV": 1,
+    "ROOT_TOTAL_MISMATCH_PCT": 1
+  },
+  "files_with_validation_errors": [
+    "0000002230-03-000010",
+    "0000002230-04-000031",
+    "0000002230-04-000040",
+    "0000002230-05-000014",
+    "0000002230-05-000033",
+    "0000002230-06-000011",
+    "0000002230-06-000044",
+    "0000002230-07-000025",
+    "0000002230-07-000062",
+    "0000002230-08-000027",
+    "0000002230-08-000057",
+    "0000002230-09-000035",
+    "0000009521-03-000025"
+  ],
+  "files_with_validation_warnings": [
+    "0000009521-03-000006"
+  ],
+  "files_with_arithmetic_errors": [
+    "0000002230-04-000031",
+    "0000002230-04-000040",
+    "0000002230-05-000014",
+    "0000002230-05-000033",
+    "0000002230-06-000011",
+    "0000002230-06-000044",
+    "0000002230-07-000025",
+    "0000002230-07-000062",
+    "0000002230-08-000027",
+    "0000002230-09-000035"
+  ],
+  "files_with_root_mismatch": [
+    "0000002230-04-000031",
+    "0000002230-04-000040",
+    "0000002230-05-000014",
+    "0000002230-05-000033",
+    "0000002230-06-000011",
+    "0000002230-06-000044",
+    "0000002230-07-000025",
+    "0000002230-07-000062",
+    "0000002230-08-000027",
+    "0000002230-09-000035"
+  ]
+}

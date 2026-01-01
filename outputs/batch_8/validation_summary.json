@@ -1,0 +1,23 @@
+{
+  "batch_number": 8,
+  "run_timestamp": "Dec 30, 2025 at 09:18 AM",
+  "total_files": 1,
+  "total_rows": 98,
+  "total_errors": 5,
+  "total_warnings": 8,
+  "files_with_errors": 1,
+  "files_with_warnings": 0,
+  "files_with_arithmetic_errors": 0,
+  "files_with_root_mismatch": 0,
+  "all_passed": false,
+  "top_error_codes": {
+    "MISSING_SUBTOTAL": 7,
+    "CITATION_VALUE_MISMATCH": 5,
+    "DATE_MISMATCH": 1
+  },
+  "files_with_errors_list": [
+    "0000002230-09-000035"
+  ],
+  "files_with_arithmetic_errors_list": [],
+  "files_with_root_mismatch_list": []
+}

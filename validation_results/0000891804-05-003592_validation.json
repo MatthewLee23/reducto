@@ -1,0 +1,319 @@
+{
+  "source_name": "0000891804-05-003592",
+  "total_rows": 51,
+  "holding_count": 37,
+  "subtotal_count": 10,
+  "total_count": 4,
+  "error_count": 1,
+  "warning_count": 16,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "5094000",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "85545000",
+  "extracted_total_fv": "80451000",
+  "computed_sums": {
+    "SUB-FUNDS > COMMODITY TRADING ADVISOR": {
+      "calculated_fv": "3949000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3949000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SUB-FUNDS > CONVERTIBLE BOND ARBITRAGE": {
+      "calculated_fv": "4469000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4469000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SUB-FUNDS > DISTRESSED SECURITIES": {
+      "calculated_fv": "1489000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SUB-FUNDS > EQUITY MARKET NEUTRAL": {
+      "calculated_fv": "7233000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "7233000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "SUB-FUNDS > FIXED INCOME ARBITRAGE": {
+      "calculated_fv": "6964000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6964000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "SUB-FUNDS > GLOBAL MACRO": {
+      "calculated_fv": "7597000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "7597000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "SUB-FUNDS > NON-US EQUITY HEDGE": {
+      "calculated_fv": "8653000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "8653000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "SUB-FUNDS > RELATIVE VALUE ARBITRAGE": {
+      "calculated_fv": "11164000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "11164000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "SUB-FUNDS > SECTOR HEDGE": {
+      "calculated_fv": "1445000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SUB-FUNDS > SHORT BIAS": {
+      "calculated_fv": "1617000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SUB-FUNDS > SPECIAL SITUATIONS": {
+      "calculated_fv": "8241000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "8241000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "SUB-FUNDS > STATISTICAL ARBITRAGE": {
+      "calculated_fv": "2943000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SUB-FUNDS > US EQUITY HEDGE": {
+      "calculated_fv": "14687000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "14687000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "SUB-FUNDS": {
+      "calculated_fv": "80451000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 13
+    },
+    "CASH EQUIVALENT": {
+      "calculated_fv": "5094000",
+      "calculated_cost": null,
+      "calculated_pct": "6.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "85545000",
+      "calculated_cost": null,
+      "calculated_pct": "6.3",
+      "extracted_fv": "80451000",
+      "extracted_cost": "75863000",
+      "extracted_pct": null,
+      "label": "TOTAL SUB-FUNDS (COST $75,863,000)"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 2
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 5
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 10
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 15
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 20
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 25
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 30
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 36
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2787000' don't match citation content digits '3134000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 42,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 44
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SUB-FUNDS > DISTRESSED SECURITIES"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SUB-FUNDS > SECTOR HEDGE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SUB-FUNDS > SHORT BIAS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SUB-FUNDS > STATISTICAL ARBITRAGE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "CASH EQUIVALENT"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (85545000) != Total row (80451000), diff=$5094000",
+      "context": {
+        "label": "TOTAL SUB-FUNDS (COST $75,863,000)",
+        "calculated": "85545000",
+        "extracted": "80451000",
+        "diff": "5094000"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2005) differs from filename (1804)",
+      "context": {
+        "as_of_date": "SEPTEMBER 30, 2005",
+        "filename_date": "1804-05-00"
+      }
+    }
+  ]
+}

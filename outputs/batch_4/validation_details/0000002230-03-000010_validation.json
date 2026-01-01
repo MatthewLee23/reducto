@@ -1,0 +1,535 @@
+{
+  "source_name": "0000002230-03-000010",
+  "total_rows": 196,
+  "holding_count": 156,
+  "subtotal_count": 33,
+  "total_count": 7,
+  "error_count": 16,
+  "warning_count": 7,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "Stocks and Convertible Securities > Consumer > Consumer Discretionary": {
+      "calculated_fv": "63242575",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "5.8",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Consumer > Consumer Staples": {
+      "calculated_fv": "75272130",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "7.0",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Consumer": {
+      "calculated_fv": "138514705",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "12.8",
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Energy": {
+      "calculated_fv": "71215129",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "6.6",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Financials > Banking": {
+      "calculated_fv": "104558875",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "9.78",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Financials > Insurance": {
+      "calculated_fv": "68639587",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "6.3",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Financials": {
+      "calculated_fv": "173198462",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "16.0",
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Health Care": {
+      "calculated_fv": "148511585",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "13.7",
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Industrials": {
+      "calculated_fv": "126594600",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "11.7",
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology > Communication Equipment": {
+      "calculated_fv": "19973500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.8",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology > Computer Related": {
+      "calculated_fv": "97119563",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "9.0",
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology > Electronics": {
+      "calculated_fv": "18079840",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.7",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology": {
+      "calculated_fv": "135172903",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "12.5",
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Materials": {
+      "calculated_fv": "18716438",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.7",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Telecom Services": {
+      "calculated_fv": "52810555",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "4.9",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Utilities": {
+      "calculated_fv": "99571100",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "9.2",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities": {
+      "calculated_fv": "964305477",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "89.1",
+      "holding_count": 0,
+      "child_count": 9,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "total_label": "Total Stocks and Convertible Securities (Cost $801,555,901) (F)",
+      "total_extracted_fv": "964305477"
+    },
+    "Short-Term Investments > U.S. Government Obligations": {
+      "calculated_fv": "34953392",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Short-Term Investments > Certificates of Deposit": {
+      "calculated_fv": "15000000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Short-Term Investments > Commercial Paper": {
+      "calculated_fv": "63265608",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "63265608",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "113219000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "total_label": "Total Short-Term Investments (Cost $113,219,000)",
+      "total_extracted_fv": "113219000"
+    },
+    "Investments of Proceeds from Security Lending": {
+      "calculated_fv": "166977546",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "total_label": "Total Investments of Proceeds from Security Lending (Cost $166,977,546)",
+      "total_extracted_fv": "166977546"
+    },
+    "(root)": {
+      "calculated_fv": "1244502023",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 0,
+      "total_count": 3,
+      "total_label": "Total Investments -- 115.0% (Cost $1,081,752,447)",
+      "total_extracted_fv": "1244502023"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '137' don't match citation content digits '515000' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 40,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9366750' don't match citation content digits '17718750' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 43,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '14418000' don't match citation content digits '7530000' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 47,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000960' don't match citation content digits '1985996' (overlap: 43%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 51,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1755000' don't match citation content digits '380000' (overlap: 43%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 73,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1845725' don't match citation content digits '8204200' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 74,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '97119563' don't match citation content digits '8204200' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 82,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '18079840' don't match citation content digits '33770700' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 86,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '225400' don't match citation content digits '170000' (overlap: 33%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 88,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '18716438' don't match citation content digits '33770700' (overlap: 25%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 90,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9679855' don't match citation content digits '33770700' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 95,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '492614' don't match citation content digits '1177500' (overlap: 17%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 95,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '41800' don't match citation content digits '250000' (overlap: 40%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 104,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '99571100' don't match citation content digits '33770700' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 107,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '964305477' don't match citation content digits '380000' (overlap: 22%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 108,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2222222222222222
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 118
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'Total Covered Calls' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 153
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '500' don't match citation content digits '65' (overlap: 33%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 182,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'Total Collateralized Puts' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 194
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'Total Outstanding Option Contracts' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 195
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > U.S. Government Obligations"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > Certificates of Deposit"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2003) differs from filename (2230)",
+      "context": {
+        "as_of_date": "June 30, 2003",
+        "filename_date": "2230-03-00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "source_name": "0000351786-03-000010",
+  "total_rows": 15,
+  "holding_count": 14,
+  "subtotal_count": 1,
+  "total_count": 0,
+  "error_count": 0,
+  "warning_count": 2,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "MUTUAL FUNDS > BOND MUTUAL FUNDS": {
+      "calculated_fv": "10692422",
+      "calculated_cost": "9997812",
+      "calculated_pct": null,
+      "extracted_fv": "10692422",
+      "extracted_cost": "9997812",
+      "extracted_pct": "7.43",
+      "holding_count": 14,
+      "child_count": 0
+    },
+    "MUTUAL FUNDS": {
+      "calculated_fv": "10692422",
+      "calculated_cost": "9997812",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "MISSING_GRAND_TOTAL",
+      "message": "No TOTAL row found but holdings exist",
+      "context": {}
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2003) differs from filename (1786)",
+      "context": {
+        "as_of_date": "October 31, 2003",
+        "filename_date": "1786-03-00"
+      }
+    }
+  ]
+}

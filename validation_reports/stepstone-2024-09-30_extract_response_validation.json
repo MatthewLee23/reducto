@@ -1,0 +1,21 @@
+{
+  "filename": "stepstone-2024-09-30_extract_response.json",
+  "has_data": true,
+  "total_rows": 331,
+  "holdings": 299,
+  "subtotals": 29,
+  "totals": 3,
+  "errors": 0,
+  "warnings": 1,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "ARITH_MISMATCH",
+      "message": "Sum of holdings (230307883751554) != Total (3162182724), diff=230304721568830",
+      "context": {
+        "calculated": "230307883751554",
+        "extracted": "3162182724"
+      }
+    }
+  ]
+}

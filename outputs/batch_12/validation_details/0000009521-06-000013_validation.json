@@ -1,0 +1,26 @@
+{
+  "source_name": "0000009521-06-000013",
+  "total_rows": 0,
+  "holding_count": 0,
+  "subtotal_count": 0,
+  "total_count": 0,
+  "error_count": 0,
+  "warning_count": 1,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {},
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2006) differs from filename (9521)",
+      "context": {
+        "as_of_date": "APRIL 30, 2006",
+        "filename_date": "9521-06-00"
+      }
+    }
+  ]
+}

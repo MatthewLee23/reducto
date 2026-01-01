@@ -1,0 +1,839 @@
+{
+  "source_name": "0000009521-03-000025",
+  "total_rows": 122,
+  "holding_count": 97,
+  "subtotal_count": 18,
+  "total_count": 7,
+  "error_count": 47,
+  "warning_count": 7,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "ADVERTISING": {
+      "calculated_fv": "2453156",
+      "calculated_cost": "2457103",
+      "calculated_pct": null,
+      "extracted_fv": "2453156",
+      "extracted_cost": "2457103",
+      "extracted_pct": "2.5",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "AEROSPACE & DEFENSE": {
+      "calculated_fv": "4786640",
+      "calculated_cost": "5008692",
+      "calculated_pct": null,
+      "extracted_fv": "4786640",
+      "extracted_cost": "5008692",
+      "extracted_pct": "4.9",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "AUTOMOTIVE": {
+      "calculated_fv": "2387738",
+      "calculated_cost": "2057192",
+      "calculated_pct": null,
+      "extracted_fv": "2387738",
+      "extracted_cost": "2057192",
+      "extracted_pct": "2.4",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "BANKING/SAVINGS & LOAN": {
+      "calculated_fv": "10417568",
+      "calculated_cost": "8433194",
+      "calculated_pct": null,
+      "extracted_fv": "10417568",
+      "extracted_cost": "8433194",
+      "extracted_pct": "10.6",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "CONSUMER GOODS": {
+      "calculated_fv": "3101320",
+      "calculated_cost": "2797035",
+      "calculated_pct": null,
+      "extracted_fv": "3101320",
+      "extracted_cost": "2797035",
+      "extracted_pct": "3.1",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "DATA-PROCESSING SERVICES": {
+      "calculated_fv": "2011719",
+      "calculated_cost": "2114656",
+      "calculated_pct": null,
+      "extracted_fv": "2011719",
+      "extracted_cost": "2114656",
+      "extracted_pct": "2.0",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "ENERGY": {
+      "calculated_fv": "7472550",
+      "calculated_cost": "6947475",
+      "calculated_pct": null,
+      "extracted_fv": "7472550",
+      "extracted_cost": "6947475",
+      "extracted_pct": "7.6",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "ENTERTAINMENT": {
+      "calculated_fv": "4428845",
+      "calculated_cost": "4335489",
+      "calculated_pct": null,
+      "extracted_fv": "4428845",
+      "extracted_cost": "4335489",
+      "extracted_pct": "4.5",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "FINANCIAL & INSURANCE": {
+      "calculated_fv": "10767150",
+      "calculated_cost": "10631068",
+      "calculated_pct": null,
+      "extracted_fv": "10767150",
+      "extracted_cost": "10631068",
+      "extracted_pct": "10.9",
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "HEALTH CARE": {
+      "calculated_fv": "6562934",
+      "calculated_cost": "6163041",
+      "calculated_pct": null,
+      "extracted_fv": "6562934",
+      "extracted_cost": "6163041",
+      "extracted_pct": "6.7",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "OFFICE EQUIPMENT": {
+      "calculated_fv": "1680000",
+      "calculated_cost": "1746250",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.7",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "PAPER & PAPER PRODUCTS": {
+      "calculated_fv": "1321750",
+      "calculated_cost": "1238934",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "PHARMACEUTICALS": {
+      "calculated_fv": "9208138",
+      "calculated_cost": "8876940",
+      "calculated_pct": null,
+      "extracted_fv": "9208138",
+      "extracted_cost": "8876940",
+      "extracted_pct": "9.38",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "RETAIL": {
+      "calculated_fv": "9303362",
+      "calculated_cost": "9337541",
+      "calculated_pct": null,
+      "extracted_fv": "9303362",
+      "extracted_cost": "9337541",
+      "extracted_pct": "9.4",
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "TECHNOLOGY": {
+      "calculated_fv": "7210365",
+      "calculated_cost": "6997640",
+      "calculated_pct": null,
+      "extracted_fv": "7210365",
+      "extracted_cost": "6997640",
+      "extracted_pct": "7.3",
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "TELECOMMUNICATIONS": {
+      "calculated_fv": "9726155",
+      "calculated_cost": "9135904",
+      "calculated_pct": null,
+      "extracted_fv": "9726155",
+      "extracted_cost": "9135904",
+      "extracted_pct": "9.9",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "TRANSPORTATION": {
+      "calculated_fv": "1992353",
+      "calculated_cost": "1980000",
+      "calculated_pct": null,
+      "extracted_fv": "1992353",
+      "extracted_cost": "1980000",
+      "extracted_pct": "2.0",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "UTILITIES": {
+      "calculated_fv": "2273300",
+      "calculated_cost": "2504256",
+      "calculated_pct": null,
+      "extracted_fv": "2273300",
+      "extracted_cost": "2504256",
+      "extracted_pct": "2.3",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "SHORT-TERM SECURITIES": {
+      "calculated_fv": "11127",
+      "calculated_cost": "11244",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "(root)": {
+      "calculated_fv": "97116170",
+      "calculated_cost": "92773654",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 23,
+      "subtotal_count": 0,
+      "total_count": 3,
+      "total_label": "Total Investments",
+      "total_extracted_fv": "97116170"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '452500' don't match citation content digits '1246328' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 34,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '511875' don't match citation content digits '1022600' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 34,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1023750' don't match citation content digits '1109600' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 35,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1415375' don't match citation content digits '1109600' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 36,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1374586' don't match citation content digits '1109600' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 36,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1537220' don't match citation content digits '1393140' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 37,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4428845' don't match citation content digits '1278138' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 38,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4335489' don't match citation content digits '1057192' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 38,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '45' don't match citation content digits '2022' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 38,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '932500' don't match citation content digits '2387738' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 43,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1007750' don't match citation content digits '2387738' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 43,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '1476478' (overlap: 14%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 49,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1118529' don't match citation content digits '2874680' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 53,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '638628' don't match citation content digits '1985500' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 56,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '600000' don't match citation content digits '1992938' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 56,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '425752' don't match citation content digits '1484800' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 57,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6163041' don't match citation content digits '980625' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 58,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '17' don't match citation content digits '2006' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 60,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '13' don't match citation content digits '950625' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 62,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1363700' don't match citation content digits '950625' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 72,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '197813' don't match citation content digits '1000000' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 77,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '972580' don't match citation content digits '1010000' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 84,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9303362' don't match citation content digits '511425' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 86,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '293075' don't match citation content digits '1476478' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 87,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '2114656' (overlap: 14%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 88,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '489375' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 89,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '1476478' (overlap: 14%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 90,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '482500' don't match citation content digits '792969' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 91,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '995000' don't match citation content digits '511425' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 92,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '489375' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 92,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1075000' don't match citation content digits '1476478' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 93,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '1476478' (overlap: 14%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 93,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1240040' don't match citation content digits '792969' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 94,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1166952' don't match citation content digits '880781' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 94,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7210365' don't match citation content digits '4786640' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 95,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '898125' don't match citation content digits '792969' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 97,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '948393' don't match citation content digits '274500' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 99,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '999970' don't match citation content digits '277875' (overlap: 17%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 99,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1007440' don't match citation content digits '950625' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 100,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1229720' don't match citation content digits '1985500' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 101,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '1992938' (overlap: 14%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 101,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '1123715' (overlap: 14%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 103,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1030000' don't match citation content digits '2453156' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 109,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.5825163398692811 out of [0,1]",
+      "context": {
+        "field": "cost_raw",
+        "row": 109
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2504256' don't match citation content digits '1278138' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 113,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '59355143' don't match citation content digits '1278138' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 115,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '20909339' don't match citation content digits '1022500' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 116,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '11244' don't match citation content digits '995625' (overlap: 20%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 118,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SHORT-TERM SECURITIES"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Total Convertible Bonds and Notes' but no holdings or child sections",
+      "context": {
+        "section_path": "Convertible Bonds and Notes",
+        "label": "Total Convertible Bonds and Notes"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Total Convertible Preferred Stocks' but no holdings or child sections",
+      "context": {
+        "section_path": "Convertible Preferred Stocks",
+        "label": "Total Convertible Preferred Stocks"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Total Mandatory Convertible Securities' but no holdings or child sections",
+      "context": {
+        "section_path": "Mandatory Convertible Securities",
+        "label": "Total Mandatory Convertible Securities"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Total Short-Term Securities' but no holdings or child sections",
+      "context": {
+        "section_path": "Short-Term Securities",
+        "label": "Total Short-Term Securities"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2003) differs from filename (9521)",
+      "context": {
+        "as_of_date": "October 31, 2003",
+        "filename_date": "9521-03-00"
+      }
+    }
+  ]
+}

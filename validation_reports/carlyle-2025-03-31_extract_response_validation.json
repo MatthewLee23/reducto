@@ -1,0 +1,21 @@
+{
+  "filename": "carlyle-2025-03-31_extract_response.json",
+  "has_data": true,
+  "total_rows": 332,
+  "holdings": 267,
+  "subtotals": 56,
+  "totals": 9,
+  "errors": 0,
+  "warnings": 1,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "ARITH_MISMATCH",
+      "message": "Sum of holdings (5675190197134.535203152) != Total (21012349), diff=5675169184785.535203152",
+      "context": {
+        "calculated": "5675190197134.535203152",
+        "extracted": "21012349"
+      }
+    }
+  ]
+}

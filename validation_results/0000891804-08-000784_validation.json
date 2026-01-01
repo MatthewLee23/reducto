@@ -1,0 +1,519 @@
+{
+  "source_name": "0000891804-08-000784",
+  "total_rows": 60,
+  "holding_count": 47,
+  "subtotal_count": 6,
+  "total_count": 7,
+  "error_count": 1,
+  "warning_count": 35,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "30870670",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "263465691",
+  "extracted_total_fv": "232595021",
+  "computed_sums": {
+    "Common Stocks > Consumer Discretionary": {
+      "calculated_fv": "53364432",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "53364432",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "Common Stocks > Computers": {
+      "calculated_fv": "5740242",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Consumer Services": {
+      "calculated_fv": "16644746",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "16644746",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Common Stocks > Energy": {
+      "calculated_fv": "16262776",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "16262776",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Common Stocks > Financials": {
+      "calculated_fv": "33006834",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "33006834",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "Common Stocks > Health Care": {
+      "calculated_fv": "55761549",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "55761549",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Common Stocks > Industrial": {
+      "calculated_fv": "3536000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Insurance": {
+      "calculated_fv": "2319262",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Software": {
+      "calculated_fv": "5100240",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Technology": {
+      "calculated_fv": "40858940",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "40858940",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Common Stocks": {
+      "calculated_fv": "232595021",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 10
+    },
+    "Exchange-Traded Fund": {
+      "calculated_fv": "5124000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments > Money Market Funds": {
+      "calculated_fv": "8246231",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments > Repurchase Agreement": {
+      "calculated_fv": "15000000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments > U.S. Government": {
+      "calculated_fv": "2500439",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "25746670",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "263465691",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "232595021",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "label": "Total Common Stocks - 92.8% (Cost $266,903,880)"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 9
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 13
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '119400' don't match citation content digits '320000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 14,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3422500' don't match citation content digits '4708100'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 15,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 16
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '16262776' don't match citation content digits '7977757'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 16,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1385700' don't match citation content digits '7099000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 20,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7966500' don't match citation content digits '7977757'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 22,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 23
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '33006834' don't match citation content digits '8288000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 23,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5340600' don't match citation content digits '7099000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 24,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3686000' don't match citation content digits '7977757'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 26,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4358600' don't match citation content digits '8288000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 29,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '58900' don't match citation content digits '320000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 32,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 34
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3536000' don't match citation content digits '8288000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 35,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2486400' don't match citation content digits '3771600'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 39,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1333000' don't match citation content digits '8288000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 42,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2964960' don't match citation content digits '4750200'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 45,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4233400' don't match citation content digits '8288000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 47,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 48
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5124000' don't match citation content digits '7977757'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 50,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2500439' don't match citation content digits '8288000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 54,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '25746670' don't match citation content digits '7977757'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 55,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '263465691' don't match citation content digits '210000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 56,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '10175125' don't match citation content digits '70300'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 58,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Computers"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Industrial"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Insurance"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Software"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Exchange-Traded Fund"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > Money Market Funds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > Repurchase Agreement"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > U.S. Government"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (263465691) != Total row (232595021), diff=$30870670",
+      "context": {
+        "label": "Total Common Stocks - 92.8% (Cost $266,903,880)",
+        "calculated": "263465691",
+        "extracted": "232595021",
+        "diff": "30870670"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2007) differs from filename (1804)",
+      "context": {
+        "as_of_date": "DECEMBER 31, 2007",
+        "filename_date": "1804-08-00"
+      }
+    }
+  ]
+}

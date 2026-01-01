@@ -1,0 +1,23 @@
+{
+  "source_name": "0000891804-04-000035",
+  "total_rows": 0,
+  "holding_count": 0,
+  "subtotal_count": 0,
+  "total_count": 0,
+  "error_count": 1,
+  "warning_count": 0,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {},
+  "issues": [
+    {
+      "severity": "error",
+      "code": "INVALID_RESULT",
+      "message": "result is not a dict",
+      "context": {}
+    }
+  ]
+}

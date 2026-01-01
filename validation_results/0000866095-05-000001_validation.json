@@ -1,0 +1,534 @@
+{
+  "source_name": "0000866095-05-000001",
+  "total_rows": 142,
+  "holding_count": 85,
+  "subtotal_count": 53,
+  "total_count": 4,
+  "error_count": 5,
+  "warning_count": 21,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "82923151",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "88254915",
+  "extracted_total_fv": "88246806",
+  "computed_sums": {
+    "Common Stocks > Banks": {
+      "calculated_fv": "7136522",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "7136522",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Common Stocks > Chemicals": {
+      "calculated_fv": "7436834",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "7436834",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "Common Stocks > Communications": {
+      "calculated_fv": "6039514",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "Common Stocks > Securities": {
+      "calculated_fv": "1557694",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stocks > Services": {
+      "calculated_fv": "1032739",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1032739",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Common Stocks > Transportation Equipment": {
+      "calculated_fv": "9678677",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "9678677",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "Common Stocks > Wholesale Trade": {
+      "calculated_fv": "3414416",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3414416",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Common Stocks": {
+      "calculated_fv": "36296396",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1395132",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 7
+    },
+    "Construction": {
+      "calculated_fv": "2254589",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6039514",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Electric Appliances": {
+      "calculated_fv": "11713515",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2254589",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0
+    },
+    "Electric Power & Gas": {
+      "calculated_fv": "3378111",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Foods": {
+      "calculated_fv": "1454288",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Glass & Ceramic Products": {
+      "calculated_fv": "1678064",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Insurance": {
+      "calculated_fv": "1781602",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Iron & Steel": {
+      "calculated_fv": "1553656",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Land Transportation": {
+      "calculated_fv": "2298142",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Marine Transportation": {
+      "calculated_fv": "1106331",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Non-Ferrous Metals": {
+      "calculated_fv": "2524068",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2524068",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Other Financing Business": {
+      "calculated_fv": "2272885",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2272885",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Other Products": {
+      "calculated_fv": "2084084",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2084084",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Pharmaceutical": {
+      "calculated_fv": "4171837",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4171837",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Precision Instruments": {
+      "calculated_fv": "996320",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Pulp & Paper": {
+      "calculated_fv": "719898",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Real Estate": {
+      "calculated_fv": "849137",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Retail Trade": {
+      "calculated_fv": "4906184",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4906184",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0
+    },
+    "Rubber Products": {
+      "calculated_fv": "1395132",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Short-Term Investments > U.S. Dollar Time Deposit": {
+      "calculated_fv": "8109",
+      "calculated_cost": "8109",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "8109",
+      "calculated_cost": "8109",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "88254915",
+      "calculated_cost": "8109",
+      "calculated_pct": null,
+      "extracted_fv": "88246806",
+      "extracted_cost": "82931260",
+      "extracted_pct": null,
+      "label": "Total Common Stocks"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 4
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 11
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 66
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 71
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 74
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 77
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 82
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 93
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 96
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 100
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 106
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 110
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 5 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Communications"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Securities"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (36296396) != extracted (1395132), diff=$34901264",
+      "context": {
+        "section_path": "Common Stocks",
+        "label": "",
+        "calculated": "36296396",
+        "extracted": "1395132",
+        "diff": "34901264"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (2254589) != extracted (6039514), diff=$3784925",
+      "context": {
+        "section_path": "Construction",
+        "label": "Construction",
+        "calculated": "2254589",
+        "extracted": "6039514",
+        "diff": "3784925"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (11713515) != extracted (2254589), diff=$9458926",
+      "context": {
+        "section_path": "Electric Appliances",
+        "label": "Electric Appliances",
+        "calculated": "11713515",
+        "extracted": "2254589",
+        "diff": "9458926"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Marine Transportation"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Precision Instruments"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Pulp & Paper"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Real Estate"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Rubber Products"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > U.S. Dollar Time Deposit"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (88254915) != Total row (88246806), diff=$8109",
+      "context": {
+        "label": "Total Common Stocks",
+        "calculated": "88254915",
+        "extracted": "88246806",
+        "diff": "8109"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_COST",
+      "message": "Sum of all costs (8109) != Total row (82931260), diff=$82923151",
+      "context": {
+        "label": "Total Common Stocks",
+        "calculated": "8109",
+        "extracted": "82931260",
+        "diff": "82923151"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2004) differs from filename (6095)",
+      "context": {
+        "as_of_date": "October 31, 2004",
+        "filename_date": "6095-05-00"
+      }
+    }
+  ]
+}

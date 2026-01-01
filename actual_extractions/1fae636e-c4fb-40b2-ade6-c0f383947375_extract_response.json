@@ -1,0 +1,2162 @@
+{
+  "result": {
+    "result": {
+      "soi_title": {
+        "value": "SCHEDULE OF INVESTMENTS",
+        "citations": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.2796296296296296,
+              "top": 0.021354166666666667,
+              "width": 0.20092592592592595,
+              "height": 0.004687500000000001,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "SCHEDULE OF INVESTMENTS",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": 0.985,
+              "parse_confidence": 0.8335644155740738
+            },
+            "extra": null
+          }
+        ]
+      },
+      "as_of_date": {
+        "value": "June 30, 2005",
+        "citations": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.32407407407407407,
+              "top": 0.06197916666666667,
+              "width": 0.11388888888888889,
+              "height": 0.011458333333333333,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "June 30, 2005",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": 1.0,
+              "parse_confidence": 1.0
+            },
+            "extra": null
+          }
+        ]
+      },
+      "reporting_basis": {
+        "value": null,
+        "citations": [
+          {
+            "type": "Footer",
+            "bbox": {
+              "left": 0.2796296296296296,
+              "top": 0.021354166666666667,
+              "width": 0.20092592592592592,
+              "height": 0.0046875,
+              "page": 1,
+              "original_page": 29
+            },
+            "content": "SCHEDULE OF INVESTMENTS",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": 0.493,
+              "parse_confidence": 0.8335644155740738
+            },
+            "extra": null
+          }
+        ]
+      },
+      "soi_rows": [
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.030555555555555555,
+                  "top": 0.04114583333333333,
+                  "width": 0.0,
+                  "height": 0.0,
+                  "page": 4,
+                  "original_page": 4
+                },
+                "content": "SUBTOTAL",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.05,
+                    "top": 0.03177083333333333,
+                    "width": 0.14907407407407408,
+                    "height": 0.006249999999999999,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7242939531803131
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Consumer",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.062187500298023224,
+                  "width": 0.07037036493420601,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Consumer",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "17.0",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.3766666650772095,
+                  "top": 0.062187500298023224,
+                  "width": 0.03518518805503845,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "17.0",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Consumer 17.0",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.062187500298023224,
+                  "width": 0.3785185180604458,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Consumer 17.0",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.07270833104848862,
+                  "width": 0.07925925776362419,
+                  "height": 0.018750004470348358,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Energy Financial",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.05,
+                    "top": 0.03177083333333333,
+                    "width": 0.14907407407407408,
+                    "height": 0.006249999999999999,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7242939531803131
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Energy",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.07270833104848862,
+                  "width": 0.05277777835726738,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Energy",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "10.3",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.3766666650772095,
+                  "top": 0.07270833104848862,
+                  "width": 0.03518518805503845,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "10.3",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Energy 10.3",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.07270833104848862,
+                  "width": 0.3785185180604458,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Energy 10.3",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.0832291692495346,
+                  "width": 0.07925925776362419,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Financial",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.05,
+                    "top": 0.03177083333333333,
+                    "width": 0.14907407407407408,
+                    "height": 0.006249999999999999,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7242939531803131
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Financial",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.0832291692495346,
+                  "width": 0.07925925776362419,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Financial",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "15.6",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.3766666650772095,
+                  "top": 0.0832291692495346,
+                  "width": 0.03518518805503845,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "15.6",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Financial 15.6",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.0832291692495346,
+                  "width": 0.3785185180604458,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Financial 15.6",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.09375,
+                  "width": 0.05277777835726738,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Health",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.05,
+                    "top": 0.03177083333333333,
+                    "width": 0.14907407407407408,
+                    "height": 0.006249999999999999,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7242939531803131
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Health Care",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.09375,
+                  "width": 0.09685185179114342,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Health Care",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "13.2",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.3766666650772095,
+                  "top": 0.09375,
+                  "width": 0.03518518805503845,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "13.2",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Health Care 13.2",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.09375,
+                  "width": 0.3785185180604458,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Health Care 13.2",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.1041666641831398,
+                  "width": 0.09685185179114342,
+                  "height": 0.00833333283662796,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Industrials",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.05,
+                    "top": 0.03177083333333333,
+                    "width": 0.14907407407407408,
+                    "height": 0.006249999999999999,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7242939531803131
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Industrials",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.1041666641831398,
+                  "width": 0.09685185179114342,
+                  "height": 0.00833333283662796,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Industrials",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "10.7",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.3766666650772095,
+                  "top": 0.1041666641831398,
+                  "width": 0.03518518805503845,
+                  "height": 0.00833333283662796,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "10.7",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Industrials 10.7",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.1041666641831398,
+                  "width": 0.3785185180604458,
+                  "height": 0.00833333283662796,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Industrials 10.7",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.11468750983476639,
+                  "width": 0.09685185179114342,
+                  "height": 0.008333325386047363,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Information",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.05,
+                    "top": 0.03177083333333333,
+                    "width": 0.14907407407407408,
+                    "height": 0.006249999999999999,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7242939531803131
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Information Technology",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.11468750983476639,
+                  "width": 0.19370370730757713,
+                  "height": 0.008333325386047363,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Information Technology",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "13.9",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.3766666650772095,
+                  "top": 0.11468750983476639,
+                  "width": 0.03518518805503845,
+                  "height": 0.008333325386047363,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "13.9",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Information Technology 13.9",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.11468750983476639,
+                  "width": 0.3785185180604458,
+                  "height": 0.008333325386047363,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Information Technology 13.9",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.12520833313465118,
+                  "width": 0.07925925776362419,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Materials",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.05,
+                    "top": 0.03177083333333333,
+                    "width": 0.14907407407407408,
+                    "height": 0.006249999999999999,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7242939531803131
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Materials",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.12520833313465118,
+                  "width": 0.07925925776362419,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Materials",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "5.3",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.38555556535720825,
+                  "top": 0.12520833313465118,
+                  "width": 0.026296287775039673,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "5.3",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Materials 5.3",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.12520833313465118,
+                  "width": 0.3785185180604458,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Materials 5.3",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.13572916388511658,
+                  "width": 0.061666663736104965,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Telecom",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.05,
+                    "top": 0.03177083333333333,
+                    "width": 0.14907407407407408,
+                    "height": 0.006249999999999999,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7242939531803131
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Telecom Services",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.13572916388511658,
+                  "width": 0.14092592522501945,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Telecom Services",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "4.2",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.38555556535720825,
+                  "top": 0.13572916388511658,
+                  "width": 0.026296287775039673,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "4.2",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Telecom Services 4.2",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.13572916388511658,
+                  "width": 0.3785185180604458,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Telecom Services 4.2",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.14624999463558197,
+                  "width": 0.07925925776362419,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Utilities",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.05,
+                    "top": 0.03177083333333333,
+                    "width": 0.14907407407407408,
+                    "height": 0.006249999999999999,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7242939531803131
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Utilities",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.14624999463558197,
+                  "width": 0.07925925776362419,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Utilities",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "7.0",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.38555556535720825,
+                  "top": 0.14624999463558197,
+                  "width": 0.026296287775039673,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "7.0",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Utilities 7.0",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.14624999463558197,
+                  "width": 0.3785185180604458,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Utilities 7.0",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.15677084028720856,
+                  "width": 0.035185184329748154,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Cash",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.05,
+                    "top": 0.03177083333333333,
+                    "width": 0.14907407407407408,
+                    "height": 0.006249999999999999,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7242939531803131
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Cash & Equivalent",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.15677084028720856,
+                  "width": 0.1496296338737011,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Cash & Equivalent",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "2.4",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.38555556535720825,
+                  "top": 0.15677084028720856,
+                  "width": 0.026296287775039673,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "2.4",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Cash & Equivalent 2.4",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.15677084028720856,
+                  "width": 0.3785185180604458,
+                  "height": 0.008229166269302368,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Cash & Equivalent 2.4",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.9218173016201365
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.04114583333333333,
+                    "width": 0.38425925925925924,
+                    "height": 0.12552083333333333,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table><tr><th> [CHART]</th><th></th></tr><tr><td>Consumer</td><td>17.0</td></tr><tr><td>Energy</td><td>10.3</td></tr><tr><td>Financial</td><td>15.6</td></tr><tr><td>Health Care</td><td>13.2</td></tr><tr><td>Industrials</td><td>10.7</td></tr><tr><td>Information Technology</td><td>13.9</td></tr><tr><td>Materials</td><td>5.3</td></tr><tr><td>Telecom Services</td><td>4.2</td></tr><tr><td>Utilities</td><td>7.0</td></tr><tr><td>Cash &amp; Equivalent</td><td>2.4</td></tr></table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.9218173016201365
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "usage": {
+      "num_fields": 53,
+      "num_pages": 4,
+      "credits": 18.0
+    },
+    "job_id": "1fae636e-c4fb-40b2-ade6-c0f383947375",
+    "studio_link": "https://studio.reducto.ai/job/1fae636e-c4fb-40b2-ade6-c0f383947375"
+  },
+  "job_id": "1fae636e-c4fb-40b2-ade6-c0f383947375",
+  "status": "Completed"
+}

@@ -1,0 +1,110 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "SCHEDULE OF INVESTMENTS",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.28251173231336807,
+            "top": 0.08492931524912516,
+            "width": 0.20281281647858795,
+            "height": 0.00565972328186036,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "SCHEDULE OF INVESTMENTS",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.983,
+            "parse_confidence": 0.7110907644033432
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "December 31, 2004",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.30925925925925923,
+            "top": 0.115625,
+            "width": 0.14814814814814814,
+            "height": 0.00625,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "December 31, 2004",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 1.0
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": null,
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.28251171997334557,
+            "top": 0.08492931723545265,
+            "width": 0.20281283549341111,
+            "height": 0.005659723701927474,
+            "page": 1,
+            "original_page": 31
+          },
+          "content": "SCHEDULE OF INVESTMENTS",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.496,
+            "parse_confidence": 0.7110907644033432
+          },
+          "extra": null
+        },
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.032290138224597975,
+            "top": 0.11301836725224164,
+            "width": 0.42598122347471173,
+            "height": 0.009281479635991257,
+            "page": 1,
+            "original_page": 31
+          },
+          "content": "December 31, 2004",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.496,
+            "parse_confidence": 1.0
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": {
+      "value": null,
+      "citations": []
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 5,
+    "credits": 20.0
+  },
+  "job_id": "84825226-11b2-4679-8283-1b2af4b86d60",
+  "studio_link": "https://studio.reducto.ai/job/84825226-11b2-4679-8283-1b2af4b86d60"
+}

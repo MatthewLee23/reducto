@@ -1,0 +1,328 @@
+{
+  "source_name": "0000891804-05-001678",
+  "total_rows": 52,
+  "holding_count": 37,
+  "subtotal_count": 10,
+  "total_count": 5,
+  "error_count": 1,
+  "warning_count": 15,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "66658000",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "129616000",
+  "extracted_total_fv": "62958000",
+  "computed_sums": {
+    "Sub-Funds > Commodity Trading Advisor": {
+      "calculated_fv": "2433000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2433000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Sub-Funds > Convertible Bond Arbitrage": {
+      "calculated_fv": "4118000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4118000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Sub-Funds > Distressed Securities": {
+      "calculated_fv": "1399000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Sub-Funds > Equity Market Neutral": {
+      "calculated_fv": "2351000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Sub-Funds > Fixed Income Arbitrage": {
+      "calculated_fv": "5859000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5859000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Sub-Funds > Global Macro": {
+      "calculated_fv": "4900000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4900000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Sub-Funds > Non-US Equity Hedge": {
+      "calculated_fv": "5655000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5655000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Sub-Funds > Relative Value Arbitrage": {
+      "calculated_fv": "9598000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "9598000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Sub-Funds > Sector Hedge": {
+      "calculated_fv": "2540000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2540000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Sub-Funds > Short Bias": {
+      "calculated_fv": "1568000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Sub-Funds > Special Situations": {
+      "calculated_fv": "6963000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6963000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Sub-Funds > Statistical Arbitrage": {
+      "calculated_fv": "1950000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Sub-Funds > US Equity Hedge": {
+      "calculated_fv": "13624000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "13624000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "Sub-Funds": {
+      "calculated_fv": "62958000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 13
+    },
+    "Cash Equivalent": {
+      "calculated_fv": "3700000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3700000",
+      "extracted_cost": "3700000",
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Countries": {
+      "calculated_fv": "62958000",
+      "calculated_cost": "60685000",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "129616000",
+      "calculated_cost": "60685000",
+      "calculated_pct": null,
+      "extracted_fv": "62958000",
+      "extracted_cost": "60685000",
+      "extracted_pct": null,
+      "label": "TOTAL SUB-FUNDS"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=5 outside [1, 4]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 47
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=5 outside [1, 4]",
+      "context": {
+        "field": "cost_raw",
+        "row": 47
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=5 outside [1, 4]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 48
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=5 outside [1, 4]",
+      "context": {
+        "field": "cost_raw",
+        "row": 48
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=5 outside [1, 4]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=5 outside [1, 4]",
+      "context": {
+        "field": "cost_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=5 outside [1, 4]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=5 outside [1, 4]",
+      "context": {
+        "field": "cost_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=5 outside [1, 4]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 51
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Sub-Funds > Distressed Securities"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Sub-Funds > Equity Market Neutral"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Sub-Funds > Short Bias"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Sub-Funds > Statistical Arbitrage"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 4 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Countries"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (129616000) != Total row (62958000), diff=$66658000",
+      "context": {
+        "label": "TOTAL SUB-FUNDS",
+        "calculated": "129616000",
+        "extracted": "62958000",
+        "diff": "66658000"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2005) differs from filename (1804)",
+      "context": {
+        "as_of_date": "MARCH 31, 2005",
+        "filename_date": "1804-05-00"
+      }
+    }
+  ]
+}

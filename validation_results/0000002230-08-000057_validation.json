@@ -1,0 +1,283 @@
+{
+  "source_name": "0000002230-08-000057",
+  "total_rows": 88,
+  "holding_count": 65,
+  "subtotal_count": 23,
+  "total_count": 0,
+  "error_count": 0,
+  "warning_count": 13,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "Stocks and Convertible Securities > Consumer > Consumer Discretionary": {
+      "calculated_fv": "54812885",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "4.6",
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Consumer > Consumer Staples": {
+      "calculated_fv": "149690548",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "12.6",
+      "holding_count": 11,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Consumer": {
+      "calculated_fv": "204503433",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "17.2",
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Stocks and Convertible Securities > Energy": {
+      "calculated_fv": "216776179",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "18.2",
+      "holding_count": 7,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Financials > Banking": {
+      "calculated_fv": "110523578",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "9.3",
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Financials > Insurance": {
+      "calculated_fv": "24580600",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.1",
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Financials": {
+      "calculated_fv": "135104178",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "11.4",
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Stocks and Convertible Securities > Health Care": {
+      "calculated_fv": "139659942",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "11.7",
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Industrials": {
+      "calculated_fv": "151449970",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "12.7",
+      "holding_count": 11,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology > Communication Equipment": {
+      "calculated_fv": "11525000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.9",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology > Computer Related": {
+      "calculated_fv": "100702600",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "8.5",
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology > Electronics": {
+      "calculated_fv": "24663200",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.1",
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology": {
+      "calculated_fv": "136890800",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "11.5",
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Stocks and Convertible Securities": {
+      "calculated_fv": "984384502",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "93.3",
+      "holding_count": 0,
+      "child_count": 6
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '17425100' don't match citation content digits '290000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 34,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7214000' don't match citation content digits '7491735'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 36,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '260000' don't match citation content digits '95321479'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 39,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '15793750' don't match citation content digits '400000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 42,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '19566400' don't match citation content digits '375000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 55,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4853092' don't match citation content digits '10807500'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 56,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '37045720' don't match citation content digits '360000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 65,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6310450' don't match citation content digits '9959250'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 68,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '151449970' don't match citation content digits '150000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 73,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '850000' don't match citation content digits '2186774'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 79,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '640000' don't match citation content digits '2186774'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 86,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_GRAND_TOTAL",
+      "message": "No TOTAL row found but holdings exist",
+      "context": {}
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (2230)",
+      "context": {
+        "as_of_date": "June 30, 2008",
+        "filename_date": "2230-08-00"
+      }
+    }
+  ]
+}

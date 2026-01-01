@@ -1,0 +1,220 @@
+{
+  "result": {
+    "result": {
+      "soi_title": {
+        "value": "STATEMENT OF INVESTMENTS",
+        "citations": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.03333333333333333,
+              "top": 0.18520833651224772,
+              "width": 0.18222221091941554,
+              "height": 0.006874990463256847,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "STATEMENT OF INVESTMENTS,",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": 0.999,
+              "parse_confidence": 0.847242745757103
+            },
+            "extra": null
+          }
+        ]
+      },
+      "as_of_date": {
+        "value": "FEBRUARY 28, 2010",
+        "citations": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.22314814814814815,
+              "top": 0.18489583333333334,
+              "width": 0.12222222222222222,
+              "height": 0.005208333333333333,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "FEBRUARY 28, 2010",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": 1.0,
+              "parse_confidence": 0.847242745757103
+            },
+            "extra": null
+          }
+        ]
+      },
+      "reporting_basis": {
+        "value": "UNAUDITED",
+        "citations": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.3540740684226707,
+              "top": 0.18520833651224772,
+              "width": 0.08018519083658854,
+              "height": 0.006874990463256847,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "(UNAUDITED)",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": 0.904,
+              "parse_confidence": 0.847242745757103
+            },
+            "extra": null
+          }
+        ]
+      },
+      "soi_rows": [
+        {
+          "row_type": {
+            "value": "TOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.85,
+                  "top": 0.019791666666666666,
+                  "width": 0.11574074074074074,
+                  "height": 0.005208333333333333,
+                  "page": 7,
+                  "original_page": 7
+                },
+                "content": "TOTAL",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.6562078624963761
+                },
+                "extra": null
+              }
+            ]
+          },
+          "label": {
+            "value": "NET ASSETS",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.08425925925925926,
+                  "top": 0.0203125,
+                  "width": 0.07222222222222222,
+                  "height": 0.004166666666666667,
+                  "page": 7,
+                  "original_page": 7
+                },
+                "content": "NET ASSETS",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8128384679555893
+                },
+                "extra": null
+              }
+            ]
+          },
+          "fair_value_raw": {
+            "value": "$ 1,240,180,652",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.85,
+                  "top": 0.0203125,
+                  "width": 0.11574074074074074,
+                  "height": 0.0046875,
+                  "page": 7,
+                  "original_page": 7
+                },
+                "content": "1,240,180,652",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.6562078624963761
+                },
+                "extra": null
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "100.0%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.16483144406919126,
+                  "top": 0.020503817001978557,
+                  "width": 0.04264749597620082,
+                  "height": 0.004348043600718179,
+                  "page": 7,
+                  "original_page": 7
+                },
+                "content": "100.0%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8128384679555893
+                },
+                "extra": null
+              }
+            ]
+          },
+          "section_path": [],
+          "row_text": {
+            "value": "NET ASSETS 100.0% $ 1,240,180,652",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.85,
+                  "top": 0.019791666666666666,
+                  "width": 0.11574074074074074,
+                  "height": 0.005208333333333333,
+                  "page": 7,
+                  "original_page": 7
+                },
+                "content": "NET ASSETS 100.0% $ 1,240,180,652",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.6562078624963761
+                },
+                "extra": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "usage": {
+      "num_fields": 8,
+      "num_pages": 17,
+      "credits": 68.0
+    },
+    "job_id": "7716399b-b135-48e1-b9ef-ddebc0d1d678",
+    "studio_link": "https://studio.reducto.ai/job/7716399b-b135-48e1-b9ef-ddebc0d1d678"
+  },
+  "job_id": "7716399b-b135-48e1-b9ef-ddebc0d1d678",
+  "status": "Completed"
+}

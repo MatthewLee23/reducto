@@ -1,0 +1,1729 @@
+{
+  "source_name": "carlyle-2025-03-31",
+  "total_rows": 332,
+  "holding_count": 267,
+  "subtotal_count": 56,
+  "total_count": 9,
+  "error_count": 7,
+  "warning_count": 134,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "171535289004779.2556439267377",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "5675190197134.535203152",
+  "extracted_total_fv": "21012349",
+  "computed_sums": {
+    "Broadly Syndicated Loans (1.1%) > First Lien (1.1%) > Europe (0.1%)": {
+      "calculated_fv": "2419702",
+      "calculated_cost": "1912781.947",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0
+    },
+    "Broadly Syndicated Loans (1.1%) > First Lien (1.1%) > North America (1.0%)": {
+      "calculated_fv": "489326038159.827698421",
+      "calculated_cost": "1187301080700.547687929",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 82,
+      "child_count": 0
+    },
+    "Broadly Syndicated Loans (1.1%) > First Lien (1.1%) > Rest of World (0.0%)": {
+      "calculated_fv": "221906",
+      "calculated_cost": "223980",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Broadly Syndicated Loans (1.1%) > First Lien (1.1%)": {
+      "calculated_fv": "489328679767.827698421",
+      "calculated_cost": "1187303217462.494687929",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Broadly Syndicated Loans (1.1%)": {
+      "calculated_fv": "489328679767.827698421",
+      "calculated_cost": "1187303217462.494687929",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Common Stocks (24.0%) > Europe (6.9%)": {
+      "calculated_fv": "129247647",
+      "calculated_cost": "229350645690",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 16,
+      "child_count": 0
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Common Stocks (24.0%) > North America (16.0%)": {
+      "calculated_fv": "286571671.4265473",
+      "calculated_cost": "116873876906003.4961669977377",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 41,
+      "child_count": 0
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Common Stocks (24.0%) > Rest of World (1.1%)": {
+      "calculated_fv": "19893957",
+      "calculated_cost": "20517035",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Common Stocks (24.0%)": {
+      "calculated_fv": "435713275.4265473",
+      "calculated_cost": "117103248068728.4961669977377",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Convertible Preferred Stocks (0.2%) > North America (0.2%)": {
+      "calculated_fv": "3849970",
+      "calculated_cost": "6431818",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Convertible Preferred Stocks (0.2%)": {
+      "calculated_fv": "3849970",
+      "calculated_cost": "6431818",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Preferred Stocks (5.9%) > Europe (1.4%)": {
+      "calculated_fv": "26296346",
+      "calculated_cost": "10976686.658370",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Preferred Stocks (5.9%) > North America (4.5%)": {
+      "calculated_fv": "83289417",
+      "calculated_cost": "70851625",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Preferred Stocks (5.9%)": {
+      "calculated_fv": "109585763",
+      "calculated_cost": "81828311.658370",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Shareholder Loans (0.2%) > Europe (0.2%)": {
+      "calculated_fv": "3018947",
+      "calculated_cost": "2789308",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Shareholder Loans (0.2%)": {
+      "calculated_fv": "3018947",
+      "calculated_cost": "2789308",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Warrants (0.2%) > North America (0.2%)": {
+      "calculated_fv": "4575733",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%) > Warrants (0.2%)": {
+      "calculated_fv": "4575733",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Private Equity Investments (93.9%) > Direct Investments (30.5%)": {
+      "calculated_fv": "556743688.4265473",
+      "calculated_cost": "117103339118166.1545369977377",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5
+    },
+    "Private Equity Investments (93.9%) > Primary Investments (5.9%) > Europe (0.5%)": {
+      "calculated_fv": "8523918",
+      "calculated_cost": "7370588",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Private Equity Investments (93.9%) > Primary Investments (5.9%) > North America (5.4%)": {
+      "calculated_fv": "101867990",
+      "calculated_cost": "70336696.012987",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0
+    },
+    "Private Equity Investments (93.9%) > Primary Investments (5.9%)": {
+      "calculated_fv": "110391908",
+      "calculated_cost": "77707284.012987",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Private Equity Investments (93.9%)": {
+      "calculated_fv": "667135596.4265473",
+      "calculated_cost": "117103416825450.1675239977377",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Secondary Investments (57.5%) > Europe (10.8%)": {
+      "calculated_fv": "3520202735925",
+      "calculated_cost": "208374747105",
+      "calculated_pct": null,
+      "extracted_fv": "202735425",
+      "extracted_cost": "167058237",
+      "extracted_pct": null,
+      "holding_count": 21,
+      "child_count": 0
+    },
+    "Secondary Investments (57.5%) > North America (45.6%)": {
+      "calculated_fv": "1664755802338.947957431",
+      "calculated_cost": "53035982321978.593432",
+      "calculated_pct": null,
+      "extracted_fv": "852482160",
+      "extracted_cost": "670403737",
+      "extracted_pct": null,
+      "holding_count": 56,
+      "child_count": 0
+    },
+    "Secondary Investments (57.5%) > Rest of World (1.0%)": {
+      "calculated_fv": "18875996.333",
+      "calculated_cost": "16056871",
+      "calculated_pct": null,
+      "extracted_fv": "19457747",
+      "extracted_cost": "16056871",
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Secondary Investments (57.5%)": {
+      "calculated_fv": "5184977414260.280957431",
+      "calculated_cost": "53244373125954.593432",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Cash Equivalents (11.6%) > North America (11.6%)": {
+      "calculated_fv": "216967510",
+      "calculated_cost": "216967510",
+      "calculated_pct": null,
+      "extracted_fv": "216967510",
+      "extracted_cost": "216967510",
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Cash Equivalents (11.6%)": {
+      "calculated_fv": "216967510",
+      "calculated_cost": "216967510",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "5675190197134.535203152",
+      "calculated_cost": "171535310136377.2556439267377",
+      "calculated_pct": null,
+      "extracted_fv": "21012349",
+      "extracted_cost": "21131598",
+      "extracted_pct": null,
+      "label": "Total Broadly Syndicated Loans"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '250000' don't match citation content digits '249375'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 11,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '246875246875' don't match citation content digits '198985'",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 28,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '246875' don't match citation content digits '198985'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 28,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '499252' don't match citation content digits '199678'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 31,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '113309' don't match citation content digits '242028'",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 34,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '14035' don't match citation content digits '246416'",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 40,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '14035' don't match citation content digits '246416'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 40,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '248752' don't match citation content digits '301819'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 50,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '195455195455' don't match citation content digits '244260'",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 56,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '248750' don't match citation content digits '267131'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 59,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '200000' don't match citation content digits '245616'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 62,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '247500' don't match citation content digits '3'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 70,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '248750' don't match citation content digits '13990'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 75,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '250000' don't match citation content digits '249375'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 79,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '248728' don't match citation content digits '14035'",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 81,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '248728' don't match citation content digits '14035'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 81,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '248285' don't match citation content digits '198610'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 84,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '298453' don't match citation content digits '297006'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 87,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '99752' don't match citation content digits '198110'",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 88,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '189048' don't match citation content digits '297006'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 89,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '247663' don't match citation content digits '300808'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 91,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '243833' don't match citation content digits '297750'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 94,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '247649' don't match citation content digits '198610'",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 95,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '248750' don't match citation content digits '199000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 95,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '249375' don't match citation content digits '248'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 96,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.left=1.651143790849673 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 99
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.left=1.651143790849673 out of [0,1]",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 99
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.left=1.832516339869281 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 103
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.left=1.6519607843137254 out of [0,1]",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 103
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '11161253' don't match citation content digits '3'",
+      "context": {
+        "field": "cost_raw",
+        "row": 109,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '13409274' don't match citation content digits '28585'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 110,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9355479' don't match citation content digits '28429'",
+      "context": {
+        "field": "cost_raw",
+        "row": 110,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '14359390' don't match citation content digits '248248750'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 112,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6382082' don't match citation content digits '247500'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 114,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.left=1.6519607843137254 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 115
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '477966' don't match citation content digits '241241182'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 118,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3141125' don't match citation content digits '244260'",
+      "context": {
+        "field": "cost_raw",
+        "row": 121,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '129247647' don't match citation content digits '181644'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 125,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5015757' don't match citation content digits '1112028'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 127,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '17594237' don't match citation content digits '246496'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 128,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7480153' don't match citation content digits '243093'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 129,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '74131477413147' don't match citation content digits '12112031'",
+      "context": {
+        "field": "cost_raw",
+        "row": 131,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '12500000' don't match citation content digits '147328'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 132,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1250000012500000' don't match citation content digits '325'",
+      "context": {
+        "field": "cost_raw",
+        "row": 132,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7500000' don't match citation content digits '246496'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 133,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6153750' don't match citation content digits '211244260'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 142,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '11865570' don't match citation content digits '241182241182'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 143,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9454920' don't match citation content digits '12112031'",
+      "context": {
+        "field": "cost_raw",
+        "row": 143,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7500000' don't match citation content digits '241182246496'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 150,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '15823000' don't match citation content digits '3175'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 152,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3050000' don't match citation content digits '147328'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 153,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4228730' don't match citation content digits '147488'",
+      "context": {
+        "field": "cost_raw",
+        "row": 153,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '414882' don't match citation content digits '300808'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 154,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7780149' don't match citation content digits '181644'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 159,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7806379' don't match citation content digits '182229'",
+      "context": {
+        "field": "cost_raw",
+        "row": 159,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2992681' don't match citation content digits '244260'",
+      "context": {
+        "field": "cost_raw",
+        "row": 164,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6303350' don't match citation content digits '248908'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 166,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3817928' don't match citation content digits '249430'",
+      "context": {
+        "field": "cost_raw",
+        "row": 166,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '107797' don't match citation content digits '11102028'",
+      "context": {
+        "field": "cost_raw",
+        "row": 167,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '299998003' don't match citation content digits '248248750'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 168,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4784803' don't match citation content digits '195971'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 170,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5087656' don't match citation content digits '1112028'",
+      "context": {
+        "field": "cost_raw",
+        "row": 170,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '10598584' don't match citation content digits '196474'",
+      "context": {
+        "field": "cost_raw",
+        "row": 171,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4748471' don't match citation content digits '244260'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 172,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4830795' don't match citation content digits '12112031'",
+      "context": {
+        "field": "cost_raw",
+        "row": 172,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '19893957' don't match citation content digits '248752'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 173,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3849970' don't match citation content digits '244260248250'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 178,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9886997' don't match citation content digits '247500'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 182,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1968258' don't match citation content digits '147488'",
+      "context": {
+        "field": "cost_raw",
+        "row": 185,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '26296346' don't match citation content digits '297750'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 186,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9287548' don't match citation content digits '243093'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 195,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '83289417' don't match citation content digits '244260'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 196,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '70851625' don't match citation content digits '12112031'",
+      "context": {
+        "field": "cost_raw",
+        "row": 196,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.left=1.6519607843137254 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 197
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3018947' don't match citation content digits '198129'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 200,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2789308' don't match citation content digits '199500'",
+      "context": {
+        "field": "cost_raw",
+        "row": 200,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3018947' don't match citation content digits '268813'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 202,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4575733' don't match citation content digits '198129'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 205,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4575733' don't match citation content digits '198129'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 207,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '570170020' don't match citation content digits '198129'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 208,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3113433' don't match citation content digits '198129'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 211,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2576697' don't match citation content digits '199500'",
+      "context": {
+        "field": "cost_raw",
+        "row": 211,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1710376' don't match citation content digits '28585'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 212,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3700109' don't match citation content digits '198129247228'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 213,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3482668' don't match citation content digits '199500244059'",
+      "context": {
+        "field": "cost_raw",
+        "row": 213,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8523918' don't match citation content digits '196373'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 214,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '10728175' don't match citation content digits '352029'",
+      "context": {
+        "field": "cost_raw",
+        "row": 216,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '305821' don't match citation content digits '247228'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 217,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1579093' don't match citation content digits '247228'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 218,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1568877' don't match citation content digits '244059'",
+      "context": {
+        "field": "cost_raw",
+        "row": 218,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2329265' don't match citation content digits '247228'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 219,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2771987' don't match citation content digits '244059'",
+      "context": {
+        "field": "cost_raw",
+        "row": 219,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '12565621' don't match citation content digits '247228'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 222,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '11793698' don't match citation content digits '352029'",
+      "context": {
+        "field": "cost_raw",
+        "row": 225,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '41853115' don't match citation content digits '247228'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 226,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '23464671' don't match citation content digits '244059'",
+      "context": {
+        "field": "cost_raw",
+        "row": 226,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7463644' don't match citation content digits '352029'",
+      "context": {
+        "field": "cost_raw",
+        "row": 227,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '101867990' don't match citation content digits '247228'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 228,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7011822' don't match citation content digits '10356651'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 275,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9793481' don't match citation content digits '21568445'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 276,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1546825340023' don't match citation content digits '12112223'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 278,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '28874622087402' don't match citation content digits '8559317'",
+      "context": {
+        "field": "cost_raw",
+        "row": 279,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '957431957431' don't match citation content digits '12112223'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 280,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3639664' don't match citation content digits '8298379'",
+      "context": {
+        "field": "cost_raw",
+        "row": 281,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5805396' don't match citation content digits '897849'",
+      "context": {
+        "field": "cost_raw",
+        "row": 286,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2514575' don't match citation content digits '17321970'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 287,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '672185' don't match citation content digits '12112223'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 288,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2088800' don't match citation content digits '12112223'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 289,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '13005416' don't match citation content digits '9793643'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 290,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '10079310' don't match citation content digits '9793643'",
+      "context": {
+        "field": "cost_raw",
+        "row": 290,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '150925' don't match citation content digits '12112223'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 291,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '50202' don't match citation content digits '8559317'",
+      "context": {
+        "field": "cost_raw",
+        "row": 291,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '799785' don't match citation content digits '21568445'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 293,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1706347' don't match citation content digits '21568445'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 295,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1451944' don't match citation content digits '17321970'",
+      "context": {
+        "field": "cost_raw",
+        "row": 295,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7633092' don't match citation content digits '21568445'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 296,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.top=1.1616161616161615 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 297
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.top=1.1616161616161615 out of [0,1]",
+      "context": {
+        "field": "cost_raw",
+        "row": 297
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '369502' don't match citation content digits '897849'",
+      "context": {
+        "field": "cost_raw",
+        "row": 299,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '96403307' don't match citation content digits '21568445'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 300,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6242762' don't match citation content digits '12112223'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 302,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1280400' don't match citation content digits '8559317'",
+      "context": {
+        "field": "cost_raw",
+        "row": 305,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9318978' don't match citation content digits '12112223'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 306,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '636582' don't match citation content digits '897849'",
+      "context": {
+        "field": "cost_raw",
+        "row": 307,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '131615' don't match citation content digits '469404'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 308,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '237972' don't match citation content digits '21568445'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 309,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '582333' don't match citation content digits '1095566'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 312,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5738892' don't match citation content digits '12112223'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 314,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1091562' don't match citation content digits '12112223'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 315,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1074675332' don't match citation content digits '12112223'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 317,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '216967510' don't match citation content digits '9793643'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 323,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '216967510' don't match citation content digits '5993938'",
+      "context": {
+        "field": "cost_raw",
+        "row": 323,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '122800184' don't match citation content digits '12112223'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 325,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'Total Investments' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 331
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (3520202735925) != extracted (202735425), diff=$3520000000500",
+      "context": {
+        "section_path": "Secondary Investments (57.5%) > Europe (10.8%)",
+        "label": "Total Europe",
+        "calculated": "3520202735925",
+        "extracted": "202735425",
+        "diff": "3520000000500"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_COST",
+      "message": "Calculated cost (208374747105) != extracted (167058237), diff=$208207688868",
+      "context": {
+        "section_path": "Secondary Investments (57.5%) > Europe (10.8%)",
+        "label": "Total Europe",
+        "calculated": "208374747105",
+        "extracted": "167058237",
+        "diff": "208207688868"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (1664755802338.947957431) != extracted (852482160), diff=$1663903320178.947957431",
+      "context": {
+        "section_path": "Secondary Investments (57.5%) > North America (45.6%)",
+        "label": "Total North America",
+        "calculated": "1664755802338.947957431",
+        "extracted": "852482160",
+        "diff": "1663903320178.947957431"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_COST",
+      "message": "Calculated cost (53035982321978.593432) != extracted (670403737), diff=$53035311918241.593432",
+      "context": {
+        "section_path": "Secondary Investments (57.5%) > North America (45.6%)",
+        "label": "Total North America",
+        "calculated": "53035982321978.593432",
+        "extracted": "670403737",
+        "diff": "53035311918241.593432"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (18875996.333) != extracted (19457747), diff=$581750.667",
+      "context": {
+        "section_path": "Secondary Investments (57.5%) > Rest of World (1.0%)",
+        "label": "Total Rest of World",
+        "calculated": "18875996.333",
+        "extracted": "19457747",
+        "diff": "581750.667"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (5675190197134.535203152) != Total row (21012349), diff=$5675169184785.535203152",
+      "context": {
+        "label": "Total Broadly Syndicated Loans",
+        "calculated": "5675190197134.535203152",
+        "extracted": "21012349",
+        "diff": "5675169184785.535203152"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_COST",
+      "message": "Sum of all costs (171535310136377.2556439267377) != Total row (21131598), diff=$171535289004779.2556439267377",
+      "context": {
+        "label": "Total Broadly Syndicated Loans",
+        "calculated": "171535310136377.2556439267377",
+        "extracted": "21131598",
+        "diff": "171535289004779.2556439267377"
+      }
+    }
+  ]
+}

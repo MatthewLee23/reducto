@@ -1,0 +1,219 @@
+{
+  "source_name": "stepstone-2024-09-30",
+  "total_rows": 331,
+  "holding_count": 299,
+  "subtotal_count": 29,
+  "total_count": 3,
+  "error_count": 3,
+  "warning_count": 2,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "230304721568830",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "230307883751554",
+  "extracted_total_fv": "3162182724",
+  "computed_sums": {
+    "Co-Investments > Europe": {
+      "calculated_fv": "81889480",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "Co-Investments > North America": {
+      "calculated_fv": "279873866",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 37,
+      "child_count": 0
+    },
+    "Co-Investments > Rest of the World": {
+      "calculated_fv": "12935975",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Co-Investments": {
+      "calculated_fv": "374699321",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Primary Investment Funds > Europe": {
+      "calculated_fv": "9654454",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Primary Investment Funds > North America": {
+      "calculated_fv": "224842773810231",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Primary Investment Funds > Rest of World": {
+      "calculated_fv": "9127197",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Primary Investment Funds": {
+      "calculated_fv": "224842792591882",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Secondary Investment Funds > Europe": {
+      "calculated_fv": "5462387551288",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 52,
+      "child_count": 0
+    },
+    "Secondary Investment Funds > North America": {
+      "calculated_fv": "2063918324",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 182,
+      "child_count": 0
+    },
+    "Secondary Investment Funds > Rest of World": {
+      "calculated_fv": "278761",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Secondary Investment Funds": {
+      "calculated_fv": "5464451748373",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Rest of World": {
+      "calculated_fv": "12962022",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "13240783",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "127234886",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "127234886",
+      "extracted_cost": "127234886",
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "230307883751554",
+      "calculated_cost": null,
+      "calculated_pct": "3.8",
+      "extracted_fv": "3162182724",
+      "extracted_cost": "2754422346",
+      "extracted_pct": "96.2",
+      "label": "Total Investments \u2014 96.2% (Cost $2,754,422,346)"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5518399' don't match citation content digits '13240783'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 2,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'Total Investments' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 330
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (12962022) != extracted (13240783), diff=$278761",
+      "context": {
+        "section_path": "Rest of World",
+        "label": "Total Rest of World",
+        "calculated": "12962022",
+        "extracted": "13240783",
+        "diff": "278761"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (230307883751554) != Total row (3162182724), diff=$230304721568830",
+      "context": {
+        "label": "Total Investments \u2014 96.2% (Cost $2,754,422,346)",
+        "calculated": "230307883751554",
+        "extracted": "3162182724",
+        "diff": "230304721568830"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_PCT",
+      "message": "Sum of all percents (3.8%) != Total row (96.2%), diff=92.4%",
+      "context": {
+        "label": "Total Investments \u2014 96.2% (Cost $2,754,422,346)",
+        "calculated": "3.8",
+        "extracted": "96.2",
+        "diff": "92.4"
+      }
+    }
+  ]
+}

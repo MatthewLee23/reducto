@@ -1,0 +1,66 @@
+{
+  "result": {
+    "soi_rows": [],
+    "soi_title": {
+      "value": "Schedule of Investments",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.020208332935969034,
+            "width": 0.31166667231807005,
+            "height": 0.008645834525426228,
+            "page": 1,
+            "original_page": 25
+          },
+          "content": "Schedule of Investments | 11/30/11",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": null
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "November 30, 2011",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.19479166666666667,
+            "width": 0.7361111111111112,
+            "height": 0.030729166666666665,
+            "page": 34,
+            "original_page": 58
+          },
+          "content": "States banks, (iii) the certificate of deposit or (iv) other base lending rates used by commercial lenders. The interest rate shown is the rate accruing at November 30, 2011.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.8714391559362411
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": null,
+      "citations": []
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 40,
+    "credits": 160.0
+  },
+  "job_id": "c3dcb591-05f2-46f6-a430-0410e27cf8ee",
+  "studio_link": "https://studio.reducto.ai/job/c3dcb591-05f2-46f6-a430-0410e27cf8ee"
+}

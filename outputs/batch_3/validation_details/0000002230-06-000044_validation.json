@@ -1,0 +1,509 @@
+{
+  "source_name": "0000002230-06-000044",
+  "total_rows": 91,
+  "holding_count": 79,
+  "subtotal_count": 12,
+  "total_count": 0,
+  "error_count": 0,
+  "warning_count": 32,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "Stocks and Convertible Securities -- 98.3% > Consumer -- 18.0% > Consumer Discretionary -- 7.8%": {
+      "calculated_fv": "100387025",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "100387025",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Consumer -- 18.0% > Consumer Staples -- 10.2%": {
+      "calculated_fv": "130605040",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "130605040",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Consumer -- 18.0%": {
+      "calculated_fv": "230992065",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Energy 11.9%": {
+      "calculated_fv": "153770464",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "153770464",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Financials -- 17.9% > Banking 13.7%": {
+      "calculated_fv": "176251650",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "176251650",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Financials -- 17.9% > Insurance - 4.2%": {
+      "calculated_fv": "53449500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "53449500",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Financials -- 17.9%": {
+      "calculated_fv": "229701150",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Health Care -- 13.8%": {
+      "calculated_fv": "177073500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "177073500",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 13,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Industrials -- 13.2%": {
+      "calculated_fv": "170159742",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "170159742",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Information Technology -- 12.0% > Communication Equipment -- 2.0%": {
+      "calculated_fv": "25965000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "25965000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Information Technology -- 12.0% > Computer Related 8.4%": {
+      "calculated_fv": "107958905",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "107958905",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Information Technology -- 12.0% > Electronics -- 1.6%": {
+      "calculated_fv": "21111500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "21111500",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Information Technology -- 12.0%": {
+      "calculated_fv": "155035405",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Materials -- 5.1%": {
+      "calculated_fv": "66019950",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "66019950",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Telecom Services -- 2.8%": {
+      "calculated_fv": "35743550",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "35743550",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3% > Utilities -- 3.6%": {
+      "calculated_fv": "14813500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities -- 98.3%": {
+      "calculated_fv": "1233309326",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 9,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "(root)": {
+      "calculated_fv": "1233309326",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 8
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 18
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 26
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 37
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 40
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 54
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 65
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 69
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 76
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 80
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 81
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 81
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 82
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 82
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 83
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 83
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 84
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 84
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 85
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 85
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 86
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 86
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 87
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 87
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 88
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 88
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 89
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 89
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 90
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=3 outside [1, 2]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 90
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks and Convertible Securities -- 98.3% > Utilities -- 3.6%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2006) differs from filename (2230)",
+      "context": {
+        "as_of_date": "June 30, 2006",
+        "filename_date": "2230-06-00"
+      }
+    }
+  ]
+}

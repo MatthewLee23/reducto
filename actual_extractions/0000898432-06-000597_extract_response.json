@@ -1,0 +1,90 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "SCHEDULE OF INVESTMENTS",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.020208332935969034,
+            "width": 0.2107407463921441,
+            "height": 0.008645834525426228,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "SCHEDULE OF INVESTMENTS",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.7766082555055618
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "April 30, 2006",
+      "citations": [
+        {
+          "type": "List Item",
+          "bbox": {
+            "left": 0.10582604584870516,
+            "top": 0.041281843185424806,
+            "width": 0.13742671542697482,
+            "height": 0.008743536472320554,
+            "page": 4,
+            "original_page": 4
+          },
+          "content": "April 30, 2006,",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.9165441274642945
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": null,
+      "citations": [
+        {
+          "type": "Footer",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.019791666666666666,
+            "width": 0.5796296296296296,
+            "height": 0.008854166666666666,
+            "page": 1,
+            "original_page": 13
+          },
+          "content": "SCHEDULE OF INVESTMENTS Real Estate Securities Income Fund Inc.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.5,
+            "parse_confidence": 0.7766082555055618
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": {
+      "value": null,
+      "citations": []
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 4,
+    "credits": 16.0
+  },
+  "job_id": "faa15e36-d872-40de-b5a7-a04c15a9e306",
+  "studio_link": "https://studio.reducto.ai/job/faa15e36-d872-40de-b5a7-a04c15a9e306"
+}

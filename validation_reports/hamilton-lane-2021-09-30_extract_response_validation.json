@@ -1,0 +1,21 @@
+{
+  "filename": "hamilton-lane-2021-09-30_extract_response.json",
+  "has_data": true,
+  "total_rows": 86,
+  "holdings": 45,
+  "subtotals": 34,
+  "totals": 7,
+  "errors": 0,
+  "warnings": 1,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "ARITH_MISMATCH",
+      "message": "Sum of holdings (247154285) != Total (7932891), diff=239221394",
+      "context": {
+        "calculated": "247154285",
+        "extracted": "7932891"
+      }
+    }
+  ]
+}

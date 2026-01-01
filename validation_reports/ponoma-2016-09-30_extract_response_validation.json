@@ -1,0 +1,21 @@
+{
+  "filename": "ponoma-2016-09-30_extract_response.json",
+  "has_data": true,
+  "total_rows": 38,
+  "holdings": 30,
+  "subtotals": 5,
+  "totals": 3,
+  "errors": 0,
+  "warnings": 1,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "ARITH_MISMATCH",
+      "message": "Sum of holdings (58914301) != Total (43684536), diff=15229765",
+      "context": {
+        "calculated": "58914301",
+        "extracted": "43684536"
+      }
+    }
+  ]
+}

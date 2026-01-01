@@ -1,0 +1,66 @@
+{
+  "result": {
+    "soi_rows": [],
+    "soi_title": {
+      "value": "Schedule of Investments",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.020208332935969034,
+            "width": 0.31166667231807005,
+            "height": 0.008645834525426228,
+            "page": 1,
+            "original_page": 21
+          },
+          "content": "Schedule of Investments | 11/30/15",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": null
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "November 30, 2015",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.16018518518518518,
+            "top": 0.05364583333333333,
+            "width": 0.6055555555555555,
+            "height": 0.0609375,
+            "page": 26,
+            "original_page": 46
+          },
+          "content": "Security is exempt from registration under Rule 144A of the Securities Act of 1933. Such securities may be resold normally to qualified institutional buyers in a transaction exempt from registration. At November 30, 2015, the value of these securities amounted to $11,667,882, or 3.8% of total net assets applicable to shareowners.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.8715965300798416
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": null,
+      "citations": []
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 34,
+    "credits": 136.0
+  },
+  "job_id": "31b3780d-49ca-44f9-a2c9-a889f8edb652",
+  "studio_link": "https://studio.reducto.ai/job/31b3780d-49ca-44f9-a2c9-a889f8edb652"
+}

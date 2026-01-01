@@ -1,0 +1,762 @@
+{
+  "source_name": "hamilton-lane-2021-09-30",
+  "total_rows": 86,
+  "holding_count": 45,
+  "subtotal_count": 34,
+  "total_count": 7,
+  "error_count": 1,
+  "warning_count": 32,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "239221394",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "247154285",
+  "extracted_total_fv": "7932891",
+  "computed_sums": {
+    "Direct Investments > Direct Credit > North America > Consumer Discretionary": {
+      "calculated_fv": "5316162",
+      "calculated_cost": "5246365",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.27",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Credit > North America > Containers and Packaging": {
+      "calculated_fv": "932903",
+      "calculated_cost": "934010",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Credit > North America > Diversified Financials": {
+      "calculated_fv": "4604581",
+      "calculated_cost": "4568236",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.96",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Credit > North America > Electrical Equipment": {
+      "calculated_fv": "692308",
+      "calculated_cost": "680240",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.3",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Credit > North America > Health Care": {
+      "calculated_fv": "633005",
+      "calculated_cost": "629166",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.27",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Credit > North America > Information Technology": {
+      "calculated_fv": "7932891",
+      "calculated_cost": "7925358",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.39",
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Credit > North America > Insurance": {
+      "calculated_fv": "5761200",
+      "calculated_cost": "5927099",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.46",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Credit > North America": {
+      "calculated_fv": "25873050",
+      "calculated_cost": "25910474",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "13.44",
+      "holding_count": 0,
+      "child_count": 7
+    },
+    "Direct Investments > Direct Credit > Software and Services": {
+      "calculated_fv": "2592212",
+      "calculated_cost": "2556402",
+      "calculated_pct": null,
+      "extracted_fv": "2592212",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Credit > Telecommunications": {
+      "calculated_fv": "2985898",
+      "calculated_cost": "2947795",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Credit": {
+      "calculated_fv": "31451160",
+      "calculated_cost": "31414671",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "13.44",
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Direct Investments > Direct Equity > Asia > Health Care": {
+      "calculated_fv": "4400000",
+      "calculated_cost": "4400000",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Equity > Asia": {
+      "calculated_fv": "4400000",
+      "calculated_cost": "4400000",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Direct Investments > Direct Equity > North America > Consumer Discretionary": {
+      "calculated_fv": "14708058",
+      "calculated_cost": "9935330",
+      "calculated_pct": null,
+      "extracted_fv": "14708058",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Equity > North America > Diversified Financials": {
+      "calculated_fv": "2713383",
+      "calculated_cost": "1413356",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Equity > North America > Health Care": {
+      "calculated_fv": "8765666",
+      "calculated_cost": "7220928",
+      "calculated_pct": null,
+      "extracted_fv": "8765666",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Equity > North America > Industrial Services": {
+      "calculated_fv": "8469443",
+      "calculated_cost": "7436323",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Equity > North America > Information Technology": {
+      "calculated_fv": "525000",
+      "calculated_cost": "526015",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Equity > North America > Software and Services": {
+      "calculated_fv": "727575",
+      "calculated_cost": "702923",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Equity > North America": {
+      "calculated_fv": "35909125",
+      "calculated_cost": "27234875",
+      "calculated_pct": null,
+      "extracted_fv": "35909125",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 6
+    },
+    "Direct Investments > Direct Equity > United Kingdom > Health Care": {
+      "calculated_fv": "7202116",
+      "calculated_cost": "6167427",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Equity > United Kingdom > Insurance": {
+      "calculated_fv": "7403478",
+      "calculated_cost": "6566015",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Equity > United Kingdom > Software and Services": {
+      "calculated_fv": "12742389",
+      "calculated_cost": "8592781",
+      "calculated_pct": null,
+      "extracted_fv": "12742389",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Direct Investments > Direct Equity > United Kingdom": {
+      "calculated_fv": "27347983",
+      "calculated_cost": "21326223",
+      "calculated_pct": null,
+      "extracted_fv": "27347983",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Direct Investments > Direct Equity": {
+      "calculated_fv": "67657108",
+      "calculated_cost": "52961098",
+      "calculated_pct": null,
+      "extracted_fv": "67657108",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Direct Investments": {
+      "calculated_fv": "99108268",
+      "calculated_cost": "84375769",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "42.36",
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Secondary Investments > Secondary Direct Equity > North America > Growth Equity": {
+      "calculated_fv": "3830643",
+      "calculated_cost": "2576913",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Secondary Investments > Secondary Direct Equity > North America": {
+      "calculated_fv": "3830643",
+      "calculated_cost": "2576913",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Secondary Investments > Secondary Direct Equity": {
+      "calculated_fv": "3830643",
+      "calculated_cost": "2576913",
+      "calculated_pct": null,
+      "extracted_fv": "3830643",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Secondary Investments > Secondary Funds > Asia > Health Care": {
+      "calculated_fv": "9833924",
+      "calculated_cost": "6399881",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Secondary Investments > Secondary Funds > Asia": {
+      "calculated_fv": "9833924",
+      "calculated_cost": "6399881",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Secondary Investments > Secondary Funds > Europe > Corporate Finance/Buyout": {
+      "calculated_fv": "3202271",
+      "calculated_cost": "3359086",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Secondary Investments > Secondary Funds > Europe > Diversified": {
+      "calculated_fv": "659319",
+      "calculated_cost": "630600",
+      "calculated_pct": null,
+      "extracted_fv": "659319",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Secondary Investments > Secondary Funds > Europe": {
+      "calculated_fv": "3861590",
+      "calculated_cost": "3989686",
+      "calculated_pct": null,
+      "extracted_fv": "3861590",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Secondary Investments > Secondary Funds > North America > Corporate Finance/Buyout": {
+      "calculated_fv": "25822630",
+      "calculated_cost": "19341929",
+      "calculated_pct": null,
+      "extracted_fv": "25822630",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "Secondary Investments > Secondary Funds > North America > Diversified": {
+      "calculated_fv": "15327978",
+      "calculated_cost": "13316997",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Secondary Investments > Secondary Funds > North America > Growth Equity": {
+      "calculated_fv": "38742425",
+      "calculated_cost": "21582945",
+      "calculated_pct": null,
+      "extracted_fv": "38742425",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Secondary Investments > Secondary Funds > North America > Information Technology": {
+      "calculated_fv": "3745434",
+      "calculated_cost": "3797126",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Secondary Investments > Secondary Funds > North America": {
+      "calculated_fv": "83638467",
+      "calculated_cost": "58038997",
+      "calculated_pct": null,
+      "extracted_fv": "83638467",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4
+    },
+    "Secondary Investments > Secondary Funds": {
+      "calculated_fv": "97333981",
+      "calculated_cost": "68428564",
+      "calculated_pct": null,
+      "extracted_fv": "97333981",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Secondary Investments": {
+      "calculated_fv": "101164624",
+      "calculated_cost": "71005477",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.64",
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Purchased Options > Put Options": {
+      "calculated_fv": "31201",
+      "calculated_cost": "83000",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Purchased Options": {
+      "calculated_fv": "31201",
+      "calculated_cost": "83000",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Short Term Investments": {
+      "calculated_fv": "46850192",
+      "calculated_cost": "46850192",
+      "calculated_pct": null,
+      "extracted_fv": "46850192",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "247154285",
+      "calculated_cost": "202314438",
+      "calculated_pct": null,
+      "extracted_fv": "7932891",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "label": "Total Information Technology"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1344' don't match citation content digits '1169'",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 1,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1344' don't match citation content digits '308'",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 2,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '227' don't match citation content digits '158'",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 3,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5346638' don't match citation content digits '158'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 4,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '680240' don't match citation content digits '2576913'",
+      "context": {
+        "field": "cost_raw",
+        "row": 10,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '633005' don't match citation content digits '9833924'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 12,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4500000' don't match citation content digits '12458'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 15,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2947500' don't match citation content digits '6399881'",
+      "context": {
+        "field": "cost_raw",
+        "row": 16,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3000000' don't match citation content digits '9833924'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 16,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2713383' don't match citation content digits '1289600'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 29,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5994799' don't match citation content digits '1302612'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 30,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5012744' don't match citation content digits '1302612'",
+      "context": {
+        "field": "cost_raw",
+        "row": 30,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2175664' don't match citation content digits '3934364'",
+      "context": {
+        "field": "cost_raw",
+        "row": 32,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '727575' don't match citation content digits '1302612'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 36,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'Total Direct Investments' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 77
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'Total Secondary Investments' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 80
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'Total Investments' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 83
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'Total Net Assets' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 85
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Direct Investments > Direct Credit > Telecommunications"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Direct Investments > Direct Equity > Asia > Health Care"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Direct Investments > Direct Equity > North America > Diversified Financials"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Direct Investments > Direct Equity > North America > Industrial Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Direct Investments > Direct Equity > North America > Information Technology"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Direct Investments > Direct Equity > North America > Software and Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Direct Investments > Direct Equity > United Kingdom > Health Care"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Direct Investments > Direct Equity > United Kingdom > Insurance"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Secondary Investments > Secondary Direct Equity > North America > Growth Equity"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Secondary Investments > Secondary Funds > Asia > Health Care"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Secondary Investments > Secondary Funds > Europe > Corporate Finance/Buyout"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Secondary Investments > Secondary Funds > North America > Diversified"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Secondary Investments > Secondary Funds > North America > Information Technology"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Purchased Options > Put Options"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (247154285) != Total row (7932891), diff=$239221394",
+      "context": {
+        "label": "Total Information Technology",
+        "calculated": "247154285",
+        "extracted": "7932891",
+        "diff": "239221394"
+      }
+    }
+  ]
+}

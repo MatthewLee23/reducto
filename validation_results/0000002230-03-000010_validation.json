@@ -1,0 +1,62 @@
+{
+  "source_name": "0000002230-03-000010",
+  "total_rows": 12,
+  "holding_count": 10,
+  "subtotal_count": 1,
+  "total_count": 1,
+  "error_count": 0,
+  "warning_count": 4,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "GRAND_TOTAL": {
+      "calculated_fv": null,
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "label": "TOTAL"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '250' don't match citation content digits '65'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 2,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 10
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "TOTAL row has empty label",
+      "context": {
+        "row": 11
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2003) differs from filename (2230)",
+      "context": {
+        "as_of_date": "June 30, 2003",
+        "filename_date": "2230-03-00"
+      }
+    }
+  ]
+}

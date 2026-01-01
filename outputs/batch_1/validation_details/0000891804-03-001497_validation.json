@@ -1,0 +1,5196 @@
+{
+  "source_name": "0000891804-03-001497",
+  "total_rows": 781,
+  "holding_count": 647,
+  "subtotal_count": 119,
+  "total_count": 15,
+  "error_count": 5,
+  "warning_count": 496,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "4160294131",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "5077653529",
+  "extracted_total_fv": "917359398",
+  "computed_sums": {
+    "ARIZONA": {
+      "calculated_fv": "19665074",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "ARKANSAS": {
+      "calculated_fv": "7462418",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "CALIFORNIA": {
+      "calculated_fv": "532101503",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 46,
+      "child_count": 0
+    },
+    "COLORADO": {
+      "calculated_fv": "174465403",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 16,
+      "child_count": 0
+    },
+    "DISTRICT OF COLUMBIA": {
+      "calculated_fv": "17601855",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "FLORIDA > Miami-Dade County, Florida, Aviation Revenue Bonds, Miami International Airport, Series 2002": {
+      "calculated_fv": "26667696",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "FLORIDA": {
+      "calculated_fv": "199428465",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 16,
+      "child_count": 1
+    },
+    "HAWAII": {
+      "calculated_fv": "80612557",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0
+    },
+    "ILLINOIS > City of Chicago, Illinois, Chicago-O'Hare International Airport, Second Lien Passenger Facility Charge Revenue Bonds, Series 2001C": {
+      "calculated_fv": "17623053",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "ILLINOIS": {
+      "calculated_fv": "384848088",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 42,
+      "child_count": 1
+    },
+    "INDIANA > Indiana Bond Bank, Special Program Bonds, 2002 Series D, Hendricks County Redevelopment District": {
+      "calculated_fv": "17354612",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "INDIANA > New Albany-Floyd County School Building Corporation, Indiana, First Mortgage Bonds, Series 2002": {
+      "calculated_fv": "7114131",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "INDIANA > Northern Wells Community School Building Corporation, Wells County, Indiana, First Mortgage Bonds, Series 2001": {
+      "calculated_fv": "2706564",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "INDIANA": {
+      "calculated_fv": "170694808",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 23,
+      "child_count": 3
+    },
+    "KENTUCKY": {
+      "calculated_fv": "43748370",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "LOUISIANA": {
+      "calculated_fv": "50347162",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0
+    },
+    "MAINE": {
+      "calculated_fv": "8967440",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "MARYLAND": {
+      "calculated_fv": "13342931",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5193150",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "MASSACHUSETTS": {
+      "calculated_fv": "111519988",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0
+    },
+    "MICHIGAN": {
+      "calculated_fv": "177519902",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 25,
+      "child_count": 0
+    },
+    "MINNESOTA": {
+      "calculated_fv": "47527774",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "MISSISSIPPI": {
+      "calculated_fv": "38499750",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0
+    },
+    "MISSOURI": {
+      "calculated_fv": "53715502",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0
+    },
+    "NEVADA": {
+      "calculated_fv": "242247696",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 24,
+      "child_count": 0
+    },
+    "NEW JERSEY": {
+      "calculated_fv": "18584042",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "NEW MEXICO": {
+      "calculated_fv": "14403403",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "NEW YORK": {
+      "calculated_fv": "358334177",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 40,
+      "child_count": 0
+    },
+    "NORTH DAKOTA": {
+      "calculated_fv": "41646429",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "OHIO": {
+      "calculated_fv": "56041454",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "PENNSYLVANIA": {
+      "calculated_fv": "87197434",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 13,
+      "child_count": 0
+    },
+    "RHODE ISLAND": {
+      "calculated_fv": "33071617",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "TENNESSEE": {
+      "calculated_fv": "62690737",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "TEXAS > Texas Public Finance Authority, Revenue Financing System Bonds, Series 2002, Texas Southern University": {
+      "calculated_fv": "7440752",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "TEXAS > Texas Student Housing Authority, Austin, Student Housing Revenue Bonds, Texas Project, Senior Series 2001A": {
+      "calculated_fv": "22711181",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "TEXAS > Williamson County, Texas, General Obligation Road Bonds, Series 2002": {
+      "calculated_fv": "19867968",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "TEXAS": {
+      "calculated_fv": "690708708",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 75,
+      "child_count": 3
+    },
+    "UTAH": {
+      "calculated_fv": "56824746",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0
+    },
+    "WASHINGTON > Washington State Economic Development Finance Authority, Wastewater Revenue Bonds, LOTT Project, Series 2002": {
+      "calculated_fv": "6755588",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "WASHINGTON": {
+      "calculated_fv": "376080392",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 58,
+      "child_count": 1
+    },
+    "WEST VIRGINIA": {
+      "calculated_fv": "49559147",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4.1",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "SHORT-TERM INVESTMENTS": {
+      "calculated_fv": "91185000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "14500000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 19,
+      "child_count": 0
+    },
+    "ALABAMA": {
+      "calculated_fv": "197545747",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 14,
+      "child_count": 0
+    },
+    "ALASKA": {
+      "calculated_fv": "47510443",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "CONNECTICUT": {
+      "calculated_fv": "2695400",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "GEORGIA": {
+      "calculated_fv": "14182447",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "IDAHO": {
+      "calculated_fv": "7008147",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "KANSAS": {
+      "calculated_fv": "14343819",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "NEBRASKA": {
+      "calculated_fv": "6644831",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "NEW HAMPSHIRE": {
+      "calculated_fv": "5429650",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "NORTH CAROLINA": {
+      "calculated_fv": "27398400",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "OKLAHOMA": {
+      "calculated_fv": "47864632",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0
+    },
+    "OREGON > State of Oregon, General Obligation Veterans Welfare Bonds, 2002 Series 82": {
+      "calculated_fv": "18565349",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "OREGON": {
+      "calculated_fv": "83381743",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 1
+    },
+    "SOUTH CAROLINA": {
+      "calculated_fv": "87833187",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0
+    },
+    "VERMONT": {
+      "calculated_fv": "3658542",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "VIRGINIA": {
+      "calculated_fv": "20328226",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "WISCONSIN": {
+      "calculated_fv": "108206166",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0
+    },
+    "PUERTO RICO": {
+      "calculated_fv": "14818300",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "WYOMING": {
+      "calculated_fv": "8103958",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Long-Term Investments > Washington": {
+      "calculated_fv": "49072259",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0
+    },
+    "Long-Term Investments > West Virginia": {
+      "calculated_fv": "6147060",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Long-Term Investments": {
+      "calculated_fv": "55219319",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6147060",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Short-Term Investments > Florida": {
+      "calculated_fv": "6000000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Short-Term Investments > Idaho": {
+      "calculated_fv": "1700000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments > Ohio": {
+      "calculated_fv": "2000000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "9700000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "9700000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "MONTANA": {
+      "calculated_fv": "5136600",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "5077653529",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "917359398",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "label": "Total Investments"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'TOTAL INVESTMENTS (COST $1,000,000,000)' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 297
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 518
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 518
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 519
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 519
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 520
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 520
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 521
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 521
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 523
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 523
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 524
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 524
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 525
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 525
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 526
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=119 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 526
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 527
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 527
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 528
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 528
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 529
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 529
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 530
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 530
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 531
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 531
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 532
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 532
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 533
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 533
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 534
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 534
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 535
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=120 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 535
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=121 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 536
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=121 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 536
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=121 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 537
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=121 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 537
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=121 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 538
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=121 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 538
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=121 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 539
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=121 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 539
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=121 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 541
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=121 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 541
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=121 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 542
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=121 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 542
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 544
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 544
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 545
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 545
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 547
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 547
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 548
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 548
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 549
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 549
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 550
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 550
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 551
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 551
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 552
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 552
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 554
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 554
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 555
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=122 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 555
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=123 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 556
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=123 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 556
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=123 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 557
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=123 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 557
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=123 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 559
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=123 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 559
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=123 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 560
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=123 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 560
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=123 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 561
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=123 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 561
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 563
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 563
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 564
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 564
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 565
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 565
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 566
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 566
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 567
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 567
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 568
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 568
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 569
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 569
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 570
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 570
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 571
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 571
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 572
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 572
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 573
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 573
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 574
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 574
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 575
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 575
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 576
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 576
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 577
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 577
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 578
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 578
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 579
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 579
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 580
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 580
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 581
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 581
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 582
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 582
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=124 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 583
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 584
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 584
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 585
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 585
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 586
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 586
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=126 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 587
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=126 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 587
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=126 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 588
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=126 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 588
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=125 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 589
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=126 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 590
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=126 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 590
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=126 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 591
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=126 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 592
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=126 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 592
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=126 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 593
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 594
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 594
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 595
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 595
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 596
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 596
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 597
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 597
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 598
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 598
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 599
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 599
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 600
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=127 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 600
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 601
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 601
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 602
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 602
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 603
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 603
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 604
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 604
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 605
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 605
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 606
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 606
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 607
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 607
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=126 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 608
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 609
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 609
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=128 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 610
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 611
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 611
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 612
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 612
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 613
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 613
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 614
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 614
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 615
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 616
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "cost_raw",
+        "row": 616
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 616
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 617
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=129 outside [1, 118]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 617
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=130 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 618
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=130 outside [1, 118]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 618
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=130 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 619
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=130 outside [1, 118]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 619
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 621
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 621
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 622
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 622
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 623
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 623
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 624
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 624
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 625
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 625
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 626
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 626
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 627
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 627
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 628
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 628
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 629
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=133 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 629
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=134 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 630
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=134 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 630
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=134 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 632
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=134 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 632
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=134 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 633
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=134 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 633
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 634
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 634
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 635
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 635
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 636
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 636
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 637
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 637
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 638
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 638
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 639
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 639
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 640
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 640
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 641
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 641
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 642
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 642
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 643
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=135 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 643
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 645
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 645
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 646
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 646
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 647
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 647
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 648
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 648
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 649
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 649
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 650
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 650
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 651
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 651
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 652
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 652
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 653
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 653
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 654
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=136 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 654
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=137 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 655
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=137 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 655
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=137 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 657
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=137 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 657
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=137 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 659
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=137 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 659
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=137 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 660
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=137 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 660
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=137 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 662
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=137 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 662
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=138 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 663
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=138 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 663
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=138 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 665
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=138 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 665
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=138 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 666
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=138 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 666
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=138 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 668
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=138 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 668
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=138 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 669
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=138 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 669
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=138 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 671
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=138 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 671
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=139 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 672
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=139 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 672
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=139 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 674
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=139 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 674
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=139 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 675
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=139 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 675
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=139 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 676
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=139 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 676
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=139 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 678
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=139 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 678
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=139 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 679
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=139 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 679
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 680
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 680
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 681
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 681
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 682
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 682
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 683
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 683
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 684
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 684
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 685
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 685
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 686
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=140 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 686
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 687
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 687
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 688
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 688
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 689
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 689
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 690
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 690
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 691
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 691
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 692
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 692
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 693
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 693
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 694
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=141 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 694
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 695
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 695
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 696
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 696
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 698
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 698
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 699
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 699
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 700
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 700
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 701
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 701
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 702
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 702
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 703
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 703
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 704
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 704
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 705
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 705
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 706
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 706
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 707
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 707
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 708
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 708
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 709
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 709
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 710
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 710
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 711
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 711
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 712
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 712
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=142 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 713
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 714
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 714
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 715
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 715
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 716
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 717
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "cost_raw",
+        "row": 717
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 718
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 718
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 719
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 719
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 720
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=143 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 720
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=144 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 721
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=144 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 721
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=144 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 722
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=144 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 722
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=144 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 723
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=144 outside [1, 118]",
+      "context": {
+        "field": "cost_raw",
+        "row": 723
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=144 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 724
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=144 outside [1, 118]",
+      "context": {
+        "field": "cost_raw",
+        "row": 724
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=144 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 725
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=144 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 726
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=145 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 727
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 728
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 728
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 729
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 729
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 730
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 730
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 731
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 731
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 732
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 732
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 733
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 733
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 734
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 734
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 735
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=151 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 735
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=152 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 736
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=152 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 736
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=152 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 737
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=152 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 737
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=152 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 738
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=152 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 738
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=152 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 739
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=152 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 739
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 740
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 740
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 741
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 741
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 742
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 742
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 743
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 743
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 744
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 744
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 745
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 745
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 746
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=153 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 746
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=154 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 747
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=154 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 747
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=154 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 748
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=154 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 748
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=154 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 749
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=154 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 749
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=154 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 750
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=154 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 750
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=154 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 751
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=154 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 751
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=155 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 752
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=155 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 752
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=155 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 753
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=155 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 753
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=155 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 754
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=155 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 754
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=155 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 755
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=155 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 755
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 756
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 756
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 757
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 757
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 758
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 758
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 759
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 759
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 760
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 760
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 761
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 761
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 762
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=156 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 762
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=157 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 763
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=157 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 763
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=157 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 764
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=157 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 764
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=157 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 765
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=157 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 765
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=157 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 766
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=157 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 766
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=157 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 767
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=157 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 767
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=157 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 768
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=157 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 768
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=158 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 769
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=158 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 769
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=158 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 770
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=158 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 770
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=158 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 771
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=158 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 771
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=158 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 772
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=158 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 772
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=158 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 773
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=159 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 774
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=159 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 774
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=159 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 775
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=159 outside [1, 118]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 775
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=159 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 776
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=159 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 777
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=159 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 778
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=159 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 779
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=159 outside [1, 118]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 780
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ARIZONA"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ARKANSAS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 46 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "CALIFORNIA"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 4 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "FLORIDA > Miami-Dade County, Florida, Aviation Revenue Bonds, Miami International Airport, Series 2002"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 4 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ILLINOIS > City of Chicago, Illinois, Chicago-O'Hare International Airport, Second Lien Passenger Facility Charge Revenue Bonds, Series 2001C"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INDIANA > Indiana Bond Bank, Special Program Bonds, 2002 Series D, Hendricks County Redevelopment District"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INDIANA > New Albany-Floyd County School Building Corporation, Indiana, First Mortgage Bonds, Series 2002"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INDIANA > Northern Wells Community School Building Corporation, Wells County, Indiana, First Mortgage Bonds, Series 2001"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MAINE"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (13342931) != extracted (5193150), diff=$8149781",
+      "context": {
+        "section_path": "MARYLAND",
+        "label": "MARYLAND - 1.7%",
+        "calculated": "13342931",
+        "extracted": "5193150",
+        "diff": "8149781"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "TEXAS > Texas Public Finance Authority, Revenue Financing System Bonds, Series 2002, Texas Southern University"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "TEXAS > Texas Student Housing Authority, Austin, Student Housing Revenue Bonds, Texas Project, Senior Series 2001A"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 4 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "TEXAS > Williamson County, Texas, General Obligation Road Bonds, Series 2002"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "WASHINGTON > Washington State Economic Development Finance Authority, Wastewater Revenue Bonds, LOTT Project, Series 2002"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (49559147) != extracted (4.1), diff=$49559142.9",
+      "context": {
+        "section_path": "WEST VIRGINIA",
+        "label": "WEST VIRGINIA - 4.1%",
+        "calculated": "49559147",
+        "extracted": "4.1",
+        "diff": "49559142.9"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (91185000) != extracted (14500000), diff=$76685000",
+      "context": {
+        "section_path": "SHORT-TERM INVESTMENTS",
+        "label": "Total Short-Term Investments (cost $14,500,000)",
+        "calculated": "91185000",
+        "extracted": "14500000",
+        "diff": "76685000"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 14 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALABAMA"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 5 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALASKA"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "OREGON > State of Oregon, General Obligation Veterans Welfare Bonds, 2002 Series 82"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "WYOMING"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 11 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Long-Term Investments > Washington"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Long-Term Investments > West Virginia"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (55219319) != extracted (6147060), diff=$49072259",
+      "context": {
+        "section_path": "Long-Term Investments",
+        "label": "WEST VIRGINIA - 2.0%",
+        "calculated": "55219319",
+        "extracted": "6147060",
+        "diff": "49072259"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > Florida"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > Idaho"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > Ohio"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MONTANA"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (5077653529) != Total row (917359398), diff=$4160294131",
+      "context": {
+        "label": "Total Investments",
+        "calculated": "5077653529",
+        "extracted": "917359398",
+        "diff": "4160294131"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2003) differs from filename (1804)",
+      "context": {
+        "as_of_date": "April 30, 2003",
+        "filename_date": "1804-03-00"
+      }
+    }
+  ]
+}

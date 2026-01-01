@@ -1,0 +1,795 @@
+{
+  "source_name": "0000002230-09-000035",
+  "total_rows": 128,
+  "holding_count": 87,
+  "subtotal_count": 35,
+  "total_count": 6,
+  "error_count": 18,
+  "warning_count": 23,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "709609452",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "957727681",
+  "extracted_total_fv": "957696431",
+  "computed_sums": {
+    "Stocks > Consumer > Consumer Discretionary": {
+      "calculated_fv": "42338895",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "42338895",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Consumer > Consumer Staples": {
+      "calculated_fv": "131913400",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "131913400",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Consumer": {
+      "calculated_fv": "174252295",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "5.0",
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks > Energy": {
+      "calculated_fv": "103130433",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "103130433",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Financial > Banking": {
+      "calculated_fv": "77506266",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "77506266",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Financial > Insurance": {
+      "calculated_fv": "7111100",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks > Financial": {
+      "calculated_fv": "84617366",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "9.2",
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks > Health Care": {
+      "calculated_fv": "132969026",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "132969026",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Industrials": {
+      "calculated_fv": "113141500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "113141500",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Information Technology > Communication Equipment": {
+      "calculated_fv": "4765000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks > Information Technology > Computer Related": {
+      "calculated_fv": "74089600",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "74089600",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Information Technology > Electronics": {
+      "calculated_fv": "19102400",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "19102400",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Information Technology": {
+      "calculated_fv": "97957000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 3,
+      "total_count": 0
+    },
+    "Stocks > Materials": {
+      "calculated_fv": "9108000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks > Telecom Services": {
+      "calculated_fv": "11400000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks > Utilities": {
+      "calculated_fv": "25372727",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "25372727",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks": {
+      "calculated_fv": "751948347",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "42338895",
+      "extracted_cost": null,
+      "extracted_pct": "20.7",
+      "holding_count": 0,
+      "child_count": 9,
+      "subtotal_count": 9,
+      "total_count": 1,
+      "total_label": "Total Stocks",
+      "total_extracted_fv": "751948347"
+    },
+    "Short-Term Investments > U.S. Government Obligations": {
+      "calculated_fv": "12496792",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.5",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Short-Term Investments > Commercial Paper": {
+      "calculated_fv": "29988038",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.6",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Short-Term Investments > Money Market Funds": {
+      "calculated_fv": "46650000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "5.5",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Short-Term Investments > Time Deposit": {
+      "calculated_fv": "207678",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "89342508",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "10.6",
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "total_label": "Total Short-Term Investments",
+      "total_extracted_fv": "89342508"
+    },
+    "Securities Lending Collateral > Money Market Funds": {
+      "calculated_fv": "116405576",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "13.9",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Securities Lending Collateral": {
+      "calculated_fv": "116405576",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": "116405576",
+      "extracted_pct": "13.9",
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "COVERED CALLS": {
+      "calculated_fv": "1000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "COLLATERALIZED PUTS": {
+      "calculated_fv": "30250",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "30250",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "(root)": {
+      "calculated_fv": "957727681",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 6,
+      "subtotal_count": 0,
+      "total_count": 3,
+      "total_label": "Total Investments -- 114.0%",
+      "total_extracted_fv": "957696431"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8021250' don't match citation content digits '19473300' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 46,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '132969026' don't match citation content digits '11095500' (overlap: 44%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 56,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4444444444444444
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4450000' don't match citation content digits '42445283' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 67,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '2186774' (overlap: 14%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 67,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4812977' don't match citation content digits '12912000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 92,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '751948347' don't match citation content digits '7111100' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 94,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '864016288' don't match citation content digits '12912000' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 94,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '12496792' don't match citation content digits '8283200' (overlap: 25%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 97,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3298749' don't match citation content digits '8283200' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 99,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '14995458' don't match citation content digits '7770000' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 100,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '29988038' don't match citation content digits '7111100' (overlap: 12%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 103,
+        "citation_idx": 0,
+        "overlap_ratio": 0.125
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '89342508' don't match citation content digits '12912000' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 113,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '89342508' don't match citation content digits '12912000' (overlap: 38%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 113,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '116405576' don't match citation content digits '12912000' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 114,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '139' don't match citation content digits '207' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 115,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '957696431' don't match citation content digits '343500' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 117,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 126
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "TOTAL row has empty label",
+      "context": {
+        "row": 127
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks > Financial > Insurance"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks > Information Technology > Communication Equipment"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks > Materials"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks > Telecom Services"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (751948347) != extracted subtotal (42338895), diff=$709609452",
+      "context": {
+        "section_path": "Stocks",
+        "label": "Consumer -- 20.7%",
+        "calculated": "751948347",
+        "extracted": "42338895",
+        "diff": "709609452"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "COVERED CALLS"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_FV",
+      "message": "Grand total of all holdings (957727681) != extracted Total (957696431), diff=$31250",
+      "context": {
+        "section_path": "(root)",
+        "label": "Total Investments -- 114.0%",
+        "calculated": "957727681",
+        "extracted": "957696431",
+        "diff": "31250"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Banking - 9.2%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks > Financial",
+        "label": "Banking - 9.2%",
+        "keywords": [
+          "banking"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Insurance -- 0.9%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks > Financial",
+        "label": "Insurance -- 0.9%",
+        "keywords": [
+          "insurance"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Communication Equipment -- 0.6%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks > Information Technology",
+        "label": "Communication Equipment -- 0.6%",
+        "keywords": [
+          "communication",
+          "equipment"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Computer Related - 8.8%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks > Information Technology",
+        "label": "Computer Related - 8.8%",
+        "keywords": [
+          "computer",
+          "related"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Electronics -- 2.3%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks > Information Technology",
+        "label": "Electronics -- 2.3%",
+        "keywords": [
+          "electronics"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Consumer -- 20.7%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks",
+        "label": "Consumer -- 20.7%",
+        "keywords": [
+          "consumer"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Energy 12.3%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks",
+        "label": "Energy 12.3%",
+        "keywords": [
+          "energy"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Financial -- 10.1%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks",
+        "label": "Financial -- 10.1%",
+        "keywords": [
+          "financial"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Health Care -- 15.8%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks",
+        "label": "Health Care -- 15.8%",
+        "keywords": [
+          "health",
+          "care"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Industrials -13.4%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks",
+        "label": "Industrials -13.4%",
+        "keywords": [
+          "industrials"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Information Technology -- 11.7%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks",
+        "label": "Information Technology -- 11.7%",
+        "keywords": [
+          "information",
+          "technology"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Materials -- 1.1%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks",
+        "label": "Materials -- 1.1%",
+        "keywords": [
+          "materials"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Telecom Services -- 1.4%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks",
+        "label": "Telecom Services -- 1.4%",
+        "keywords": [
+          "telecom",
+          "services"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Utilities -- 3.0%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks",
+        "label": "Utilities -- 3.0%",
+        "keywords": [
+          "utilities"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'TOTAL' but no holdings or child sections",
+      "context": {
+        "section_path": "Outstanding Option Contracts",
+        "label": "TOTAL"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (2230)",
+      "context": {
+        "as_of_date": "December 31, 2008",
+        "filename_date": "2230-09-00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2182 @@
+{
+  "result": {
+    "result": {
+      "soi_title": {
+        "value": "SCHEDULE OF INVESTMENTS",
+        "citations": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.26481481481481484,
+              "top": 0.021354166666666667,
+              "width": 0.18888888888888888,
+              "height": 0.005208333333333332,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "SCHEDULE OF INVESTMENTS",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": 0.985,
+              "parse_confidence": 0.80267393887043
+            },
+            "extra": null
+          }
+        ]
+      },
+      "as_of_date": {
+        "value": "June 30, 2007",
+        "citations": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.30648148148148147,
+              "top": 0.059375,
+              "width": 0.10648148148148148,
+              "height": 0.005729166666666666,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "June 30, 2007",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": 1.0,
+              "parse_confidence": 1.0
+            },
+            "extra": null
+          }
+        ]
+      },
+      "reporting_basis": {
+        "value": "unaudited",
+        "citations": [
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.03333333333333333,
+              "top": 0.24677082697550456,
+              "width": 0.3716666610152633,
+              "height": 0.00770834287007649,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": " (unaudited)",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "low",
+            "granular_confidence": {
+              "extract_confidence": 0.835,
+              "parse_confidence": 1.0
+            },
+            "extra": null
+          }
+        ]
+      },
+      "soi_rows": [
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.07927083224058151,
+                  "width": 0.06611110642552376,
+                  "height": 0.007708333432674408,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Consumer",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.049074074074074076,
+                    "top": 0.049479166666666664,
+                    "width": 0.1398148148148148,
+                    "height": 0.0072916666666666755,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7261180937290193
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Consumer",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.07927083224058151,
+                  "width": 0.06611110642552376,
+                  "height": 0.007708333432674408,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Consumer",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "16.6%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.23981481790542603,
+                  "top": 0.07927083224058151,
+                  "width": 0.041296303272247314,
+                  "height": 0.007708333432674408,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "16.6%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Consumer 16.6%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.07927083224058151,
+                  "width": 0.2477777861058712,
+                  "height": 0.007708333432674408,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Consumer 16.6%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.08906249701976776,
+                  "width": 0.04962962493300438,
+                  "height": 0.007708333432674408,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Energy",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.049074074074074076,
+                    "top": 0.049479166666666664,
+                    "width": 0.1398148148148148,
+                    "height": 0.0072916666666666755,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7261180937290193
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Energy",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.08906249701976776,
+                  "width": 0.04962962493300438,
+                  "height": 0.007708333432674408,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Energy",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "13.1%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.23981481790542603,
+                  "top": 0.08906249701976776,
+                  "width": 0.041296303272247314,
+                  "height": 0.007708333432674408,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "13.1%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Energy 13.1%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.08906249701976776,
+                  "width": 0.2477777861058712,
+                  "height": 0.007708333432674408,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Energy 13.1%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.0989583358168602,
+                  "width": 0.08259258791804314,
+                  "height": 0.007708333432674408,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Financials",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.049074074074074076,
+                    "top": 0.049479166666666664,
+                    "width": 0.1398148148148148,
+                    "height": 0.0072916666666666755,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7261180937290193
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Financials",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.0989583358168602,
+                  "width": 0.08259258791804314,
+                  "height": 0.007708333432674408,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Financials",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "16.4%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.23981481790542603,
+                  "top": 0.0989583358168602,
+                  "width": 0.041296303272247314,
+                  "height": 0.007708333432674408,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "16.4%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Financials 16.4%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.0989583358168602,
+                  "width": 0.2477777861058712,
+                  "height": 0.007708333432674408,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Financials 16.4%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.10875000059604645,
+                  "width": 0.04962962493300438,
+                  "height": 0.0078125,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Health",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.049074074074074076,
+                    "top": 0.049479166666666664,
+                    "width": 0.1398148148148148,
+                    "height": 0.0072916666666666755,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7261180937290193
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Health Care",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.10875000059604645,
+                  "width": 0.0909259207546711,
+                  "height": 0.0078125,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Health Care",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "12.1%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.23981481790542603,
+                  "top": 0.10875000059604645,
+                  "width": 0.041296303272247314,
+                  "height": 0.0078125,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "12.1%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Health Care 12.1%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.10875000059604645,
+                  "width": 0.2477777861058712,
+                  "height": 0.0078125,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Health Care 12.1%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.11864583194255829,
+                  "width": 0.0909259207546711,
+                  "height": 0.007708340883255005,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Industrials",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.049074074074074076,
+                    "top": 0.049479166666666664,
+                    "width": 0.1398148148148148,
+                    "height": 0.0072916666666666755,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7261180937290193
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Industrials",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.11864583194255829,
+                  "width": 0.0909259207546711,
+                  "height": 0.007708340883255005,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Industrials",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "14.2%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.23981481790542603,
+                  "top": 0.11864583194255829,
+                  "width": 0.041296303272247314,
+                  "height": 0.007708340883255005,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "14.2%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Industrials 14.2%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.11864583194255829,
+                  "width": 0.2477777861058712,
+                  "height": 0.007708340883255005,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Industrials 14.2%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.12843750417232513,
+                  "width": 0.0909259207546711,
+                  "height": 0.0078125,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Information",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.049074074074074076,
+                    "top": 0.049479166666666664,
+                    "width": 0.1398148148148148,
+                    "height": 0.0072916666666666755,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7261180937290193
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Information Technology",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.12843750417232513,
+                  "width": 0.18166666850447655,
+                  "height": 0.0078125,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Information Technology",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "12.7%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.23981481790542603,
+                  "top": 0.12843750417232513,
+                  "width": 0.041296303272247314,
+                  "height": 0.0078125,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "12.7%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Information Technology 12.7%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.12843750417232513,
+                  "width": 0.2477777861058712,
+                  "height": 0.0078125,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Information Technology 12.7%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.13833333551883698,
+                  "width": 0.07425925508141518,
+                  "height": 0.007708325982093811,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Materials",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.049074074074074076,
+                    "top": 0.049479166666666664,
+                    "width": 0.1398148148148148,
+                    "height": 0.0072916666666666755,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7261180937290193
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Materials",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.13833333551883698,
+                  "width": 0.07425925508141518,
+                  "height": 0.007708325982093811,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Materials",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "4.9%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.24796298146247864,
+                  "top": 0.13833333551883698,
+                  "width": 0.0331481397151947,
+                  "height": 0.007708325982093811,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "4.9%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Materials 4.9%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.13833333551883698,
+                  "width": 0.2477777861058712,
+                  "height": 0.007708325982093811,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Materials 4.9%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.14822916686534882,
+                  "width": 0.0577777735888958,
+                  "height": 0.007708325982093811,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Telecom",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.049074074074074076,
+                    "top": 0.049479166666666664,
+                    "width": 0.1398148148148148,
+                    "height": 0.0072916666666666755,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7261180937290193
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Telecom Services",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.14822916686534882,
+                  "width": 0.13222221657633781,
+                  "height": 0.007708325982093811,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Telecom Services",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "2.8%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.24796298146247864,
+                  "top": 0.14822916686534882,
+                  "width": 0.0331481397151947,
+                  "height": 0.007708325982093811,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "2.8%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Telecom Services 2.8%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.14822916686534882,
+                  "width": 0.2477777861058712,
+                  "height": 0.007708325982093811,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Telecom Services 2.8%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.15802083909511566,
+                  "width": 0.07425925508141518,
+                  "height": 0.0078125,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Utilities",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.049074074074074076,
+                    "top": 0.049479166666666664,
+                    "width": 0.1398148148148148,
+                    "height": 0.0072916666666666755,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7261180937290193
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Utilities",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.15802083909511566,
+                  "width": 0.07425925508141518,
+                  "height": 0.0078125,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Utilities",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "3.1%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.24796298146247864,
+                  "top": 0.15802083909511566,
+                  "width": 0.0331481397151947,
+                  "height": 0.0078125,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "3.1%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Utilities 3.1%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.15802083909511566,
+                  "width": 0.2477777861058712,
+                  "height": 0.0078125,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Utilities 3.1%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "row_type": {
+            "value": "SUBTOTAL",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.1679166704416275,
+                  "width": 0.08259258791804314,
+                  "height": 0.007708325982093811,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Short-Term",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "low",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "section_path": [
+            {
+              "value": "Sector Weightings",
+              "citations": [
+                {
+                  "type": "Text",
+                  "bbox": {
+                    "left": 0.049074074074074076,
+                    "top": 0.049479166666666664,
+                    "width": 0.1398148148148148,
+                    "height": 0.0072916666666666755,
+                    "page": 4,
+                    "original_page": 4
+                  },
+                  "content": "Sector Weightings",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.7261180937290193
+                  },
+                  "extra": null
+                }
+              ]
+            }
+          ],
+          "label": {
+            "value": "Short-Term Investments",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.1679166704416275,
+                  "width": 0.18166666850447655,
+                  "height": 0.007708325982093811,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Short-Term Investments",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "percent_net_assets_raw": {
+            "value": "3.8%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.24796298146247864,
+                  "top": 0.1679166704416275,
+                  "width": 0.0331481397151947,
+                  "height": 0.007708325982093811,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "3.8%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          },
+          "row_text": {
+            "value": "Short-Term Investments 3.8%",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333507180214,
+                  "top": 0.1679166704416275,
+                  "width": 0.2477777861058712,
+                  "height": 0.007708325982093811,
+                  "page": 4,
+                  "original_page": null
+                },
+                "content": "Short-Term Investments 3.8%",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": 0.8285628765821457
+                },
+                "extra": null,
+                "parentBlock": {
+                  "type": "Table",
+                  "bbox": {
+                    "left": 0.030555555555555555,
+                    "top": 0.07760416666666667,
+                    "width": 0.2537037037037037,
+                    "height": 0.0984375,
+                    "page": 4,
+                    "original_page": null
+                  },
+                  "content": "<table>\n  <tbody>\n    <tr>\n      <td>Consumer</td>\n      <td style=\"text-align:right\">16.6%</td>\n    </tr>\n    <tr>\n      <td>Energy</td>\n      <td style=\"text-align:right\">13.1%</td>\n    </tr>\n    <tr>\n      <td>Financials</td>\n      <td style=\"text-align:right\">16.4%</td>\n    </tr>\n    <tr>\n      <td>Health Care</td>\n      <td style=\"text-align:right\">12.1%</td>\n    </tr>\n    <tr>\n      <td>Industrials</td>\n      <td style=\"text-align:right\">14.2%</td>\n    </tr>\n    <tr>\n      <td>Information Technology</td>\n      <td style=\"text-align:right\">12.7%</td>\n    </tr>\n    <tr>\n      <td>Materials</td>\n      <td style=\"text-align:right\">4.9%</td>\n    </tr>\n    <tr>\n      <td>Telecom Services</td>\n      <td style=\"text-align:right\">2.8%</td>\n    </tr>\n    <tr>\n      <td>Utilities</td>\n      <td style=\"text-align:right\">3.1%</td>\n    </tr>\n    <tr>\n      <td>Short-Term Investments</td>\n      <td style=\"text-align:right\">3.8%</td>\n    </tr>\n  </tbody>\n</table>",
+                  "image_url": null,
+                  "chart_data": null,
+                  "confidence": "high",
+                  "granular_confidence": {
+                    "extract_confidence": null,
+                    "parse_confidence": 0.8285628765821457
+                  },
+                  "extra": null
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "usage": {
+      "num_fields": 53,
+      "num_pages": 4,
+      "credits": 16.0
+    },
+    "job_id": "7afad3d1-e4c0-4518-bbbb-f286de4427bd",
+    "studio_link": "https://studio.reducto.ai/job/7afad3d1-e4c0-4518-bbbb-f286de4427bd"
+  },
+  "job_id": "7afad3d1-e4c0-4518-bbbb-f286de4427bd",
+  "status": "Completed"
+}

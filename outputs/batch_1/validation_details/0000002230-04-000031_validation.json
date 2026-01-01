@@ -1,0 +1,988 @@
+{
+  "source_name": "0000002230-04-000031",
+  "total_rows": 153,
+  "holding_count": 123,
+  "subtotal_count": 23,
+  "total_count": 7,
+  "error_count": 1,
+  "warning_count": 75,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "164779503",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "1335160303",
+  "extracted_total_fv": "1170380800",
+  "computed_sums": {
+    "Stocks and Convertible Securities > Consumer > Consumer Discretionary": {
+      "calculated_fv": "76829700",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Consumer > Consumer Staples": {
+      "calculated_fv": "80789005",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Consumer": {
+      "calculated_fv": "157618705",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Stocks and Convertible Securities > Energy": {
+      "calculated_fv": "89312858",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Financial > Banking": {
+      "calculated_fv": "138209252",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "Stocks and Convertible Securities > Financial": {
+      "calculated_fv": "138209252",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Stocks and Convertible Securities": {
+      "calculated_fv": "385140815",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Insurance": {
+      "calculated_fv": "76715380",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "76715380",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Health Care": {
+      "calculated_fv": "178279450",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "178279450",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 13,
+      "child_count": 0
+    },
+    "Industrials": {
+      "calculated_fv": "167552640",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "167552640",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Information Technology > Communication Equipment": {
+      "calculated_fv": "24967100",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "24967100",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Information Technology > Computer Related": {
+      "calculated_fv": "122408875",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "122408875",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0
+    },
+    "Information Technology > Electronics": {
+      "calculated_fv": "22285000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "22285000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Information Technology": {
+      "calculated_fv": "169660975",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Materials": {
+      "calculated_fv": "31763738",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "31763738",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Telecom Services": {
+      "calculated_fv": "55894192",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "55894192",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Utilities": {
+      "calculated_fv": "105373610",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "105373610",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0
+    },
+    "Short-Term Investments > U.S. Government Obligations": {
+      "calculated_fv": "34957125",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments > Commercial Paper": {
+      "calculated_fv": "12815002",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "12815002",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "47772127",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Securities Lending Collateral > Repurchase Agreements": {
+      "calculated_fv": "100891141",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Securities Lending Collateral > Certificates of Deposit": {
+      "calculated_fv": "702592",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Securities Lending Collateral > Commercial Paper": {
+      "calculated_fv": "9995480",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Securities Lending Collateral > Miscellaneous": {
+      "calculated_fv": "6005602",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Securities Lending Collateral": {
+      "calculated_fv": "117594815",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4
+    },
+    "SCHEDULE OF OUTSTANDING OPTION CONTRACTS > COVERED CALLS": {
+      "calculated_fv": "-870710",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "-870710",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0
+    },
+    "SCHEDULE OF OUTSTANDING OPTION CONTRACTS > COLLATERALIZED PUTS": {
+      "calculated_fv": "283271",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "283271",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 18,
+      "child_count": 0
+    },
+    "SCHEDULE OF OUTSTANDING OPTION CONTRACTS": {
+      "calculated_fv": "-587439",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "1335160303",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1170380800",
+      "extracted_cost": "887680870",
+      "extracted_pct": null,
+      "label": "Total Stocks and Convertible Securities"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 119
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 119
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 11]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 119
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 120
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 120
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 11]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 120
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 121
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 121
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 122
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 122
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 123
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 123
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 124
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 124
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 125
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 125
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 126
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 126
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 127
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 127
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 128
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 128
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 129
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 129
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 130
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 130
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 131
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 131
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 132
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 132
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 133
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 133
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 134
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 134
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 135
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 135
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 136
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 136
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 137
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 137
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 138
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 138
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 139
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 139
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 140
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 140
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 141
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 141
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 142
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 142
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 143
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 143
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 144
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 144
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 145
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 145
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 146
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 146
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 147
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 147
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 148
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 148
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 149
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 149
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 150
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 150
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 151
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 151
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 11]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 152
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > U.S. Government Obligations"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Securities Lending Collateral > Repurchase Agreements"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Securities Lending Collateral > Certificates of Deposit"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Securities Lending Collateral > Commercial Paper"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Securities Lending Collateral > Miscellaneous"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (1335160303) != Total row (1170380800), diff=$164779503",
+      "context": {
+        "label": "Total Stocks and Convertible Securities",
+        "calculated": "1335160303",
+        "extracted": "1170380800",
+        "diff": "164779503"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2003) differs from filename (2230)",
+      "context": {
+        "as_of_date": "December 31, 2003",
+        "filename_date": "2230-04-00"
+      }
+    }
+  ]
+}

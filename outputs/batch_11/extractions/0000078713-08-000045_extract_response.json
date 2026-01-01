@@ -1,0 +1,206 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "SCHEDULE OF INVESTMENTS",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.020833333333333332,
+            "width": 0.38981481481481484,
+            "height": 0.006250000000000002,
+            "page": 1,
+            "original_page": 24
+          },
+          "content": "SCHEDULE OF INVESTMENTS 5/31/08 (unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.983,
+            "parse_confidence": 0.9080474346876144
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "5/31/08",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.25277777777777777,
+            "top": 0.020833333333333332,
+            "width": 0.06296296296296294,
+            "height": 0.006250000000000002,
+            "page": 1,
+            "original_page": 24
+          },
+          "content": "5/31/08",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.989,
+            "parse_confidence": 0.9080474346876144
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "unaudited",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.3296296296296296,
+            "top": 0.020833333333333332,
+            "width": 0.0935185185185185,
+            "height": 0.006250000000000002,
+            "page": 1,
+            "original_page": 24
+          },
+          "content": "(unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.829,
+            "parse_confidence": 0.9080474346876144
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": [
+      {
+        "row_type": {
+          "value": "TOTAL",
+          "citations": []
+        },
+        "section_path": {
+          "value": null,
+          "citations": []
+        },
+        "label": {
+          "value": "Net unrealized loss on investments based on cost for federal income tax purposes",
+          "citations": []
+        },
+        "investment": {
+          "value": null,
+          "citations": []
+        },
+        "cost_raw": {
+          "value": "696,378,446",
+          "citations": []
+        },
+        "fair_value_raw": {
+          "value": null,
+          "citations": []
+        },
+        "percent_net_assets_raw": {
+          "value": null,
+          "citations": []
+        },
+        "footnote_markers": [
+          {
+            "value": "(h)",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "row_type": {
+          "value": "TOTAL",
+          "citations": []
+        },
+        "section_path": {
+          "value": null,
+          "citations": []
+        },
+        "label": {
+          "value": "Net unrealized loss",
+          "citations": []
+        },
+        "investment": {
+          "value": null,
+          "citations": []
+        },
+        "fair_value_raw": {
+          "value": "$(73,006,688)",
+          "citations": []
+        },
+        "percent_net_assets_raw": {
+          "value": null,
+          "citations": []
+        }
+      },
+      {
+        "row_type": {
+          "value": "TOTAL",
+          "citations": []
+        },
+        "section_path": {
+          "value": null,
+          "citations": []
+        },
+        "label": {
+          "value": "Net unrealized loss on investments (financial reporting purposes)",
+          "citations": []
+        },
+        "investment": {
+          "value": null,
+          "citations": []
+        },
+        "fair_value_raw": {
+          "value": "$72,937,370",
+          "citations": []
+        },
+        "percent_net_assets_raw": {
+          "value": null,
+          "citations": []
+        }
+      },
+      {
+        "row_type": {
+          "value": "TOTAL",
+          "citations": []
+        },
+        "section_path": {
+          "value": null,
+          "citations": []
+        },
+        "label": {
+          "value": "Cost of investments (financial reporting purposes)",
+          "citations": []
+        },
+        "investment": {
+          "value": null,
+          "citations": []
+        },
+        "cost_raw": {
+          "value": "$696,309,128",
+          "citations": []
+        },
+        "fair_value_raw": {
+          "value": null,
+          "citations": []
+        },
+        "percent_net_assets_raw": {
+          "value": null,
+          "citations": []
+        }
+      }
+    ]
+  },
+  "usage": {
+    "num_fields": 30,
+    "num_pages": 20,
+    "credits": 80.0
+  },
+  "job_id": "e345f48e-b0df-4702-9d2f-02a2e43592b7",
+  "studio_link": "https://studio.reducto.ai/job/e345f48e-b0df-4702-9d2f-02a2e43592b7"
+}

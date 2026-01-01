@@ -1,0 +1,87 @@
+{
+  "result": {
+    "soi_title": {
+      "value": null,
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.030729166666666665,
+            "width": 0.7268518518518519,
+            "height": 0.14010416666666667,
+            "page": 5,
+            "original_page": 14
+          },
+          "content": "(1) Contingent payment debt instrument which accrues contingent interest. See Note 1(f). (2) Security not registered under the Securities Act of 1933, as amended (i.e., the security was purchased in a Rule 144A or a Reg D transaction). The security may be resold only pursuant to an exemption from registration under the 1933 Act, typically to qualified institutional buyers. The Fund generally has no rights to demand registration of these securities. The aggregate market value of these securities at April 30, 2007 was $18,180,194 which represented 13.6% of the Fund's net assets. (3) These securities are required to be converted on the dates listed; they generally may be converted prior to these dates at the option of the holder.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.5,
+            "parse_confidence": 0.7976254522800446
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "April 30, 2007",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.2350000028257017,
+            "top": 0.11864583492279053,
+            "width": 0.1283333531132451,
+            "height": 0.008645828564961752,
+            "page": 5,
+            "original_page": 5
+          },
+          "content": "April 30, 2007",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.7976254522800446
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": null,
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.030729166666666665,
+            "width": 0.7268518518518519,
+            "height": 0.14010416666666667,
+            "page": 5,
+            "original_page": 14
+          },
+          "content": "(1) Contingent payment debt instrument which accrues contingent interest. See Note 1(f). (2) Security not registered under the Securities Act of 1933, as amended (i.e., the security was purchased in a Rule 144A or a Reg D transaction). The security may be resold only pursuant to an exemption from registration under the 1933 Act, typically to qualified institutional buyers. The Fund generally has no rights to demand registration of these securities. The aggregate market value of these securities at April 30, 2007 was $18,180,194 which represented 13.6% of the Fund's net assets. (3) These securities are required to be converted on the dates listed; they generally may be converted prior to these dates at the option of the holder.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.5,
+            "parse_confidence": 0.7976254522800446
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": []
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 1,
+    "credits": 4.0
+  },
+  "job_id": "618d53bd-a1e9-44fb-8da9-61d942857d97",
+  "studio_link": "https://studio.reducto.ai/job/618d53bd-a1e9-44fb-8da9-61d942857d97"
+}

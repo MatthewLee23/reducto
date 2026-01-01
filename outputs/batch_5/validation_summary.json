@@ -1,0 +1,31 @@
+{
+  "batch_number": 5,
+  "run_timestamp": "Dec 27, 2025 at 04:32 PM",
+  "total_files": 1,
+  "total_rows": 180,
+  "total_errors": 26,
+  "total_warnings": 16,
+  "files_with_errors": 1,
+  "files_with_warnings": 0,
+  "files_with_arithmetic_errors": 1,
+  "files_with_root_mismatch": 1,
+  "all_passed": false,
+  "top_error_codes": {
+    "CITATION_VALUE_MISMATCH": 24,
+    "SUBTOTAL_MISSING_LABEL": 13,
+    "ARITH_MISMATCH_FV": 1,
+    "MISSING_SUBTOTAL": 1,
+    "ROOT_TOTAL_MISMATCH_FV": 1,
+    "ORPHANED_TOTAL": 1,
+    "DATE_MISMATCH": 1
+  },
+  "files_with_errors_list": [
+    "0000002230-03-000010"
+  ],
+  "files_with_arithmetic_errors_list": [
+    "0000002230-03-000010"
+  ],
+  "files_with_root_mismatch_list": [
+    "0000002230-03-000010"
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "source_name": "0000216851-04-000018",
+  "total_rows": 96,
+  "holding_count": 65,
+  "subtotal_count": 25,
+  "total_count": 6,
+  "error_count": 1,
+  "warning_count": 25,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "68562499.690250",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "573550722.690250",
+  "extracted_total_fv": "504988223",
+  "computed_sums": {
+    "Stocks And Convertible Securities > Energy > Internationals": {
+      "calculated_fv": "144335900",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Energy > Domestics": {
+      "calculated_fv": "50878381",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Energy > Producers": {
+      "calculated_fv": "78390624",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Energy > Distributors": {
+      "calculated_fv": "77786641",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Energy > Services": {
+      "calculated_fv": "70612330",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Energy": {
+      "calculated_fv": "422003876",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5
+    },
+    "Stocks And Convertible Securities > Basic Industries > Basic Materials & Other": {
+      "calculated_fv": "59747220",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Basic Industries > Paper and Forest Products": {
+      "calculated_fv": "20546879.690250",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Stocks And Convertible Securities > Basic Industries": {
+      "calculated_fv": "80294099.690250",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Stocks And Convertible Securities": {
+      "calculated_fv": "502297975.690250",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Short-Term Investments > U.S. Government Obligations": {
+      "calculated_fv": "9986933",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments > Certificates of Deposit": {
+      "calculated_fv": "5550000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments > Commercial Paper": {
+      "calculated_fv": "46832672",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "62369605",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Securities Lending Collateral > Repurchase Agreements": {
+      "calculated_fv": "6385709",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Securities Lending Collateral > Commercial Paper": {
+      "calculated_fv": "2497433",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Securities Lending Collateral": {
+      "calculated_fv": "8883142",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "573550722.690250",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "504988223",
+      "extracted_cost": "279204690",
+      "extracted_pct": null,
+      "label": "Total Stocks And Convertible Securities (Cost $279,204,690)"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '217624' don't match citation content digits '200000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 29,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '11538450' don't match citation content digits '200000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 35,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '277500' don't match citation content digits '141000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 35,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1653600' don't match citation content digits '300000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 37,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4894500' don't match citation content digits '316000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 41,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5652500' don't match citation content digits '141000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 45,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6556250' don't match citation content digits '190000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 52,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1533443' don't match citation content digits '300000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 53,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '48450' don't match citation content digits '125000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 53,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6466125' don't match citation content digits '300000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 54,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9147500' don't match citation content digits '9682000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 55,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '454800' don't match citation content digits '600000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 57,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5218882' don't match citation content digits '600000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 58,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5559427' don't match citation content digits '200000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 64,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '278668' don't match citation content digits '200000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 64,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5550000' don't match citation content digits '9525517'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 72,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6996840' don't match citation content digits '125000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 74,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3296971' don't match citation content digits '7447500'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 77,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2397564' don't match citation content digits '32142000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 79,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5320885' don't match citation content digits '32142000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 81,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5325000' don't match citation content digits '600000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 81,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '46832672' don't match citation content digits '11942000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 84,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6385709' don't match citation content digits '22887000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 88,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1498044' don't match citation content digits '9898750'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 90,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (573550722.690250) != Total row (504988223), diff=$68562499.690250",
+      "context": {
+        "label": "Total Stocks And Convertible Securities (Cost $279,204,690)",
+        "calculated": "573550722.690250",
+        "extracted": "504988223",
+        "diff": "68562499.690250"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2004) differs from filename (6851)",
+      "context": {
+        "as_of_date": "June 30, 2004",
+        "filename_date": "6851-04-00"
+      }
+    }
+  ]
+}

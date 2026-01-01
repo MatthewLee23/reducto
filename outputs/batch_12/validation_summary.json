@@ -1,0 +1,36 @@
+{
+  "batch_number": 12,
+  "run_timestamp": "20251231_132418",
+  "total_files": 10,
+  "total_rows": 322,
+  "total_errors": 19,
+  "total_warnings": 25,
+  "files_with_errors": 2,
+  "files_with_warnings": 6,
+  "files_with_arithmetic_errors": 2,
+  "files_with_root_mismatch": 1,
+  "all_passed": false,
+  "top_error_codes": {
+    "SUBTOTAL_PATH_MISMATCH": 10,
+    "DATE_MISMATCH": 8,
+    "CITATION_VALUE_MISMATCH": 7,
+    "ARITH_MISMATCH_PCT": 4,
+    "ORPHANED_TOTAL": 4,
+    "TOTAL_MISMATCH_PCT": 2,
+    "TOTAL_MISMATCH_FV": 2,
+    "TOTAL_MISSING_NUMERIC": 1,
+    "SUSPICIOUS_NEGATIVE_PERCENT": 1,
+    "NORMALIZATION_APPLIED": 1
+  },
+  "files_with_errors_list": [
+    "0000009521-04-000011",
+    "0000009521-04-000022"
+  ],
+  "files_with_arithmetic_errors_list": [
+    "0000009521-04-000011",
+    "0000009521-04-000022"
+  ],
+  "files_with_root_mismatch_list": [
+    "0000009521-04-000022"
+  ]
+}

@@ -52,7 +52,7 @@ def get_parse_config(remote_input: str, pages: list[int]) -> dict:
                 { "scope": "text" },
                 {
                     "scope": "table",
-                    "prompt": "Extract Schedule of Investments tables from SEC N-CSR/N-CSRS. Preserve merged headers, multi-line security descriptions, and page-spanning tables. Prefer table structure that keeps numeric columns aligned (Principal/Shares, Cost, Fair Value, %Net Assets, Interest Rate, Maturity)."
+                    "prompt": "Extract Schedule of Investments tables from SEC N-CSR/N-CSRS. Preserve merged headers, multi-line security descriptions, and page-spanning tables. Prefer table structure that keeps numeric columns aligned (Principal/Shares, Cost, Fair Value, %Net Assets, Interest Rate, Maturity). CRITICAL: Do NOT mistake the percentage sign '%' for the digit '8'. For example, '2.7%' must be read as '2.7%', NOT '2.78'."
                 }
             ],
             "summarize_figures": False

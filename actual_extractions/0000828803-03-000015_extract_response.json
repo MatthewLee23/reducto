@@ -1,0 +1,87 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "Statement of Investments",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.10770833492279053,
+            "width": 0.22925923665364584,
+            "height": 0.008645828564961752,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "Statement of Investments,",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.999,
+            "parse_confidence": 0.8298971474170684
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "August 31, 2003",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.2712962962962963,
+            "top": 0.1078125,
+            "width": 0.13703703703703704,
+            "height": 0.00625,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "August 31, 2003",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.8298971474170684
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": null,
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.10729166666666666,
+            "width": 0.37592592592592594,
+            "height": 0.008854166666666666,
+            "page": 1,
+            "original_page": 14
+          },
+          "content": "Statement of Investments, August 31, 2003",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.5,
+            "parse_confidence": 0.8298971474170684
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": []
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 5,
+    "credits": 20.0
+  },
+  "job_id": "16553105-015f-4962-9722-419474d01e84",
+  "studio_link": "https://studio.reducto.ai/job/16553105-015f-4962-9722-419474d01e84"
+}

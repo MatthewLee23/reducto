@@ -1,0 +1,87 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "FUND'S INVESTMENTS",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03425925925925926,
+            "top": 0.2947916666666667,
+            "width": 0.09814814814814815,
+            "height": 0.016666666666666663,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "FUND'S INVESTMENTS",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.985,
+            "parse_confidence": 0.9477004885673523
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "April 30, 2003",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.34833332697550456,
+            "width": 0.1283333248562283,
+            "height": 0.00864582061767577,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "April 30, 2003",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.9632877349853516
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "unaudited",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.35927082697550455,
+            "width": 0.10074074356644241,
+            "height": 0.008645852406819643,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "(unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.835,
+            "parse_confidence": 0.9632877349853516
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": []
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 1,
+    "credits": 4.0
+  },
+  "job_id": "ba53fde9-98ee-43dd-91ff-25da947c45c2",
+  "studio_link": "https://studio.reducto.ai/job/ba53fde9-98ee-43dd-91ff-25da947c45c2"
+}

@@ -1,0 +1,87 @@
+{
+  "result": {
+    "soi_rows": [],
+    "soi_title": {
+      "value": "Schedule of Investments",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.020208332935969034,
+            "width": 0.41259259824399597,
+            "height": 0.008645834525426228,
+            "page": 1,
+            "original_page": 23
+          },
+          "content": "Schedule of Investments | 5/31/10 (unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": null
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "May 31, 2010",
+      "citations": [
+        {
+          "type": "Footer",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.019791666666666666,
+            "width": 0.41203703703703703,
+            "height": 0.008854166666666666,
+            "page": 1,
+            "original_page": 23
+          },
+          "content": "Schedule of Investments | 5/31/10 (unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.8620492815971375
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "unaudited",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.3450000056514034,
+            "top": 0.020208332935969034,
+            "width": 0.10092592592592592,
+            "height": 0.008645834525426228,
+            "page": 1,
+            "original_page": 23
+          },
+          "content": "(unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": null
+          },
+          "extra": null
+        }
+      ]
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 29,
+    "credits": 116.0
+  },
+  "job_id": "8ea720fb-2eab-426d-abde-6aa67a012b06",
+  "studio_link": "https://studio.reducto.ai/job/8ea720fb-2eab-426d-abde-6aa67a012b06"
+}

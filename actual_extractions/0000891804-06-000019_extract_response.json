@@ -1,0 +1,90 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "Portfolio of Investments",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.4688888832374855,
+            "top": 0.09447916348775227,
+            "width": 0.21314818770797167,
+            "height": 0.008333333333333331,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "Portfolio of Investments",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.8994709312915802
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.2101851851851852,
+            "top": 0.021354166666666667,
+            "width": 0.5351851851851852,
+            "height": 0.059895833333333336,
+            "page": 1,
+            "original_page": 68
+          },
+          "content": "All of the bonds in the Portfolio of Investments are either covered by Original Issue Insurance, Secondary Market Insurance or Portfolio Insurance, or are backed by an escrow or trust containing sufficient U.S. Government or U.S. Government agency securities, any of which ensure the timely payment of principal and interest.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.49,
+            "parse_confidence": 0.897100642323494
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.2101851851851852,
+            "top": 0.021354166666666667,
+            "width": 0.5351851851851852,
+            "height": 0.059895833333333336,
+            "page": 1,
+            "original_page": 68
+          },
+          "content": "All of the bonds in the Portfolio of Investments are either covered by Original Issue Insurance, Secondary Market Insurance or Portfolio Insurance, or are backed by an escrow or trust containing sufficient U.S. Government or U.S. Government agency securities, any of which ensure the timely payment of principal and interest.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.49,
+            "parse_confidence": 0.897100642323494
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": {
+      "value": null,
+      "citations": []
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 11,
+    "credits": 44.0
+  },
+  "job_id": "d0d6c595-d668-4994-ba68-743a09b1c5b2",
+  "studio_link": "https://studio.reducto.ai/job/d0d6c595-d668-4994-ba68-743a09b1c5b2"
+}

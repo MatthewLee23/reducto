@@ -1,0 +1,446 @@
+{
+  "source_name": "0000002230-09-000035",
+  "total_rows": 98,
+  "holding_count": 81,
+  "subtotal_count": 11,
+  "total_count": 6,
+  "error_count": 5,
+  "warning_count": 8,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "Stocks > Consumer > Consumer Discretionary": {
+      "calculated_fv": "42338895",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "42338895",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Consumer > Consumer Staples": {
+      "calculated_fv": "131913400",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "131913400",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Consumer": {
+      "calculated_fv": "174252295",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks > Energy": {
+      "calculated_fv": "103130433",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "103130433",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Financial > Banking": {
+      "calculated_fv": "77506266",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "77506266",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Financial > Insurance": {
+      "calculated_fv": "7111100",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks > Financial": {
+      "calculated_fv": "84617366",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks > Health Care": {
+      "calculated_fv": "132969026",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "132969026",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Industrials": {
+      "calculated_fv": "113141500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "113141500",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Information Technology > Communication Equipment": {
+      "calculated_fv": "4765000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks > Information Technology > Computer Related": {
+      "calculated_fv": "74089600",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "74089600",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Information Technology > Electronics": {
+      "calculated_fv": "19102400",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "19102400",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks > Information Technology": {
+      "calculated_fv": "97957000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks > Materials": {
+      "calculated_fv": "9108000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks > Telecom Services": {
+      "calculated_fv": "11400000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks > Utilities": {
+      "calculated_fv": "25372727",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "25372727",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks": {
+      "calculated_fv": "751948347",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 9,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "total_label": "Total Stocks",
+      "total_extracted_fv": "751948347"
+    },
+    "Short-Term Investments > U.S. Government Obligations": {
+      "calculated_fv": "12496792",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Short-Term Investments > Commercial Paper": {
+      "calculated_fv": "29988038",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "29988038",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Short-Term Investments > Money Market Funds": {
+      "calculated_fv": "46650000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "46650000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Short-Term Investments > Time Deposit": {
+      "calculated_fv": "207678",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "89342508",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "total_label": "Total Short-Term Investments",
+      "total_extracted_fv": "89342508"
+    },
+    "Total Securities Lending Collateral > Money Market Funds": {
+      "calculated_fv": "116405576",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Total Securities Lending Collateral": {
+      "calculated_fv": "116405576",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "total_label": "Total Securities Lending Collateral",
+      "total_extracted_fv": null
+    },
+    "(root)": {
+      "calculated_fv": "957696431",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 0,
+      "total_count": 3,
+      "total_label": "Total Investments",
+      "total_extracted_fv": "957696431"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '132969026' don't match citation content digits '18416000' (overlap: 44%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 48,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4444444444444444
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4812977' don't match citation content digits '12912000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 76,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '751948347' don't match citation content digits '7111100' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 78,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '89342508' don't match citation content digits '12912000' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 92,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '116405576' don't match citation content digits '12912000' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 94,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks > Financial > Insurance"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks > Information Technology > Communication Equipment"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks > Materials"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks > Telecom Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > U.S. Government Obligations"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > Time Deposit"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Total Securities Lending Collateral > Money Market Funds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (2230)",
+      "context": {
+        "as_of_date": "December 31, 2008",
+        "filename_date": "2230-09-00"
+      }
+    }
+  ]
+}

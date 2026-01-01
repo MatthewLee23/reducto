@@ -1,0 +1,216 @@
+{
+  "result": {
+    "soi_rows": [
+      {
+        "row_type": {
+          "value": "SUBTOTAL",
+          "citations": []
+        },
+        "section_path": [
+          {
+            "value": "Other",
+            "citations": [
+              {
+                "type": "Text",
+                "bbox": {
+                  "left": 0.03333333333333333,
+                  "top": 0.021354166666666667,
+                  "width": 0.044444444444444446,
+                  "height": 0.005208333333333332,
+                  "page": 1,
+                  "original_page": 41
+                },
+                "content": "Other",
+                "image_url": null,
+                "chart_data": null,
+                "confidence": "high",
+                "granular_confidence": {
+                  "extract_confidence": null,
+                  "parse_confidence": null
+                },
+                "extra": null
+              }
+            ]
+          }
+        ],
+        "label": {
+          "value": "Other",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.03333333333333333,
+                "top": 0.021354166666666667,
+                "width": 0.044444444444444446,
+                "height": 0.005208333333333332,
+                "page": 1,
+                "original_page": 41
+              },
+              "content": "Other",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": null
+              },
+              "extra": null
+            }
+          ]
+        },
+        "percent_net_assets_raw": {
+          "value": "13.0%",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.7212962962962963,
+                "top": 0.021354166666666667,
+                "width": 0.0444444444444444,
+                "height": 0.005208333333333332,
+                "page": 1,
+                "original_page": 41
+              },
+              "content": "13.0%",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": null
+              },
+              "extra": null
+            }
+          ]
+        },
+        "row_text": {
+          "value": "Other\n\n13.0%",
+          "citations": [
+            {
+              "type": "Header",
+              "bbox": {
+                "left": 0.03333333333333333,
+                "top": 0.021354166666666667,
+                "width": 0.044444444444444446,
+                "height": 0.005208333333333333,
+                "page": 1,
+                "original_page": 41
+              },
+              "content": "Other",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.8394387453794478
+              },
+              "extra": null
+            },
+            {
+              "type": "Header",
+              "bbox": {
+                "left": 0.7212962962962963,
+                "top": 0.021354166666666667,
+                "width": 0.044444444444444446,
+                "height": 0.005208333333333333,
+                "page": 1,
+                "original_page": 41
+              },
+              "content": "13.0%",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.8368985116481781
+              },
+              "extra": null
+            }
+          ]
+        }
+      }
+    ],
+    "soi_title": {
+      "value": "Portfolio of Investments",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.09677082697550456,
+            "width": 0.2781481424967448,
+            "height": 0.00864583651224772,
+            "page": 1,
+            "original_page": 41
+          },
+          "content": "| Portfolio of Investments",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": null
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "April 30, 2010",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.11822916666666666,
+            "width": 0.7333333333333333,
+            "height": 0.008854166666666666,
+            "page": 1,
+            "original_page": 41
+          },
+          "content": "April 30, 2010 (Unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 1.0
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "Unaudited",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.6659259372287326,
+            "top": 0.11864583492279053,
+            "width": 0.100740729437934,
+            "height": 0.008645828564961752,
+            "page": 1,
+            "original_page": 41
+          },
+          "content": "(Unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": null
+          },
+          "extra": null
+        }
+      ]
+    }
+  },
+  "usage": {
+    "num_fields": 8,
+    "num_pages": 65,
+    "credits": 260.0
+  },
+  "job_id": "73ac5233-8db9-4594-818e-df6aaca2d53c",
+  "studio_link": "https://studio.reducto.ai/job/73ac5233-8db9-4594-818e-df6aaca2d53c"
+}

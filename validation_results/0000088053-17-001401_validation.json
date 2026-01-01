@@ -1,0 +1,52 @@
+{
+  "source_name": "0000088053-17-001401",
+  "total_rows": 42,
+  "holding_count": 1,
+  "subtotal_count": 39,
+  "total_count": 2,
+  "error_count": 0,
+  "warning_count": 3,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "GRAND_TOTAL": {
+      "calculated_fv": null,
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "label": "Total"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'Total' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 40
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stocks > Transportation Infrastructure"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2017) differs from filename (8053)",
+      "context": {
+        "as_of_date": "June 30, 2017",
+        "filename_date": "8053-17-00"
+      }
+    }
+  ]
+}

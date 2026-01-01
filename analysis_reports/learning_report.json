@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-12-18T12:38:13.218584",
+  "files_analyzed": 703,
+  "with_data": 264,
+  "empty_data": 112,
+  "split_jobs": 327,
+  "total_rows": 11908,
+  "insights": [
+    {
+      "issue": "Citation values don't match extracted data",
+      "count": 326,
+      "cause": "OCR/parsing differences or incorrect bounding boxes",
+      "recommendation": "Use fuzzy matching for citation verification, or simplify citation requirements"
+    },
+    {
+      "issue": "Arithmetic totals don't match row sums",
+      "count": 7,
+      "cause": "Rounding errors, missing rows, or different number parsing",
+      "recommendation": "Accept tolerance (e.g., \u00b11%) for financial totals"
+    },
+    {
+      "issue": "Subtotal rows not properly identified",
+      "count": 157,
+      "cause": "Schema doesn't specify how to identify subtotal rows",
+      "recommendation": "Add is_subtotal or is_total field to extraction schema"
+    }
+  ],
+  "success_rate": 70.2127659574468
+}

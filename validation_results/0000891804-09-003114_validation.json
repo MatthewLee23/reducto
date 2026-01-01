@@ -1,0 +1,330 @@
+{
+  "source_name": "0000891804-09-003114",
+  "total_rows": 73,
+  "holding_count": 58,
+  "subtotal_count": 8,
+  "total_count": 7,
+  "error_count": 2,
+  "warning_count": 14,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "289431587",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "188016276",
+  "extracted_total_fv": "175509347",
+  "computed_sums": {
+    "Long-Term Investments > Common Stocks > Computers": {
+      "calculated_fv": "3649434",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Long-Term Investments > Common Stocks > Consumer Discretionary": {
+      "calculated_fv": "30930690",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "30930690",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "Long-Term Investments > Common Stocks > Consumer Services": {
+      "calculated_fv": "11068742",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "11068742",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Long-Term Investments > Common Stocks > Energy": {
+      "calculated_fv": "17137410",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "17137410",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "Long-Term Investments > Common Stocks > Financials": {
+      "calculated_fv": "30750794",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "30750794",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Long-Term Investments > Common Stocks > Health Care": {
+      "calculated_fv": "34941685",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "34941685",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Long-Term Investments > Common Stocks > Industrial": {
+      "calculated_fv": "2499500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Long-Term Investments > Common Stocks > Insurance": {
+      "calculated_fv": "478720",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Long-Term Investments > Common Stocks > Software": {
+      "calculated_fv": "7765150",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "7765150",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Long-Term Investments > Common Stocks > Technology": {
+      "calculated_fv": "36287222",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "36287222",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0
+    },
+    "Long-Term Investments > Common Stocks": {
+      "calculated_fv": "175509347",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 10
+    },
+    "Long-Term Investments > Exchange-Traded Funds": {
+      "calculated_fv": "10053000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "10053000",
+      "extracted_cost": "11067243",
+      "extracted_pct": "6.2",
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Long-Term Investments": {
+      "calculated_fv": "185562347",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Short-Term Investments > Money Market Funds": {
+      "calculated_fv": "2453929",
+      "calculated_cost": "2453929",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "2453929",
+      "calculated_cost": "2453929",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "188016276",
+      "calculated_cost": "2453929",
+      "calculated_pct": null,
+      "extracted_fv": "175509347",
+      "extracted_cost": "291885516",
+      "extracted_pct": "108.3",
+      "label": "TOTAL COMMON STOCKS"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2791124' don't match citation content digits '4828850'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 23,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4777680' don't match citation content digits '2222400'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 36,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '34941685' don't match citation content digits '3660800'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 43,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2499500' don't match citation content digits '2382000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 44,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3396000' don't match citation content digits '2170850'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 49,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4516300' don't match citation content digits '3308200'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 57,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '36287222' don't match citation content digits '4076100'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 61,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '185562347' don't match citation content digits '4076100'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 66,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '302952759' don't match citation content digits '4076100'",
+      "context": {
+        "field": "cost_raw",
+        "row": 66,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Long-Term Investments > Common Stocks > Computers"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Long-Term Investments > Common Stocks > Industrial"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Long-Term Investments > Common Stocks > Insurance"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Short-Term Investments > Money Market Funds"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (188016276) != Total row (175509347), diff=$12506929",
+      "context": {
+        "label": "TOTAL COMMON STOCKS",
+        "calculated": "188016276",
+        "extracted": "175509347",
+        "diff": "12506929"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_COST",
+      "message": "Sum of all costs (2453929) != Total row (291885516), diff=$289431587",
+      "context": {
+        "label": "TOTAL COMMON STOCKS",
+        "calculated": "2453929",
+        "extracted": "291885516",
+        "diff": "289431587"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2009) differs from filename (1804)",
+      "context": {
+        "as_of_date": "JUNE 30, 2009",
+        "filename_date": "1804-09-00"
+      }
+    }
+  ]
+}

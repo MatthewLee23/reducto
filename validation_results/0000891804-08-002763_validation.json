@@ -1,0 +1,248 @@
+{
+  "source_name": "0000891804-08-002763",
+  "total_rows": 77,
+  "holding_count": 51,
+  "subtotal_count": 20,
+  "total_count": 6,
+  "error_count": 2,
+  "warning_count": 6,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "289545981",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "226968127",
+  "extracted_total_fv": "218074003",
+  "computed_sums": {
+    "LONG-TERM INVESTMENTS > COMMON STOCKS > COMPUTERS": {
+      "calculated_fv": "5815704",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.7",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "LONG-TERM INVESTMENTS > COMMON STOCKS > CONSUMER DISCRETIONARY": {
+      "calculated_fv": "52703190",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "24.5",
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "LONG-TERM INVESTMENTS > COMMON STOCKS > CONSUMER SERVICES": {
+      "calculated_fv": "15972372",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "7.4",
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "LONG-TERM INVESTMENTS > COMMON STOCKS > ENERGY": {
+      "calculated_fv": "2820980",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "LONG-TERM INVESTMENTS > COMMON STOCKS > FINANCIALS": {
+      "calculated_fv": "39655452",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "18.5",
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "LONG-TERM INVESTMENTS > COMMON STOCKS > HEALTH CARE": {
+      "calculated_fv": "40029590",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "18.6",
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "LONG-TERM INVESTMENTS > COMMON STOCKS > INDUSTRIAL": {
+      "calculated_fv": "3073500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.4",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "LONG-TERM INVESTMENTS > COMMON STOCKS > INSURANCE": {
+      "calculated_fv": "756418",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "LONG-TERM INVESTMENTS > COMMON STOCKS > SOFTWARE": {
+      "calculated_fv": "6385500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.0",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "LONG-TERM INVESTMENTS > COMMON STOCKS > TECHNOLOGY": {
+      "calculated_fv": "50861297",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "23.7",
+      "holding_count": 12,
+      "child_count": 0
+    },
+    "LONG-TERM INVESTMENTS > COMMON STOCKS": {
+      "calculated_fv": "218074003",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "101.5",
+      "holding_count": 0,
+      "child_count": 10
+    },
+    "LONG-TERM INVESTMENTS": {
+      "calculated_fv": "218074003",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "101.5",
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "SHORT-TERM INVESTMENTS > MONEY MARKET FUNDS": {
+      "calculated_fv": "7886702",
+      "calculated_cost": "7886702",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.7",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SHORT-TERM INVESTMENTS > U.S. GOVERNMENT": {
+      "calculated_fv": "1007422",
+      "calculated_cost": "1006768",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SHORT-TERM INVESTMENTS": {
+      "calculated_fv": "8894124",
+      "calculated_cost": "8893470",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "4.1",
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "226968127",
+      "calculated_cost": "8893470",
+      "calculated_pct": null,
+      "extracted_fv": "218074003",
+      "extracted_cost": "298439451",
+      "extracted_pct": "101.5",
+      "label": "TOTAL LONG-TERM INVESTMENTS 101.5% (Cost $298,439,451)"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 15
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 20
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 33
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 45
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 65
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (226968127) != Total row (218074003), diff=$8894124",
+      "context": {
+        "label": "TOTAL LONG-TERM INVESTMENTS 101.5% (Cost $298,439,451)",
+        "calculated": "226968127",
+        "extracted": "218074003",
+        "diff": "8894124"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_COST",
+      "message": "Sum of all costs (8893470) != Total row (298439451), diff=$289545981",
+      "context": {
+        "label": "TOTAL LONG-TERM INVESTMENTS 101.5% (Cost $298,439,451)",
+        "calculated": "8893470",
+        "extracted": "298439451",
+        "diff": "289545981"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (1804)",
+      "context": {
+        "as_of_date": "JUNE 30, 2008",
+        "filename_date": "1804-08-00"
+      }
+    }
+  ]
+}

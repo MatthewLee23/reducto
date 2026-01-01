@@ -1,0 +1,29 @@
+{
+  "batch_number": 8,
+  "run_timestamp": "Dec 30, 2025 at 09:18 AM",
+  "summary": {
+    "total_files": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0,
+    "validated": 1,
+    "total_rows_extracted": 98,
+    "validation_errors": 5,
+    "validation_warnings": 8,
+    "files_with_arithmetic_errors": 0,
+    "files_with_root_mismatch": 0
+  },
+  "errors": [],
+  "skipped": [],
+  "validation_issues_by_code": {
+    "MISSING_SUBTOTAL": 7,
+    "CITATION_VALUE_MISMATCH": 5,
+    "DATE_MISMATCH": 1
+  },
+  "files_with_validation_errors": [
+    "0000002230-09-000035"
+  ],
+  "files_with_validation_warnings": [],
+  "files_with_arithmetic_errors": [],
+  "files_with_root_mismatch": []
+}

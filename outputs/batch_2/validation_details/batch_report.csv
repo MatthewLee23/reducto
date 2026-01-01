@@ -1,0 +1,16 @@
+filename,status,error_message,total_rows,holding_count,subtotal_count,total_count,validation_errors,validation_warnings,has_arithmetic_error,max_dollar_diff,root_sum_mismatch,calculated_total_fv,extracted_total_fv,top_error_code
+0000002230-03-000010.pdf,success,,12,10,1,1,2,4,True,478350,True,134841,139283,ARITH_MISMATCH_FV
+0000002230-04-000031.pdf,success,,0,0,0,0,1,0,False,0,False,,,INVALID_SOI_ROWS
+0000002230-04-000040.pdf,success,,137,94,36,7,1,1,True,93978801,True,1313749697,1219770896,GRAND_TOTAL_MISMATCH_FV
+0000002230-05-000014.pdf,success,,0,0,0,0,1,0,False,0,False,,,INVALID_SOI_ROWS
+0000002230-05-000033.pdf,success,,0,0,0,0,1,0,False,0,False,,,INVALID_SOI_ROWS
+0000002230-06-000011.pdf,success,,0,0,0,0,0,1,False,0,False,,,
+0000002230-06-000044.pdf,success,,126,85,35,6,1,1,True,83751296,True,1348750889,1264999593,GRAND_TOTAL_MISMATCH_FV
+0000002230-07-000025.pdf,success,,0,0,0,0,1,0,False,0,False,,,INVALID_SOI_ROWS
+0000002230-07-000062.pdf,success,,0,0,0,0,1,0,False,0,False,,,INVALID_SOI_ROWS
+0000002230-08-000027.pdf,success,,0,0,0,0,1,0,False,0,False,,,INVALID_SOI_ROWS
+0000002230-08-000057.pdf,success,,88,65,23,0,0,19,False,0,False,,,
+0000002230-09-000035.pdf,success,,0,0,0,0,1,0,False,0,False,,,INVALID_SOI_ROWS
+0000009521-03-000006.pdf,success,,0,0,0,0,1,0,False,0,False,,,INVALID_SOI_ROWS
+0000009521-03-000025.pdf,success,,0,0,0,0,1,0,False,0,False,,,INVALID_SOI_ROWS
+0000009521-04-000011.pdf,success,,0,0,0,0,1,0,False,0,False,,,INVALID_SOI_ROWS

@@ -1,0 +1,21 @@
+{
+  "filename": "aeres-2024-03-31_extract_response.json",
+  "has_data": true,
+  "total_rows": 169,
+  "holdings": 157,
+  "subtotals": 7,
+  "totals": 5,
+  "errors": 0,
+  "warnings": 1,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "ARITH_MISMATCH",
+      "message": "Sum of holdings (830440875) != Total (18306195), diff=812134680",
+      "context": {
+        "calculated": "830440875",
+        "extracted": "18306195"
+      }
+    }
+  ]
+}

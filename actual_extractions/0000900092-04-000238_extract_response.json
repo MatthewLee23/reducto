@@ -1,0 +1,90 @@
+{
+  "result": {
+    "soi_title": {
+      "value": null,
+      "citations": [
+        {
+          "type": "Footer",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.041666666666666664,
+            "width": 0.5037037037037037,
+            "height": 0.008854166666666666,
+            "page": 1,
+            "original_page": 11
+          },
+          "content": "CAPITAL AND INCOME STRATEGIES FUND, INC., JUNE 30, 2004",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.5,
+            "parse_confidence": 0.9131811171770096
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "JUNE 30, 2004",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.4185185185185185,
+            "top": 0.0421875,
+            "width": 0.1175925925925926,
+            "height": 0.00625,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "JUNE 30, 2004",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.9131811171770096
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": null,
+      "citations": [
+        {
+          "type": "Footer",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.041666666666666664,
+            "width": 0.5037037037037037,
+            "height": 0.008854166666666666,
+            "page": 1,
+            "original_page": 11
+          },
+          "content": "CAPITAL AND INCOME STRATEGIES FUND, INC., JUNE 30, 2004",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.5,
+            "parse_confidence": 0.9131811171770096
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": {
+      "value": null,
+      "citations": []
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 12,
+    "credits": 48.0
+  },
+  "job_id": "413858b7-793c-4286-9694-0b954d00e3d8",
+  "studio_link": "https://studio.reducto.ai/job/413858b7-793c-4286-9694-0b954d00e3d8"
+}

@@ -1,0 +1,131 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "STATEMENT OF INVESTMENTS",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.3932291666666667,
+            "width": 0.21944444444444444,
+            "height": 0.005729166666666674,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "STATEMENT OF INVESTMENTS",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.984,
+            "parse_confidence": 0.6669831931591034
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "September 30, 2003",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.3697916666666667,
+            "width": 0.1638888888888889,
+            "height": 0.007291666666666667,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "September 30, 2003",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.8004592716693878
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "Unaudited",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.207407393278899,
+            "top": 0.37020832697550454,
+            "width": 0.10092594005443434,
+            "height": 0.00864582061767577,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "(Unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.951,
+            "parse_confidence": 0.8004592716693878
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": {
+      "value": null,
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.032407407407407406,
+            "top": 0.0421875,
+            "width": 0.21944444444444444,
+            "height": 0.0078125,
+            "page": 4,
+            "original_page": 10
+          },
+          "content": "Summary of Abbreviations",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.7693595647811889
+          },
+          "extra": null
+        },
+        {
+          "type": "Table",
+          "bbox": {
+            "left": 0.030555555555555555,
+            "top": 0.05572916666666667,
+            "width": 0.5009259259259259,
+            "height": 0.334375,
+            "page": 4,
+            "original_page": 10
+          },
+          "content": "<table>\n  <tbody>\n    <tr>\n      <td>AMBAC</td>\n      <td>American Municipal Bond Assurance<br/>Corporation</td>\n    </tr>\n    <tr>\n      <td>COP</td>\n      <td>Certificate of Participation</td>\n    </tr>\n    <tr>\n      <td>FGIC</td>\n      <td>Financial Guaranty Insurance<br/>Company</td>\n    </tr>\n    <tr>\n      <td>FSA</td>\n      <td>Financial Security Assurance</td>\n    </tr>\n    <tr>\n      <td>HR</td>\n      <td>Hospital Revenue</td>\n    </tr>\n    <tr>\n      <td>IDR</td>\n      <td>Industrial Development Revenue</td>\n    </tr>\n    <tr>\n      <td>MBIA</td>\n      <td>Municipal Bond Investors Assurance<br/>Insurance Corporation</td>\n    </tr>\n    <tr>\n      <td>MFHR</td>\n      <td>Multi-Family Housing Revenue</td>\n    </tr>\n    <tr>\n      <td>PCR</td>\n      <td>Pollution Control Revenue</td>\n    </tr>\n    <tr>\n      <td>RRR</td>\n      <td>Resources Recovery Revenue</td>\n    </tr>\n    <tr>\n      <td>SFMR</td>\n      <td>Single Family Mortgage Revenue</td>\n    </tr>\n    <tr>\n      <td>SWDR</td>\n      <td>Solid Waste Disposal Revenue</td>\n    </tr>\n    <tr>\n      <td>VRDN</td>\n      <td>Variable Rate Demand Notes</td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">Summary of Combined Ratings (Unaudited)</td>\n    </tr>\n  </tbody>\n</table>",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.9711662828922272
+          },
+          "extra": null
+        }
+      ]
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 4,
+    "credits": 16.0
+  },
+  "job_id": "d853ca5a-ce33-43cf-94ae-7fb4cfcfc940",
+  "studio_link": "https://studio.reducto.ai/job/d853ca5a-ce33-43cf-94ae-7fb4cfcfc940"
+}

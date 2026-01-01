@@ -1,0 +1,625 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "STATEMENT OF INVESTMENTS",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.33739585876464845,
+            "width": 0.22925923665364584,
+            "height": 0.00864582061767577,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "STATEMENT OF INVESTMENTS,",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.999,
+            "parse_confidence": 0.7696829795837402
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "FEBRUARY 28, 2006",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.2722222222222222,
+            "top": 0.3375,
+            "width": 0.15462962962962962,
+            "height": 0.0067708333333333336,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "FEBRUARY 28, 2006",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.7696829795837402
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "UNAUDITED",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.43666667231807005,
+            "top": 0.33739585876464845,
+            "width": 0.10092589766890919,
+            "height": 0.00864582061767577,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "(UNAUDITED)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.904,
+            "parse_confidence": 0.7696829795837402
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": [
+      {
+        "row_type": {
+          "value": "TOTAL",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.05185185185185185,
+                "top": 0.14114583333333333,
+                "width": 0.04537037037037037,
+                "height": 0.006770833333333337,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "TOTAL",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "section_path": [],
+        "label": {
+          "value": "TOTAL INVESTMENTS",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.05185185185185185,
+                "top": 0.14114583333333333,
+                "width": 0.15462962962962964,
+                "height": 0.006770833333333337,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "TOTAL INVESTMENTS",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "cost_raw": {
+          "value": "$1,040,769,366",
+          "citations": [
+            {
+              "type": "Key Value",
+              "bbox": {
+                "left": 0.2722222222222222,
+                "top": 0.14114583333333333,
+                "width": 0.13333333333333336,
+                "height": 0.006770833333333337,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "$1,040,769,366)",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "fair_value_raw": {
+          "value": "$1,120,646,703",
+          "citations": [
+            {
+              "type": "Key Value",
+              "bbox": {
+                "left": 0.6194444444444445,
+                "top": 0.14114583333333333,
+                "width": 0.12870370370370376,
+                "height": 0.006770833333333337,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "$1,120,646,703",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "percent_net_assets_raw": {
+          "value": "98.0%",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.4185185185185185,
+                "top": 0.14114583333333333,
+                "width": 0.04444444444444445,
+                "height": 0.006770833333333337,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "98.0%",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "row_text": {
+          "value": "TOTAL INVESTMENTS (COST $1,040,769,366) 98.0% ........... $1,120,646,703",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.05092592592592592,
+                "top": 0.14010416666666667,
+                "width": 0.6972222222222222,
+                "height": 0.007291666666666667,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "TOTAL INVESTMENTS (COST $1,040,769,366) 98.0% ........... $1,120,646,703",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        }
+      },
+      {
+        "row_type": {
+          "value": "HOLDING",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.05092592592592592,
+                "top": 0.15208333333333332,
+                "width": 0.5212962962962963,
+                "height": 0.005729166666666666,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "HOLDING",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "section_path": [],
+        "investment": {
+          "value": "NET UNREALIZED GAIN ON FORWARD EXCHANGE CONTRACTS",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.05092592592592592,
+                "top": 0.15208333333333332,
+                "width": 0.44907407407407407,
+                "height": 0.0062500000000000056,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "NET UNREALIZED GAIN ON FORWARD EXCHANGE CONTRACTS",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "fair_value_raw": {
+          "value": "1,846,794",
+          "citations": [
+            {
+              "type": "Key Value",
+              "bbox": {
+                "left": 0.6657407407407407,
+                "top": 0.15208333333333332,
+                "width": 0.0805555555555556,
+                "height": 0.006770833333333337,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "1,846,794",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "percent_net_assets_raw": {
+          "value": "0.2%",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.5101851851851852,
+                "top": 0.15208333333333332,
+                "width": 0.03518518518518521,
+                "height": 0.0062500000000000056,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "0.2%",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "row_text": {
+          "value": "NET UNREALIZED GAIN ON FORWARD EXCHANGE CONTRACTS 0.2% .. 1,846,794",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.05092592592592592,
+                "top": 0.15208333333333332,
+                "width": 0.6972222222222222,
+                "height": 0.005729166666666666,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "NET UNREALIZED GAIN ON FORWARD EXCHANGE CONTRACTS 0.2% .. 1,846,794",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        }
+      },
+      {
+        "row_type": {
+          "value": "HOLDING",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.05092592592592592,
+                "top": 0.1625,
+                "width": 0.11388888888888889,
+                "height": 0.0067708333333333336,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "HOLDING",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "section_path": [],
+        "investment": {
+          "value": "OTHER ASSETS, LESS LIABILITIES",
+          "citations": [
+            {
+              "type": "Key Value",
+              "bbox": {
+                "left": 0.05092592592592592,
+                "top": 0.16302083333333334,
+                "width": 0.2740740740740741,
+                "height": 0.006770833333333337,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "OTHER ASSETS, LESS LIABILITIES",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "fair_value_raw": {
+          "value": "21,123,403",
+          "citations": [
+            {
+              "type": "Key Value",
+              "bbox": {
+                "left": 0.6555555555555556,
+                "top": 0.16302083333333334,
+                "width": 0.09166666666666667,
+                "height": 0.005729166666666674,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "21,123,403",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "percent_net_assets_raw": {
+          "value": "1.8%",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.337037037037037,
+                "top": 0.16302083333333334,
+                "width": 0.03425925925925927,
+                "height": 0.006770833333333337,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "1.8%",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "row_text": {
+          "value": "OTHER ASSETS, LESS LIABILITIES 1.8% ..................... 21,123,403",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.05092592592592592,
+                "top": 0.1625,
+                "width": 0.6972222222222222,
+                "height": 0.0067708333333333336,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "OTHER ASSETS, LESS LIABILITIES 1.8% ..................... 21,123,403",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        }
+      },
+      {
+        "row_type": {
+          "value": "TOTAL",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.05185185185185185,
+                "top": 0.14114583333333333,
+                "width": 0.04537037037037037,
+                "height": 0.006770833333333337,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "TOTAL",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "section_path": [],
+        "label": {
+          "value": "NET ASSETS",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.05092592592592592,
+                "top": 0.184375,
+                "width": 0.09074074074074073,
+                "height": 0.006770833333333337,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "NET ASSETS",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "fair_value_raw": {
+          "value": "$1,143,616,900",
+          "citations": [
+            {
+              "type": "Key Value",
+              "bbox": {
+                "left": 0.6203703703703703,
+                "top": 0.18489583333333334,
+                "width": 0.12685185185185188,
+                "height": 0.006770833333333337,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "$1,143,616,900",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "percent_net_assets_raw": {
+          "value": "100.0%",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.15185185185185185,
+                "top": 0.184375,
+                "width": 0.0537037037037037,
+                "height": 0.0062500000000000056,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "100.0%",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        },
+        "row_text": {
+          "value": "NET ASSETS 100.0% ....................................... $1,143,616,900",
+          "citations": [
+            {
+              "type": "Text",
+              "bbox": {
+                "left": 0.05092592592592592,
+                "top": 0.184375,
+                "width": 0.5222222222222223,
+                "height": 0.0067708333333333336,
+                "page": 5,
+                "original_page": 5
+              },
+              "content": "NET ASSETS 100.0% ....................................... $1,143,616,900",
+              "image_url": null,
+              "chart_data": null,
+              "confidence": "high",
+              "granular_confidence": {
+                "extract_confidence": null,
+                "parse_confidence": 0.9124511241912842
+              },
+              "extra": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "usage": {
+    "num_fields": 24,
+    "num_pages": 6,
+    "credits": 26.0
+  },
+  "job_id": "2aca6650-48ca-4bb4-9662-d9bc71c1f470",
+  "studio_link": "https://studio.reducto.ai/job/2aca6650-48ca-4bb4-9662-d9bc71c1f470"
+}

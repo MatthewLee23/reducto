@@ -1,0 +1,87 @@
+{
+  "result": {
+    "soi_rows": [],
+    "soi_title": {
+      "value": "Portfolio of INVESTMENTS",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.16239582697550456,
+            "width": 0.5225925586841724,
+            "height": 0.008645836512247734,
+            "page": 1,
+            "original_page": 41
+          },
+          "content": "| Portfolio of INVESTMENTS April 30, 2009 (Unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": null
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "April 30, 2009",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.15104166666666666,
+            "width": 0.5222222222222223,
+            "height": 0.019791666666666666,
+            "page": 1,
+            "original_page": 41
+          },
+          "content": "NPP | Nuveen Performance Plus Municipal Fund, Inc. | Portfolio of INVESTMENTS April 30, 2009 (Unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.8630395919084549
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "Unaudited",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.45500002260561345,
+            "top": 0.16239582697550456,
+            "width": 0.10092586941189241,
+            "height": 0.008645836512247734,
+            "page": 1,
+            "original_page": 41
+          },
+          "content": "(Unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": null
+          },
+          "extra": null
+        }
+      ]
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 73,
+    "credits": 292.0
+  },
+  "job_id": "37304581-a07f-4b93-94ab-c57097105f9a",
+  "studio_link": "https://studio.reducto.ai/job/37304581-a07f-4b93-94ab-c57097105f9a"
+}

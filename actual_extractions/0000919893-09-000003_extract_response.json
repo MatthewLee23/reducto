@@ -1,0 +1,69 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "STATEMENT OF INVESTMENTS",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.16239582697550456,
+            "width": 0.22925923665364584,
+            "height": 0.008645836512247734,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "STATEMENT OF INVESTMENTS,",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.999,
+            "parse_confidence": 0.8436468511819839
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "DECEMBER 31, 2008",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.2722222222222222,
+            "top": 0.1625,
+            "width": 0.15462962962962962,
+            "height": 0.00625,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "DECEMBER 31, 2008",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.8436468511819839
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": null,
+      "citations": []
+    },
+    "soi_rows": {
+      "value": null,
+      "citations": []
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 4,
+    "credits": 16.0
+  },
+  "job_id": "843d139a-4c27-4f3a-8baa-c19402ebc4e3",
+  "studio_link": "https://studio.reducto.ai/job/843d139a-4c27-4f3a-8baa-c19402ebc4e3"
+}

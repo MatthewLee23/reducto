@@ -1,0 +1,138 @@
+{
+  "source_name": "ponoma-2016-09-30",
+  "total_rows": 38,
+  "holding_count": 30,
+  "subtotal_count": 5,
+  "total_count": 3,
+  "error_count": 1,
+  "warning_count": 5,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "15229765",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "58914301",
+  "extracted_total_fv": "43684536",
+  "computed_sums": {
+    "Investment Funds > Seasoned Primary Investments": {
+      "calculated_fv": "4925000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4925000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Investment Funds > Secondary Investments": {
+      "calculated_fv": "38759536",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "38759536",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 28,
+      "child_count": 0
+    },
+    "Investment Funds": {
+      "calculated_fv": "43684536",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "Short-Term Investment > Money Market Fund": {
+      "calculated_fv": "15229765",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "15229765",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investment": {
+      "calculated_fv": "15229765",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "15229765",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "58914301",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "43684536",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "label": "Total Investments in Investment Funds (Cost $44,315,004)\n(74.76%)"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2747983' don't match citation content digits '4925000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 2,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '116314' don't match citation content digits '4925000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 3,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1569178' don't match citation content digits '4925000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 5,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1162165' don't match citation content digits '4925000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 10,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '38759536' don't match citation content digits '4925000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 30,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (58914301) != Total row (43684536), diff=$15229765",
+      "context": {
+        "label": "Total Investments in Investment Funds (Cost $44,315,004)\n(74.76%)",
+        "calculated": "58914301",
+        "extracted": "43684536",
+        "diff": "15229765"
+      }
+    }
+  ]
+}

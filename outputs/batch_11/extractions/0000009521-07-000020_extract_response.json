@@ -1,0 +1,391 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.08541666666666667,
+            "width": 0.5796296296296296,
+            "height": 0.008854166666666666,
+            "page": 2,
+            "original_page": 13
+          },
+          "content": "SEE ACCOMPANYING NOTES TO FINANCIAL STATEMENTS",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.5,
+            "parse_confidence": 1.0
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "October 31, 2007",
+      "citations": [
+        {
+          "type": "List Item",
+          "bbox": {
+            "left": 0.24332122802734374,
+            "top": 0.1288573424021403,
+            "width": 0.14668833414713545,
+            "height": 0.008762852350870765,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "October 31, 2007",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 0.9551013737916947
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.08541666666666667,
+            "width": 0.5796296296296296,
+            "height": 0.008854166666666666,
+            "page": 2,
+            "original_page": 13
+          },
+          "content": "SEE ACCOMPANYING NOTES TO FINANCIAL STATEMENTS",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.5,
+            "parse_confidence": 1.0
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": {
+      "value": null,
+      "citations": [
+        {
+          "type": "List Item",
+          "bbox": {
+            "left": 0.03261670341333774,
+            "top": 0.02983498835259759,
+            "width": 0.717641778718811,
+            "height": 0.020364193450910822,
+            "page": 1,
+            "original_page": 12
+          },
+          "content": "(1) Contingent payment debt instrument which accrues contingent interest. See Note 1(f).",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.93704794049263
+          },
+          "extra": null
+        },
+        {
+          "type": "List Item",
+          "bbox": {
+            "left": 0.032368476717466774,
+            "top": 0.0626474553437457,
+            "width": 0.7270665131273171,
+            "height": 0.08599651513248888,
+            "page": 1,
+            "original_page": 12
+          },
+          "content": "(2) Security not registered under the Securities Act of 1933, as amended (i.e., the security was purchased in a Rule 144A or a Reg D transaction). The security may be resold only pursuant to an exemption from registration under the 1933 Act, typically to qualified institutional buyers. The Fund generally has no rights to demand registration of these securities. The aggregate market value of these securities at October 31, 2007 was $18,060,809 which represented 12.9% of the Fund's net assets.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.9551013737916947
+          },
+          "extra": null
+        },
+        {
+          "type": "List Item",
+          "bbox": {
+            "left": 0.03214783076558145,
+            "top": 0.16108485631719002,
+            "width": 0.7362981823279233,
+            "height": 0.07506641383472136,
+            "page": 1,
+            "original_page": 12
+          },
+          "content": "(3) Investment is a restricted security, valued at fair value as determined in good faith in accordance with procedures adopted by the Board of Trustees. It is possible that the estimated value may differ significantly from the amount that might ultimately be realized in the near term, and the difference could be material. The market value of this security amounts to $1,500,000 which represented 1.1% of the Fund's net assets.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.9227687358856201
+          },
+          "extra": null
+        },
+        {
+          "type": "List Item",
+          "bbox": {
+            "left": 0.035743834504998094,
+            "top": 0.25015022180144764,
+            "width": 0.7315516675358785,
+            "height": 0.028708599949966433,
+            "page": 1,
+            "original_page": 12
+          },
+          "content": "(4) These securities are required to be converted on the dates listed; they generally may be converted prior to these dates at the option of the holder.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.891360205411911
+          },
+          "extra": null
+        },
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03661459801148594,
+            "top": 0.29442174936895665,
+            "width": 0.02038479693447599,
+            "height": 0.0057454138416364485,
+            "page": 1,
+            "original_page": 12
+          },
+          "content": "(5)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.9753099083900452
+          },
+          "extra": null
+        },
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.1153142824342348,
+            "top": 0.29396371200346927,
+            "width": 0.273167573896884,
+            "height": 0.00803042926956484,
+            "page": 1,
+            "original_page": 12
+          },
+          "content": "Non-income producing security.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.9463195264339448
+          },
+          "extra": null
+        },
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03178928109376784,
+            "top": 0.3142097022758812,
+            "width": 0.5899744524593832,
+            "height": 0.06401219918901836,
+            "page": 1,
+            "original_page": 12
+          },
+          "content": "ADR American Depositary Receipts. ADS American Depositary Shares. BONUSES Bifurcated Option Note Unit Securities. PIES Premium Income Exchangeable Securities. PIERS Preferred Income Equity Redeemable Securities. PRIDES Preferred Redeemable Income Dividend Equity Securities.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.7468412190675735
+          },
+          "extra": null
+        },
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03170653886181085,
+            "top": 0.39077212525522675,
+            "width": 0.7269010286634029,
+            "height": 0.020371581150192716,
+            "page": 1,
+            "original_page": 12
+          },
+          "content": "Ratings in parentheses by Moody's Investors Service, Inc. or Standard & Poor's. NR is used whenever a rating is unavailable.",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.9002501696348191
+          },
+          "extra": null
+        },
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03162379662985386,
+            "top": 0.43452208124342423,
+            "width": 0.2592813257175184,
+            "height": 0.009061013339408616,
+            "page": 1,
+            "original_page": 12
+          },
+          "content": "Summary of Portfolio Ratings",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.8427805960178375
+          },
+          "extra": null
+        },
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03236059652269708,
+            "top": 0.4584811292449844,
+            "width": 0.16496568642127915,
+            "height": 0.06002727412629719,
+            "page": 1,
+            "original_page": 12
+          },
+          "content": "% of Portfolio: \nAa: 6\nA: 20\nBaa: 15",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.6969374209642409
+          },
+          "extra": null
+        },
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.032407407407407406,
+            "top": 0.021354166666666667,
+            "width": 0.13796296296296295,
+            "height": 0.049479166666666664,
+            "page": 2,
+            "original_page": 13
+          },
+          "content": "Ba 6\nB 19\nCaa 2\nNR 31\nCommon Stock 1",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.7138476252555848
+          },
+          "extra": null
+        },
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.08541666666666667,
+            "width": 0.5796296296296296,
+            "height": 0.008854166666666666,
+            "page": 2,
+            "original_page": 13
+          },
+          "content": "SEE ACCOMPANYING NOTES TO FINANCIAL STATEMENTS",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 1.0
+          },
+          "extra": null
+        },
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.10729166666666666,
+            "width": 0.05462962962962963,
+            "height": 0.008854166666666666,
+            "page": 2,
+            "original_page": 13
+          },
+          "content": "Page 9",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.7263217151165009
+          },
+          "extra": null
+        },
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.030729166666666665,
+            "width": 0.5796296296296296,
+            "height": 0.008854166666666666,
+            "page": 3,
+            "original_page": 14
+          },
+          "content": "SEE ACCOMPANYING NOTES TO FINANCIAL STATEMENTS",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 1.0
+          },
+          "extra": null
+        },
+        {
+          "type": "Footer",
+          "bbox": {
+            "left": 0.03333333333333333,
+            "top": 0.041666666666666664,
+            "width": 0.06388888888888888,
+            "height": 0.008854166666666666,
+            "page": 3,
+            "original_page": 14
+          },
+          "content": "Page 10",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": null,
+            "parse_confidence": 0.868438857793808
+          },
+          "extra": null
+        }
+      ]
+    }
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 3,
+    "credits": 12.0
+  },
+  "job_id": "81bd87c4-0669-4257-b79f-bdcb7162a7c2",
+  "studio_link": "https://studio.reducto.ai/job/81bd87c4-0669-4257-b79f-bdcb7162a7c2"
+}

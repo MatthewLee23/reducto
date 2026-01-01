@@ -1,0 +1,87 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "Portfolio of Investments",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.0336828867594401,
+            "top": 0.21754606564839682,
+            "width": 0.21854667663574223,
+            "height": 0.0065696557362874275,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "Portfolio of Investments",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.98,
+            "parse_confidence": 0.6303257375955582
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "October 31, 2005",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.2623858133951823,
+            "top": 0.217880646387736,
+            "width": 0.14539876867223667,
+            "height": 0.006462637583414699,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "October 31, 2005",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.99,
+            "parse_confidence": 0.6303257375955582
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": null,
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.03275214619800951,
+            "top": 0.21702387638376372,
+            "width": 0.7333669750179975,
+            "height": 0.008885291833743262,
+            "page": 1,
+            "original_page": 12
+          },
+          "content": "Portfolio of Investments October 31, 2005",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.493,
+            "parse_confidence": 0.6303257375955582
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": []
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 6,
+    "credits": 24.0
+  },
+  "job_id": "05879130-6786-473e-b864-38cf5773fb54",
+  "studio_link": "https://studio.reducto.ai/job/05879130-6786-473e-b864-38cf5773fb54"
+}

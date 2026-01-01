@@ -1,0 +1,58 @@
+{
+  "source_name": "0000828803-06-000009",
+  "total_rows": 4,
+  "holding_count": 2,
+  "subtotal_count": 0,
+  "total_count": 2,
+  "error_count": 2,
+  "warning_count": 1,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "1097676506",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "22970197",
+  "extracted_total_fv": "1120646703",
+  "computed_sums": {
+    "GRAND_TOTAL": {
+      "calculated_fv": "22970197",
+      "calculated_cost": null,
+      "calculated_pct": "2.0",
+      "extracted_fv": "1120646703",
+      "extracted_cost": "1040769366",
+      "extracted_pct": "98.0",
+      "label": "TOTAL INVESTMENTS"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (22970197) != Total row (1120646703), diff=$1097676506",
+      "context": {
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "22970197",
+        "extracted": "1120646703",
+        "diff": "1097676506"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_PCT",
+      "message": "Sum of all percents (2.0%) != Total row (98.0%), diff=96.0%",
+      "context": {
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "2.0",
+        "extracted": "98.0",
+        "diff": "96.0"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2006) differs from filename (8803)",
+      "context": {
+        "as_of_date": "FEBRUARY 28, 2006",
+        "filename_date": "8803-06-00"
+      }
+    }
+  ]
+}

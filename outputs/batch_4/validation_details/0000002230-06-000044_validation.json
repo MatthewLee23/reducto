@@ -1,0 +1,509 @@
+{
+  "source_name": "0000002230-06-000044",
+  "total_rows": 187,
+  "holding_count": 133,
+  "subtotal_count": 47,
+  "total_count": 7,
+  "error_count": 1,
+  "warning_count": 14,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "342414",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "1349093303",
+  "extracted_total_fv": "1348750889",
+  "computed_sums": {
+    "Stocks and Convertible Securities > Consumer > Consumer Discretionary": {
+      "calculated_fv": "100387025",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "7.8",
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Consumer > Consumer Staples": {
+      "calculated_fv": "130605040",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "10.2",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Consumer": {
+      "calculated_fv": "230992065",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "18.0",
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Energy": {
+      "calculated_fv": "153770464",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "11.9",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Financials > Banking": {
+      "calculated_fv": "176251650",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "13.7",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Financials > Insurance": {
+      "calculated_fv": "53449500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "4.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Financials": {
+      "calculated_fv": "229701150",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "17.9",
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Health Care": {
+      "calculated_fv": "177073500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "13.8",
+      "holding_count": 13,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Industrials": {
+      "calculated_fv": "170159742",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "13.2",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology > Communication Equipment": {
+      "calculated_fv": "25965000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.0",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology > Computer Related": {
+      "calculated_fv": "107958905",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "8.4",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology > Electronics": {
+      "calculated_fv": "21111500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.6",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Information Technology": {
+      "calculated_fv": "155035405",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "12.0",
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Materials": {
+      "calculated_fv": "66019950",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "5.1",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Telecom Services": {
+      "calculated_fv": "35743550",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.8",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities > Utilities": {
+      "calculated_fv": "46503767",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.6",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks and Convertible Securities": {
+      "calculated_fv": "1264999593",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "98.3",
+      "holding_count": 0,
+      "child_count": 9,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "total_label": "Stocks and Convertible Securities (Cost $922,997,596) (E)",
+      "total_extracted_fv": "1264999593"
+    },
+    "Short-Term Investments > U.S. Government Obligations": {
+      "calculated_fv": "16397893",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Short-Term Investments > Time Deposit": {
+      "calculated_fv": "180006",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Short-Term Investments > Commercial Paper": {
+      "calculated_fv": "774569",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "17352468",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.4",
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "total_label": "Total Short-Term Investments (Cost $17,352,468)",
+      "total_extracted_fv": "17352468"
+    },
+    "Securities Lending Collateral": {
+      "calculated_fv": "66398828",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "5.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "total_label": "Total Securities Lending Collateral (Cost $66,398,828)",
+      "total_extracted_fv": "66398828"
+    },
+    "Schedule of Outstanding Option Contracts > Covered Calls": {
+      "calculated_fv": "190919",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "190919",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 27,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Schedule of Outstanding Option Contracts > Collateralized Puts": {
+      "calculated_fv": "151495",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "151495",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 21,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Schedule of Outstanding Option Contracts": {
+      "calculated_fv": "342414",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "total_label": "TOTAL",
+      "total_extracted_fv": "342414"
+    },
+    "(root)": {
+      "calculated_fv": "1349093303",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5,
+      "subtotal_count": 0,
+      "total_count": 3,
+      "total_label": "Total Investments -- 104.8% (Cost $1,006,748,892)",
+      "total_extracted_fv": "1348750889"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 163
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 185
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "TOTAL row has empty label",
+      "context": {
+        "row": 186
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_FV",
+      "message": "Grand total of all holdings (1349093303) != extracted Total (1348750889), diff=$342414",
+      "context": {
+        "section_path": "(root)",
+        "label": "Total Investments -- 104.8% (Cost $1,006,748,892)",
+        "calculated": "1349093303",
+        "extracted": "1348750889",
+        "diff": "342414"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Consumer' mentions categories not in section path",
+      "context": {
+        "section_path": "Sector Weightings",
+        "label": "Consumer",
+        "keywords": [
+          "consumer"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Energy' mentions categories not in section path",
+      "context": {
+        "section_path": "Sector Weightings",
+        "label": "Energy",
+        "keywords": [
+          "energy"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Financials' mentions categories not in section path",
+      "context": {
+        "section_path": "Sector Weightings",
+        "label": "Financials",
+        "keywords": [
+          "financials"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Health Care' mentions categories not in section path",
+      "context": {
+        "section_path": "Sector Weightings",
+        "label": "Health Care",
+        "keywords": [
+          "health",
+          "care"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Industrials' mentions categories not in section path",
+      "context": {
+        "section_path": "Sector Weightings",
+        "label": "Industrials",
+        "keywords": [
+          "industrials"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Information Technolgy' mentions categories not in section path",
+      "context": {
+        "section_path": "Sector Weightings",
+        "label": "Information Technolgy",
+        "keywords": [
+          "information",
+          "technolgy"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Materials' mentions categories not in section path",
+      "context": {
+        "section_path": "Sector Weightings",
+        "label": "Materials",
+        "keywords": [
+          "materials"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Telecom Services' mentions categories not in section path",
+      "context": {
+        "section_path": "Sector Weightings",
+        "label": "Telecom Services",
+        "keywords": [
+          "telecom",
+          "services"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Utilities' mentions categories not in section path",
+      "context": {
+        "section_path": "Sector Weightings",
+        "label": "Utilities",
+        "keywords": [
+          "utilities"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Cash & Equivalent' mentions categories not in section path",
+      "context": {
+        "section_path": "Sector Weightings",
+        "label": "Cash & Equivalent",
+        "keywords": [
+          "cash",
+          "equivalent"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2006) differs from filename (2230)",
+      "context": {
+        "as_of_date": "June 30, 2006",
+        "filename_date": "2230-06-00"
+      }
+    }
+  ]
+}

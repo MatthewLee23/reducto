@@ -4,3 +4,89 @@ fair_raw_value which is in the report because there is no explicit header for th
 from the previous table on the same page
 
 
+================================================================================
+VALIDATION SYSTEM
+================================================================================
+
+When running main.py, extract responses are automatically validated and reports
+are written to the validation_results/ folder.
+
+OUTPUT FILES
+------------
+  validation_results/
+    <stem>_validation.json   - Per-file validation report (detailed)
+    summary.json             - Aggregated counts and issues by file
+    summary.md               - Human-readable top errors report
+
+VALIDATION CHECKS (all deterministic)
+-------------------------------------
+1. Response Shape
+   - Checks required fields: result, usage, job_id, studio_link
+   - Validates result.soi_rows exists and is a list
+   - Validates job_id is UUID-shaped
+
+2. Citation Integrity
+   - Verifies citation bbox bounds are within [0,1]
+   - Checks bbox.page is within document page range
+   - Flags mismatches between value digits and citation content digits
+
+3. Row Invariants
+   - row_type must be HOLDING, SUBTOTAL, or TOTAL
+   - HOLDING rows should have investment.value
+   - SUBTOTAL/TOTAL rows should have label.value
+   - Rows with "Total" labels should have numeric fields
+
+4. Numeric Parseability + Arithmetic
+   - Parses amounts using Decimal (handles commas, parentheses negatives, currencies)
+   - Flags cells with multiple numeric tokens (extraction errors)
+   - Compares sum(HOLDING fair_values) vs SUBTOTAL fair_value for each section_path
+   - Same for cost and percent_net_assets columns
+
+5. Metadata Consistency
+   - Checks as_of_date year against filename date pattern (warning only)
+
+TOLERANCES
+----------
+  Dollar amounts: $1 absolute tolerance
+  Percentages:    0.01% absolute tolerance
+
+These are "tight" tolerances. Arithmetic mismatches exceeding these thresholds
+are flagged as errors.
+
+ERROR CODES
+-----------
+  MISSING_TOP_FIELD        - Required top-level field missing
+  INVALID_JSON_STRUCTURE   - Root is not a dict
+  MISSING_SOI_ROWS         - result.soi_rows is missing
+  INVALID_SOI_ROWS         - result.soi_rows is not a list
+  MISSING_ROW_TYPE         - Row missing row_type field
+  INVALID_ROW_TYPE         - row_type not in HOLDING/SUBTOTAL/TOTAL
+  HOLDING_MISSING_INVESTMENT - HOLDING row has empty investment
+  SUBTOTAL_MISSING_LABEL   - SUBTOTAL/TOTAL row has empty label
+  TOTAL_MISSING_NUMERIC    - Total row has no numeric fields
+  MULTIPLE_NUMERIC_TOKENS  - Cell contains multiple numbers (extraction error)
+  ARITH_MISMATCH_FV        - Holdings fair_value sum != subtotal
+  ARITH_MISMATCH_COST      - Holdings cost sum != subtotal
+  ARITH_MISMATCH_PCT       - Holdings percent sum != subtotal
+  CITATION_MISSING_KEY     - Citation missing required key
+  BBOX_OUT_OF_RANGE        - bbox dimension outside [0,1]
+  BBOX_PAGE_OUT_OF_RANGE   - bbox.page outside document range
+  CITATION_VALUE_MISMATCH  - Value digits don't match citation content
+  INVALID_JOB_ID           - job_id is not a valid UUID
+  STUDIO_LINK_MISMATCH     - studio_link doesn't contain job_id
+  DATE_MISMATCH            - as_of_date year differs from filename
+
+USING VALIDATION RESULTS
+------------------------
+Review summary.md for a quick overview of top issues across all files.
+
+For detailed investigation:
+  1. Open the per-file _validation.json
+  2. Look at "issues" array for specific errors with row numbers and context
+  3. Cross-reference with the extract_urls/*_extract_response.json
+
+Common patterns that indicate extraction problems:
+  - MULTIPLE_NUMERIC_TOKENS: Two holdings merged into one row
+  - ARITH_MISMATCH_*: Missing or duplicate holdings, or parsing errors
+  - CITATION_VALUE_MISMATCH: Wrong cell was cited for a value
+

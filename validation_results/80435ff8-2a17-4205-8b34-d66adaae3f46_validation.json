@@ -1,0 +1,29 @@
+{
+  "source_name": "80435ff8-2a17-4205-8b34-d66adaae3f46",
+  "total_rows": 0,
+  "holding_count": 0,
+  "subtotal_count": 0,
+  "total_count": 0,
+  "error_count": 2,
+  "warning_count": 0,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {},
+  "issues": [
+    {
+      "severity": "error",
+      "code": "MISSING_TOP_FIELD",
+      "message": "Missing required field 'usage'",
+      "context": {}
+    },
+    {
+      "severity": "error",
+      "code": "MISSING_SOI_ROWS",
+      "message": "result.soi_rows is missing",
+      "context": {}
+    }
+  ]
+}

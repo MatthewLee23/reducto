@@ -1,0 +1,894 @@
+{
+  "source_name": "0000009521-04-000011",
+  "total_rows": 169,
+  "holding_count": 95,
+  "subtotal_count": 64,
+  "total_count": 10,
+  "error_count": 5,
+  "warning_count": 18,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "53817564",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "Largest Investment Holdings by underlying common stock": {
+      "calculated_fv": "24195917",
+      "calculated_cost": null,
+      "calculated_pct": "20.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "total_label": "Total Largest Investment Holdings",
+      "total_extracted_fv": "24195917"
+    },
+    "Major Industry Exposure": {
+      "calculated_fv": null,
+      "calculated_cost": null,
+      "calculated_pct": "81.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "81.9",
+      "holding_count": 0,
+      "child_count": 0,
+      "subtotal_count": 10,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "total_label": "Total",
+      "total_extracted_fv": null
+    },
+    "CONVERTIBLE BONDS AND NOTES > Advertising": {
+      "calculated_fv": "1078125",
+      "calculated_cost": null,
+      "calculated_pct": "0.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.9",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "CONVERTIBLE BONDS AND NOTES > Aerospace and Defense": {
+      "calculated_fv": "1438740",
+      "calculated_cost": null,
+      "calculated_pct": "1.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "CONVERTIBLE BONDS AND NOTES > Automotive": {
+      "calculated_fv": "2837188",
+      "calculated_cost": null,
+      "calculated_pct": "2.5",
+      "extracted_fv": "2837188",
+      "extracted_cost": null,
+      "extracted_pct": "2.5",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "CONVERTIBLE BONDS AND NOTES > Banking/Savings and Loan": {
+      "calculated_fv": "2059714",
+      "calculated_cost": null,
+      "calculated_pct": "1.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.8",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "CONVERTIBLE BONDS AND NOTES > Consumer Goods": {
+      "calculated_fv": "2484280",
+      "calculated_cost": null,
+      "calculated_pct": "2.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "CONVERTIBLE BONDS AND NOTES > Data Processing Services": {
+      "calculated_fv": "1387500",
+      "calculated_cost": null,
+      "calculated_pct": "1.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "CONVERTIBLE BONDS AND NOTES > Electrical Supplies": {
+      "calculated_fv": "883750",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "CONVERTIBLE BONDS AND NOTES > Energy": {
+      "calculated_fv": "2006457",
+      "calculated_cost": null,
+      "calculated_pct": "1.7",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.7",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "CONVERTIBLE BONDS AND NOTES > Entertainment": {
+      "calculated_fv": "1201563",
+      "calculated_cost": null,
+      "calculated_pct": "1.0",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "CONVERTIBLE BONDS AND NOTES > Financial and Insurance": {
+      "calculated_fv": "2215938",
+      "calculated_cost": null,
+      "calculated_pct": "1.9",
+      "extracted_fv": "2215938",
+      "extracted_cost": null,
+      "extracted_pct": "1.9",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "CONVERTIBLE BONDS AND NOTES > Health Care": {
+      "calculated_fv": "3989082",
+      "calculated_cost": null,
+      "calculated_pct": "3.4",
+      "extracted_fv": "3989082",
+      "extracted_cost": null,
+      "extracted_pct": "3.4",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "CONVERTIBLE BONDS AND NOTES > Office Equipment": {
+      "calculated_fv": "1828750",
+      "calculated_cost": null,
+      "calculated_pct": "1.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.6",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "CONVERTIBLE BONDS AND NOTES > Pharmaceuticals": {
+      "calculated_fv": "11773581",
+      "calculated_cost": null,
+      "calculated_pct": "10.2",
+      "extracted_fv": "11773581",
+      "extracted_cost": null,
+      "extracted_pct": "10.2",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "CONVERTIBLE BONDS AND NOTES > Retail": {
+      "calculated_fv": "9091513",
+      "calculated_cost": null,
+      "calculated_pct": "7.9",
+      "extracted_fv": "9091513",
+      "extracted_cost": null,
+      "extracted_pct": "7.9",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "CONVERTIBLE BONDS AND NOTES > Technology": {
+      "calculated_fv": "9030903",
+      "calculated_cost": null,
+      "calculated_pct": "7.8",
+      "extracted_fv": "9030903",
+      "extracted_cost": null,
+      "extracted_pct": "7.8",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "CONVERTIBLE BONDS AND NOTES": {
+      "calculated_fv": "61987411",
+      "calculated_cost": null,
+      "calculated_pct": "46.1",
+      "extracted_fv": "8169847",
+      "extracted_cost": null,
+      "extracted_pct": "53.6",
+      "holding_count": 8,
+      "child_count": 15,
+      "subtotal_count": 2,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "total_label": "TOTAL CONVERTIBLE BONDS AND NOTES",
+      "total_extracted_fv": "61987411"
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Automotive": {
+      "calculated_fv": "1515625",
+      "calculated_cost": null,
+      "calculated_pct": "1.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Banking/Savings and Loan": {
+      "calculated_fv": "9497650",
+      "calculated_cost": null,
+      "calculated_pct": "8.2",
+      "extracted_fv": "9497650",
+      "extracted_cost": null,
+      "extracted_pct": "8.2",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Energy": {
+      "calculated_fv": "3339222",
+      "calculated_cost": null,
+      "calculated_pct": "2.9",
+      "extracted_fv": "3339222",
+      "extracted_cost": null,
+      "extracted_pct": "2.9",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Entertainment": {
+      "calculated_fv": "2681438",
+      "calculated_cost": null,
+      "calculated_pct": "2.3",
+      "extracted_fv": "2681438",
+      "extracted_cost": null,
+      "extracted_pct": "2.3",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Financial and Insurance": {
+      "calculated_fv": "3605500",
+      "calculated_cost": null,
+      "calculated_pct": "3.1",
+      "extracted_fv": "3605500",
+      "extracted_cost": null,
+      "extracted_pct": "3.1",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Health Care": {
+      "calculated_fv": "1798000",
+      "calculated_cost": null,
+      "calculated_pct": "1.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.6",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Mining": {
+      "calculated_fv": "882750",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "CONVERTIBLE PREFERRED STOCKS": {
+      "calculated_fv": "23320185",
+      "calculated_cost": null,
+      "calculated_pct": "20.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "20.2",
+      "holding_count": 0,
+      "child_count": 7,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "total_label": "TOTAL CONVERTIBLE PREFERRED STOCKS",
+      "total_extracted_fv": "23320185"
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Aerospace and Defense": {
+      "calculated_fv": "1569450",
+      "calculated_cost": null,
+      "calculated_pct": "1.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Banking/Savings and Loan": {
+      "calculated_fv": "1159219",
+      "calculated_cost": null,
+      "calculated_pct": "1.0",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Consumer Goods": {
+      "calculated_fv": "1532000",
+      "calculated_cost": null,
+      "calculated_pct": "1.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Energy": {
+      "calculated_fv": "6164070",
+      "calculated_cost": null,
+      "calculated_pct": "5.3",
+      "extracted_fv": "6164070",
+      "extracted_cost": null,
+      "extracted_pct": "5.3",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Financial and Insurance": {
+      "calculated_fv": "6581600",
+      "calculated_cost": null,
+      "calculated_pct": "5.7",
+      "extracted_fv": "6581600",
+      "extracted_cost": null,
+      "extracted_pct": "5.7",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Paper and Paper Products": {
+      "calculated_fv": "1122000",
+      "calculated_cost": null,
+      "calculated_pct": "1.0",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Pharmaceuticals": {
+      "calculated_fv": "1700055",
+      "calculated_cost": null,
+      "calculated_pct": "1.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.5",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Technology": {
+      "calculated_fv": "3892972",
+      "calculated_cost": null,
+      "calculated_pct": "3.4",
+      "extracted_fv": "3892972",
+      "extracted_cost": null,
+      "extracted_pct": "3.4",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Utilities": {
+      "calculated_fv": "1234500",
+      "calculated_cost": null,
+      "calculated_pct": "1.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false
+    },
+    "MANDATORY CONVERTIBLE SECURITIES": {
+      "calculated_fv": "24955866",
+      "calculated_cost": null,
+      "calculated_pct": "21.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "21.6",
+      "holding_count": 0,
+      "child_count": 9,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "total_label": "TOTAL MANDATORY CONVERTIBLE SECURITIES",
+      "total_extracted_fv": "24955866"
+    },
+    "COMMON STOCKS > Telecommunications": {
+      "calculated_fv": "23486",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false
+    },
+    "COMMON STOCKS": {
+      "calculated_fv": "23486",
+      "calculated_cost": null,
+      "calculated_pct": "0.0",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "total_label": "TOTAL COMMON STOCKS",
+      "total_extracted_fv": "23486"
+    },
+    "SHORT-TERM SECURITIES > Commercial Paper": {
+      "calculated_fv": "5299193",
+      "calculated_cost": null,
+      "calculated_pct": "4.6",
+      "extracted_fv": "5299193",
+      "extracted_cost": null,
+      "extracted_pct": "4.6",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true
+    },
+    "SHORT-TERM SECURITIES > U.S. Government Obligations": {
+      "calculated_fv": "11000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false
+    },
+    "SHORT-TERM SECURITIES": {
+      "calculated_fv": "5310193",
+      "calculated_cost": null,
+      "calculated_pct": "4.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "4.6",
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "total_label": "TOTAL SHORT-TERM SECURITIES",
+      "total_extracted_fv": "5310193"
+    },
+    "(root)": {
+      "calculated_fv": "139793058",
+      "calculated_cost": null,
+      "calculated_pct": "195.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 10,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'Total' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 21
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1507500' don't match citation content digits '945625' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 57,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '506250' don't match citation content digits '2' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 61,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.02042483660130719 out of [0,1]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 69
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1629375' don't match citation content digits '883750' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 71,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (61987411) != extracted subtotal (8169847), diff=$53817564",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "CONVERTIBLE BONDS AND NOTES",
+        "calculated": "61987411",
+        "extracted": "8169847",
+        "diff": "53817564"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (46.1%) != extracted subtotal (53.6%), diff=7.5%",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "CONVERTIBLE BONDS AND NOTES",
+        "calculated": "46.1",
+        "extracted": "53.6",
+        "diff": "7.5",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Pharmaceuticals' mentions categories not in section path",
+      "context": {
+        "section_path": "Major Industry Exposure",
+        "label": "Pharmaceuticals",
+        "keywords": [
+          "pharmaceuticals"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Technology' mentions categories not in section path",
+      "context": {
+        "section_path": "Major Industry Exposure",
+        "label": "Technology",
+        "keywords": [
+          "technology"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Banking/Savings & Loan' mentions categories not in section path",
+      "context": {
+        "section_path": "Major Industry Exposure",
+        "label": "Banking/Savings & Loan",
+        "keywords": [
+          "banking",
+          "savings",
+          "loan"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Financial & Insurance' mentions categories not in section path",
+      "context": {
+        "section_path": "Major Industry Exposure",
+        "label": "Financial & Insurance",
+        "keywords": [
+          "financial",
+          "insurance"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Energy' mentions categories not in section path",
+      "context": {
+        "section_path": "Major Industry Exposure",
+        "label": "Energy",
+        "keywords": [
+          "energy"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Retail' mentions categories not in section path",
+      "context": {
+        "section_path": "Major Industry Exposure",
+        "label": "Retail",
+        "keywords": [
+          "retail"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Telecommunications' mentions categories not in section path",
+      "context": {
+        "section_path": "Major Industry Exposure",
+        "label": "Telecommunications",
+        "keywords": [
+          "telecommunications"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Health Care' mentions categories not in section path",
+      "context": {
+        "section_path": "Major Industry Exposure",
+        "label": "Health Care",
+        "keywords": [
+          "health",
+          "care"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Automotive' mentions categories not in section path",
+      "context": {
+        "section_path": "Major Industry Exposure",
+        "label": "Automotive",
+        "keywords": [
+          "automotive"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Consumer Goods' mentions categories not in section path",
+      "context": {
+        "section_path": "Major Industry Exposure",
+        "label": "Consumer Goods",
+        "keywords": [
+          "consumer",
+          "goods"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Total' but no holdings or child sections",
+      "context": {
+        "section_path": "Major Industry Exposure",
+        "label": "Total"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Total Investments' but no holdings or child sections",
+      "context": {
+        "section_path": "Total Investments",
+        "label": "Total Investments"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Other assets and liabilities, net' but no holdings or child sections",
+      "context": {
+        "section_path": "Other assets and liabilities, net",
+        "label": "Other assets and liabilities, net"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Total Net Assets' but no holdings or child sections",
+      "context": {
+        "section_path": "Total Net Assets",
+        "label": "Total Net Assets"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2004) differs from filename (9521)",
+      "context": {
+        "as_of_date": "April 30, 2004",
+        "filename_date": "9521-04-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 1 row(s): COLUMN_HEADER_AS_HOLDING=1",
+      "context": {
+        "fix_count": 1,
+        "dropped": 0,
+        "converted": 1
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 1,
+    "dropped_count": 0,
+    "converted_count": 1,
+    "percent_corrected_count": 0,
+    "fix_log": [
+      {
+        "row_idx": 91,
+        "old_row_type": "HOLDING",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "COLUMN_HEADER_AS_HOLDING",
+        "confidence": "high",
+        "row_signature": "HOLDING:Principal Amount: |fv=8,169,847",
+        "old_value": null,
+        "new_value": null
+      }
+    ]
+  }
+}

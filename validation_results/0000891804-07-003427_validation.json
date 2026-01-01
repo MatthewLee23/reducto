@@ -1,0 +1,508 @@
+{
+  "source_name": "0000891804-07-003427",
+  "total_rows": 54,
+  "holding_count": 35,
+  "subtotal_count": 13,
+  "total_count": 6,
+  "error_count": 1,
+  "warning_count": 34,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "7375000",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "112084000",
+  "extracted_total_fv": "104709000",
+  "computed_sums": {
+    "SUB-FUNDS > COMMODITY TRADING ADVISOR": {
+      "calculated_fv": "3622000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SUB-FUNDS > CONVERTIBLE BOND ARBITRAGE": {
+      "calculated_fv": "2109000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SUB-FUNDS > DISTRESSED": {
+      "calculated_fv": "5488000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SUB-FUNDS > EMERGING MARKETS": {
+      "calculated_fv": "4059000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SUB-FUNDS > EQUITY MARKET NEUTRAL": {
+      "calculated_fv": "9147000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "9147000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SUB-FUNDS > EVENT DRIVEN": {
+      "calculated_fv": "6279000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SUB-FUNDS > FIXED INCOME ARBITRAGE": {
+      "calculated_fv": "7543000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "7543000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "SUB-FUNDS > GLOBAL MACRO": {
+      "calculated_fv": "7457000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "7457000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SUB-FUNDS > NON-U.S. EQUITY HEDGE": {
+      "calculated_fv": "13238000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "13238000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0
+    },
+    "SUB-FUNDS > RELATIVE VALUE ARBITRAGE": {
+      "calculated_fv": "4837000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4837000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SUB-FUNDS > SECTOR HEDGE": {
+      "calculated_fv": "11539000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "11539000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "SUB-FUNDS > SHORT BIAS": {
+      "calculated_fv": "5289000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5289000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SUB-FUNDS > SPECIAL SITUATIONS": {
+      "calculated_fv": "5501000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5501000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SUB-FUNDS > STATISTICAL ARBITRAGE": {
+      "calculated_fv": "3431000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SUB-FUNDS > U.S. EQUITY HEDGE": {
+      "calculated_fv": "15170000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "15170000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "SUB-FUNDS": {
+      "calculated_fv": "104709000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 15
+    },
+    "CASH EQUIVALENT": {
+      "calculated_fv": "7375000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "112084000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "104709000",
+      "extracted_cost": "84481000",
+      "extracted_pct": null,
+      "label": "TOTAL SUB-FUNDS"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3761000' don't match citation content digits '4948000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 47,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "cost_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "cost_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 51
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "cost_raw",
+        "row": 51
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 51
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 51
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 51
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 52
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "cost_raw",
+        "row": 52
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 52
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 52
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 52
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 53
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "cost_raw",
+        "row": 53
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "amortized_cost_raw",
+        "row": 53
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 53
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=6 outside [1, 4]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 53
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SUB-FUNDS > COMMODITY TRADING ADVISOR"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SUB-FUNDS > CONVERTIBLE BOND ARBITRAGE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SUB-FUNDS > DISTRESSED"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SUB-FUNDS > EMERGING MARKETS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SUB-FUNDS > EVENT DRIVEN"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SUB-FUNDS > STATISTICAL ARBITRAGE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "CASH EQUIVALENT"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (112084000) != Total row (104709000), diff=$7375000",
+      "context": {
+        "label": "TOTAL SUB-FUNDS",
+        "calculated": "112084000",
+        "extracted": "104709000",
+        "diff": "7375000"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2007) differs from filename (1804)",
+      "context": {
+        "as_of_date": "SEPTEMBER 30, 2007",
+        "filename_date": "1804-07-00"
+      }
+    }
+  ]
+}

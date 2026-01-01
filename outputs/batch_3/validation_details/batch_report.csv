@@ -1,0 +1,15 @@
+filename,status,error_message,total_rows,holding_count,subtotal_count,total_count,validation_errors,validation_warnings,has_arithmetic_error,max_dollar_diff,root_sum_mismatch,calculated_total_fv,extracted_total_fv,top_error_code
+0000002230-03-000010.pdf,success,,121,87,32,2,0,4,False,0,False,,,
+0000002230-04-000031.pdf,success,,168,123,38,7,1,17,True,1174878,False,,,TOTAL_MISMATCH_FV
+0000002230-04-000040.pdf,success,,137,94,39,4,0,1,False,0,False,,,
+0000002230-05-000014.pdf,success,,184,139,38,7,3,5,True,667402,False,,,ARITH_MISMATCH_FV
+0000002230-05-000033.pdf,success,,169,134,31,4,2,5,True,1243815357,False,,,ARITH_MISMATCH_FV
+0000002230-06-000011.pdf,success,,143,121,15,7,0,4,False,0,False,,,
+0000002230-06-000044.pdf,success,,91,79,12,0,0,32,False,0,False,,,
+0000002230-07-000025.pdf,success,,151,131,15,5,0,31,False,0,False,,,
+0000002230-07-000062.pdf,success,,97,83,13,1,0,24,False,0,False,,,
+0000002230-08-000027.pdf,success,,153,111,36,6,1,8,True,23054,False,,,TOTAL_MISMATCH_FV
+0000002230-08-000057.pdf,success,,148,105,37,6,0,18,False,0,False,,,
+0000002230-09-000035.pdf,success,,128,87,35,6,0,9,False,0,False,,,
+0000009521-03-000006.pdf,success,,128,86,40,2,0,16,False,0,False,,,
+0000009521-03-000025.pdf,success,,120,97,16,7,0,64,False,0,False,,,

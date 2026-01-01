@@ -1,0 +1,345 @@
+{
+  "source_name": "aeres-2024-03-31",
+  "total_rows": 169,
+  "holding_count": 157,
+  "subtotal_count": 7,
+  "total_count": 5,
+  "error_count": 2,
+  "warning_count": 24,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "861616485",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "830440875",
+  "extracted_total_fv": "18306195",
+  "computed_sums": {
+    "Private Assets > Direct Investments/Co-Investments": {
+      "calculated_fv": "18306195",
+      "calculated_cost": "17786212",
+      "calculated_pct": "1.82",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Private Assets > Primary Investments": {
+      "calculated_fv": "31605299",
+      "calculated_cost": "26283209",
+      "calculated_pct": "3.13",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0
+    },
+    "Private Assets > Secondary Investments": {
+      "calculated_fv": "780529381",
+      "calculated_cost": "643067982",
+      "calculated_pct": "77.30",
+      "extracted_fv": "780529381",
+      "extracted_cost": "643067982",
+      "extracted_pct": null,
+      "holding_count": 145,
+      "child_count": 0
+    },
+    "Private Assets": {
+      "calculated_fv": "830440875",
+      "calculated_cost": "687137403",
+      "calculated_pct": "82.25",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "Short-Term Investments > Money Market Fund": {
+      "calculated_fv": null,
+      "calculated_cost": "192265294",
+      "calculated_pct": "19.04",
+      "extracted_fv": "192265294",
+      "extracted_cost": "192265294",
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": null,
+      "calculated_cost": "192265294",
+      "calculated_pct": "19.04",
+      "extracted_fv": "192265294",
+      "extracted_cost": "192265294",
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "830440875",
+      "calculated_cost": "879402697",
+      "calculated_pct": "101.29",
+      "extracted_fv": "18306195",
+      "extracted_cost": "17786212",
+      "extracted_pct": null,
+      "label": "Total Direct Investments/Co-Investments"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '24408' don't match citation content digits '101906'",
+      "context": {
+        "field": "cost_raw",
+        "row": 75,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '128338' don't match citation content digits '171522'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 77,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '246225' don't match citation content digits '101906'",
+      "context": {
+        "field": "cost_raw",
+        "row": 77,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1595631' don't match citation content digits '57866'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 79,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '51558' don't match citation content digits '491908'",
+      "context": {
+        "field": "cost_raw",
+        "row": 81,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '170373' don't match citation content digits '491116'",
+      "context": {
+        "field": "cost_raw",
+        "row": 82,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '31160128' don't match citation content digits '7946692'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 85,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '22826087' don't match citation content digits '9657965'",
+      "context": {
+        "field": "cost_raw",
+        "row": 85,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '745715' don't match citation content digits '491116'",
+      "context": {
+        "field": "cost_raw",
+        "row": 86,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '53734' don't match citation content digits '491116'",
+      "context": {
+        "field": "cost_raw",
+        "row": 87,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '297' don't match citation content digits '048'",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 88,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '016' don't match citation content digits '005'",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 89,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6834340' don't match citation content digits '7946692'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 94,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6181116' don't match citation content digits '9657965'",
+      "context": {
+        "field": "cost_raw",
+        "row": 94,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '068' don't match citation content digits '079'",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 94,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '121224' don't match citation content digits '10336'",
+      "context": {
+        "field": "cost_raw",
+        "row": 95,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '12500000' don't match citation content digits '9657965'",
+      "context": {
+        "field": "cost_raw",
+        "row": 97,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '124' don't match citation content digits '079'",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 97,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1880886' don't match citation content digits '7946692'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 98,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1836020' don't match citation content digits '9657965'",
+      "context": {
+        "field": "cost_raw",
+        "row": 98,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '618999' don't match citation content digits '16621'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 99,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '731219' don't match citation content digits '46456'",
+      "context": {
+        "field": "cost_raw",
+        "row": 99,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Private Assets > Direct Investments/Co-Investments"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 8 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Private Assets > Primary Investments"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (830440875) != Total row (18306195), diff=$812134680",
+      "context": {
+        "label": "Total Direct Investments/Co-Investments",
+        "calculated": "830440875",
+        "extracted": "18306195",
+        "diff": "812134680"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_COST",
+      "message": "Sum of all costs (879402697) != Total row (17786212), diff=$861616485",
+      "context": {
+        "label": "Total Direct Investments/Co-Investments",
+        "calculated": "879402697",
+        "extracted": "17786212",
+        "diff": "861616485"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4171 @@
+{
+  "source_name": "0000078713-08-000045",
+  "total_rows": 311,
+  "holding_count": 264,
+  "subtotal_count": 44,
+  "total_count": 3,
+  "error_count": 8,
+  "warning_count": 390,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "511648599",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "716189120",
+  "extracted_total_fv": "204540521",
+  "computed_sums": {
+    "COLLATERALIZED LOAN OBLIGATIONS > Financial": {
+      "calculated_fv": "5402669",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0
+    },
+    "COLLATERALIZED LOAN OBLIGATIONS": {
+      "calculated_fv": "5402669",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5402669",
+      "extracted_cost": "6033529",
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Aerospace": {
+      "calculated_fv": "18782120",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "18782120",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Broadcasting": {
+      "calculated_fv": "67413749",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "67413749",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Cable/Wireless Video": {
+      "calculated_fv": "39157910",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "39157910",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Chemicals": {
+      "calculated_fv": "15503137",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "15503137",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Consumer - Durables": {
+      "calculated_fv": "1572430",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1572430",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Consumer - Non-Durables": {
+      "calculated_fv": "6160602",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "6160602",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Diversified Media": {
+      "calculated_fv": "22210971",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "22210971",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Energy": {
+      "calculated_fv": "20912596",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "20912596",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 13,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Financial": {
+      "calculated_fv": "4190919",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4190919",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Food & Tobacco": {
+      "calculated_fv": "7254082",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "7254082",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Forest Products & Containers": {
+      "calculated_fv": "895000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "895000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Gaming & Leisure": {
+      "calculated_fv": "19297005",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "15397005",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Healthcare": {
+      "calculated_fv": "7700000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "7700000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Home Construction": {
+      "calculated_fv": "3600000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3600000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Industrial Equipment": {
+      "calculated_fv": "3900000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3900000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Metals & Mining": {
+      "calculated_fv": "3800000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "3800000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "SENIOR SECURED FLOATING RATE LOAN INTERESTS": {
+      "calculated_fv": "242350521",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 16
+    },
+    "Gaming & Leisure": {
+      "calculated_fv": "28600974",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "895000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 15,
+      "child_count": 0
+    },
+    "Healthcare": {
+      "calculated_fv": "63607329",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "63607329",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 18,
+      "child_count": 0
+    },
+    "Housing": {
+      "calculated_fv": "19088081",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "19088081",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0
+    },
+    "Information Technology": {
+      "calculated_fv": "39337815",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "39337815",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 16,
+      "child_count": 0
+    },
+    "Manufacturing": {
+      "calculated_fv": "5152245",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5152245",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Metals & Minerals": {
+      "calculated_fv": "5521203",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5521203",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Retail": {
+      "calculated_fv": "39744727",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "39744727",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0
+    },
+    "Service": {
+      "calculated_fv": "46703008",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "20703026",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 17,
+      "child_count": 0
+    },
+    "Telecommunications": {
+      "calculated_fv": "38032073",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "38032073",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 23,
+      "child_count": 0
+    },
+    "Transportation": {
+      "calculated_fv": "27944676",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "27944676",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 9,
+      "child_count": 0
+    },
+    "Utility": {
+      "calculated_fv": "32810833",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "32810833",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 15,
+      "child_count": 0
+    },
+    "Wireless Communication": {
+      "calculated_fv": "23260703",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "23260703",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Claims > Aerospace": {
+      "calculated_fv": "239588",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0
+    },
+    "Claims": {
+      "calculated_fv": "239588",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "239588",
+      "extracted_cost": "780994",
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Convertible Bonds & Notes > Cable/Wireless Video": {
+      "calculated_fv": "2410110",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Convertible Bonds & Notes": {
+      "calculated_fv": "4820220",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "2410110",
+      "extracted_cost": "4086900",
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 1
+    },
+    "Corporate Notes > Cable/Wireless Video": {
+      "calculated_fv": "1700000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "Corporate Notes > Healthcare": {
+      "calculated_fv": "50990108",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "25495054",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 10,
+      "child_count": 0
+    },
+    "Corporate Notes > Information Technology": {
+      "calculated_fv": "9826000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "4913000",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "Corporate Notes > Retail": {
+      "calculated_fv": "9862500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "9862500",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "Corporate Notes > Transportation": {
+      "calculated_fv": "2760000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Corporate Notes": {
+      "calculated_fv": "75138608",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "43880554",
+      "extracted_cost": "45201990",
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5
+    },
+    "Common Stock > Aerospace": {
+      "calculated_fv": "1143847",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Common Stock": {
+      "calculated_fv": "1143847",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "1143847",
+      "extracted_cost": "4230243",
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Warrants > Wireless Communication": {
+      "calculated_fv": "440000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "Warrants": {
+      "calculated_fv": "440000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "440000",
+      "extracted_cost": "956752",
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "Temporary Cash Investment > Repurchase Agreement": {
+      "calculated_fv": "16850000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "Temporary Cash Investment": {
+      "calculated_fv": "16850000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "16850000",
+      "extracted_cost": "16850000",
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "716189120",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "204540521",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "label": "TOTAL SENIOR SECURED FLOATING RATE LOAN INTERESTS"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '566200' don't match citation content digits '4643913149167'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 0,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '1666673'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 0,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '24285713'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 2,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '18214293'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 3,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '13333331'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 5,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '23693682'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 6,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2786636' don't match citation content digits '5948293'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 9,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '977500' don't match citation content digits '100000013'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 13,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4950000' don't match citation content digits '16373331'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 15,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 16
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2025000' don't match citation content digits '1182681'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 18,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9096474' don't match citation content digits '2131131'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 19,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '989994' don't match citation content digits '7422681'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 21,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7000000' don't match citation content digits '52491811'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 22,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '19523810' don't match citation content digits '45366323'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 23,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2968973' don't match citation content digits '1366021'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 24,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 27
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '15627171' don't match citation content digits '2000000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 28,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '19687914' don't match citation content digits '29770992'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 30,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1428204' don't match citation content digits '10000001'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 31,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 32
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 35
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 37
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '721366' don't match citation content digits '1020112045295'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 38,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 43
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6160602' don't match citation content digits '19088081'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 43,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1980000' don't match citation content digits '25566681'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 44,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 45
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 46
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8850619' don't match citation content digits '42091129134477920'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 46,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 46
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 47
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 47
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 48
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 48
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '213333' don't match citation content digits '29775001'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 48,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 49
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=36 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 50
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 51
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 51
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 52
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2609725' don't match citation content digits '46464133444898'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 52,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 52
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 53
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 53
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '500000' don't match citation content digits '3488371'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 53,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 54
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 54
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 55
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 55
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '729730' don't match citation content digits '10000002'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 55,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 56
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 56
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 57
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 57
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 58
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 58
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 59
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 59
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2000000' don't match citation content digits '938462'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 59,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 60
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 61
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 61
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '945280' don't match citation content digits '100000011'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 61,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 62
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=37 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 62
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 63
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 63
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4676353' don't match citation content digits '29272811'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 63,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 64
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 64
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 65
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 65
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 66
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 66
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 67
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2763279' don't match citation content digits '55128104181928'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 67,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 67
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=38 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 68
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 69
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 69
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 70
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 70
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '987500' don't match citation content digits '38432912'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 70,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 71
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 71
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 72
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 72
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 73
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 73
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4962500' don't match citation content digits '26666672'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 73,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 74
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 74
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 75
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 75
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '833333' don't match citation content digits '19798992'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 75,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 76
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 76
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 77
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 77
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 78
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2295867' don't match citation content digits '587381133845835'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 78,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 78
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2428571' don't match citation content digits '50000002'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 78,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 79
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 79
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=39 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 80
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4275000' don't match citation content digits '39744727'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 80,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 81
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 81
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 82
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 82
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2369368' don't match citation content digits '99749431'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 82,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 83
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 83
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 84
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 84
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '753545' don't match citation content digits '19900001'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 84,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 85
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 85
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 86
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 86
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 87
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2000000' don't match citation content digits '57614753'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 87,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 92
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 92
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 93
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 94
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1800000' don't match citation content digits '429133537162'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 94,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 94
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2000000' don't match citation content digits '3762938152733'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 94,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 95
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 95
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 96
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 96
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 97
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 97
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 98
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1950000' don't match citation content digits '4631823135296956'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 98,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=40 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 98
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2000000' don't match citation content digits '57614753'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 98,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 99
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 99
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3900000' don't match citation content digits '25999982'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 99,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 100
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 100
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 101
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 101
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 102
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 102
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 103
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1800000' don't match citation content digits '687491214587316'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 103,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 103
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 104
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1800000' don't match citation content digits '7374914151718829'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 104,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 104
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2000000' don't match citation content digits '1142857'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 104,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 105
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 105
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 106
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=41 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 106
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '166667' don't match citation content digits '857143'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 106,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 107
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 108
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 108
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 109
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 109
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1821429' don't match citation content digits '10000001'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 109,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 110
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 110
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 111
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 111
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 112
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 112
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2369368' don't match citation content digits '10000002'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 112,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 113
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=42 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 113
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5077235' don't match citation content digits '1000000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 113,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 114
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 114
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '753545' don't match citation content digits '16224'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 114,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 115
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '166552' don't match citation content digits '2'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 115,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 115
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '594829' don't match citation content digits '21503'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 115,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 116
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 116
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 117
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 117
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 118
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 118
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2960994' don't match citation content digits '14100002'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 118,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 119
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 119
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 120
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4050000' don't match citation content digits '9375629152516716'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 120,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 120
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 121
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 121
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1637333' don't match citation content digits '15000002'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 121,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 122
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=43 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 123
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 124
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 124
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 125
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 125
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 126
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 126
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '20619' don't match citation content digits '78888633'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 126,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 127
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 127
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 128
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 128
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5249181' don't match citation content digits '4937503'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 128,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 129
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 129
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 130
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 130
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 131
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=44 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 131
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 132
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 132
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 133
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1860000' don't match citation content digits '27944676'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 133,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 134
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 134
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 135
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 135
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 136
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2629770' don't match citation content digits '4705'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 136,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 136
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 137
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '965000' don't match citation content digits '2571'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 137,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 137
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '7756911'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 137,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 138
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7878175' don't match citation content digits '49461220133246524'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 138,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 138
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7987500' don't match citation content digits '34622971'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 138,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 139
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9060313' don't match citation content digits '2596'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 139,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 139
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9875001' don't match citation content digits '17547771'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 139,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 140
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 140
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2955037' don't match citation content digits '36241861'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 140,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=45 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 141
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 142
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 142
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 143
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 143
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6064643' don't match citation content digits '2812502'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 143,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 144
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 144
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2350914' don't match citation content digits '26807322'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 144,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 145
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 145
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 146
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 146
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 147
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2062770' don't match citation content digits '46961213133593246'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 147,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 147
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 148
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=46 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 148
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1996751' don't match citation content digits '2342603'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 148,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 149
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 150
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 150
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2556668' don't match citation content digits '1142554'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 150,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 151
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 151
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 152
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 152
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4962312' don't match citation content digits '98250002'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 152,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 153
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 153
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 154
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2568094' don't match citation content digits '23260703'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 154,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 155
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 156
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 156
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 157
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=47 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 157
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '644999' don't match citation content digits '2500000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 157,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=48 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 158
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=48 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 158
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4616279' don't match citation content digits '2500000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 158,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=48 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 159
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=48 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 159
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '348837' don't match citation content digits '2130600'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 159,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=48 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 160
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '803911' don't match citation content digits '2528750'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 160,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=48 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 160
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=48 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 161
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '940000' don't match citation content digits '2524237'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 161,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=48 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 161
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=48 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 162
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1160250' don't match citation content digits '2526928'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 162,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=48 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 162
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=48 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 163
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 164
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 164
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7806287' don't match citation content digits '3951000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 164,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 165
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 166
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 167
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 167
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 168
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 168
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 169
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 169
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2927281' don't match citation content digits '30000001301015131443060000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 169,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 170
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 170
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 171
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 172
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1339275' don't match citation content digits '25495054'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 172,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 173
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 173
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 174
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 175
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 176
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 177
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 177
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 178
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 178
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 179
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2386667' don't match citation content digits '5151914415000000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 179,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 179
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 180
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 180
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '15765928' don't match citation content digits '5000000155'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 180,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 181
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 181
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1979899' don't match citation content digits '30000001301015131443060000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 181,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 182
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 182
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 183
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 183
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 184
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3845835' don't match citation content digits '25495054'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 184,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 185
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 185
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3980100' don't match citation content digits '40000026675'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 185,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=49 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 186
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=50 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 187
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8650937' don't match citation content digits '4913000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 187,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=50 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 188
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=50 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 188
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=50 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 189
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=50 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 189
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=50 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 190
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=50 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 190
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=50 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 191
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=50 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 192
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=50 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 192
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '987500' don't match citation content digits '30000001'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 192,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=50 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 193
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=51 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 194
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=51 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 194
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=51 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 195
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=51 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 196
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=51 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 196
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=51 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 197
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=52 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 198
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=51 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 198
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=52 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 199
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=52 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 199
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '997494' don't match citation content digits '337000023353008'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 199,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=52 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 200
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3537162' don't match citation content digits '1482810'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 200,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=52 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 200
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=53 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 201
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=53 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 201
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=53 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 202
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4957594' don't match citation content digits '556051383370000'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 202,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=53 outside [1, 35]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 202
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=53 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 203
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=53 outside [1, 35]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 204
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 8 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "COLLATERALIZED LOAN OBLIGATIONS > Financial"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (19297005) != extracted (15397005), diff=$3900000",
+      "context": {
+        "section_path": "SENIOR SECURED FLOATING RATE LOAN INTERESTS > Gaming & Leisure",
+        "label": "",
+        "calculated": "19297005",
+        "extracted": "15397005",
+        "diff": "3900000"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (28600974) != extracted (895000), diff=$27705974",
+      "context": {
+        "section_path": "Gaming & Leisure",
+        "label": "$ 895,000",
+        "calculated": "28600974",
+        "extracted": "895000",
+        "diff": "27705974"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (46703008) != extracted (20703026), diff=$25999982",
+      "context": {
+        "section_path": "Service",
+        "label": "$ 20,703,026",
+        "calculated": "46703008",
+        "extracted": "20703026",
+        "diff": "25999982"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 7 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Claims > Aerospace"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Convertible Bonds & Notes > Cable/Wireless Video"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (4820220) != extracted (2410110), diff=$2410110",
+      "context": {
+        "section_path": "Convertible Bonds & Notes",
+        "label": "TOTAL CONVERTIBLE BONDS & NOTES",
+        "calculated": "4820220",
+        "extracted": "2410110",
+        "diff": "2410110"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Notes > Cable/Wireless Video"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (50990108) != extracted (25495054), diff=$25495054",
+      "context": {
+        "section_path": "Corporate Notes > Healthcare",
+        "label": "$ 25,495,054",
+        "calculated": "50990108",
+        "extracted": "25495054",
+        "diff": "25495054"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (9826000) != extracted (4913000), diff=$4913000",
+      "context": {
+        "section_path": "Corporate Notes > Information Technology",
+        "label": "$ 4,913,000",
+        "calculated": "9826000",
+        "extracted": "4913000",
+        "diff": "4913000"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Corporate Notes > Transportation"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (75138608) != extracted (43880554), diff=$31258054",
+      "context": {
+        "section_path": "Corporate Notes",
+        "label": "TOTAL CORPORATE NOTES",
+        "calculated": "75138608",
+        "extracted": "43880554",
+        "diff": "31258054"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Common Stock > Aerospace"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Warrants > Wireless Communication"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 5 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Temporary Cash Investment > Repurchase Agreement"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (716189120) != Total row (204540521), diff=$511648599",
+      "context": {
+        "label": "TOTAL SENIOR SECURED FLOATING RATE LOAN INTERESTS",
+        "calculated": "716189120",
+        "extracted": "204540521",
+        "diff": "511648599"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (8713)",
+      "context": {
+        "as_of_date": "May 31, 2008",
+        "filename_date": "8713-08-00"
+      }
+    }
+  ]
+}

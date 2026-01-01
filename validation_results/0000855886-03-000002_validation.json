@@ -1,0 +1,26 @@
+{
+  "source_name": "0000855886-03-000002",
+  "total_rows": 0,
+  "holding_count": 0,
+  "subtotal_count": 0,
+  "total_count": 0,
+  "error_count": 0,
+  "warning_count": 1,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {},
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2003) differs from filename (5886)",
+      "context": {
+        "as_of_date": "April 30, 2003",
+        "filename_date": "5886-03-00"
+      }
+    }
+  ]
+}

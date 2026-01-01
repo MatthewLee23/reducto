@@ -1,0 +1,633 @@
+{
+  "source_name": "0000002230-09-000035",
+  "total_rows": 128,
+  "holding_count": 87,
+  "subtotal_count": 35,
+  "total_count": 6,
+  "error_count": 1,
+  "warning_count": 26,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "957696431",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "957727681",
+  "extracted_total_fv": "31250",
+  "computed_sums": {
+    "Stocks 89.5% > Consumer -- 20.7% > Consumer Discretionary -- 5.0%": {
+      "calculated_fv": "42338895",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "42338895",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Consumer -- 20.7% > Consumer Staples -- 15.7%": {
+      "calculated_fv": "131913400",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "131913400",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Consumer -- 20.7%": {
+      "calculated_fv": "174252295",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Energy 12.3%": {
+      "calculated_fv": "103130433",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "103130433",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Financial -- 10.1% > Banking - 9.2%": {
+      "calculated_fv": "77506266",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "77506266",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Financial -- 10.1% > Insurance -- 0.9%": {
+      "calculated_fv": "7111100",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Financial -- 10.1%": {
+      "calculated_fv": "84617366",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Health Care -- 15.8%": {
+      "calculated_fv": "132969026",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "132969026",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Industrials -13.4%": {
+      "calculated_fv": "113141500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "113141500",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Information Technology -- 11.7% > Communication Equipment -- 0.6%": {
+      "calculated_fv": "4765000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Information Technology -- 11.7% > Computer Related - 8.8%": {
+      "calculated_fv": "74089600",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "74089600",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Information Technology -- 11.7% > Electronics -- 2.3%": {
+      "calculated_fv": "19102400",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "19102400",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Information Technology -- 11.7%": {
+      "calculated_fv": "97957000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 3,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Materials -- 1.1%": {
+      "calculated_fv": "9108000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Telecom Services -- 1.4%": {
+      "calculated_fv": "11400000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "Stocks 89.5% > Utilities -- 3.0%": {
+      "calculated_fv": "25372727",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "25372727",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Stocks 89.5%": {
+      "calculated_fv": "751948347",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 9,
+      "subtotal_count": 9,
+      "total_count": 1,
+      "total_label": "Total Stocks",
+      "total_extracted_fv": "751948347"
+    },
+    "Short-Term Investments -- 10.6% > U.S. Government Obligations -- 1.5%": {
+      "calculated_fv": "12496792",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Short-Term Investments -- 10.6% > Commercial Paper - 3.6%": {
+      "calculated_fv": "29988038",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Short-Term Investments -- 10.6% > Money Market Funds -- 5.5%": {
+      "calculated_fv": "46650000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0
+    },
+    "Short-Term Investments -- 10.6% > Time Deposit -- 0.0%": {
+      "calculated_fv": "207678",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Short-Term Investments -- 10.6%": {
+      "calculated_fv": "89342508",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "total_label": "Total Short-Term Investments",
+      "total_extracted_fv": "89342508"
+    },
+    "Total Securities Lending Collateral -- 13.9% > Money Market Funds -- 13.9%": {
+      "calculated_fv": "116405576",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "Total Securities Lending Collateral -- 13.9%": {
+      "calculated_fv": "116405576",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "COVERED CALLS": {
+      "calculated_fv": "1000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0
+    },
+    "COLLATERALIZED PUTS": {
+      "calculated_fv": "30250",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "30250",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0
+    },
+    "(root)": {
+      "calculated_fv": "957727681",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 8,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "total_label": "TOTAL",
+      "total_extracted_fv": "31250"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'Total Securities Lending Collateral -- 13.9%' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 114
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 126
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "TOTAL row has empty label",
+      "context": {
+        "row": 127
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks 89.5% > Financial -- 10.1% > Insurance -- 0.9%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks 89.5% > Information Technology -- 11.7% > Communication Equipment -- 0.6%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks 89.5% > Materials -- 1.1%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Stocks 89.5% > Telecom Services -- 1.4%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "COVERED CALLS"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_FV",
+      "message": "Grand total of all holdings (957727681) != extracted Total (31250), diff=$957696431",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL",
+        "calculated": "957727681",
+        "extracted": "31250",
+        "diff": "957696431"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Banking - 9.2%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5% > Financial -- 10.1%",
+        "label": "Banking - 9.2%",
+        "keywords": [
+          "banking"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Insurance -- 0.9%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5% > Financial -- 10.1%",
+        "label": "Insurance -- 0.9%",
+        "keywords": [
+          "insurance"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Communication Equipment -- 0.6%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5% > Information Technology -- 11.7%",
+        "label": "Communication Equipment -- 0.6%",
+        "keywords": [
+          "communication",
+          "equipment"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Computer Related - 8.8%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5% > Information Technology -- 11.7%",
+        "label": "Computer Related - 8.8%",
+        "keywords": [
+          "computer",
+          "related"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Electronics -- 2.3%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5% > Information Technology -- 11.7%",
+        "label": "Electronics -- 2.3%",
+        "keywords": [
+          "electronics"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Consumer -- 20.7%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5%",
+        "label": "Consumer -- 20.7%",
+        "keywords": [
+          "consumer"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Energy 12.3%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5%",
+        "label": "Energy 12.3%",
+        "keywords": [
+          "energy"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Financial -- 10.1%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5%",
+        "label": "Financial -- 10.1%",
+        "keywords": [
+          "financial"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Health Care -- 15.8%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5%",
+        "label": "Health Care -- 15.8%",
+        "keywords": [
+          "health",
+          "care"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Industrials -13.4%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5%",
+        "label": "Industrials -13.4%",
+        "keywords": [
+          "industrials"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Information Technology -- 11.7%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5%",
+        "label": "Information Technology -- 11.7%",
+        "keywords": [
+          "information",
+          "technology"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Materials -- 1.1%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5%",
+        "label": "Materials -- 1.1%",
+        "keywords": [
+          "materials"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Telecom Services -- 1.4%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5%",
+        "label": "Telecom Services -- 1.4%",
+        "keywords": [
+          "telecom",
+          "services"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Utilities -- 3.0%' mentions categories not in section path",
+      "context": {
+        "section_path": "Stocks 89.5%",
+        "label": "Utilities -- 3.0%",
+        "keywords": [
+          "utilities"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Total Investments -- 114.0%' but no holdings or child sections",
+      "context": {
+        "section_path": "Total Investments",
+        "label": "Total Investments -- 114.0%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Cash, receivables, prepaid expenses and other assets, less liabilities -- (14.0) %..' but no holdings or child sections",
+      "context": {
+        "section_path": "Other Assets/Liabilities",
+        "label": "Cash, receivables, prepaid expenses and other assets, less liabilities -- (14.0) %.."
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Net Assets - 100.0%..' but no holdings or child sections",
+      "context": {
+        "section_path": "Net Assets",
+        "label": "Net Assets - 100.0%.."
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (2230)",
+      "context": {
+        "as_of_date": "December 31, 2008",
+        "filename_date": "2230-09-00"
+      }
+    }
+  ]
+}

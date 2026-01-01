@@ -1,0 +1,778 @@
+{
+  "source_name": "0000088053-05-001117",
+  "total_rows": 63,
+  "holding_count": 49,
+  "subtotal_count": 7,
+  "total_count": 7,
+  "error_count": 2,
+  "warning_count": 42,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "104720889",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "305658327",
+  "extracted_total_fv": "200937438",
+  "computed_sums": {
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > BIOTECHNOLOGY": {
+      "calculated_fv": "1767457",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > CHEMICALS": {
+      "calculated_fv": "15624539",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "15624539",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > COMMERCIAL SERVICES & SUPPLIES": {
+      "calculated_fv": "8161130",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "8161130",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > CONSTRUCTION & ENGINEERING": {
+      "calculated_fv": "6854715",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > CONSTRUCTION MATERIALS": {
+      "calculated_fv": "11520835",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > DIVERSIFIED FINANCIALS": {
+      "calculated_fv": "19430341",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "19430341",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > DIVERSIFIED TELECOMMUNICATION SERVICES": {
+      "calculated_fv": "4772761",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > ELECTRICAL EQUIPMENT": {
+      "calculated_fv": "8040212",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "8040212",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > ELECTRONIC EQUIPMENT & INSTRUMENTS": {
+      "calculated_fv": "11011916",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "11011916",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > FOOD PRODUCTS": {
+      "calculated_fv": "3200373",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > HEALTHCARE PROVIDERS & SERVICES": {
+      "calculated_fv": "1592814",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > HOUSEHOLD PRODUCTS": {
+      "calculated_fv": "3717270",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > INSURANCE": {
+      "calculated_fv": "8754796",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > INTERNET SOFTWARE & SERVICES": {
+      "calculated_fv": "11256054",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "11256054",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > MACHINERY": {
+      "calculated_fv": "16787820",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > MEDIA": {
+      "calculated_fv": "3722754",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > MULTILINE RETAIL": {
+      "calculated_fv": "3058105",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > PHARMACEUTICALS": {
+      "calculated_fv": "32450536",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "32450536",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > REAL ESTATE": {
+      "calculated_fv": "18268231",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > SOFTWARE": {
+      "calculated_fv": "4760373",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > TEXTILES, APPAREL & LUXURY GOODS": {
+      "calculated_fv": "6184406",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS": {
+      "calculated_fv": "200937438",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 21
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > PREFERRED STOCKS > ELECTRICAL EQUIPMENT": {
+      "calculated_fv": "4452589",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > PREFERRED STOCKS > HEALTHCARE PROVIDERS & SERVICES": {
+      "calculated_fv": "6453370",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > PREFERRED STOCKS > MEDIA": {
+      "calculated_fv": "4100093",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > PREFERRED STOCKS > TEXTILES, APPAREL & LUXURY GOODS": {
+      "calculated_fv": "4268896",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN GERMAN SECURITIES > PREFERRED STOCKS": {
+      "calculated_fv": "19274948",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4
+    },
+    "INVESTMENTS IN GERMAN SECURITIES": {
+      "calculated_fv": "220212386",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2
+    },
+    "INVESTMENTS IN DUTCH > COMMON STOCKS > AEROSPACE & DEFENSE": {
+      "calculated_fv": "20291669",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN DUTCH > COMMON STOCKS > BIOTECHNOLOGY": {
+      "calculated_fv": "2327498",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN DUTCH > COMMON STOCKS > SOFTWARE": {
+      "calculated_fv": "1262823",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN DUTCH > COMMON STOCKS": {
+      "calculated_fv": "23881990",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3
+    },
+    "INVESTMENTS IN DUTCH": {
+      "calculated_fv": "23881990",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "INVESTMENTS IN IRISH > COMMON STOCK > DIVERSIFIED FINANCIAL SERVICES": {
+      "calculated_fv": "15201771",
+      "calculated_cost": "6584547",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "INVESTMENTS IN IRISH > COMMON STOCK": {
+      "calculated_fv": "15201771",
+      "calculated_cost": "6584547",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "INVESTMENTS IN IRISH": {
+      "calculated_fv": "15201771",
+      "calculated_cost": "6584547",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1
+    },
+    "SECURITIES LENDING COLLATERAL": {
+      "calculated_fv": "46362180",
+      "calculated_cost": "46362180",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0
+    },
+    "GRAND_TOTAL": {
+      "calculated_fv": "305658327",
+      "calculated_cost": "52946727",
+      "calculated_pct": null,
+      "extracted_fv": "200937438",
+      "extracted_cost": "142270867",
+      "extracted_pct": null,
+      "label": "Total Common Stocks (cost $142,270,867)"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 3
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 7
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 14
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 19
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8040212' don't match citation content digits '1767457'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 19,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 24
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 31
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3058105' don't match citation content digits '3269625'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 38,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '84625' don't match citation content digits '130000'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 38,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9805976' don't match citation content digits '11256054'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 42,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_MISSING_LABEL",
+      "message": "SUBTOTAL row has empty label",
+      "context": {
+        "row": 43
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '142270867' don't match citation content digits '940134'",
+      "context": {
+        "field": "cost_raw",
+        "row": 47,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6453370' don't match citation content digits '3033833'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 49,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '238400' don't match citation content digits '29754'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 50,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2327498' don't match citation content digits '940134'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 55,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1262823' don't match citation content digits '940134'",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 56,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '57600' don't match citation content digits '20100'",
+      "context": {
+        "field": "quantity_raw",
+        "row": 56,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8674066' don't match citation content digits '1592814'",
+      "context": {
+        "field": "cost_raw",
+        "row": 57,
+        "citation_idx": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > BIOTECHNOLOGY"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > CONSTRUCTION & ENGINEERING"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > CONSTRUCTION MATERIALS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > DIVERSIFIED TELECOMMUNICATION SERVICES"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > FOOD PRODUCTS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > HEALTHCARE PROVIDERS & SERVICES"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > HOUSEHOLD PRODUCTS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > INSURANCE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 5 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > MACHINERY"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > MEDIA"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > MULTILINE RETAIL"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > REAL ESTATE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > SOFTWARE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > COMMON STOCKS > TEXTILES, APPAREL & LUXURY GOODS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > PREFERRED STOCKS > ELECTRICAL EQUIPMENT"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > PREFERRED STOCKS > HEALTHCARE PROVIDERS & SERVICES"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > PREFERRED STOCKS > MEDIA"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN GERMAN SECURITIES > PREFERRED STOCKS > TEXTILES, APPAREL & LUXURY GOODS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN DUTCH > COMMON STOCKS > AEROSPACE & DEFENSE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN DUTCH > COMMON STOCKS > BIOTECHNOLOGY"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN DUTCH > COMMON STOCKS > SOFTWARE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "INVESTMENTS IN IRISH > COMMON STOCK > DIVERSIFIED FINANCIAL SERVICES"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SECURITIES LENDING COLLATERAL"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_FV",
+      "message": "Sum of all holdings (305658327) != Total row (200937438), diff=$104720889",
+      "context": {
+        "label": "Total Common Stocks (cost $142,270,867)",
+        "calculated": "305658327",
+        "extracted": "200937438",
+        "diff": "104720889"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "GRAND_TOTAL_MISMATCH_COST",
+      "message": "Sum of all costs (52946727) != Total row (142270867), diff=$89324140",
+      "context": {
+        "label": "Total Common Stocks (cost $142,270,867)",
+        "calculated": "52946727",
+        "extracted": "142270867",
+        "diff": "89324140"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2005) differs from filename (8053)",
+      "context": {
+        "as_of_date": "JUNE 30, 2005",
+        "filename_date": "8053-05-00"
+      }
+    }
+  ]
+}

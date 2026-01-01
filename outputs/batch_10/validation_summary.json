@@ -1,0 +1,29 @@
+{
+  "batch_number": 10,
+  "run_timestamp": "20251230_124529",
+  "total_files": 1,
+  "total_rows": 131,
+  "total_errors": 7,
+  "total_warnings": 18,
+  "files_with_errors": 1,
+  "files_with_warnings": 0,
+  "files_with_arithmetic_errors": 1,
+  "files_with_root_mismatch": 0,
+  "all_passed": false,
+  "top_error_codes": {
+    "MISSING_SUBTOTAL": 9,
+    "SUBTOTAL_MISSING_LABEL": 6,
+    "CITATION_VALUE_MISMATCH": 6,
+    "BBOX_OUT_OF_RANGE": 1,
+    "ARITH_MISMATCH_FV": 1,
+    "DATE_MISMATCH": 1,
+    "NORMALIZATION_APPLIED": 1
+  },
+  "files_with_errors_list": [
+    "0000009521-04-000011"
+  ],
+  "files_with_arithmetic_errors_list": [
+    "0000009521-04-000011"
+  ],
+  "files_with_root_mismatch_list": []
+}

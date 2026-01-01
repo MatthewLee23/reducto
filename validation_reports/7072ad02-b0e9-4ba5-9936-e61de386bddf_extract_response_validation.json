@@ -1,0 +1,21 @@
+{
+  "filename": "7072ad02-b0e9-4ba5-9936-e61de386bddf_extract_response.json",
+  "has_data": true,
+  "total_rows": 316,
+  "holdings": 216,
+  "subtotals": 88,
+  "totals": 12,
+  "errors": 0,
+  "warnings": 1,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "ARITH_MISMATCH",
+      "message": "Sum of holdings (371445747) != Total (9286980), diff=362158767",
+      "context": {
+        "calculated": "371445747",
+        "extracted": "9286980"
+      }
+    }
+  ]
+}

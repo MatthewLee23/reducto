@@ -1,0 +1,26 @@
+{
+  "source_name": "0000891804-07-001968",
+  "total_rows": 0,
+  "holding_count": 0,
+  "subtotal_count": 0,
+  "total_count": 0,
+  "error_count": 0,
+  "warning_count": 1,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {},
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2007) differs from filename (1804)",
+      "context": {
+        "as_of_date": "April 30, 2007",
+        "filename_date": "1804-07-00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "result": {
+    "soi_title": {
+      "value": "Schedule of Investments",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.24444444444444444,
+            "top": 0.020833333333333332,
+            "width": 0.20925925925925928,
+            "height": 0.0067708333333333336,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "Schedule of Investments",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 0.98,
+            "parse_confidence": 0.7656539142131805
+          },
+          "extra": null
+        }
+      ]
+    },
+    "as_of_date": {
+      "value": "September 30, 2003",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.3175925925925926,
+            "top": 0.0421875,
+            "width": 0.1648148148148148,
+            "height": 0.00625,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "September 30, 2003",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "high",
+          "granular_confidence": {
+            "extract_confidence": 1.0,
+            "parse_confidence": 1.0
+          },
+          "extra": null
+        }
+      ]
+    },
+    "reporting_basis": {
+      "value": "Unaudited",
+      "citations": [
+        {
+          "type": "Text",
+          "bbox": {
+            "left": 0.4675925925925926,
+            "top": 0.020833333333333332,
+            "width": 0.09259259259259262,
+            "height": 0.0067708333333333336,
+            "page": 1,
+            "original_page": 1
+          },
+          "content": "(Unaudited)",
+          "image_url": null,
+          "chart_data": null,
+          "confidence": "low",
+          "granular_confidence": {
+            "extract_confidence": 0.944,
+            "parse_confidence": 0.7656539142131805
+          },
+          "extra": null
+        }
+      ]
+    },
+    "soi_rows": []
+  },
+  "usage": {
+    "num_fields": 3,
+    "num_pages": 4,
+    "credits": 16.0
+  },
+  "job_id": "50f0743c-4bde-4109-a2d7-210f1667daeb",
+  "studio_link": "https://studio.reducto.ai/job/50f0743c-4bde-4109-a2d7-210f1667daeb"
+}

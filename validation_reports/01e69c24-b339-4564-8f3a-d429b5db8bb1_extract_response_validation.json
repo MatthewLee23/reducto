@@ -1,0 +1,30 @@
+{
+  "filename": "01e69c24-b339-4564-8f3a-d429b5db8bb1_extract_response.json",
+  "has_data": true,
+  "total_rows": 316,
+  "holdings": 271,
+  "subtotals": 38,
+  "totals": 7,
+  "errors": 1,
+  "warnings": 1,
+  "issues": [
+    {
+      "severity": "error",
+      "code": "MULTI_NUMERIC",
+      "message": "Multiple numeric tokens: ['-59,614,334', '-23.2']",
+      "context": {
+        "row": 32,
+        "field": "cost_raw"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ARITH_MISMATCH",
+      "message": "Sum of holdings (373288501) != Total (76778858), diff=296509643",
+      "context": {
+        "calculated": "373288501",
+        "extracted": "76778858"
+      }
+    }
+  ]
+}
