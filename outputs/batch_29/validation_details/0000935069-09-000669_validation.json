@@ -1,0 +1,77 @@
+{
+  "source_name": "0000935069-09-000669",
+  "total_rows": 29,
+  "holding_count": 26,
+  "subtotal_count": 2,
+  "total_count": 1,
+  "error_count": 0,
+  "warning_count": 1,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "LONG/SHORT EQUITY": {
+      "calculated_fv": "542585113",
+      "calculated_cost": "563056599",
+      "calculated_pct": "82.36",
+      "extracted_fv": "542585113",
+      "extracted_cost": "563056599",
+      "extracted_pct": "82.36",
+      "holding_count": 25,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MULTI-STRATEGY": {
+      "calculated_fv": "39342967",
+      "calculated_cost": "25189305",
+      "calculated_pct": "5.97",
+      "extracted_fv": "39342967",
+      "extracted_cost": "25189305",
+      "extracted_pct": "5.97",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "581928080",
+      "calculated_cost": "588245904",
+      "calculated_pct": "88.33",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL",
+      "total_extracted_fv": "581928080"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (5069)",
+      "context": {
+        "as_of_date": "DECEMBER 31, 2008",
+        "filename_date": "5069-09-00"
+      }
+    }
+  ]
+}

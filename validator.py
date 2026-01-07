@@ -86,6 +86,9 @@ class ValidationResult:
         return Counter(error_codes).most_common(1)[0][0]
 
     def to_dict(self) -> Dict[str, Any]:
+        # Sort issues with arithmetic errors at the top for easy diagnosis
+        sorted_issues = self._sort_issues_for_display()
+        
         result = {
             "source_name": self.source_name,
             "total_rows": self.total_rows,
@@ -100,12 +103,72 @@ class ValidationResult:
             "calculated_total_fv": str(self.calculated_total_fv) if self.calculated_total_fv is not None else None,
             "extracted_total_fv": str(self.extracted_total_fv) if self.extracted_total_fv is not None else None,
             "computed_sums": self.computed_sums,
-            "issues": [i.to_dict() for i in self.issues],
+            "issues": [i.to_dict() for i in sorted_issues],
         }
         # Include normalization metadata if present
         if self.normalization:
             result["normalization"] = self.normalization
         return result
+
+    def _sort_issues_for_display(self) -> List[Issue]:
+        """
+        Sort issues so arithmetic errors appear at the top, ordered by dollar diff descending.
+        
+        Priority order:
+        1. Arithmetic errors (MISMATCH codes) - sorted by diff amount descending
+        2. Other errors - sorted by code
+        3. Warnings - sorted by code
+        """
+        # Define arithmetic error codes (where numbers don't add up)
+        ARITHMETIC_ERROR_CODES = {
+            "ROOT_TOTAL_MISMATCH_FV",
+            "ROOT_TOTAL_MISMATCH_COST", 
+            "ROOT_TOTAL_MISMATCH_PCT",
+            "TOTAL_MISMATCH_FV",
+            "TOTAL_MISMATCH_COST",
+            "TOTAL_MISMATCH_PCT",
+            "GRAND_TOTAL_MISMATCH_FV",
+            "GRAND_TOTAL_MISMATCH_COST",
+            "GRAND_TOTAL_MISMATCH_PCT",
+            "ARITH_MISMATCH_FV",
+            "ARITH_MISMATCH_COST",
+            "ARITH_MISMATCH_PCT",
+            "SHIFTED_SUBTOTAL_DETECTED",
+        }
+        
+        def get_diff_value(issue: Issue) -> Decimal:
+            """Extract the diff value from issue context for sorting."""
+            ctx = issue.context or {}
+            diff_str = ctx.get("diff", "0")
+            try:
+                return Decimal(str(diff_str).replace(",", ""))
+            except (InvalidOperation, ValueError, TypeError):
+                return Decimal("0")
+        
+        def sort_key(issue: Issue) -> tuple:
+            """
+            Return a tuple for sorting:
+            (priority_group, -diff_value, code, message)
+            
+            priority_group: 0 = arithmetic errors, 1 = other errors, 2 = warnings
+            """
+            is_arithmetic = issue.code in ARITHMETIC_ERROR_CODES
+            is_error = issue.severity == "error"
+            
+            if is_arithmetic:
+                priority = 0
+                # Negative diff so larger diffs come first
+                diff = -get_diff_value(issue)
+            elif is_error:
+                priority = 1
+                diff = Decimal("0")
+            else:  # warning
+                priority = 2
+                diff = Decimal("0")
+            
+            return (priority, diff, issue.code, issue.message)
+        
+        return sorted(self.issues, key=sort_key)
 
 
 # ---------------------------------------------------------------------------
@@ -624,6 +687,22 @@ def validate_row(
 
     # section_path
     section_path = normalize_section_path(row.get("section_path"))
+    
+    # Check for "Unknown Section" - indicates extraction from Top Holdings or unrecognized table
+    if section_path and "Unknown Section" in section_path:
+        investment = unwrap_value(row.get("investment"))
+        label = unwrap_value(row.get("label"))
+        fair_value = unwrap_value(row.get("fair_value_raw"))
+        result.add(
+            "error",
+            "UNKNOWN_SECTION_DETECTED",
+            "Row assigned to 'Unknown Section' - likely from Top Holdings summary or unrecognized table",
+            row=row_idx,
+            row_type=row_type,
+            investment=investment,
+            label=label,
+            fair_value_raw=fair_value,
+        )
 
     # Type/field coherence
     if row_type == "HOLDING":
@@ -937,6 +1016,9 @@ def _calculate_node_sums(node: ValidationNode, result: ValidationResult, compute
     # Extract values from SUBTOTAL rows
     # For multi-category sections (like "Major Industry Exposure"), we may have multiple
     # SUBTOTAL rows that each represent a category percentage. Sum them all.
+    # 
+    # HIERARCHY DETECTION: If one subtotal's percentage roughly equals the sum of the
+    # others, it's a parent-level subtotal and should be excluded from the sum.
     subtotal_fv_sum = Decimal("0")
     subtotal_cost_sum = Decimal("0")
     subtotal_pct_sum = Decimal("0")
@@ -944,8 +1026,38 @@ def _calculate_node_sums(node: ValidationNode, result: ValidationResult, compute
     has_subtotal_cost = False
     has_subtotal_pct = False
     
-    for subtotal_row in node.subtotal_rows:
+    # Collect all subtotal values for hierarchy detection
+    subtotal_values: List[Tuple[int, Optional[Decimal], Optional[Decimal], Optional[Decimal]]] = []
+    for idx, subtotal_row in enumerate(node.subtotal_rows):
         fv, cost, pct = _extract_row_values(subtotal_row)
+        subtotal_values.append((idx, fv, cost, pct))
+    
+    # Detect hierarchy pattern: one subtotal's pct ~= sum of all others
+    # This indicates a parent-level subtotal that would cause double-counting
+    parent_subtotal_indices: set = set()
+    if len(subtotal_values) >= 3:  # Need at least 3 to have meaningful hierarchy
+        for check_idx, check_fv, check_cost, check_pct in subtotal_values:
+            if check_pct is None or check_pct <= Decimal("0"):
+                continue
+            
+            # Sum all other subtotal percentages
+            other_pct_sum = Decimal("0")
+            other_count = 0
+            for other_idx, _, _, other_pct in subtotal_values:
+                if other_idx != check_idx and other_pct is not None:
+                    other_pct_sum += other_pct
+                    other_count += 1
+            
+            # If this subtotal's pct roughly equals sum of others, it's the parent
+            if other_count >= 2 and other_pct_sum > Decimal("0"):
+                tolerance = max(Decimal("1.0"), check_pct * Decimal("0.05"))
+                if abs(check_pct - other_pct_sum) <= tolerance:
+                    parent_subtotal_indices.add(check_idx)
+    
+    # Sum subtotal values, excluding detected parent-level subtotals
+    for idx, fv, cost, pct in subtotal_values:
+        if idx in parent_subtotal_indices:
+            continue  # Skip parent-level subtotal to avoid double-counting
         if fv is not None:
             subtotal_fv_sum += fv
             has_subtotal_fv = True
@@ -967,6 +1079,7 @@ def _calculate_node_sums(node: ValidationNode, result: ValidationResult, compute
         else:
             # Multiple subtotals - these are likely category breakdown rows
             # Each represents a portion that should sum to a Total
+            # Parent-level subtotals have been excluded from the sum
             node.extracted_fv = subtotal_fv_sum if has_subtotal_fv else None
             node.extracted_cost = subtotal_cost_sum if has_subtotal_cost else None
             node.extracted_pct = subtotal_pct_sum if has_subtotal_pct else None
@@ -989,6 +1102,27 @@ def _calculate_node_sums(node: ValidationNode, result: ValidationResult, compute
         node.calc_pct = subtotal_pct_sum
         pct_bridged = True
     
+    # Track if hierarchy detection was applied
+    hierarchy_detected = len(parent_subtotal_indices) > 0
+    
+    # Add warning if hierarchy detection excluded parent subtotals
+    if hierarchy_detected:
+        excluded_labels = []
+        for idx in parent_subtotal_indices:
+            if idx < len(node.subtotal_rows):
+                label = unwrap_value(node.subtotal_rows[idx].get("label")) or f"subtotal_{idx}"
+                excluded_labels.append(label)
+        
+        result.add(
+            "warning",
+            "PERCENTAGE_HIERARCHY_DETECTED",
+            f"Detected {len(parent_subtotal_indices)} parent-level subtotal(s) that duplicate child sums; excluded from percentage calculation",
+            section_path=node.path_str(),
+            excluded_labels=excluded_labels,
+            original_subtotal_count=len(node.subtotal_rows),
+            adjusted_subtotal_count=len(node.subtotal_rows) - len(parent_subtotal_indices),
+        )
+    
     # Store computed sums for reporting (only for non-root nodes with data)
     path_str = node.path_str()
     # We always want to report the root if it has data
@@ -1006,6 +1140,8 @@ def _calculate_node_sums(node: ValidationNode, result: ValidationResult, compute
             "total_count": len(node.total_rows),
             "pct_bridged_from_subtotal": pct_bridged,
             "multi_subtotal_sum": len(node.subtotal_rows) > 1,
+            "hierarchy_detected": hierarchy_detected,
+            "parent_subtotals_excluded": len(parent_subtotal_indices),
         }
 
 
@@ -1013,16 +1149,30 @@ def _validate_node_arithmetic(
     node: ValidationNode,
     result: ValidationResult,
     computed: Dict[str, Any],
+    sibling_calcs: Optional[Dict[Tuple[str, ...], Decimal]] = None,
 ) -> None:
     """
     Validate arithmetic for a node: calculated vs extracted values.
     Recursively validates all children first.
     
     Root node is now validated for TOTAL rows to catch skipped sections.
+    
+    Args:
+        node: The validation node to check
+        result: ValidationResult to append issues to
+        computed: Dict to store computed sums for reporting
+        sibling_calcs: Optional dict of sibling section paths to their calc_fv values,
+                       used to detect shifted subtotals (off-by-one attribution)
     """
-    # Validate children first
+    # Build sibling calculations map for children
+    child_calcs: Dict[Tuple[str, ...], Decimal] = {}
     for child in node.children.values():
-        _validate_node_arithmetic(child, result, computed)
+        if child.calc_fv is not None:
+            child_calcs[child.path] = child.calc_fv
+    
+    # Validate children first, passing sibling information
+    for child in node.children.values():
+        _validate_node_arithmetic(child, result, computed, child_calcs)
     
     path_str = node.path_str()
     is_root = not node.path
@@ -1037,16 +1187,39 @@ def _validate_node_arithmetic(
         if node.calc_fv is not None and node.extracted_fv is not None:
             diff = abs(node.calc_fv - node.extracted_fv)
             if diff > DOLLAR_TOLERANCE:
-                result.add(
-                    "error",
-                    "ARITH_MISMATCH_FV",
-                    f"Calculated fair_value ({node.calc_fv}) != extracted subtotal ({node.extracted_fv}), diff=${diff}",
-                    section_path=path_str,
-                    label=label,
-                    calculated=str(node.calc_fv),
-                    extracted=str(node.extracted_fv),
-                    diff=str(diff),
-                )
+                # Check if this is a shifted subtotal (off-by-one attribution)
+                # by seeing if extracted_fv matches any sibling's calculated value
+                shifted_from: Optional[str] = None
+                if sibling_calcs:
+                    for sibling_path, sibling_calc_fv in sibling_calcs.items():
+                        if sibling_path != node.path and abs(sibling_calc_fv - node.extracted_fv) <= DOLLAR_TOLERANCE:
+                            shifted_from = " > ".join(sibling_path)
+                            break
+                
+                if shifted_from:
+                    # This is a shifted subtotal - the extracted value belongs to another section
+                    result.add(
+                        "error",
+                        "SHIFTED_SUBTOTAL_DETECTED",
+                        f"SUBTOTAL fair_value ({node.extracted_fv}) appears to belong to section '{shifted_from}' (calc=${sibling_calcs.get(tuple(shifted_from.split(' > ')), 'N/A')}), not current section '{path_str}' (calc=${node.calc_fv})",
+                        section_path=path_str,
+                        label=label,
+                        calculated=str(node.calc_fv),
+                        extracted=str(node.extracted_fv),
+                        diff=str(diff),
+                        likely_correct_section=shifted_from,
+                    )
+                else:
+                    result.add(
+                        "error",
+                        "ARITH_MISMATCH_FV",
+                        f"Calculated fair_value ({node.calc_fv}) != extracted subtotal ({node.extracted_fv}), diff=${diff}",
+                        section_path=path_str,
+                        label=label,
+                        calculated=str(node.calc_fv),
+                        extracted=str(node.extracted_fv),
+                        diff=str(diff),
+                    )
                 result.has_arithmetic_error = True
                 if diff > result.max_dollar_diff:
                     result.max_dollar_diff = diff
@@ -1235,7 +1408,7 @@ def validate_arithmetic(
     _calculate_node_sums(root, result, computed)
     
     # Validate arithmetic at each node (including Total rows attached to nodes)
-    _validate_node_arithmetic(root, result, computed)
+    _validate_node_arithmetic(root, result, computed, sibling_calcs=None)
     
     # Validate hierarchy integrity (label vs path consistency)
     validate_hierarchy_integrity(root, result)
@@ -1246,6 +1419,109 @@ def validate_arithmetic(
 # ---------------------------------------------------------------------------
 # Validation: metadata consistency
 # ---------------------------------------------------------------------------
+
+
+def _extract_soi_pages_from_split(split_json: Optional[Dict[str, Any]]) -> set:
+    """
+    Extract the set of SOI page numbers from a split result.
+    
+    Args:
+        split_json: The split result JSON (may be None)
+        
+    Returns:
+        Set of page numbers identified as SOI pages, or empty set if not available
+    """
+    if not split_json:
+        return set()
+    
+    splits = split_json.get("result", {}).get("splits", [])
+    for split in splits:
+        if str(split.get("name", "")).lower() == "soi":
+            pages = split.get("pages", []) or []
+            return {int(p) for p in pages if isinstance(p, int) or str(p).isdigit()}
+    
+    return set()
+
+
+def _get_row_original_page(row: Dict[str, Any]) -> Optional[int]:
+    """
+    Extract the original_page from a row's citations.
+    
+    Checks key fields (investment, label, fair_value_raw) for citation info.
+    Returns the first valid original_page found, or None.
+    """
+    # Fields to check for citations (in priority order)
+    fields_to_check = ["investment", "label", "fair_value_raw", "section_path"]
+    
+    for field_name in fields_to_check:
+        field_obj = row.get(field_name)
+        citations = unwrap_citations(field_obj)
+        
+        for cit in citations:
+            bbox = cit.get("bbox", {})
+            original_page = bbox.get("original_page")
+            if original_page is not None:
+                try:
+                    return int(original_page)
+                except (TypeError, ValueError):
+                    continue
+    
+    # Also check section_path items (which may have citations)
+    section_path = row.get("section_path")
+    if isinstance(section_path, list):
+        for item in section_path:
+            if isinstance(item, dict):
+                citations = item.get("citations", [])
+                for cit in citations:
+                    bbox = cit.get("bbox", {})
+                    original_page = bbox.get("original_page")
+                    if original_page is not None:
+                        try:
+                            return int(original_page)
+                        except (TypeError, ValueError):
+                            continue
+    
+    return None
+
+
+def validate_row_pages(
+    rows: List[Dict[str, Any]],
+    soi_pages: set,
+    result: ValidationResult,
+) -> None:
+    """
+    Validate that rows come from expected SOI pages.
+    
+    Rows from pages not in the SOI split are flagged as warnings,
+    as they likely come from Top Holdings or other non-SOI tables.
+    
+    Args:
+        rows: List of soi_rows from extraction
+        soi_pages: Set of page numbers identified as SOI pages
+        result: ValidationResult to add issues to
+    """
+    if not soi_pages:
+        return  # No split info available, skip validation
+    
+    for i, row in enumerate(rows):
+        original_page = _get_row_original_page(row)
+        
+        if original_page is not None and original_page not in soi_pages:
+            row_type = unwrap_value(row.get("row_type"))
+            investment = unwrap_value(row.get("investment"))
+            label = unwrap_value(row.get("label"))
+            
+            result.add(
+                "warning",
+                "ROW_FROM_NON_SOI_PAGE",
+                f"Row from page {original_page} which is not in SOI split {sorted(soi_pages)}",
+                row=i,
+                row_type=row_type,
+                investment=investment,
+                label=label,
+                original_page=original_page,
+                soi_pages=sorted(soi_pages),
+            )
 
 
 def validate_metadata(
@@ -1345,6 +1621,11 @@ def validate_extract_response(
 
     # 5) Metadata consistency
     validate_metadata(extract_json, source_name, result)
+    
+    # 6) Page source validation (check rows come from expected SOI pages)
+    soi_pages = _extract_soi_pages_from_split(split_json)
+    if soi_pages:
+        validate_row_pages(soi_rows, soi_pages, result)
 
     return result
 

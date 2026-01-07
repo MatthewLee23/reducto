@@ -1,0 +1,106 @@
+{
+  "source_name": "0000935069-09-000655",
+  "total_rows": 15,
+  "holding_count": 13,
+  "subtotal_count": 1,
+  "total_count": 1,
+  "error_count": 0,
+  "warning_count": 5,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "LONG/SHORT EQUITY": {
+      "calculated_fv": "129276100",
+      "calculated_cost": "86900599",
+      "calculated_pct": "59.83",
+      "extracted_fv": "129276100",
+      "extracted_cost": "86900599",
+      "extracted_pct": "59.83",
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "129276100",
+      "calculated_cost": "86900599",
+      "calculated_pct": "59.83",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (5069)",
+      "context": {
+        "as_of_date": "DECEMBER 31, 2008",
+        "filename_date": "5069-09-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Redeemed Investment Funds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'TOTAL' but no holdings or child sections",
+      "context": {
+        "section_path": "TOTAL",
+        "label": "TOTAL"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [13]",
+      "context": {
+        "row": 12,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "LONG/SHORT EQUITY SUBTOTAL",
+        "original_page": 1,
+        "soi_pages": [
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [13]",
+      "context": {
+        "row": 14,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "TOTAL",
+        "original_page": 1,
+        "soi_pages": [
+          13
+        ]
+      }
+    }
+  ]
+}

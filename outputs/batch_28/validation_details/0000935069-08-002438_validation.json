@@ -1,0 +1,628 @@
+{
+  "source_name": "0000935069-08-002438",
+  "total_rows": 108,
+  "holding_count": 98,
+  "subtotal_count": 5,
+  "total_count": 5,
+  "error_count": 22,
+  "warning_count": 2,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "Aetos Capital Multi-Strategy Arbitrage Fund, LLC": {
+      "calculated_fv": "483085640",
+      "calculated_cost": "435959755",
+      "calculated_pct": "99.87",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total",
+      "total_extracted_fv": "483085640"
+    },
+    "Aetos Capital Distressed Investment Strategies Fund, LLC": {
+      "calculated_fv": "203604214",
+      "calculated_cost": "182665543",
+      "calculated_pct": "62.49",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total",
+      "total_extracted_fv": "203604214"
+    },
+    "Aetos Capital Long/Short Strategies Fund, LLC": {
+      "calculated_fv": "961170011",
+      "calculated_cost": "786391900",
+      "calculated_pct": "93.77",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 22,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total",
+      "total_extracted_fv": "961170011"
+    },
+    "Aetos Capital Market Neutral Strategies Fund, LLC": {
+      "calculated_fv": "42826125",
+      "calculated_cost": "36000000",
+      "calculated_pct": "96.80",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total",
+      "total_extracted_fv": "42826125"
+    },
+    "Aetos Capital Opportunities Fund, LLC": {
+      "calculated_fv": "130737711",
+      "calculated_cost": "113700000",
+      "calculated_pct": "76.93",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total",
+      "total_extracted_fv": "130737711"
+    },
+    "AETOS CAPITAL MULTI-STRATEGY ARBITRAGE FUND, LLC": {
+      "calculated_fv": "483085640",
+      "calculated_cost": null,
+      "calculated_pct": "99.87",
+      "extracted_fv": "483085640",
+      "extracted_cost": null,
+      "extracted_pct": "99.95",
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "AETOS CAPITAL DISTRESSED INVESTMENT STRATEGIES FUND, LLC": {
+      "calculated_fv": "203604214",
+      "calculated_cost": null,
+      "calculated_pct": "62.49",
+      "extracted_fv": "203604214",
+      "extracted_cost": null,
+      "extracted_pct": "62.49",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "AETOS CAPITAL LONG/SHORT STRATEGIES FUND, LLC": {
+      "calculated_fv": "961170011",
+      "calculated_cost": null,
+      "calculated_pct": "93.77",
+      "extracted_fv": "961170011",
+      "extracted_cost": null,
+      "extracted_pct": "94.09",
+      "holding_count": 22,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "AETOS CAPITAL MARKET NEUTRAL STRATEGIES FUND, LLC": {
+      "calculated_fv": "42826125",
+      "calculated_cost": null,
+      "calculated_pct": "96.80",
+      "extracted_fv": "42826125",
+      "extracted_cost": null,
+      "extracted_pct": "96.80",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "AETOS CAPITAL OPPORTUNITIES FUND, LLC": {
+      "calculated_fv": "130737711",
+      "calculated_cost": null,
+      "calculated_pct": "76.93",
+      "extracted_fv": "130737711",
+      "extracted_cost": null,
+      "extracted_pct": "77.01",
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "3642847402",
+      "calculated_cost": "1554717198",
+      "calculated_pct": "859.72",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 10,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (93.77%) != extracted subtotal (94.09%), diff=0.32%",
+      "context": {
+        "section_path": "AETOS CAPITAL LONG/SHORT STRATEGIES FUND, LLC",
+        "label": "AETOS CAPITAL LONG/SHORT STRATEGIES FUND, LLC",
+        "calculated": "93.77",
+        "extracted": "94.09",
+        "diff": "0.32",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_PCT",
+      "message": "Section percent (93.77%) != Total row (94.09%), diff=0.32%",
+      "context": {
+        "section_path": "Aetos Capital Long/Short Strategies Fund, LLC",
+        "label": "Total",
+        "calculated": "93.77",
+        "extracted": "94.09",
+        "diff": "0.32",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (76.93%) != extracted subtotal (77.01%), diff=0.08%",
+      "context": {
+        "section_path": "AETOS CAPITAL OPPORTUNITIES FUND, LLC",
+        "label": "AETOS CAPITAL OPPORTUNITIES FUND, LLC",
+        "calculated": "76.93",
+        "extracted": "77.01",
+        "diff": "0.08",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (99.87%) != extracted subtotal (99.95%), diff=0.08%",
+      "context": {
+        "section_path": "AETOS CAPITAL MULTI-STRATEGY ARBITRAGE FUND, LLC",
+        "label": "AETOS CAPITAL MULTI-STRATEGY ARBITRAGE FUND, LLC",
+        "calculated": "99.87",
+        "extracted": "99.95",
+        "diff": "0.08",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_PCT",
+      "message": "Section percent (76.93%) != Total row (77.01%), diff=0.08%",
+      "context": {
+        "section_path": "Aetos Capital Opportunities Fund, LLC",
+        "label": "Total",
+        "calculated": "76.93",
+        "extracted": "77.01",
+        "diff": "0.08",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_PCT",
+      "message": "Section percent (99.87%) != Total row (99.95%), diff=0.08%",
+      "context": {
+        "section_path": "Aetos Capital Multi-Strategy Arbitrage Fund, LLC",
+        "label": "Total",
+        "calculated": "99.87",
+        "extracted": "99.95",
+        "diff": "0.08",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000' don't match citation content digits '16979555' (overlap: 25%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 104,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1453' don't match citation content digits '24669694' (overlap: 25%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 100,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1631' don't match citation content digits '27692429' (overlap: 25%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 101,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '182665543' don't match citation content digits '55500000' (overlap: 22%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 18,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2222222222222222
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '257' don't match citation content digits '26231982' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 81,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '284' don't match citation content digits '9270296' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 69,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '390' don't match citation content digits '12708584' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 71,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '435959755' don't match citation content digits '50000000' (overlap: 44%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 12,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4444444444444444
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '483085640' don't match citation content digits '65556900' (overlap: 44%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 12,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4444444444444444
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '494' don't match citation content digits '50502139' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 90,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '732' don't match citation content digits '35368404' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 59,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '755' don't match citation content digits '77079944' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 85,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '780' don't match citation content digits '79652342' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 86,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '855' don't match citation content digits '41333438' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 63,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '979' don't match citation content digits '47326363' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 61,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9995' don't match citation content digits '1356' (overlap: 25%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 12,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (5069)",
+      "context": {
+        "as_of_date": "July 31, 2008",
+        "filename_date": "5069-08-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 13 row(s): MISREAD_PERCENT_AS_8=13",
+      "context": {
+        "fix_count": 13,
+        "dropped": 0,
+        "converted": 0
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 13,
+    "dropped_count": 0,
+    "converted_count": 0,
+    "percent_corrected_count": 13,
+    "fix_log": [
+      {
+        "row_idx": 6,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Oceanwood Global Opportunities Fund L.P.|fv=50,670,400",
+        "old_value": "10.48%",
+        "new_value": "10.4%"
+      },
+      {
+        "row_idx": 24,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Cadmus Capital Partners (QP), L.P.|fv=3,913,208",
+        "old_value": "0.38%",
+        "new_value": "0.3%"
+      },
+      {
+        "row_idx": 30,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Copper River Partners, L.P.|fv=45,729,346",
+        "old_value": "4.48%",
+        "new_value": "4.4%"
+      },
+      {
+        "row_idx": 37,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:UC Financials Fund Limited|fv=37,584,161",
+        "old_value": "3.68%",
+        "new_value": "3.6%"
+      },
+      {
+        "row_idx": 39,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Viking Global Equities, L.P.|fv=97,886,741",
+        "old_value": "9.58%",
+        "new_value": "9.5%"
+      },
+      {
+        "row_idx": 51,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Sheffield Institutional Partners, L.P.|fv=7,942,862",
+        "old_value": "4.68%",
+        "new_value": "4.6%"
+      },
+      {
+        "row_idx": 60,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Oceanwood Global Opportunities Fund L. P|fv=50,670,400",
+        "old_value": "10.48%",
+        "new_value": "10.4%"
+      },
+      {
+        "row_idx": 72,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:AETOS CAPITAL DISTRESSED INVESTMENT STRA|fv=$203,604,214",
+        "old_value": "62.498%",
+        "new_value": "62.49%"
+      },
+      {
+        "row_idx": 78,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Cadmus Capital Partners (QP), L.P.|fv=3,913,208",
+        "old_value": "0.38%",
+        "new_value": "0.3%"
+      },
+      {
+        "row_idx": 84,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Copper River Partners, L.P.|fv=45,729,346",
+        "old_value": "4.48%",
+        "new_value": "4.4%"
+      },
+      {
+        "row_idx": 91,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:UC Financials Fund Limited|fv=37,584,161",
+        "old_value": "3.68%",
+        "new_value": "3.6%"
+      },
+      {
+        "row_idx": 93,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Viking Global Equities, L.P.|fv=97,886,741",
+        "old_value": "9.58%",
+        "new_value": "9.5%"
+      },
+      {
+        "row_idx": 105,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Sheffield Institutional Partners, L.P.|fv=7,942,862",
+        "old_value": "4.68%",
+        "new_value": "4.6%"
+      }
+    ]
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "source_name": "0000935069-08-002908",
+  "total_rows": 68,
+  "holding_count": 54,
+  "subtotal_count": 8,
+  "total_count": 6,
+  "error_count": 11,
+  "warning_count": 3,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "INVESTMENTS IN PORTFOLIO FUNDS > DISTRESSED": {
+      "calculated_fv": "103757383",
+      "calculated_cost": "99594208",
+      "calculated_pct": "21.48",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL DISTRESSED",
+      "total_extracted_fv": "103757383"
+    },
+    "INVESTMENTS IN PORTFOLIO FUNDS > EVENT DRIVEN": {
+      "calculated_fv": "45294999",
+      "calculated_cost": "42477069",
+      "calculated_pct": "9.44",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL EVENT DRIVEN",
+      "total_extracted_fv": "45294999"
+    },
+    "INVESTMENTS IN PORTFOLIO FUNDS > LONG AND/OR SHORT EQUITY": {
+      "calculated_fv": "228438123",
+      "calculated_cost": "240899133",
+      "calculated_pct": "47.23",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 31,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL LONG AND/OR SHORT EQUITY",
+      "total_extracted_fv": "228438123"
+    },
+    "INVESTMENTS IN PORTFOLIO FUNDS > MULTI-ARBITRAGE": {
+      "calculated_fv": "65956530",
+      "calculated_cost": "61986197",
+      "calculated_pct": "10.40",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL MULTI-ARBITRAGE",
+      "total_extracted_fv": "65956530"
+    },
+    "INVESTMENTS IN PORTFOLIO FUNDS": {
+      "calculated_fv": "443447035",
+      "calculated_cost": "444956607",
+      "calculated_pct": "88.55",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL INVESTMENTS IN PORTFOLIO FUNDS",
+      "total_extracted_fv": "443447035"
+    },
+    "Long and/or Short Equity": {
+      "calculated_fv": null,
+      "calculated_cost": null,
+      "calculated_pct": "51.52",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "51.52",
+      "holding_count": 0,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Distressed": {
+      "calculated_fv": null,
+      "calculated_cost": null,
+      "calculated_pct": "23.40",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "23.40",
+      "holding_count": 0,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Multi-Arbitrage": {
+      "calculated_fv": null,
+      "calculated_cost": null,
+      "calculated_pct": "14.87",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "14.87",
+      "holding_count": 0,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Event Driven": {
+      "calculated_fv": null,
+      "calculated_cost": null,
+      "calculated_pct": "10.21",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "10.21",
+      "holding_count": 0,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "443447035",
+      "calculated_cost": "444956607",
+      "calculated_pct": "188.55",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL",
+      "total_extracted_fv": null
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '013' don't match citation content digits '704094' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 3,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '220' don't match citation content digits '479686035' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 4,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2164' don't match citation content digits '4500' (overlap: 25%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 13,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '221' don't match citation content digits '479686035' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 23,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '321' don't match citation content digits '157057' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 30,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '227' don't match citation content digits '479686035' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 31,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'TOTAL' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 67
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_PCT",
+      "message": "Section percent (21.48%) != Total row (21.64%), diff=0.16%",
+      "context": {
+        "section_path": "INVESTMENTS IN PORTFOLIO FUNDS > DISTRESSED",
+        "label": "TOTAL DISTRESSED",
+        "calculated": "21.48",
+        "extracted": "21.64",
+        "diff": "0.16",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_PCT",
+      "message": "Section percent (47.23%) != Total row (47.63%), diff=0.40%",
+      "context": {
+        "section_path": "INVESTMENTS IN PORTFOLIO FUNDS > LONG AND/OR SHORT EQUITY",
+        "label": "TOTAL LONG AND/OR SHORT EQUITY",
+        "calculated": "47.23",
+        "extracted": "47.63",
+        "diff": "0.40",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_PCT",
+      "message": "Section percent (10.40%) != Total row (13.74%), diff=3.34%",
+      "context": {
+        "section_path": "INVESTMENTS IN PORTFOLIO FUNDS > MULTI-ARBITRAGE",
+        "label": "TOTAL MULTI-ARBITRAGE",
+        "calculated": "10.40",
+        "extracted": "13.74",
+        "diff": "3.34",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_PCT",
+      "message": "Section percent (88.55%) != Total row (92.45%), diff=3.90%",
+      "context": {
+        "section_path": "INVESTMENTS IN PORTFOLIO FUNDS",
+        "label": "TOTAL INVESTMENTS IN PORTFOLIO FUNDS",
+        "calculated": "88.55",
+        "extracted": "92.45",
+        "diff": "3.90",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_PCT",
+      "message": "Grand total percent (188.55%) != extracted Total (100.00%), diff=88.55%",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL",
+        "calculated": "188.55",
+        "extracted": "100.00",
+        "diff": "88.55",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (5069)",
+      "context": {
+        "as_of_date": "September 30, 2008",
+        "filename_date": "5069-08-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 4 row(s): MISREAD_PERCENT_AS_8=4",
+      "context": {
+        "fix_count": 4,
+        "dropped": 0,
+        "converted": 0
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 4,
+    "dropped_count": 0,
+    "converted_count": 0,
+    "percent_corrected_count": 4,
+    "fix_log": [
+      {
+        "row_idx": 6,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Greywolf Capital Partners II, L.P.|fv=6,609,414",
+        "old_value": "1.38%",
+        "new_value": "1.3%"
+      },
+      {
+        "row_idx": 7,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:GSO Liquidity Partners, L.P.|fv=2,795,869",
+        "old_value": "0.58%",
+        "new_value": "0.5%"
+      },
+      {
+        "row_idx": 27,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Citadel Wellington LLC|fv=12,388,854",
+        "old_value": "2.58%",
+        "new_value": "2.5%"
+      },
+      {
+        "row_idx": 39,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Montrica Global Opportunities Fund, L. P|fv=4,697,175",
+        "old_value": "0.98%",
+        "new_value": "0.9%"
+      }
+    ]
+  }
+}

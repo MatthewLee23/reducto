@@ -420,34 +420,39 @@ def _clean_label_separators(label: str) -> str:
 
 def _correct_percent_ocr(number_part: str) -> str:
     """
-    Apply OCR correction to a percent value.
+    Apply OCR correction to a percent value (conservative mode).
     
-    If number ends in '8' without '%', the '8' is likely a misread '%' symbol.
-    Also handles double-error case where '8' was added AND '%' was captured.
+    Only treats trailing '8' as a misread '%' if:
+    1. The string does NOT already contain a '%' sign (presence of % means OCR got it right)
+    2. The '8' appears at the very end AND there are 3+ decimal places
+    
+    This prevents valid values like "2.68%" or "2.68" from being corrupted to "2.6%".
     
     Examples:
-        "1.38" -> "1.3%"   (8 replaces %)
-        "1.68" -> "1.6%"   (8 replaces %)
-        "1.38%" -> "1.3%"  (double error: 8 inserted AND % captured)
-        "7.98%" -> "7.9%"  (double error)
-        "7.9%" -> "7.9%"   (already correct)
-        "2.2" -> "2.2%"    (add % sign)
+        "1.728" -> "1.72%"  (3 decimals ending in 8 -> likely OCR error)
+        "2.68" -> "2.68%"   (only 2 decimals -> keep the 8, just add %)
+        "2.68%" -> "2.68%"  (already has % -> return as-is)
+        "7.9%" -> "7.9%"    (already correct)
+        "2.2" -> "2.2%"     (add % sign)
     """
     number_part = number_part.strip()
     
-    # Double error case: ends in "8%" (e.g., "1.38%")
-    if number_part.endswith("8%"):
-        return number_part[:-2] + "%"
-    
-    # Single error case: ends in "8" without % (e.g., "1.38")
-    if number_part.endswith("8") and "%" not in number_part:
-        return number_part[:-1] + "%"
-    
-    # Already has % sign
+    # Guard clause: if string already contains %, never trigger 8-replacement logic
+    # The presence of a real % implies OCR captured the symbol correctly
     if "%" in number_part:
         return number_part
     
-    # Has decimal but doesn't end in 8 - probably still a percent, add % sign
+    # Only treat trailing '8' as misread '%' if there are 3+ decimal places
+    # This protects valid 2-decimal values like "2.68" from corruption
+    if number_part.endswith("8") and "." in number_part:
+        parts = number_part.split(".")
+        if len(parts) == 2:
+            decimal_places = len(parts[1])
+            if decimal_places >= 3:
+                # Likely OCR error: e.g., "1.728" -> "1.72%"
+                return number_part[:-1] + "%"
+    
+    # No 8-replacement needed - just ensure it has a % sign
     return number_part + "%"
 
 
@@ -542,43 +547,43 @@ def is_summary_category_row(row: Dict[str, Any]) -> bool:
     return False
 
 
-# Pattern for detecting misread percent WITH existing % sign (e.g., "1.38%", "7.98%")
-# This handles double-error case where OCR added '8' AND '%' was also captured
-MISREAD_PERCENT_WITH_SIGN_PATTERN = re.compile(r"^-?(\d+)\.(\d*)8%$")
-
-
 def _is_suspect_percent_value(value_str: str, aggressive: bool = False) -> bool:
     """
     Check if a percent value looks like it might have a misread '%' as '8'.
     
-    Patterns checked:
-    1. '2.78', '20.98', '1.88' - ends in '8', has decimal, lacks '%' sign
-    2. '2.78%', '1.38%' - ends in '8%' (double error: OCR '8' + actual '%')
+    Conservative approach: Only flags values that:
+    1. Do NOT contain a '%' sign (if % is present, OCR got it right)
+    2. End in '8' with a decimal point
+    3. Have 3+ decimal places (to protect valid 2-decimal values like "2.68")
     
     Args:
         value_str: The value string to check
-        aggressive: If True, considers ANY value with the XX.X8 pattern as suspect,
-                   including those with '%' signs. In SOI documents,
-                   these patterns are virtually always OCR errors.
+        aggressive: Deprecated, kept for API compatibility. Now ignored.
     """
     if not value_str:
         return False
     cleaned = value_str.strip()
     
+    # Guard clause: if % is present, the 8 is a real digit, not a misread %
+    if "%" in cleaned:
+        return False
+    
     # Must have a decimal point
     if "." not in cleaned:
         return False
     
-    # Case 1: ends in 8 without % sign (e.g., "1.38")
-    if cleaned.endswith("8") and "%" not in cleaned:
-        if MISREAD_PERCENT_PATTERN.match(cleaned):
-            return True
+    # Must end in 8
+    if not cleaned.endswith("8"):
+        return False
     
-    # Case 2 (aggressive mode): ends in "8%" - double error case (e.g., "1.38%")
-    # This happens when OCR reads '%' as '8' but ALSO captures a real '%' sign
-    if aggressive and cleaned.endswith("8%"):
-        if MISREAD_PERCENT_WITH_SIGN_PATTERN.match(cleaned):
-            return True
+    # Only suspect if there are 3+ decimal places
+    # This protects valid values like "2.68" from being flagged
+    if MISREAD_PERCENT_PATTERN.match(cleaned):
+        parts = cleaned.replace("-", "").split(".")
+        if len(parts) == 2:
+            decimal_places = len(parts[1])
+            if decimal_places >= 3:
+                return True
     
     return False
 
@@ -587,20 +592,22 @@ def _correct_misread_percent(value_str: str) -> str:
     """
     Correct a misread percent value by replacing trailing '8' with '%'.
     
-    Handles both single and double error cases:
-    - '2.78' -> '2.7%' (8 replaces %)
-    - '20.98' -> '20.9%' (8 replaces %)
-    - '1.88' -> '1.8%' (8 replaces %)
-    - '1.38%' -> '1.3%' (double error: 8 inserted AND % captured)
-    - '7.98%' -> '7.9%' (double error)
+    Conservative approach:
+    - Only corrects values that do NOT already contain '%'
+    - Replaces trailing '8' with '%' (e.g., "1.728" -> "1.72%")
+    
+    Examples:
+        "1.728" -> "1.72%" (trailing 8 replaced with %)
+        "2.68%" -> "2.68%" (already has %, return as-is)
+        "2.68" -> "2.6%" (trailing 8 replaced with %)
     """
     cleaned = value_str.strip()
     
-    # Double error case: ends in "8%" (e.g., "1.38%")
-    if cleaned.endswith("8%"):
-        return cleaned[:-2] + "%"
+    # Guard clause: if % is present, the 8 is a real digit
+    if "%" in cleaned:
+        return cleaned
     
-    # Single error case: ends in "8" without % (e.g., "1.38")
+    # Replace trailing '8' with '%'
     if cleaned.endswith("8"):
         return cleaned[:-1] + "%"
     
@@ -614,14 +621,16 @@ def fix_misread_percent_symbols(
     """
     Detect and correct percent values where '%' was misread as '8'.
     
-    Strategy:
+    Conservative strategy:
     1. Find TOTAL rows to establish the expected decimal precision
-    2. For each row with a suspect percent value (ends in 8, no %, has decimals):
-       - If it has MORE decimal places than the Total, it's likely a misread
-       - In aggressive mode, also correct values that match the OCR error pattern
-         even if decimal places match
+    2. For each row with a suspect percent value:
+       - Must NOT contain '%' (presence of % means OCR got it right)
+       - Must end in '8' with 3+ decimal places (e.g., "1.728")
+       - Must have MORE decimal places than the expected precision
        - Correct by replacing trailing '8' with '%'
     3. Also check labels for embedded percentages with OCR errors
+    
+    This protects valid values like "2.68" from being corrupted to "2.6%".
     
     Args:
         rows: List of row dicts (already processed by normalize_soi_rows)
@@ -652,18 +661,13 @@ def fix_misread_percent_symbols(
         row_copy = copy.deepcopy(row)
         pct = unwrap_value(row.get("percent_net_assets_raw"))
         
-        if pct and _is_suspect_percent_value(pct, aggressive=True):
+        # Conservative check: only flags values without %, ending in 8, with 3+ decimals
+        if pct and _is_suspect_percent_value(pct):
             row_precision = _get_decimal_places(pct)
             
-            # Aggressive correction: if it ends in 8 with decimal, it's almost always wrong
-            # In SOI documents, XX.X8 patterns are virtually always OCR errors
+            # Only correct if this row has more decimal places than expected
+            # This catches outliers like "1.728" when column uses 2 decimal places
             should_correct = row_precision > expected_precision
-            
-            # Also correct if the value looks like a typical percentage that got mangled
-            # e.g., "11.78" when we expect 1 decimal place precision
-            if not should_correct and row_precision == 2:
-                # Values like 11.78, 7.98, 2.28 are suspicious - likely 11.7%, 7.9%, 2.2%
-                should_correct = True
             
             if should_correct:
                 corrected = _correct_misread_percent(pct)
@@ -713,6 +717,385 @@ def fix_misread_percent_symbols(
                     result.fix_count += 1
         
         corrected_rows.append(row_copy)
+    
+    return corrected_rows
+
+
+# ---------------------------------------------------------------------------
+# Percentage hierarchy detection and deduplication
+# ---------------------------------------------------------------------------
+
+# Top-level asset class patterns that indicate section headers (not industry subtotals)
+ASSET_CLASS_PATTERNS = frozenset({
+    "convertible bonds",
+    "convertible preferred",
+    "preferred stocks",
+    "common stocks",
+    "mandatory convertible",
+    "short-term securities",
+    "short term securities",
+    "money market",
+    "corporate bonds",
+    "government bonds",
+    "municipal bonds",
+    "equity securities",
+    "debt securities",
+    "fixed income",
+    "total investments",
+    "total net assets",
+})
+
+
+def _is_asset_class_label(label: str) -> bool:
+    """
+    Check if a label looks like a top-level asset class header.
+    
+    These are patterns like:
+    - "CONVERTIBLE BONDS AND NOTES"
+    - "CONVERTIBLE PREFERRED STOCKS"
+    - "SHORT-TERM SECURITIES"
+    """
+    if not label:
+        return False
+    
+    label_lower = label.lower().strip()
+    
+    for pattern in ASSET_CLASS_PATTERNS:
+        if pattern in label_lower:
+            return True
+    
+    return False
+
+
+def _get_section_path_key(section_path: Any) -> str:
+    """Get a string key from section_path for grouping."""
+    path_tuple = normalize_section_path(section_path)
+    return " > ".join(path_tuple) if path_tuple else "(root)"
+
+
+def detect_percentage_hierarchy_duplicates(
+    rows: List[Dict[str, Any]],
+) -> List[int]:
+    """
+    Detect rows that are section-header-level SUBTOTALs that should be removed
+    because their percentages duplicate the sum of their child industry subtotals.
+    
+    This fixes the "187.9% vs 100%" error where:
+    - Section header "CONVERTIBLE BONDS AND NOTES -- 53.6%" is emitted as SUBTOTAL
+    - Industry subtotals "Advertising -- 0.9%", "Aerospace -- 1.2%", etc. are also emitted
+    - Result: 53.6% + 0.9% + 1.2% + ... = double-counting
+    
+    Detection strategy:
+    1. Group SUBTOTAL rows by their section_path
+    2. For each section that has multiple SUBTOTAL rows:
+       - If one SUBTOTAL's label looks like an asset class header
+       - AND its percentage approximately equals the sum of the other SUBTOTALs
+       - Mark that SUBTOTAL row for removal
+    
+    Returns:
+        List of row indices to remove
+    """
+    # Group SUBTOTAL rows by section_path
+    subtotals_by_section: Dict[str, List[Tuple[int, Dict[str, Any]]]] = {}
+    
+    for idx, row in enumerate(rows):
+        row_type = unwrap_value(row.get("row_type"))
+        if row_type != "SUBTOTAL":
+            continue
+        
+        section_key = _get_section_path_key(row.get("section_path"))
+        if section_key not in subtotals_by_section:
+            subtotals_by_section[section_key] = []
+        subtotals_by_section[section_key].append((idx, row))
+    
+    # Check each section for duplicate hierarchy patterns
+    rows_to_remove: List[int] = []
+    
+    for section_key, subtotal_entries in subtotals_by_section.items():
+        if len(subtotal_entries) < 2:
+            continue
+        
+        # Separate potential asset-class headers from industry subtotals
+        asset_class_rows: List[Tuple[int, Dict[str, Any]]] = []
+        industry_rows: List[Tuple[int, Dict[str, Any]]] = []
+        
+        for idx, row in subtotal_entries:
+            label = unwrap_value(row.get("label")) or ""
+            if _is_asset_class_label(label):
+                asset_class_rows.append((idx, row))
+            else:
+                industry_rows.append((idx, row))
+        
+        # If we have both asset-class and industry subtotals, check for duplication
+        if not asset_class_rows or not industry_rows:
+            continue
+        
+        # Calculate sum of industry subtotal percentages
+        industry_pct_sum = Decimal("0")
+        industry_count = 0
+        
+        for _, row in industry_rows:
+            pct_raw = unwrap_value(row.get("percent_net_assets_raw"))
+            if pct_raw:
+                pct_val = parse_decimal_simple(pct_raw)
+                if pct_val is not None:
+                    industry_pct_sum += pct_val
+                    industry_count += 1
+        
+        # For each asset-class row, check if its percentage matches the industry sum
+        for idx, row in asset_class_rows:
+            pct_raw = unwrap_value(row.get("percent_net_assets_raw"))
+            if not pct_raw:
+                continue
+            
+            asset_pct = parse_decimal_simple(pct_raw)
+            if asset_pct is None:
+                continue
+            
+            # Check if asset class percentage roughly equals industry sum
+            # Allow tolerance for rounding (~1% for small sections, ~2% for large)
+            tolerance = max(Decimal("1.0"), asset_pct * Decimal("0.05"))
+            diff = abs(asset_pct - industry_pct_sum)
+            
+            if diff <= tolerance and industry_count >= 2:
+                # This asset-class SUBTOTAL is redundant - its percentage
+                # is already accounted for by the industry subtotals
+                rows_to_remove.append(idx)
+    
+    return rows_to_remove
+
+
+def remove_duplicate_hierarchy_subtotals(
+    rows: List[Dict[str, Any]],
+    result: NormalizationResult,
+) -> List[Dict[str, Any]]:
+    """
+    Remove SUBTOTAL rows that represent duplicate percentage hierarchy.
+    
+    When an extraction creates both:
+    - Section header SUBTOTAL: "CONVERTIBLE BONDS AND NOTES", pct=53.6%
+    - Industry SUBTOTALs: "Advertising" 0.9%, "Aerospace" 1.2%, etc.
+    
+    The section header percentage is already included in the industry breakdown,
+    so it should be removed to avoid double-counting in validation.
+    
+    Args:
+        rows: List of row dicts (already processed by normalize_soi_rows)
+        result: NormalizationResult to update with fix logs
+    
+    Returns:
+        List of rows with duplicates removed
+    """
+    indices_to_remove = set(detect_percentage_hierarchy_duplicates(rows))
+    
+    if not indices_to_remove:
+        return rows
+    
+    cleaned_rows = []
+    for idx, row in enumerate(rows):
+        if idx in indices_to_remove:
+            # Log the removal
+            result.fix_log.append(FixLogEntry(
+                row_idx=idx,
+                old_row_type=unwrap_value(row.get("row_type")) or "SUBTOTAL",
+                new_row_type=None,
+                action="dropped",
+                reason_code="DUPLICATE_PERCENTAGE_HIERARCHY",
+                confidence="high",
+                row_signature=get_row_signature(row),
+            ))
+            result.dropped_count += 1
+            result.fix_count += 1
+        else:
+            cleaned_rows.append(row)
+    
+    return cleaned_rows
+
+
+# ---------------------------------------------------------------------------
+# Shifted subtotal detection and correction
+# ---------------------------------------------------------------------------
+
+def _sum_holdings_fair_value(
+    holdings: List[Dict[str, Any]]
+) -> Optional[Decimal]:
+    """Sum fair_value_raw for a list of HOLDING rows."""
+    total = Decimal("0")
+    has_value = False
+    
+    for row in holdings:
+        fv_raw = unwrap_value(row.get("fair_value_raw"))
+        if fv_raw:
+            fv = parse_decimal_simple(fv_raw)
+            if fv is not None:
+                total += fv
+                has_value = True
+    
+    return total if has_value else None
+
+
+def detect_shifted_subtotals(
+    rows: List[Dict[str, Any]]
+) -> List[Tuple[int, str, str, str]]:
+    """
+    Detect SUBTOTAL rows that appear to have been attributed to the wrong section.
+    
+    This detects the "off-by-one" pattern where a SUBTOTAL's fair_value matches
+    the PREVIOUS section's holdings sum rather than its own section's holdings.
+    
+    Detection strategy:
+    1. Build a list of sections in document order
+    2. For each section with holdings and a SUBTOTAL:
+       - Calculate the sum of holdings in that section
+       - Get the SUBTOTAL's fair_value
+       - If they don't match, check if the SUBTOTAL's value matches the PREVIOUS section's sum
+       - If so, flag as a shifted subtotal
+    
+    Returns:
+        List of (row_idx, current_path_str, correct_path_str, reason) tuples
+    """
+    # Group rows by section_path (in document order)
+    sections_order: List[Tuple[str, ...]] = []
+    section_holdings: Dict[Tuple[str, ...], List[Dict[str, Any]]] = {}
+    section_subtotals: Dict[Tuple[str, ...], List[Tuple[int, Dict[str, Any]]]] = {}
+    
+    for idx, row in enumerate(rows):
+        row_type = unwrap_value(row.get("row_type"))
+        path = normalize_section_path(row.get("section_path"))
+        
+        # Only consider leaf-level paths (with at least 2 levels: asset class + industry)
+        if len(path) < 2:
+            continue
+        
+        if path not in section_holdings:
+            section_holdings[path] = []
+            section_subtotals[path] = []
+            sections_order.append(path)
+        
+        if row_type == "HOLDING":
+            section_holdings[path].append(row)
+        elif row_type == "SUBTOTAL":
+            section_subtotals[path].append((idx, row))
+    
+    # Now check for shifted subtotals
+    shifted: List[Tuple[int, str, str, str]] = []
+    
+    # For each section (except the first), check if its SUBTOTAL value matches previous section's holdings
+    for i, path in enumerate(sections_order):
+        subtotals = section_subtotals.get(path, [])
+        if not subtotals:
+            continue
+        
+        holdings = section_holdings.get(path, [])
+        holdings_sum = _sum_holdings_fair_value(holdings)
+        
+        for row_idx, subtotal_row in subtotals:
+            subtotal_fv_raw = unwrap_value(subtotal_row.get("fair_value_raw"))
+            if not subtotal_fv_raw:
+                continue
+            
+            subtotal_fv = parse_decimal_simple(subtotal_fv_raw)
+            if subtotal_fv is None:
+                continue
+            
+            # Check if subtotal matches its own holdings
+            if holdings_sum is not None and abs(holdings_sum - subtotal_fv) <= Decimal("1"):
+                # Matches - no issue
+                continue
+            
+            # Check if subtotal matches PREVIOUS section's holdings
+            if i > 0:
+                prev_path = sections_order[i - 1]
+                prev_holdings = section_holdings.get(prev_path, [])
+                prev_sum = _sum_holdings_fair_value(prev_holdings)
+                
+                if prev_sum is not None and abs(prev_sum - subtotal_fv) <= Decimal("1"):
+                    # This SUBTOTAL's value matches the PREVIOUS section!
+                    # It was likely assigned to the wrong section
+                    shifted.append((
+                        row_idx,
+                        " > ".join(path),
+                        " > ".join(prev_path),
+                        f"SUBTOTAL fair_value ${subtotal_fv} matches previous section '{prev_path[-1]}' holdings sum (${prev_sum}), not current section"
+                    ))
+    
+    return shifted
+
+
+def fix_shifted_subtotals(
+    rows: List[Dict[str, Any]],
+    result: NormalizationResult,
+) -> List[Dict[str, Any]]:
+    """
+    Detect and correct SUBTOTAL rows that were attributed to the wrong section.
+    
+    When a SUBTOTAL's fair_value matches the PREVIOUS section's holdings sum
+    (instead of its own section's), reassign its section_path to the correct section.
+    
+    Args:
+        rows: List of row dicts
+        result: NormalizationResult to update with fix logs
+    
+    Returns:
+        List of corrected rows
+    """
+    shifted = detect_shifted_subtotals(rows)
+    
+    if not shifted:
+        return rows
+    
+    # Build a set of row indices to correct
+    corrections: Dict[int, Tuple[str, ...]] = {}
+    for row_idx, current_path_str, correct_path_str, reason in shifted:
+        # Parse the correct path back to a tuple
+        correct_path = tuple(correct_path_str.split(" > "))
+        corrections[row_idx] = correct_path
+    
+    corrected_rows = []
+    for idx, row in enumerate(rows):
+        if idx in corrections:
+            correct_path = corrections[idx]
+            row_copy = copy.deepcopy(row)
+            
+            # Update section_path to the correct path
+            # Handle wrapped section_path format
+            old_path = row.get("section_path", [])
+            if isinstance(old_path, list):
+                new_section_path = []
+                for i, segment in enumerate(correct_path):
+                    if i < len(old_path) and isinstance(old_path[i], dict):
+                        # Preserve the wrapped format
+                        new_segment = copy.deepcopy(old_path[i])
+                        new_segment["value"] = segment
+                        new_section_path.append(new_segment)
+                    else:
+                        new_section_path.append({"value": segment, "citations": []})
+                row_copy["section_path"] = new_section_path
+            
+            # Also update the label if it doesn't match the new path's last element
+            label = unwrap_value(row_copy.get("label"))
+            new_label = correct_path[-1] if correct_path else label
+            if label != new_label:
+                set_wrapped_value(row_copy, "label", new_label)
+            
+            corrected_rows.append(row_copy)
+            
+            # Log the fix
+            result.fix_log.append(FixLogEntry(
+                row_idx=idx,
+                old_row_type=unwrap_value(row.get("row_type")) or "SUBTOTAL",
+                new_row_type=unwrap_value(row.get("row_type")) or "SUBTOTAL",
+                action="converted",
+                reason_code="SHIFTED_SUBTOTAL_CORRECTED",
+                confidence="high",
+                row_signature=get_row_signature(row),
+                old_value=" > ".join(normalize_section_path(row.get("section_path"))),
+                new_value=" > ".join(correct_path),
+            ))
+            result.converted_count += 1
+            result.fix_count += 1
+        else:
+            corrected_rows.append(row)
     
     return corrected_rows
 
@@ -992,6 +1375,12 @@ def normalize_soi_rows(
     
     # Apply percent symbol misread correction
     result.rows = fix_misread_percent_symbols(result.rows, result)
+    
+    # Remove duplicate percentage hierarchy (section header + child industry subtotals)
+    result.rows = remove_duplicate_hierarchy_subtotals(result.rows, result)
+    
+    # Fix shifted subtotals (off-by-one section attribution)
+    result.rows = fix_shifted_subtotals(result.rows, result)
     
     return result.rows, result
 

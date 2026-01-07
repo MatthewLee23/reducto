@@ -1,0 +1,913 @@
+{
+  "source_name": "0000009521-08-000012",
+  "total_rows": 138,
+  "holding_count": 73,
+  "subtotal_count": 52,
+  "total_count": 13,
+  "error_count": 3,
+  "warning_count": 48,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "5408169",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "CONVERTIBLE BONDS AND NOTES > TRAVEL AND LEISURE": {
+      "calculated_fv": "780000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES": {
+      "calculated_fv": "62321475",
+      "calculated_cost": null,
+      "calculated_pct": "57.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "57.9",
+      "holding_count": 44,
+      "child_count": 1,
+      "subtotal_count": 17,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL CONVERTIBLE BONDS AND NOTES",
+      "total_extracted_fv": "62321475"
+    },
+    "CORPORATE BONDS AND NOTES > RETAIL": {
+      "calculated_fv": "1200000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE BONDS AND NOTES": {
+      "calculated_fv": "1200000",
+      "calculated_cost": null,
+      "calculated_pct": "1.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.1",
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > AEROSPACE AND DEFENSE": {
+      "calculated_fv": "280000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > BANKING/SAVINGS AND LOAN": {
+      "calculated_fv": "5001671",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > CHEMICALS": {
+      "calculated_fv": "1720500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > ENERGY": {
+      "calculated_fv": "3579250",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > TELECOMMUNICATIONS": {
+      "calculated_fv": "472525",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS": {
+      "calculated_fv": "11053946",
+      "calculated_cost": null,
+      "calculated_pct": "5.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "5.6",
+      "holding_count": 0,
+      "child_count": 5,
+      "subtotal_count": 5,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": true,
+      "parent_subtotals_excluded": 1,
+      "total_label": "TOTAL CONVERTIBLE PREFERRED STOCKS",
+      "total_extracted_fv": "11053946"
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > CONSUMER GOODS": {
+      "calculated_fv": "2994013",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > ENERGY": {
+      "calculated_fv": "8064927",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > FOODS": {
+      "calculated_fv": "1224500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > HEALTH CARE": {
+      "calculated_fv": "1552331",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > INSURANCE": {
+      "calculated_fv": "5599750",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > MEDIA AND ENTERTAINMENT": {
+      "calculated_fv": "2631338",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > MINERALS AND MINING": {
+      "calculated_fv": "6174425",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Pharmaceuticals": {
+      "calculated_fv": "2640795",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES": {
+      "calculated_fv": "30882079",
+      "calculated_cost": null,
+      "calculated_pct": "28.8",
+      "extracted_fv": "25473910",
+      "extracted_cost": null,
+      "extracted_pct": "28.8",
+      "holding_count": 0,
+      "child_count": 8,
+      "subtotal_count": 8,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL MANDATORY CONVERTIBLE SECURITIES",
+      "total_extracted_fv": "30882079"
+    },
+    "(root)": {
+      "calculated_fv": "105457500",
+      "calculated_cost": null,
+      "calculated_pct": "93.4",
+      "extracted_fv": "105457500",
+      "extracted_cost": null,
+      "extracted_pct": "98.0",
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 21,
+      "total_count": 10,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL INVESTMENTS",
+      "total_extracted_fv": "105457500"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '15' don't match citation content digits '30' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 7,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "PERCENTAGE_HIERARCHY_DETECTED",
+      "message": "Detected 1 parent-level subtotal(s) that duplicate child sums; excluded from percentage calculation",
+      "context": {
+        "section_path": "CONVERTIBLE PREFERRED STOCKS",
+        "excluded_labels": [
+          "BANKING/SAVINGS AND LOAN"
+        ],
+        "original_subtotal_count": 5,
+        "adjusted_subtotal_count": 4
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES > TRAVEL AND LEISURE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "CORPORATE BONDS AND NOTES > RETAIL"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "CONVERTIBLE PREFERRED STOCKS > AEROSPACE AND DEFENSE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 4 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "CONVERTIBLE PREFERRED STOCKS > BANKING/SAVINGS AND LOAN"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "CONVERTIBLE PREFERRED STOCKS > CHEMICALS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "CONVERTIBLE PREFERRED STOCKS > ENERGY"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "CONVERTIBLE PREFERRED STOCKS > TELECOMMUNICATIONS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES > CONSUMER GOODS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 5 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES > ENERGY"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES > FOODS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES > HEALTH CARE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 4 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES > INSURANCE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES > MEDIA AND ENTERTAINMENT"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES > MINERALS AND MINING"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES > Pharmaceuticals"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (30882079) != extracted subtotal (25473910), diff=$5408169",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES",
+        "label": "CONSUMER GOODS",
+        "calculated": "30882079",
+        "extracted": "25473910",
+        "diff": "5408169"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_PCT",
+      "message": "Grand total percent (93.4%) != extracted Total (98.2%), diff=4.8%",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "93.4",
+        "extracted": "98.2",
+        "diff": "4.8",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'AEROSPACE AND DEFENSE' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "AEROSPACE AND DEFENSE",
+        "keywords": [
+          "aerospace",
+          "defense"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'COMPUTER HARDWARE' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "COMPUTER HARDWARE",
+        "keywords": [
+          "computer",
+          "hardware"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'COMPUTER SOFTWARE' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "COMPUTER SOFTWARE",
+        "keywords": [
+          "computer",
+          "software"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'CONSUMER GOODS' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "CONSUMER GOODS",
+        "keywords": [
+          "consumer",
+          "goods"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'ENERGY' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "ENERGY",
+        "keywords": [
+          "energy"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'FINANCIAL SERVICES' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "FINANCIAL SERVICES",
+        "keywords": [
+          "financial",
+          "services"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'FOODS' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "FOODS",
+        "keywords": [
+          "foods"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'HEALTH CARE' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "HEALTH CARE",
+        "keywords": [
+          "health",
+          "care"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'INSURANCE' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "INSURANCE",
+        "keywords": [
+          "insurance"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'MEDIA AND ENTERTAINMENT' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "MEDIA AND ENTERTAINMENT",
+        "keywords": [
+          "media",
+          "entertainment"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'MULTI-INDUSTRY' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "MULTI-INDUSTRY",
+        "keywords": [
+          "multi",
+          "industry"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'PHARMACEUTICALS' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "PHARMACEUTICALS",
+        "keywords": [
+          "pharmaceuticals"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'REAL ESTATE' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "REAL ESTATE",
+        "keywords": [
+          "real",
+          "estate"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'SEMICONDUCTORS' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "SEMICONDUCTORS",
+        "keywords": [
+          "semiconductors"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'TELECOMMUNICATIONS' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "TELECOMMUNICATIONS",
+        "keywords": [
+          "telecommunications"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'TRANSPORTATION' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "TRANSPORTATION",
+        "keywords": [
+          "transportation"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'TRAVEL AND LEISURE' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE BONDS AND NOTES",
+        "label": "TRAVEL AND LEISURE",
+        "keywords": [
+          "travel",
+          "leisure"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'RETAIL' mentions categories not in section path",
+      "context": {
+        "section_path": "CORPORATE BONDS AND NOTES",
+        "label": "RETAIL",
+        "keywords": [
+          "retail"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'AEROSPACE AND DEFENSE' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE PREFERRED STOCKS",
+        "label": "AEROSPACE AND DEFENSE",
+        "keywords": [
+          "aerospace",
+          "defense"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'BANKING/SAVINGS AND LOAN' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE PREFERRED STOCKS",
+        "label": "BANKING/SAVINGS AND LOAN",
+        "keywords": [
+          "banking",
+          "savings",
+          "loan"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'CHEMICALS' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE PREFERRED STOCKS",
+        "label": "CHEMICALS",
+        "keywords": [
+          "chemicals"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'ENERGY' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE PREFERRED STOCKS",
+        "label": "ENERGY",
+        "keywords": [
+          "energy"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'TELECOMMUNICATIONS' mentions categories not in section path",
+      "context": {
+        "section_path": "CONVERTIBLE PREFERRED STOCKS",
+        "label": "TELECOMMUNICATIONS",
+        "keywords": [
+          "telecommunications"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'CONSUMER GOODS' mentions categories not in section path",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES",
+        "label": "CONSUMER GOODS",
+        "keywords": [
+          "consumer",
+          "goods"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'ENERGY' mentions categories not in section path",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES",
+        "label": "ENERGY",
+        "keywords": [
+          "energy"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'FOODS' mentions categories not in section path",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES",
+        "label": "FOODS",
+        "keywords": [
+          "foods"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'HEALTH CARE' mentions categories not in section path",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES",
+        "label": "HEALTH CARE",
+        "keywords": [
+          "health",
+          "care"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'INSURANCE' mentions categories not in section path",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES",
+        "label": "INSURANCE",
+        "keywords": [
+          "insurance"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'MEDIA AND ENTERTAINMENT' mentions categories not in section path",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES",
+        "label": "MEDIA AND ENTERTAINMENT",
+        "keywords": [
+          "media",
+          "entertainment"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'MINERALS AND MINING' mentions categories not in section path",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES",
+        "label": "MINERALS AND MINING",
+        "keywords": [
+          "minerals",
+          "mining"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'Pharmaceuticals' mentions categories not in section path",
+      "context": {
+        "section_path": "MANDATORY CONVERTIBLE SECURITIES",
+        "label": "Pharmaceuticals",
+        "keywords": [
+          "pharmaceuticals"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (9521)",
+      "context": {
+        "as_of_date": "April 30, 2008",
+        "filename_date": "9521-08-00"
+      }
+    }
+  ]
+}

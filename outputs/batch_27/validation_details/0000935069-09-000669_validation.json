@@ -1,0 +1,167 @@
+{
+  "source_name": "0000935069-09-000669",
+  "total_rows": 30,
+  "holding_count": 27,
+  "subtotal_count": 2,
+  "total_count": 1,
+  "error_count": 1,
+  "warning_count": 4,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "LONG/SHORT EQUITY": {
+      "calculated_fv": "542585113",
+      "calculated_cost": "563056599",
+      "calculated_pct": "82.04",
+      "extracted_fv": "542585113",
+      "extracted_cost": "563056599",
+      "extracted_pct": "82.36",
+      "holding_count": 25,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MULTI-STRATEGY": {
+      "calculated_fv": "39342967",
+      "calculated_cost": "25189305",
+      "calculated_pct": "5.97",
+      "extracted_fv": "39342967",
+      "extracted_cost": "25189305",
+      "extracted_pct": "5.97",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "581928080",
+      "calculated_cost": "588245904",
+      "calculated_pct": "88.01",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (82.04%) != extracted subtotal (82.36%), diff=0.32%",
+      "context": {
+        "section_path": "LONG/SHORT EQUITY",
+        "label": "LONG/SHORT EQUITY SUBTOTAL",
+        "calculated": "82.04",
+        "extracted": "82.36",
+        "diff": "0.32",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Redeemed Investment Funds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'TOTAL' but no holdings or child sections",
+      "context": {
+        "section_path": "TOTAL",
+        "label": "TOTAL"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (5069)",
+      "context": {
+        "as_of_date": "DECEMBER 31, 2008",
+        "filename_date": "5069-09-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 4 row(s): MISREAD_PERCENT_AS_8=4",
+      "context": {
+        "fix_count": 4,
+        "dropped": 0,
+        "converted": 0
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 4,
+    "dropped_count": 0,
+    "converted_count": 0,
+    "percent_corrected_count": 4,
+    "fix_log": [
+      {
+        "row_idx": 0,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Artha Emerging Markets Fund, L.P.|fv=$33,472,153",
+        "old_value": "5.08%",
+        "new_value": "5.0%"
+      },
+      {
+        "row_idx": 6,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Cobalt Partners, L.P.|fv=62,432,600",
+        "old_value": "9.48%",
+        "new_value": "9.4%"
+      },
+      {
+        "row_idx": 9,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Cycladic Catalyst Fund, L.P. (side pocke|fv=547,264",
+        "old_value": "0.08%",
+        "new_value": "0.0%"
+      },
+      {
+        "row_idx": 20,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Southpoint Qualified Fund, L. P.|fv=45,344,324",
+        "old_value": "6.88%",
+        "new_value": "6.8%"
+      }
+    ]
+  }
+}

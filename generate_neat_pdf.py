@@ -60,6 +60,13 @@ EXCESSIVE_NEWLINES_RE = re.compile(r"\n{3,}")
 # Pattern to match form-feed characters
 FORM_FEED_RE = re.compile(r"\f")
 
+# Pattern to detect summary/reconciliation blocks that should be glued to the previous block
+# Matches: "Total", "Net Assets", "Members' Capital", "Liabilities", double underlines
+SUMMARY_CHUNK_RE = re.compile(
+    r"(?:total|net\s+assets|members['\u2019]?\s*capital|liabilities|excess|deficiency|={3,}|-{3,})",
+    flags=re.IGNORECASE,
+)
+
 
 # =============================================================================
 # Data Structures
@@ -220,6 +227,18 @@ HEADER_MAX_LINES = 20
 # Maximum total visible lines to accumulate as headers before a table
 MAX_ACCUMULATED_HEADER_LINES = 35
 
+# Maximum visible lines for a text block to be considered a "footer candidate"
+FOOTER_MAX_LINES = 10
+
+# Maximum total visible lines to accumulate as footers after a table
+MAX_ACCUMULATED_FOOTER_LINES = 15
+
+# Pattern to detect new section headers (e.g., "Category Name -- X.X%")
+SECTION_HEADER_RE = re.compile(
+    r"^\s*[A-Z][A-Za-z\s/&]+\s*--\s*\d+\.?\d*\s*%",
+    flags=re.MULTILINE,
+)
+
 
 def _count_visible_lines(text: str) -> int:
     """Count non-empty lines in text after stripping SGML tags."""
@@ -250,6 +269,84 @@ def _is_header_candidate(block: TextBlock) -> bool:
     clean_text = _strip_sgml_tags_for_display(block_text)
     visible_lines = _count_visible_lines(clean_text)
     return visible_lines <= HEADER_MAX_LINES
+
+
+def _is_footer_candidate(block: TextBlock) -> bool:
+    """
+    Check if a text block qualifies as a footer candidate.
+    
+    Footer candidates are short blocks that typically contain:
+    - Subtotal/total lines (e.g., "3,989,082")
+    - Separator lines (dashes, whitespace)
+    - Footnote markers
+    - Summary lines
+    
+    Returns False if the block looks like a new section header.
+    """
+    block_text = "\n".join(block.lines)
+    clean_text = _strip_sgml_tags_for_display(block_text)
+    visible_lines = _count_visible_lines(clean_text)
+    
+    # Must be short enough
+    if visible_lines > FOOTER_MAX_LINES:
+        return False
+    
+    # Reject if it looks like a new section header (e.g., "Category -- X.X%")
+    if SECTION_HEADER_RE.search(clean_text):
+        return False
+    
+    return True
+
+
+def _is_summary_chunk(chunk: str, max_lines: int = 15) -> bool:
+    """
+    Check if a chunk looks like a summary/reconciliation block.
+    
+    Summary chunks (totals, net assets, members' capital lines) should be
+    glued to the previous chunk to prevent awkward page breaks.
+    """
+    line_count = len([ln for ln in chunk.split("\n") if ln.strip()])
+    if line_count > max_lines:
+        return False
+    return bool(SUMMARY_CHUNK_RE.search(chunk))
+
+
+def _render_chunked_table(clean_text: str) -> str:
+    """
+    Split table content into logical chunks and wrap each in a protected div.
+    
+    Chunks are identified by blank lines (double newlines) which typically
+    separate logical row groups in SEC filings. Each chunk gets 
+    `break-inside: avoid` via CSS to prevent mid-entry page breaks.
+    
+    Summary/reconciliation chunks (e.g., "Other assets, less liabilities",
+    "MEMBERS' CAPITAL") additionally get `break-before: avoid` to stay
+    glued to the preceding chunk.
+    
+    Returns HTML string with each chunk wrapped in <div class="table-chunk">.
+    """
+    # Split by double newlines to identify logical row groups
+    chunks = re.split(r"\n\n+", clean_text)
+    
+    html_chunks: List[str] = []
+    for chunk in chunks:
+        chunk = chunk.rstrip()  # Preserve leading whitespace for column alignment
+        if chunk:
+            # Check if this is a summary chunk that should be glued to the previous
+            if _is_summary_chunk(chunk):
+                # Add break-before: avoid to prevent page break before this chunk
+                # Also add margin-top to preserve visual spacing
+                html_chunks.append(
+                    f'<div class="table-chunk" style="break-before: avoid; page-break-before: avoid; margin-top: 1em;">'
+                    f'<pre class="filing">{html_escape(chunk)}</pre></div>'
+                )
+            else:
+                # Regular chunk - just prevent breaks inside
+                html_chunks.append(
+                    f'<div class="table-chunk"><pre class="filing">{html_escape(chunk)}</pre></div>'
+                )
+    
+    return "\n".join(html_chunks)
 
 
 def _collect_header_blocks(blocks: List[Block], table_idx: int) -> List[int]:
@@ -308,6 +405,58 @@ def _collect_header_blocks(blocks: List[Block], table_idx: int) -> List[int]:
     return header_indices
 
 
+def _collect_footer_blocks(blocks: List[Block], table_idx: int) -> List[int]:
+    """
+    Scan forwards from a table block to collect all following footer candidate blocks.
+    
+    Returns a list of block indices that should be glued to the table.
+    Stops when we hit:
+    - A non-footer (long text block or new section header)
+    - Another TableBlock
+    - The end of the block list
+    - Exceeded maximum accumulated lines
+    
+    This keeps totals/subtotals with their tables.
+    """
+    footer_indices: List[int] = []
+    total_lines = 0
+    
+    # Scan forwards from the block after the table
+    for i in range(table_idx + 1, len(blocks)):
+        block = blocks[i]
+        
+        # Stop if we hit another table
+        if isinstance(block, TableBlock):
+            break
+        
+        # Must be a TextBlock
+        if not isinstance(block, TextBlock):
+            break
+        
+        # Get the clean text and line count
+        block_text = "\n".join(block.lines)
+        clean_text = _strip_sgml_tags_for_display(block_text)
+        block_lines = _count_visible_lines(clean_text)
+        
+        # Skip empty blocks but continue scanning
+        if block_lines == 0:
+            continue
+        
+        # Check if it's a footer candidate
+        if not _is_footer_candidate(block):
+            break
+        
+        # Check accumulated line limit
+        if total_lines + block_lines > MAX_ACCUMULATED_FOOTER_LINES:
+            break
+        
+        # This block qualifies - add it
+        footer_indices.append(i)
+        total_lines += block_lines
+    
+    return footer_indices
+
+
 def _build_html(
     docs: List[SecDocument],
     *,
@@ -319,7 +468,7 @@ def _build_html(
     Build HTML from SEC documents with CSS-based pagination.
     
     Uses 'break-inside: avoid' on table blocks to prevent table splits.
-    Glues multiple preceding header blocks to tables using backward scanning.
+    Glues preceding header blocks and following footer blocks to tables.
     """
     html_parts: List[str] = []
     
@@ -341,35 +490,40 @@ def _build_html(
         # Track which blocks have been consumed (glued to a table)
         consumed: set[int] = set()
         
-        # First pass: identify all table blocks and their associated headers
-        table_groups: dict[int, List[int]] = {}  # table_idx -> list of header indices
+        # First pass: identify all table blocks and their associated headers/footers
+        # table_idx -> (header_indices, footer_indices)
+        table_groups: dict[int, tuple[List[int], List[int]]] = {}
         for i, block in enumerate(blocks):
             if isinstance(block, TableBlock):
                 header_indices = _collect_header_blocks(blocks, i)
-                table_groups[i] = header_indices
+                footer_indices = _collect_footer_blocks(blocks, i)
+                table_groups[i] = (header_indices, footer_indices)
                 consumed.update(header_indices)
+                consumed.update(footer_indices)
         
         # Second pass: emit HTML in order
         i = 0
         while i < len(blocks):
-            # Skip if already consumed as a header
+            # Skip if already consumed as a header or footer
             if i in consumed:
                 i += 1
                 continue
             
             current_block = blocks[i]
             
-            # Check if this is a table with associated headers
+            # Check if this is a table with associated headers/footers
             if isinstance(current_block, TableBlock) and i in table_groups:
-                header_indices = table_groups[i]
+                header_indices, footer_indices = table_groups[i]
                 
                 # Get table content
                 table_text = "\n".join(current_block.lines)
                 clean_table = _strip_sgml_tags_for_display(table_text)
                 
-                if header_indices:
-                    # Wrap headers + table in a shared container
-                    html_parts.append('<div class="table-with-header">')
+                has_context = header_indices or footer_indices
+                
+                if has_context:
+                    # Wrap headers + table + footers in a shared container
+                    html_parts.append('<div class="table-with-context">')
                     
                     # Emit all header blocks
                     for h_idx in header_indices:
@@ -379,17 +533,25 @@ def _build_html(
                         if clean_header.strip():
                             html_parts.append(f'<pre class="filing header-text">{html_escape(clean_header)}</pre>')
                     
-                    # Emit the table
+                    # Emit the table as chunks
                     if clean_table.strip():
-                        html_parts.append(f'<pre class="filing table-content">{html_escape(clean_table)}</pre>')
+                        html_parts.append(_render_chunked_table(clean_table))
+                    
+                    # Emit all footer blocks
+                    for f_idx in footer_indices:
+                        footer_block = blocks[f_idx]
+                        footer_text = "\n".join(footer_block.lines)
+                        clean_footer = _strip_sgml_tags_for_display(footer_text)
+                        if clean_footer.strip():
+                            html_parts.append(f'<pre class="filing footer-text">{html_escape(clean_footer)}</pre>')
                     
                     html_parts.append('</div>')
                 else:
-                    # Table without headers - just wrap it
+                    # Table without context - render as chunks
                     if clean_table.strip():
-                        html_parts.append(
-                            f'<div class="table-wrapper"><pre class="filing">{html_escape(clean_table)}</pre></div>'
-                        )
+                        html_parts.append('<div class="table-wrapper">')
+                        html_parts.append(_render_chunked_table(clean_table))
+                        html_parts.append('</div>')
                 
                 i += 1
                 continue
@@ -405,11 +567,11 @@ def _build_html(
             
             if isinstance(current_block, TableBlock):
                 # Orphan table (shouldn't happen, but handle it)
-                html_parts.append(
-                    f'<div class="table-wrapper"><pre class="filing">{html_escape(clean_text)}</pre></div>'
-                )
+                html_parts.append('<div class="table-wrapper">')
+                html_parts.append(_render_chunked_table(clean_text))
+                html_parts.append('</div>')
             else:
-                # Regular text block (not consumed as header)
+                # Regular text block (not consumed as header/footer)
                 html_parts.append(
                     f'<pre class="filing">{html_escape(clean_text)}</pre>'
                 )
@@ -465,11 +627,11 @@ body {{
     white-space: pre;
     margin: 0;
     padding: 0;
+    widows: 5;
+    orphans: 5;
 }}
 
 .table-wrapper {{
-    break-inside: avoid;
-    page-break-inside: avoid;
     margin: 4px 0;
 }}
 
@@ -479,31 +641,43 @@ body {{
     padding-left: 4px;
 }}
 
-.table-with-header {{
+.table-with-context {{
     display: block;
-    break-inside: avoid;
-    page-break-inside: avoid;
     break-before: auto;
     margin: 4px 0;
 }}
 
-.table-with-header .filing {{
+.table-chunk {{
+    break-inside: avoid;
+    page-break-inside: avoid;
+}}
+
+.table-with-context .filing {{
     margin: 0;
     padding: 0;
 }}
 
-.table-with-header .header-text {{
+.table-with-context .header-text {{
     margin: 0;
     padding: 0;
     break-after: avoid;
     page-break-after: avoid;
 }}
 
-.table-with-header .table-content {{
+.table-with-context .table-content {{
     background: #fafafa;
     border-left: 2px solid #ddd;
     padding-left: 4px;
     margin: 0;
+    break-before: avoid;
+    page-break-before: avoid;
+    break-after: avoid;
+    page-break-after: avoid;
+}}
+
+.table-with-context .footer-text {{
+    margin: 0;
+    padding: 0;
     break-before: avoid;
     page-break-before: avoid;
 }}
@@ -619,24 +793,70 @@ def iter_input_files(input_dir: Path, pattern: str, recursive: bool) -> Iterable
 # CLI
 # =============================================================================
 
+# Default output base directory for batch folders
+DEFAULT_OUTPUT_BASE = Path("pdfs-for-main-extraction")
+
+
+def _get_next_batch_dir(base_dir: Path) -> Path:
+    """
+    Find the next batch-N-pdfs folder in the base directory.
+    
+    Scans for existing batch-N-pdfs folders and returns batch-(N+1)-pdfs.
+    If no batch folders exist, returns batch-1-pdfs.
+    """
+    base_dir = base_dir.resolve()
+    if not base_dir.exists():
+        base_dir.mkdir(parents=True, exist_ok=True)
+        return base_dir / "batch-1-pdfs"
+    
+    # Find all existing batch-N-pdfs folders
+    batch_pattern = re.compile(r"^batch-(\d+)-pdfs$", re.IGNORECASE)
+    max_batch = 0
+    
+    for entry in base_dir.iterdir():
+        if entry.is_dir():
+            match = batch_pattern.match(entry.name)
+            if match:
+                batch_num = int(match.group(1))
+                max_batch = max(max_batch, batch_num)
+    
+    next_batch = max_batch + 1
+    return base_dir / f"batch-{next_batch}-pdfs"
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Convert SEC .txt filings to neat multi-page PDFs with intact tables.",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     
-    # Input/output
+    # Positional argument for input (optional, falls back to --input-dir)
+    parser.add_argument(
+        "input",
+        type=Path,
+        nargs="?",
+        default=None,
+        help="Input folder containing .txt filings (positional, or use --input-dir).",
+    )
+    
+    # Input/output (flags for backward compatibility)
     parser.add_argument(
         "--input-dir", 
         type=Path, 
-        default=Path("inputs_for_pdf_script"),
+        default=None,
         help="Folder containing .txt filings.",
     )
     parser.add_argument(
         "--output-dir", 
         type=Path, 
-        default=Path("test-inputs/neat_pdfs"),
-        help="Where to write PDFs.",
+        default=None,
+        help="Where to write PDFs. If not specified, auto-creates next batch folder.",
+    )
+    parser.add_argument(
+        "--output-base",
+        type=Path,
+        default=DEFAULT_OUTPUT_BASE,
+        help="Base directory for auto-created batch folders.",
     )
     parser.add_argument(
         "--glob", 
@@ -690,8 +910,19 @@ def main() -> int:
     
     args = parser.parse_args()
     
-    input_dir = args.input_dir.resolve()
-    output_dir = args.output_dir.resolve()
+    # Resolve input directory (positional takes precedence over --input-dir)
+    if args.input is not None:
+        input_dir = args.input.resolve()
+    elif args.input_dir is not None:
+        input_dir = args.input_dir.resolve()
+    else:
+        input_dir = Path("inputs_for_pdf_script").resolve()
+    
+    # Resolve output directory (explicit --output-dir or auto-generate batch folder)
+    if args.output_dir is not None:
+        output_dir = args.output_dir.resolve()
+    else:
+        output_dir = _get_next_batch_dir(args.output_base)
     
     if not input_dir.exists():
         print(f"Error: Input directory does not exist: {input_dir}")

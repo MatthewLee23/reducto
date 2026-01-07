@@ -1,0 +1,34 @@
+{
+  "batch_number": 18,
+  "run_timestamp": "Jan 05, 2026 at 04:53 PM",
+  "total_files": 1,
+  "total_rows": 142,
+  "total_errors": 5,
+  "total_warnings": 84,
+  "files_with_errors": 1,
+  "files_with_warnings": 0,
+  "files_with_arithmetic_errors": 1,
+  "files_with_root_mismatch": 1,
+  "all_passed": false,
+  "top_error_codes": {
+    "SUBTOTAL_PATH_MISMATCH": 44,
+    "MISSING_SUBTOTAL": 34,
+    "CITATION_VALUE_MISMATCH": 2,
+    "ORPHANED_TOTAL": 2,
+    "TOTAL_MISSING_NUMERIC": 1,
+    "BBOX_OUT_OF_RANGE": 1,
+    "TOTAL_MISMATCH_FV": 1,
+    "ROOT_TOTAL_MISMATCH_FV": 1,
+    "ROOT_TOTAL_MISMATCH_PCT": 1,
+    "TOTAL_PATH_MISMATCH": 1
+  },
+  "files_with_errors_list": [
+    "0000009521-04-000011"
+  ],
+  "files_with_arithmetic_errors_list": [
+    "0000009521-04-000011"
+  ],
+  "files_with_root_mismatch_list": [
+    "0000009521-04-000011"
+  ]
+}

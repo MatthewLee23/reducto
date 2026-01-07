@@ -1,0 +1,170 @@
+{
+  "source_name": "0000935069-08-002901",
+  "total_rows": 47,
+  "holding_count": 40,
+  "subtotal_count": 6,
+  "total_count": 1,
+  "error_count": 2,
+  "warning_count": 2,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "Credit": {
+      "calculated_fv": "26135360",
+      "calculated_cost": "25912337",
+      "calculated_pct": "13.73",
+      "extracted_fv": "26135360",
+      "extracted_cost": "25912337",
+      "extracted_pct": "13.73",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Long/Short Equities": {
+      "calculated_fv": "38378335",
+      "calculated_cost": "42153326",
+      "calculated_pct": "20.15",
+      "extracted_fv": "38378335",
+      "extracted_cost": "42153326",
+      "extracted_pct": "20.15",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Merger Arbitrage/Event Driven": {
+      "calculated_fv": "15904537",
+      "calculated_cost": "17945081",
+      "calculated_pct": "8.35",
+      "extracted_fv": "15904537",
+      "extracted_cost": "17945081",
+      "extracted_pct": "8.35",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Opportunistic/Macro": {
+      "calculated_fv": "9972836",
+      "calculated_cost": "7291093",
+      "calculated_pct": "5.24",
+      "extracted_fv": "9972836",
+      "extracted_cost": "7291093",
+      "extracted_pct": "5.24",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Relative Value": {
+      "calculated_fv": "86557689",
+      "calculated_cost": "77411859",
+      "calculated_pct": "45.47",
+      "extracted_fv": "86557689",
+      "extracted_cost": "77411859",
+      "extracted_pct": "45.47",
+      "holding_count": 15,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Short Selling": {
+      "calculated_fv": "4515023",
+      "calculated_cost": "6105321",
+      "calculated_pct": "2.38",
+      "extracted_fv": "4515023",
+      "extracted_cost": "6105321",
+      "extracted_pct": "2.38",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "181463780",
+      "calculated_cost": "176819017",
+      "calculated_pct": "95.32",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 7,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '200' don't match citation content digits '117' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 38,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '200' don't match citation content digits '144' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 3,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (5069)",
+      "context": {
+        "as_of_date": "September 30, 2008",
+        "filename_date": "5069-08-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'TOTAL INVESTMENTS' but no holdings or child sections",
+      "context": {
+        "section_path": "TOTAL INVESTMENTS",
+        "label": "TOTAL INVESTMENTS"
+      }
+    }
+  ]
+}

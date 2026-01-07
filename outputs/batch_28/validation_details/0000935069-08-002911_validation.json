@@ -1,0 +1,528 @@
+{
+  "source_name": "0000935069-08-002911",
+  "total_rows": 60,
+  "holding_count": 49,
+  "subtotal_count": 8,
+  "total_count": 3,
+  "error_count": 23,
+  "warning_count": 4,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "INVESTMENTS IN INVESTMENT FUNDS > DIRECTIONAL EQUITY": {
+      "calculated_fv": "131753475",
+      "calculated_cost": "101700000",
+      "calculated_pct": "19.69",
+      "extracted_fv": "131753475",
+      "extracted_cost": "101700000",
+      "extracted_pct": "19.77",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "INVESTMENTS IN INVESTMENT FUNDS > DIRECTIONAL MACRO": {
+      "calculated_fv": "31872768",
+      "calculated_cost": "39587537",
+      "calculated_pct": "4.70",
+      "extracted_fv": "31872768",
+      "extracted_cost": "39587537",
+      "extracted_pct": "4.7",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "INVESTMENTS IN INVESTMENT FUNDS > RELATIVE VALUE": {
+      "calculated_fv": "322413104",
+      "calculated_cost": "306868949",
+      "calculated_pct": "48.30",
+      "extracted_fv": "322413104",
+      "extracted_cost": "306868949",
+      "extracted_pct": "48.3",
+      "holding_count": 15,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "INVESTMENTS IN INVESTMENT FUNDS > EVENT DRIVEN": {
+      "calculated_fv": "223175531",
+      "calculated_cost": "241067882",
+      "calculated_pct": "33.18",
+      "extracted_fv": "223175531",
+      "extracted_cost": "241067882",
+      "extracted_pct": "33.50",
+      "holding_count": 17,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "INVESTMENTS IN INVESTMENT FUNDS": {
+      "calculated_fv": "709214878",
+      "calculated_cost": "689224368",
+      "calculated_pct": "105.87",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 0,
+      "total_count": 3,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL INVESTMENTS IN INVESTMENT FUNDS",
+      "total_extracted_fv": "709214878"
+    },
+    "(root)": {
+      "calculated_fv": "709214878",
+      "calculated_cost": "689224368",
+      "calculated_pct": "105.87",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_PCT",
+      "message": "Section percent (105.87%) != Total row (106.43%), diff=0.56%",
+      "context": {
+        "section_path": "INVESTMENTS IN INVESTMENT FUNDS",
+        "label": "TOTAL INVESTMENTS IN INVESTMENT FUNDS",
+        "calculated": "105.87",
+        "extracted": "106.43",
+        "diff": "0.56",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (33.18%) != extracted subtotal (33.50%), diff=0.32%",
+      "context": {
+        "section_path": "INVESTMENTS IN INVESTMENT FUNDS > EVENT DRIVEN",
+        "label": "EVENT DRIVEN",
+        "calculated": "33.18",
+        "extracted": "33.50",
+        "diff": "0.32",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (19.69%) != extracted subtotal (19.77%), diff=0.08%",
+      "context": {
+        "section_path": "INVESTMENTS IN INVESTMENT FUNDS > DIRECTIONAL EQUITY",
+        "label": "DIRECTIONAL EQUITY",
+        "calculated": "19.69",
+        "extracted": "19.77",
+        "diff": "0.08",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '035' don't match citation content digits '441' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 42,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '066' don't match citation content digits '082' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 49,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '097' don't match citation content digits '150' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 51,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '10000' don't match citation content digits '212' (overlap: 20%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 59,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '10643' don't match citation content digits '435' (overlap: 40%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 57,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '107' don't match citation content digits '000' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 41,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '11200000' don't match citation content digits '9379' (overlap: 0%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 40,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '16' don't match citation content digits '209' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 40,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '213' don't match citation content digits '441' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 54,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '241067882' don't match citation content digits '13915669' (overlap: 22%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 56,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2222222222222222
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '26' don't match citation content digits '1977' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 48,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '292' don't match citation content digits '458' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 55,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4639248' don't match citation content digits '5456766' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 46,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '522' don't match citation content digits '561' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 44,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '643' don't match citation content digits '183' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 58,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6452912' don't match citation content digits '9974873' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 51,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '689224368' don't match citation content digits '25500000' (overlap: 22%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 57,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2222222222222222
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '709214878' don't match citation content digits '28962828' (overlap: 44%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 57,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4444444444444444
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7122814' don't match citation content digits '9379' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 41,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '77' don't match citation content digits '458' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 52,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (5069)",
+      "context": {
+        "as_of_date": "SEPTEMBER 30, 2008",
+        "filename_date": "5069-08-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 9 row(s): MISREAD_PERCENT_AS_8=9",
+      "context": {
+        "fix_count": 9,
+        "dropped": 0,
+        "converted": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_PATH_MISMATCH",
+      "message": "TOTAL label 'OTHER ASSETS, LESS LIABILITIES' mentions categories not in section path",
+      "context": {
+        "section_path": "INVESTMENTS IN INVESTMENT FUNDS",
+        "label": "OTHER ASSETS, LESS LIABILITIES",
+        "keywords": [
+          "other",
+          "less",
+          "liabilities"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_PATH_MISMATCH",
+      "message": "TOTAL label 'SHAREHOLDERS' CAPITAL' mentions categories not in section path",
+      "context": {
+        "section_path": "INVESTMENTS IN INVESTMENT FUNDS",
+        "label": "SHAREHOLDERS' CAPITAL",
+        "keywords": [
+          "shareholders",
+          "capital"
+        ]
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 9,
+    "dropped_count": 0,
+    "converted_count": 0,
+    "percent_corrected_count": 9,
+    "fix_log": [
+      {
+        "row_idx": 6,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Passport II LP - b *|fv=30,529,254",
+        "old_value": "4.58%",
+        "new_value": "4.5%"
+      },
+      {
+        "row_idx": 10,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Brevan Howard Multi Strategy Fund Limite|fv=9,862,905",
+        "old_value": "1.48%",
+        "new_value": "1.4%"
+      },
+      {
+        "row_idx": 20,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Total Directional Macro|fv=31,872,768",
+        "old_value": "4.78%",
+        "new_value": "4.7%"
+      },
+      {
+        "row_idx": 26,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Millenium Global Emerging Credit Fund Li|fv=15,207,953",
+        "old_value": "2.28%",
+        "new_value": "2.2%"
+      },
+      {
+        "row_idx": 37,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Total Relative Value|fv=322,413,104",
+        "old_value": "48.38%",
+        "new_value": "48.3%"
+      },
+      {
+        "row_idx": 40,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Carrington Investment Partners (US) LP -|fv=11,195,044",
+        "old_value": "1.68%",
+        "new_value": "1.6%"
+      },
+      {
+        "row_idx": 48,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Marathon Structured Finance Fund Ltd Cla|fv=17,843,304",
+        "old_value": "2.68%",
+        "new_value": "2.6%"
+      },
+      {
+        "row_idx": 52,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Paulson Advantage Plus LP - b|fv=51,837,454",
+        "old_value": "7.78%",
+        "new_value": "7.7%"
+      },
+      {
+        "row_idx": 53,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Stark Investments Structured Finance Ons|fv=9,214,308",
+        "old_value": "1.38%",
+        "new_value": "1.3%"
+      }
+    ]
+  }
+}

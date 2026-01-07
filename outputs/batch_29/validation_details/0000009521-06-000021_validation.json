@@ -1,0 +1,1203 @@
+{
+  "source_name": "0000009521-06-000021",
+  "total_rows": 119,
+  "holding_count": 80,
+  "subtotal_count": 31,
+  "total_count": 8,
+  "error_count": 32,
+  "warning_count": 12,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "CONVERTIBLE BONDS AND NOTES > Aerospace and Defense": {
+      "calculated_fv": "5646250",
+      "calculated_cost": "5756480",
+      "calculated_pct": "4.5",
+      "extracted_fv": "5646250",
+      "extracted_cost": "5756480",
+      "extracted_pct": "4.5",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Banking/Savings and Loan": {
+      "calculated_fv": "2528125",
+      "calculated_cost": "2500000",
+      "calculated_pct": "2.0",
+      "extracted_fv": "2528125",
+      "extracted_cost": "2500000",
+      "extracted_pct": "2.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Consumer Goods": {
+      "calculated_fv": "1398750",
+      "calculated_cost": "1000000",
+      "calculated_pct": "1.1",
+      "extracted_fv": "1398750",
+      "extracted_cost": "1000000",
+      "extracted_pct": "1.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Energy": {
+      "calculated_fv": "5242500",
+      "calculated_cost": "4941176",
+      "calculated_pct": "4.1",
+      "extracted_fv": "5242500",
+      "extracted_cost": "4941176",
+      "extracted_pct": "4.1",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Entertainment": {
+      "calculated_fv": "7099375",
+      "calculated_cost": "6620307",
+      "calculated_pct": "5.6",
+      "extracted_fv": "7099375",
+      "extracted_cost": "6620307",
+      "extracted_pct": "5.6",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Financial and Insurance": {
+      "calculated_fv": "1850363",
+      "calculated_cost": "1620901",
+      "calculated_pct": "1.5",
+      "extracted_fv": "1850363",
+      "extracted_cost": "1620901",
+      "extracted_pct": "1.5",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Financial Services": {
+      "calculated_fv": "2155000",
+      "calculated_cost": "2280953",
+      "calculated_pct": "1.7",
+      "extracted_fv": "2155000",
+      "extracted_cost": "2280953",
+      "extracted_pct": "1.7",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Foods": {
+      "calculated_fv": "1050600",
+      "calculated_cost": "1020367",
+      "calculated_pct": "0.8",
+      "extracted_fv": "1050600",
+      "extracted_cost": "1020367",
+      "extracted_pct": "0.8",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Health Care": {
+      "calculated_fv": "3739375",
+      "calculated_cost": "3754679",
+      "calculated_pct": "2.9",
+      "extracted_fv": "3739375",
+      "extracted_cost": "3754679",
+      "extracted_pct": "2.9",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Mining": {
+      "calculated_fv": "129213",
+      "calculated_cost": "125000",
+      "calculated_pct": "0.1",
+      "extracted_fv": "129213",
+      "extracted_cost": "125000",
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Multi-Industry": {
+      "calculated_fv": "3875000",
+      "calculated_cost": "3591608",
+      "calculated_pct": "3.1",
+      "extracted_fv": "3875000",
+      "extracted_cost": "3591608",
+      "extracted_pct": "3.1",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Pharmaceuticals": {
+      "calculated_fv": "10300551",
+      "calculated_cost": "9445424",
+      "calculated_pct": "8.1",
+      "extracted_fv": "10300551",
+      "extracted_cost": "9445424",
+      "extracted_pct": "8.1",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Real Estate": {
+      "calculated_fv": "1542500",
+      "calculated_cost": "1481097",
+      "calculated_pct": "1.2",
+      "extracted_fv": "1542500",
+      "extracted_cost": "1481097",
+      "extracted_pct": "1.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Retail": {
+      "calculated_fv": "1471875",
+      "calculated_cost": "1471947",
+      "calculated_pct": "1.2",
+      "extracted_fv": "1471875",
+      "extracted_cost": "1471947",
+      "extracted_pct": "1.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Technology": {
+      "calculated_fv": "19654937",
+      "calculated_cost": "19741336",
+      "calculated_pct": "15.5",
+      "extracted_fv": "19654937",
+      "extracted_cost": "19741336",
+      "extracted_pct": "15.5",
+      "holding_count": 14,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Telecommunications": {
+      "calculated_fv": "3318750",
+      "calculated_cost": "3043820",
+      "calculated_pct": "2.6",
+      "extracted_fv": "3318750",
+      "extracted_cost": "3043820",
+      "extracted_pct": "2.6",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES > Utilities": {
+      "calculated_fv": "1775625",
+      "calculated_cost": "1500000",
+      "calculated_pct": "1.4",
+      "extracted_fv": "1775625",
+      "extracted_cost": "1500000",
+      "extracted_pct": "1.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE BONDS AND NOTES": {
+      "calculated_fv": "72778789",
+      "calculated_cost": "69895095",
+      "calculated_pct": "57.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 17,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL CONVERTIBLE BONDS AND NOTES",
+      "total_extracted_fv": "72778789"
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Aerospace and Defense": {
+      "calculated_fv": "620000",
+      "calculated_cost": "1000000",
+      "calculated_pct": "0.5",
+      "extracted_fv": "620000",
+      "extracted_cost": "1000000",
+      "extracted_pct": "0.5",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Banking/Savings and Loan": {
+      "calculated_fv": "7346350",
+      "calculated_cost": "6963836",
+      "calculated_pct": "5.8",
+      "extracted_fv": "7346350",
+      "extracted_cost": "6963836",
+      "extracted_pct": "5.8",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Building Products": {
+      "calculated_fv": "2152500",
+      "calculated_cost": "1938970",
+      "calculated_pct": "1.7",
+      "extracted_fv": "2152500",
+      "extracted_cost": "1938970",
+      "extracted_pct": "1.7",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Chemicals": {
+      "calculated_fv": "2550000",
+      "calculated_cost": "2070748",
+      "calculated_pct": "2.0",
+      "extracted_fv": "2550000",
+      "extracted_cost": "2070748",
+      "extracted_pct": "2.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Energy": {
+      "calculated_fv": "4191000",
+      "calculated_cost": "4401474",
+      "calculated_pct": "3.3",
+      "extracted_fv": "4191000",
+      "extracted_cost": "4401474",
+      "extracted_pct": "3.3",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > Financial and Insurance": {
+      "calculated_fv": "8710873",
+      "calculated_cost": "8040300",
+      "calculated_pct": "6.9",
+      "extracted_fv": "8710873",
+      "extracted_cost": "8040300",
+      "extracted_pct": "6.9",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS": {
+      "calculated_fv": "25570723",
+      "calculated_cost": "24415328",
+      "calculated_pct": "20.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 6,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL CONVERTIBLE PREFERRED STOCKS",
+      "total_extracted_fv": "25570723"
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Chemicals": {
+      "calculated_fv": "1529600",
+      "calculated_cost": "2011404",
+      "calculated_pct": "1.2",
+      "extracted_fv": "1529600",
+      "extracted_cost": "2011404",
+      "extracted_pct": "1.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Energy": {
+      "calculated_fv": "1717400",
+      "calculated_cost": "1755500",
+      "calculated_pct": "1.3",
+      "extracted_fv": "1717400",
+      "extracted_cost": "1755500",
+      "extracted_pct": "1.3",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Financial and Insurance": {
+      "calculated_fv": "10862370",
+      "calculated_cost": "9560711",
+      "calculated_pct": "8.6",
+      "extracted_fv": "10862370",
+      "extracted_cost": "9560711",
+      "extracted_pct": "8.6",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Foods": {
+      "calculated_fv": "1100000",
+      "calculated_cost": "1058000",
+      "calculated_pct": "0.9",
+      "extracted_fv": "1100000",
+      "extracted_cost": "1058000",
+      "extracted_pct": "0.9",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Pharmaceuticals": {
+      "calculated_fv": "2477700",
+      "calculated_cost": "2315500",
+      "calculated_pct": "2.0",
+      "extracted_fv": "2477700",
+      "extracted_cost": "2315500",
+      "extracted_pct": "2.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES > Technology": {
+      "calculated_fv": "4135738",
+      "calculated_cost": "3569611",
+      "calculated_pct": "3.2",
+      "extracted_fv": "4135738",
+      "extracted_cost": "3569611",
+      "extracted_pct": "3.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MANDATORY CONVERTIBLE SECURITIES": {
+      "calculated_fv": "21822808",
+      "calculated_cost": "20270726",
+      "calculated_pct": "17.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 6,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL MANDATORY CONVERTIBLE SECURITIES (3)",
+      "total_extracted_fv": "21822808"
+    },
+    "COMMON STOCKS > Aerospace and Defense": {
+      "calculated_fv": "29132",
+      "calculated_cost": "53041",
+      "calculated_pct": null,
+      "extracted_fv": "29132",
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS": {
+      "calculated_fv": "29132",
+      "calculated_cost": "53041",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Common Stocks",
+      "total_extracted_fv": "29132"
+    },
+    "SHORT-TERM SECURITIES > Commercial Paper": {
+      "calculated_fv": "6497221",
+      "calculated_cost": "6497221",
+      "calculated_pct": "5.1",
+      "extracted_fv": "6497221",
+      "extracted_cost": null,
+      "extracted_pct": "5.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SHORT-TERM SECURITIES": {
+      "calculated_fv": "6497221",
+      "calculated_cost": "6497221",
+      "calculated_pct": "5.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Short-Term Securities",
+      "total_extracted_fv": "6497221"
+    },
+    "(root)": {
+      "calculated_fv": "126698673",
+      "calculated_cost": "121131411",
+      "calculated_pct": "99.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5,
+      "subtotal_count": 0,
+      "total_count": 3,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Investments",
+      "total_extracted_fv": "126698673"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '09' don't match citation content digits '81' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 102,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '10862370' don't match citation content digits '885000' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 94,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1177500' don't match citation content digits '9874475' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 12,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1207784' don't match citation content digits '9463836' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 12,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1505500' don't match citation content digits '2088424' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 92,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1685250' don't match citation content digits '750000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 82,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1696146' don't match citation content digits '1938970' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 25,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1850363' don't match citation content digits '11150900' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 17,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1850363' don't match citation content digits '11150900' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 18,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2000000' don't match citation content digits '3754679' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 4,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2002500' don't match citation content digits '1775625' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 30,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2303400' don't match citation content digits '500000' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 73,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2315500' don't match citation content digits '2088424' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 104,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2315500' don't match citation content digits '2088424' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 105,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2477700' don't match citation content digits '1944600' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 104,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2477700' don't match citation content digits '1944600' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 105,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2500411' don't match citation content digits '2247633' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 108,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2534375' don't match citation content digits '4079600' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 15,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '30000' don't match citation content digits '2' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 92,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3043820' don't match citation content digits '987008' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 63,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3318750' don't match citation content digits '997500' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 63,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '35000' don't match citation content digits '1' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 77,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '35000' don't match citation content digits '1253225' (overlap: 40%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 74,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4191000' don't match citation content digits '1471875' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 80,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '45' don't match citation content digits '11' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 0,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5242500' don't match citation content digits '3739375' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 9,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5646250' don't match citation content digits '1398750' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 0,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5756480' don't match citation content digits '1000000' (overlap: 14%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 0,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '620000' don't match citation content digits '861563' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 69,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '69895095' don't match citation content digits '1471947' (overlap: 38%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 68,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '750000' don't match citation content digits '737662' (overlap: 17%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 38,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9560711' don't match citation content digits '987769' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 94,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2006) differs from filename (9521)",
+      "context": {
+        "as_of_date": "October 31, 2006",
+        "filename_date": "9521-06-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [6, 7, 8, 9, 11, 12]",
+      "context": {
+        "row": 29,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Multi-Industry",
+        "original_page": 3,
+        "soi_pages": [
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [6, 7, 8, 9, 11, 12]",
+      "context": {
+        "row": 32,
+        "row_type": "HOLDING",
+        "investment": "Trinity Industries, Inc. 3.875% 2036 cv. sub. notes (Ba3) (2)",
+        "label": null,
+        "original_page": 3,
+        "soi_pages": [
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 4 which is not in SOI split [6, 7, 8, 9, 11, 12]",
+      "context": {
+        "row": 65,
+        "row_type": "HOLDING",
+        "investment": "Time Warner Telecom Inc. 2.375% 2026 cv. sr. deb. (Caal)",
+        "label": null,
+        "original_page": 4,
+        "soi_pages": [
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 4 which is not in SOI split [6, 7, 8, 9, 11, 12]",
+      "context": {
+        "row": 67,
+        "row_type": "HOLDING",
+        "investment": "CMS Energy Corp. 2.875% 2024 cv. sr. notes (Ba3)",
+        "label": null,
+        "original_page": 4,
+        "soi_pages": [
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 4 which is not in SOI split [6, 7, 8, 9, 11, 12]",
+      "context": {
+        "row": 87,
+        "row_type": "HOLDING",
+        "investment": "The St. Paul Travelers Companies, Inc. 4.5% 2032 cv. jr. sub. notes (Baal)",
+        "label": null,
+        "original_page": 4,
+        "soi_pages": [
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 4 which is not in SOI split [6, 7, 8, 9, 11, 12]",
+      "context": {
+        "row": 91,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Energy",
+        "original_page": 4,
+        "soi_pages": [
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 4 which is not in SOI split [6, 7, 8, 9, 11, 12]",
+      "context": {
+        "row": 93,
+        "row_type": "HOLDING",
+        "investment": "Chesapeake Energy Corp. 6.25% 06/15/09 mandatory cv. pfd. (B+)",
+        "label": null,
+        "original_page": 4,
+        "soi_pages": [
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 4 which is not in SOI split [6, 7, 8, 9, 11, 12]",
+      "context": {
+        "row": 95,
+        "row_type": "HOLDING",
+        "investment": "Alleghany Corp. 5.75% 06/15/09 mandatory cv. pfd. (BBB-)",
+        "label": null,
+        "original_page": 4,
+        "soi_pages": [
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 4 which is not in SOI split [6, 7, 8, 9, 11, 12]",
+      "context": {
+        "row": 97,
+        "row_type": "HOLDING",
+        "investment": "Merrill Lynch & Co., Inc. 6.75% 10/15/07 mandatorily exchangeable securities (Aa3) (exchangeable for Nuveen Investments, Inc. common stock)",
+        "label": null,
+        "original_page": 4,
+        "soi_pages": [
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 4 which is not in SOI split [6, 7, 8, 9, 11, 12]",
+      "context": {
+        "row": 99,
+        "row_type": "HOLDING",
+        "investment": "Morgan Stanley, Inc. 5.875% 10/15/08 mandatorily exchangeable securities (Aa3) (exchangeable for Nuveen Investments, Inc. common stock)",
+        "label": null,
+        "original_page": 4,
+        "soi_pages": [
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 4 which is not in SOI split [6, 7, 8, 9, 11, 12]",
+      "context": {
+        "row": 106,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Technology",
+        "original_page": 4,
+        "soi_pages": [
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ]
+      }
+    }
+  ]
+}

@@ -150,10 +150,10 @@ async def process_file(
                     except Exception:
                         pass
 
-            # If no existing extract or download failed, re-run extraction
+            # If no existing extract or download failed, run extraction
             if not downloaded:
                 remote_input = await upload_pdf(client, pdf_path)
-
+                
                 extract_config = get_extract_config(remote_input, soi_pages)
                 extract_response = await client.extract.run(**extract_config)
                 extract_json = _to_jsonable(extract_response)

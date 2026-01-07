@@ -1,0 +1,26 @@
+{
+  "batch_number": 25,
+  "run_timestamp": "20260107_094845",
+  "total_files": 5,
+  "total_rows": 599,
+  "total_errors": 24,
+  "total_warnings": 22,
+  "files_with_errors": 2,
+  "files_with_warnings": 3,
+  "files_with_arithmetic_errors": 0,
+  "files_with_root_mismatch": 0,
+  "all_passed": false,
+  "top_error_codes": {
+    "CITATION_VALUE_MISMATCH": 24,
+    "MISSING_SUBTOTAL": 9,
+    "ORPHANED_TOTAL": 7,
+    "DATE_MISMATCH": 5,
+    "NORMALIZATION_APPLIED": 1
+  },
+  "files_with_errors_list": [
+    "0000009521-06-000021",
+    "0000009521-08-000012"
+  ],
+  "files_with_arithmetic_errors_list": [],
+  "files_with_root_mismatch_list": []
+}

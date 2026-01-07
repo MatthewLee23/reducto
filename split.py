@@ -8,7 +8,18 @@ def get_split_config(remote_input: str) -> dict:
         "split_description": [
             {
                 "name": "SOI",
-                "description": "Pages that contain the fund's Schedule of Investments / Portfolio of Investments / Statement of Investments. Include pages labeled '(continued)'. These pages typically contain long tabular line items of holdings and columns like Investments, Shares, Units, Principal/Par Amount, Cost/Amortized Cost, Fair Value/Value, % of Net Assets, Interest Rate, Maturity Date, Notional, Level 1/2/3, and subtotal/total lines such as 'Total Investments'. Include pages that show headings like 'Schedule of Investments', 'Portfolio of Investments', 'Consolidated Schedule of Investments', 'Condensed Schedule of Investments'.",
+                "description": (
+                    "Pages that contain the fund's Schedule of Investments / Portfolio of Investments / "
+                    "Statement of Investments. Include pages labeled '(continued)'. "
+                    "EXCLUDE pages with 'Top Holdings', 'Largest Investment Holdings', 'Major Holdings', "
+                    "'Top Ten Holdings', or similar summary tables that show only a subset of holdings "
+                    "(typically 5-15 holdings with a partial Total). "
+                    "These pages typically contain long tabular line items of holdings and columns like "
+                    "Investments, Shares, Units, Principal/Par Amount, Cost/Amortized Cost, Fair Value/Value, "
+                    "% of Net Assets, Interest Rate, Maturity Date, Notional, Level 1/2/3, and subtotal/total lines "
+                    "such as 'Total Investments'. Include pages that show headings like 'Schedule of Investments', "
+                    "'Portfolio of Investments', 'Consolidated Schedule of Investments', 'Condensed Schedule of Investments'."
+                ),
             },
             {
                 "name": "OTHER_FS",

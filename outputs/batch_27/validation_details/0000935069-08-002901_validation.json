@@ -1,0 +1,277 @@
+{
+  "source_name": "0000935069-08-002901",
+  "total_rows": 47,
+  "holding_count": 40,
+  "subtotal_count": 6,
+  "total_count": 1,
+  "error_count": 6,
+  "warning_count": 2,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "Credit": {
+      "calculated_fv": "26135360",
+      "calculated_cost": "25912337",
+      "calculated_pct": "13.57",
+      "extracted_fv": "26135360",
+      "extracted_cost": "25912337",
+      "extracted_pct": "13.73",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Long/Short Equities": {
+      "calculated_fv": "38378335",
+      "calculated_cost": "42153326",
+      "calculated_pct": "20.07",
+      "extracted_fv": "38378335",
+      "extracted_cost": "42153326",
+      "extracted_pct": "20.15",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Merger Arbitrage/Event Driven": {
+      "calculated_fv": "15904537",
+      "calculated_cost": "17945081",
+      "calculated_pct": "8.35",
+      "extracted_fv": "15904537",
+      "extracted_cost": "17945081",
+      "extracted_pct": "8.35",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Opportunistic/Macro": {
+      "calculated_fv": "9972836",
+      "calculated_cost": "7291093",
+      "calculated_pct": "5.24",
+      "extracted_fv": "9972836",
+      "extracted_cost": "7291093",
+      "extracted_pct": "5.24",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Relative Value": {
+      "calculated_fv": "86557689",
+      "calculated_cost": "77411859",
+      "calculated_pct": "45.47",
+      "extracted_fv": "86557689",
+      "extracted_cost": "77411859",
+      "extracted_pct": "45.47",
+      "holding_count": 15,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Short Selling": {
+      "calculated_fv": "4515023",
+      "calculated_cost": "6105321",
+      "calculated_pct": "2.38",
+      "extracted_fv": "4515023",
+      "extracted_cost": "6105321",
+      "extracted_pct": "2.3",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "181463780",
+      "calculated_cost": "176819017",
+      "calculated_pct": "95.08",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 6,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL INVESTMENTS",
+      "total_extracted_fv": "181463780"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '200' don't match citation content digits '144' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 2,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '200' don't match citation content digits '272' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 37,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (13.57%) != extracted subtotal (13.73%), diff=0.16%",
+      "context": {
+        "section_path": "Credit",
+        "label": "Credit",
+        "calculated": "13.57",
+        "extracted": "13.73",
+        "diff": "0.16",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (20.07%) != extracted subtotal (20.15%), diff=0.08%",
+      "context": {
+        "section_path": "Long/Short Equities",
+        "label": "Long/Short Equities",
+        "calculated": "20.07",
+        "extracted": "20.15",
+        "diff": "0.08",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (2.38%) != extracted subtotal (2.3%), diff=0.08%",
+      "context": {
+        "section_path": "Short Selling",
+        "label": "Short Selling",
+        "calculated": "2.38",
+        "extracted": "2.3",
+        "diff": "0.08",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_PCT",
+      "message": "Grand total percent (95.08%) != extracted Total (95.32%), diff=0.24%",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "95.08",
+        "extracted": "95.32",
+        "diff": "0.24",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (5069)",
+      "context": {
+        "as_of_date": "September 30, 2008",
+        "filename_date": "5069-08-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 4 row(s): MISREAD_PERCENT_AS_8=4",
+      "context": {
+        "fix_count": 4,
+        "dropped": 0,
+        "converted": 0
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 4,
+    "dropped_count": 0,
+    "converted_count": 0,
+    "percent_corrected_count": 4,
+    "fix_log": [
+      {
+        "row_idx": 0,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Centar Investment Group (Asia) L.P.|fv=5,110,171",
+        "old_value": "2.68%",
+        "new_value": "2.6%"
+      },
+      {
+        "row_idx": 3,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Strategic Value Restructuring Fund, L.P.|fv=7,394,932",
+        "old_value": "3.88%",
+        "new_value": "3.8%"
+      },
+      {
+        "row_idx": 8,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "HOLDING:Deerfield Partners, L.P.|fv=4,160,853",
+        "old_value": "2.18%",
+        "new_value": "2.1%"
+      },
+      {
+        "row_idx": 45,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "percent_corrected",
+        "reason_code": "MISREAD_PERCENT_AS_8",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Short Selling|fv=4,515,023",
+        "old_value": "2.38%",
+        "new_value": "2.3%"
+      }
+    ]
+  }
+}
