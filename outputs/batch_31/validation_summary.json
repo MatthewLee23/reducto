@@ -1,0 +1,26 @@
+{
+  "batch_number": 31,
+  "run_timestamp": "Jan 07, 2026 at 02:20 PM",
+  "total_files": 1,
+  "total_rows": 59,
+  "total_errors": 33,
+  "total_warnings": 1,
+  "files_with_errors": 1,
+  "files_with_warnings": 0,
+  "files_with_arithmetic_errors": 1,
+  "files_with_root_mismatch": 0,
+  "all_passed": false,
+  "top_error_codes": {
+    "CITATION_VALUE_MISMATCH": 30,
+    "ARITH_MISMATCH_PCT": 2,
+    "TOTAL_MISMATCH_PCT": 1,
+    "DATE_MISMATCH": 1
+  },
+  "files_with_errors_list": [
+    "0000935069-08-002908"
+  ],
+  "files_with_arithmetic_errors_list": [
+    "0000935069-08-002908"
+  ],
+  "files_with_root_mismatch_list": []
+}

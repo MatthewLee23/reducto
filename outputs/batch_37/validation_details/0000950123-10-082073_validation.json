@@ -1,0 +1,61 @@
+{
+  "source_name": "0000950123-10-082073",
+  "total_rows": 18,
+  "holding_count": 15,
+  "subtotal_count": 2,
+  "total_count": 1,
+  "error_count": 0,
+  "warning_count": 1,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "LONG/SHORT EQUITY": {
+      "calculated_fv": "183001787",
+      "calculated_cost": "135304797",
+      "calculated_pct": "84.83",
+      "extracted_fv": "183001787",
+      "extracted_cost": "135304797",
+      "extracted_pct": "84.83",
+      "holding_count": 15,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "183001787",
+      "calculated_cost": "135304797",
+      "calculated_pct": "84.83",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL",
+      "total_extracted_fv": "183001787"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2010) differs from filename (0123)",
+      "context": {
+        "as_of_date": "JUNE 30, 2010",
+        "filename_date": "0123-10-08"
+      }
+    }
+  ]
+}

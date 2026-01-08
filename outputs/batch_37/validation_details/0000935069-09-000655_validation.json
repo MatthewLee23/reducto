@@ -1,0 +1,115 @@
+{
+  "source_name": "0000935069-09-000655",
+  "total_rows": 13,
+  "holding_count": 12,
+  "subtotal_count": 1,
+  "total_count": 0,
+  "error_count": 0,
+  "warning_count": 2,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "UBS TECHNOLOGY PARTNERS, L.L.C. > LONG/SHORT EQUITY": {
+      "calculated_fv": "129276100",
+      "calculated_cost": "86900599",
+      "calculated_pct": "59.83",
+      "extracted_fv": "129276100",
+      "extracted_cost": "86900599",
+      "extracted_pct": "59.83",
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "UBS TECHNOLOGY PARTNERS, L.L.C.": {
+      "calculated_fv": "129276100",
+      "calculated_cost": "86900599",
+      "calculated_pct": "59.83",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "129276100",
+      "calculated_cost": "86900599",
+      "calculated_pct": "59.83",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (5069)",
+      "context": {
+        "as_of_date": "DECEMBER 31, 2008",
+        "filename_date": "5069-09-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 2 row(s): ROW_FROM_NON_SOI_PAGE=2",
+      "context": {
+        "fix_count": 2,
+        "dropped": 2,
+        "converted": 0
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 2,
+    "dropped_count": 2,
+    "converted_count": 0,
+    "percent_corrected_count": 0,
+    "fix_log": [
+      {
+        "row_idx": 13,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Redeemed Investment Funds|fv=--",
+        "old_value": "page=1",
+        "new_value": "valid_pages=[14]"
+      },
+      {
+        "row_idx": 14,
+        "old_row_type": "TOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "TOTAL:TOTAL|fv=$129,276,100",
+        "old_value": "page=1",
+        "new_value": "valid_pages=[14]"
+      }
+    ]
+  }
+}

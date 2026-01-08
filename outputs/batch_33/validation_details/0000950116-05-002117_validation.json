@@ -1,0 +1,1269 @@
+{
+  "source_name": "0000950116-05-002117",
+  "total_rows": 168,
+  "holding_count": 100,
+  "subtotal_count": 62,
+  "total_count": 6,
+  "error_count": 32,
+  "warning_count": 22,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "4220435",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "DELAWARE INVESTMENTS FLORIDA INSURED MUNICIPAL INCOME FUND > MUNICIPAL BONDS": {
+      "calculated_fv": null,
+      "calculated_cost": null,
+      "calculated_pct": "151.00",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "151.00",
+      "holding_count": 0,
+      "child_count": 0,
+      "subtotal_count": 12,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS FLORIDA INSURED MUNICIPAL INCOME FUND": {
+      "calculated_fv": null,
+      "calculated_cost": null,
+      "calculated_pct": "151.00",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL MARKET VALUE OF SECURITIES",
+      "total_extracted_fv": null
+    },
+    "DELAWARE INVESTMENTS COLORADO INSURED MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS": {
+      "calculated_fv": null,
+      "calculated_cost": null,
+      "calculated_pct": "150.37",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "150.37",
+      "holding_count": 0,
+      "child_count": 0,
+      "subtotal_count": 15,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS COLORADO INSURED MUNICIPAL INCOME FUND, INC.": {
+      "calculated_fv": null,
+      "calculated_cost": null,
+      "calculated_pct": "150.37",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.66",
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL MARKET VALUE OF SECURITIES",
+      "total_extracted_fv": null
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Airport Revenue Bonds": {
+      "calculated_fv": "3903845",
+      "calculated_cost": null,
+      "calculated_pct": "10.34",
+      "extracted_fv": "3903845",
+      "extracted_cost": null,
+      "extracted_pct": "10.34",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > City General Obligation Bonds": {
+      "calculated_fv": "1554920",
+      "calculated_cost": null,
+      "calculated_pct": "4.12",
+      "extracted_fv": "1554920",
+      "extracted_cost": null,
+      "extracted_pct": "4.12",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Continuing Care/Retirement Revenue Bonds": {
+      "calculated_fv": "917426",
+      "calculated_cost": null,
+      "calculated_pct": "2.43",
+      "extracted_fv": "917426",
+      "extracted_cost": null,
+      "extracted_pct": "2.43",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Corporate-Backed Revenue Bonds": {
+      "calculated_fv": "1566745",
+      "calculated_cost": null,
+      "calculated_pct": "4.15",
+      "extracted_fv": "1566745",
+      "extracted_cost": null,
+      "extracted_pct": "4.15",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Escrowed to Maturity Bonds": {
+      "calculated_fv": "5108285",
+      "calculated_cost": null,
+      "calculated_pct": "13.54",
+      "extracted_fv": "5108285",
+      "extracted_cost": null,
+      "extracted_pct": "13.54",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Higher Education Revenue Bonds": {
+      "calculated_fv": "2165090",
+      "calculated_cost": null,
+      "calculated_pct": "5.74",
+      "extracted_fv": "2165090",
+      "extracted_cost": null,
+      "extracted_pct": "5.74",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Hospital Revenue Bonds": {
+      "calculated_fv": "6572407",
+      "calculated_cost": null,
+      "calculated_pct": "17.42",
+      "extracted_fv": "6572407",
+      "extracted_cost": null,
+      "extracted_pct": "17.42",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Miscellaneous Revenue Bonds": {
+      "calculated_fv": "2711716",
+      "calculated_cost": null,
+      "calculated_pct": "7.19",
+      "extracted_fv": "2711716",
+      "extracted_cost": null,
+      "extracted_pct": "7.19",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Multifamily Housing Revenue Bonds": {
+      "calculated_fv": "2313204",
+      "calculated_cost": null,
+      "calculated_pct": "6.13",
+      "extracted_fv": "2313204",
+      "extracted_cost": null,
+      "extracted_pct": "6.13",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Municipal Lease Revenue Bonds": {
+      "calculated_fv": "1734177",
+      "calculated_cost": null,
+      "calculated_pct": "4.60",
+      "extracted_fv": "1734177",
+      "extracted_cost": null,
+      "extracted_pct": "4.60",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Parking Revenue Bonds": {
+      "calculated_fv": "691867",
+      "calculated_cost": null,
+      "calculated_pct": "1.83",
+      "extracted_fv": "691867",
+      "extracted_cost": null,
+      "extracted_pct": "1.83",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Political Subdivision General Obligation Bonds": {
+      "calculated_fv": "3343764",
+      "calculated_cost": null,
+      "calculated_pct": "8.86",
+      "extracted_fv": "3343764",
+      "extracted_cost": null,
+      "extracted_pct": "8.86",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Pre-Refunded Bonds": {
+      "calculated_fv": "3286782",
+      "calculated_cost": null,
+      "calculated_pct": "8.71",
+      "extracted_fv": "3286782",
+      "extracted_cost": null,
+      "extracted_pct": "8.71",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Public Power Revenue Bonds": {
+      "calculated_fv": "11587135",
+      "calculated_cost": null,
+      "calculated_pct": "30.69",
+      "extracted_fv": "11587135",
+      "extracted_cost": null,
+      "extracted_pct": "30.69",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > School District General Obligation Bonds": {
+      "calculated_fv": "6445292",
+      "calculated_cost": null,
+      "calculated_pct": "17.08",
+      "extracted_fv": "6445292",
+      "extracted_cost": null,
+      "extracted_pct": "17.08",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Single Family Housing Revenue Bonds": {
+      "calculated_fv": "851154",
+      "calculated_cost": null,
+      "calculated_pct": "2.26",
+      "extracted_fv": "851154",
+      "extracted_cost": null,
+      "extracted_pct": "2.26",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > State General Obligation Bonds": {
+      "calculated_fv": "1207857",
+      "calculated_cost": null,
+      "calculated_pct": "3.20",
+      "extracted_fv": "1207857",
+      "extracted_cost": null,
+      "extracted_pct": "3.20",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS > Tax Increment/Special Assessment Bonds": {
+      "calculated_fv": "529535",
+      "calculated_cost": null,
+      "calculated_pct": "1.40",
+      "extracted_fv": "529535",
+      "extracted_cost": null,
+      "extracted_pct": "1.40",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > MUNICIPAL BONDS": {
+      "calculated_fv": "56491201",
+      "calculated_cost": null,
+      "calculated_pct": "149.69",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 18,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL MUNICIPAL BONDS",
+      "total_extracted_fv": "56491201"
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > SHORT-TERM INVESTMENTS > Variable Rate Demand Notes": {
+      "calculated_fv": "550000",
+      "calculated_cost": null,
+      "calculated_pct": "1.46",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.46",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC. > SHORT-TERM INVESTMENTS": {
+      "calculated_fv": "550000",
+      "calculated_cost": null,
+      "calculated_pct": "1.46",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL SHORT-TERM INVESTMENTS",
+      "total_extracted_fv": "550000"
+    },
+    "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC.": {
+      "calculated_fv": "57041201",
+      "calculated_cost": null,
+      "calculated_pct": "151.15",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL MARKET VALUE OF SECURITIES",
+      "total_extracted_fv": "57041201"
+    },
+    "MUNICIPAL BONDS > Airport Revenue Bonds": {
+      "calculated_fv": "3097900",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > City General Obligation Bonds": {
+      "calculated_fv": "517980",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > Convention Center/Auditorium/Hotel Revenue Bonds": {
+      "calculated_fv": "1030250",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > Dedicated Tax & Fees Revenue Bonds": {
+      "calculated_fv": "3092820",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > Escrowed to Maturity Bonds": {
+      "calculated_fv": "4879260",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > Hospital Revenue Bonds": {
+      "calculated_fv": "8630234",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > Miscellaneous Revenue Bonds": {
+      "calculated_fv": "3704880",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > Multifamily Housing Revenue Bonds": {
+      "calculated_fv": "494379",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > Municipal Lease Revenue Bonds": {
+      "calculated_fv": "4286572",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > Pre-Refunded Bonds": {
+      "calculated_fv": "8155175",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > Public Power Revenue Bonds": {
+      "calculated_fv": "1545045",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > School District General Obligation Bonds": {
+      "calculated_fv": "7759310",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > Single Family Housing Revenue Bonds": {
+      "calculated_fv": "2097069",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > Territorial Revenue Bonds": {
+      "calculated_fv": "10694619",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS > Water & Sewer Revenue Bonds": {
+      "calculated_fv": "2415720",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MUNICIPAL BONDS": {
+      "calculated_fv": "62401213",
+      "calculated_cost": null,
+      "calculated_pct": "138.87",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "138.87",
+      "holding_count": 0,
+      "child_count": 15,
+      "subtotal_count": 15,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL MUNICIPAL BONDS",
+      "total_extracted_fv": "66621648"
+    },
+    "(root)": {
+      "calculated_fv": "119442414",
+      "calculated_cost": null,
+      "calculated_pct": "591.39",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_FV",
+      "message": "Section sum (62401213) != Total row (66621648), diff=$4220435",
+      "context": {
+        "section_path": "MUNICIPAL BONDS",
+        "label": "TOTAL MUNICIPAL BONDS",
+        "calculated": "62401213",
+        "extracted": "66621648",
+        "diff": "4220435"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (150.37%) != extracted subtotal (0.66%), diff=149.71%",
+      "context": {
+        "section_path": "DELAWARE INVESTMENTS COLORADO INSURED MUNICIPAL INCOME FUND, INC.",
+        "label": "SHORT-TERM INVESTMENTS",
+        "calculated": "150.37",
+        "extracted": "0.66",
+        "diff": "149.71",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_PCT",
+      "message": "Section percent (150.37%) != Total row (151.03%), diff=0.66%",
+      "context": {
+        "section_path": "DELAWARE INVESTMENTS COLORADO INSURED MUNICIPAL INCOME FUND, INC.",
+        "label": "TOTAL MARKET VALUE OF SECURITIES",
+        "calculated": "150.37",
+        "extracted": "151.03",
+        "diff": "0.66",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000' don't match citation content digits '1921' (overlap: 25%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 11,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000000' don't match citation content digits '5125713111' (overlap: 14%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 35,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1027390' don't match citation content digits '340000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 49,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1032970' don't match citation content digits '250000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 35,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1139840' don't match citation content digits '950000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 47,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1164262' don't match citation content digits '8500000' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 51,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1385' don't match citation content digits '954' (overlap: 25%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 24,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1566745' don't match citation content digits '3000000' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 41,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1664976' don't match citation content digits '750000' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 56,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1750000' don't match citation content digits '51257131' (overlap: 43%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 52,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1902740' don't match citation content digits '500000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 52,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '195' don't match citation content digits '824' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 19,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2165090' don't match citation content digits '745000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 48,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2182' don't match citation content digits '115' (overlap: 25%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 3,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2318' don't match citation content digits '229' (overlap: 25%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 5,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '250000' don't match citation content digits '525911914' (overlap: 33%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 31,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '253460' don't match citation content digits '1000000' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 31,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '276' don't match citation content digits '688' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 7,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '283' don't match citation content digits '689' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 0,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '354' don't match citation content digits '110' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 22,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3715762' don't match citation content digits '1000000' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 42,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3903845' don't match citation content digits '1500000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 33,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '392613' don't match citation content digits '1250000' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 43,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5108285' don't match citation content digits '1000000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 45,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '521950' don't match citation content digits '1000000' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 34,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '547' don't match citation content digits '1086' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 9,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6572407' don't match citation content digits '1590000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 55,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '917426' don't match citation content digits '250000' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 37,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '999910' don't match citation content digits '825000' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 44,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2005) differs from filename (0116)",
+      "context": {
+        "as_of_date": "March 31, 2005",
+        "filename_date": "0116-05-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > City General Obligation Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Convention Center/Auditorium/Hotel Revenue Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Dedicated Tax & Fees Revenue Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Escrowed to Maturity Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Multifamily Housing Revenue Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Public Power Revenue Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Airport Revenue Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Miscellaneous Revenue Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Water & Sewer Revenue Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Single Family Housing Revenue Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Territorial Revenue Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 5 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Municipal Lease Revenue Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 5 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > School District General Obligation Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 7 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Hospital Revenue Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 7 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "MUNICIPAL BONDS > Pre-Refunded Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "SUBTOTAL_PATH_MISMATCH",
+      "message": "SUBTOTAL label 'SHORT-TERM INVESTMENTS' mentions categories not in section path",
+      "context": {
+        "section_path": "DELAWARE INVESTMENTS COLORADO INSURED MUNICIPAL INCOME FUND, INC.",
+        "label": "SHORT-TERM INVESTMENTS",
+        "keywords": [
+          "short",
+          "term"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'TOTAL MARKET VALUE OF SECURITIES' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 12
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_MISSING_NUMERIC",
+      "message": "Row labeled 'TOTAL MARKET VALUE OF SECURITIES' has no fair_value_raw or cost fields",
+      "context": {
+        "row": 29
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_PATH_MISMATCH",
+      "message": "TOTAL label 'TOTAL MARKET VALUE OF SECURITIES' mentions categories not in section path",
+      "context": {
+        "section_path": "DELAWARE INVESTMENTS FLORIDA INSURED MUNICIPAL INCOME FUND",
+        "label": "TOTAL MARKET VALUE OF SECURITIES",
+        "keywords": [
+          "market"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_PATH_MISMATCH",
+      "message": "TOTAL label 'TOTAL MARKET VALUE OF SECURITIES' mentions categories not in section path",
+      "context": {
+        "section_path": "DELAWARE INVESTMENTS COLORADO INSURED MUNICIPAL INCOME FUND, INC.",
+        "label": "TOTAL MARKET VALUE OF SECURITIES",
+        "keywords": [
+          "market"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_PATH_MISMATCH",
+      "message": "TOTAL label 'TOTAL MARKET VALUE OF SECURITIES' mentions categories not in section path",
+      "context": {
+        "section_path": "DELAWARE INVESTMENTS MINNESOTA MUNICIPAL INCOME FUND, INC.",
+        "label": "TOTAL MARKET VALUE OF SECURITIES",
+        "keywords": [
+          "market"
+        ]
+      }
+    }
+  ]
+}

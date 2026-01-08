@@ -1,0 +1,11 @@
+filename,status,error_message,total_rows,holding_count,subtotal_count,total_count,validation_errors,validation_warnings,has_arithmetic_error,max_dollar_diff,root_sum_mismatch,calculated_total_fv,extracted_total_fv,top_error_code
+0000216851-06-000012.pdf,success,,71,55,11,5,4,18,False,0,False,,,CITATION_VALUE_MISMATCH
+0000828803-06-000017.pdf,success,,121,80,33,8,29,40,True,0,False,,,CITATION_VALUE_MISMATCH
+0000930413-04-003491.pdf,success,,441,355,68,18,49,46,True,1279158718,True,2186660583,1299330441,CITATION_VALUE_MISMATCH
+0000935069-07-002190.pdf,success,,208,174,30,4,0,2,False,0,False,,,
+0000935069-08-002436.pdf,success,,108,98,0,10,11,1,False,0,False,,,CITATION_VALUE_MISMATCH
+0000936772-05-000012.pdf,success,,152,117,31,4,43,42,True,0,False,,,CITATION_VALUE_MISMATCH
+0000950116-05-002117.pdf,success,,168,100,62,6,32,22,True,4220435,False,,,CITATION_VALUE_MISMATCH
+0001047469-03-025422.pdf,success,,133,107,22,4,0,4,False,0,False,,,
+0001047469-05-022355.pdf,success,,70,43,21,6,28,4,True,104895635,True,,,CITATION_VALUE_MISMATCH
+0001193125-07-022212.pdf,success,,303,0,0,0,303,1,False,0,False,,,MISSING_ROW_TYPE

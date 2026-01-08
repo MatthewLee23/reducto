@@ -1,0 +1,32 @@
+{
+  "batch_number": 31,
+  "run_timestamp": "Jan 07, 2026 at 02:20 PM",
+  "summary": {
+    "total_files": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0,
+    "validated": 1,
+    "total_rows_extracted": 59,
+    "validation_errors": 33,
+    "validation_warnings": 1,
+    "files_with_arithmetic_errors": 1,
+    "files_with_root_mismatch": 0
+  },
+  "errors": [],
+  "skipped": [],
+  "validation_issues_by_code": {
+    "CITATION_VALUE_MISMATCH": 30,
+    "ARITH_MISMATCH_PCT": 2,
+    "TOTAL_MISMATCH_PCT": 1,
+    "DATE_MISMATCH": 1
+  },
+  "files_with_validation_errors": [
+    "0000935069-08-002908"
+  ],
+  "files_with_validation_warnings": [],
+  "files_with_arithmetic_errors": [
+    "0000935069-08-002908"
+  ],
+  "files_with_root_mismatch": []
+}

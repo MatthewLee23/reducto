@@ -697,11 +697,25 @@ async def main(input_folder: str = "txt"):
         if extract_json is not None:
             file_stem = Path(result["file"]).stem
             
+            # Extract SOI pages from split result for page-based filtering
+            soi_pages_set: set = set()
+            if split_json:
+                splits = split_json.get("result", {}).get("splits", [])
+                for split in splits:
+                    if str(split.get("name", "")).lower() == "soi":
+                        pages = split.get("pages", []) or []
+                        soi_pages_set = {int(p) for p in pages if isinstance(p, int) or str(p).isdigit()}
+                        break
+            
             # Sanitize soi_rows before validation to fix misclassified rows
+            # Pass soi_pages to filter out rows from non-SOI pages (e.g., Top Holdings on Page 1)
             norm_result: NormalizationResult | None = None
             soi_rows = extract_json.get("result", {}).get("soi_rows", [])
             if soi_rows:
-                sanitized_rows, norm_result = normalize_soi_rows(soi_rows)
+                sanitized_rows, norm_result = normalize_soi_rows(
+                    soi_rows,
+                    soi_pages=soi_pages_set if soi_pages_set else None,
+                )
                 # Replace with sanitized rows for validation
                 if "result" in extract_json:
                     extract_json["result"]["soi_rows"] = sanitized_rows

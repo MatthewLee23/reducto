@@ -1,0 +1,135 @@
+{
+  "source_name": "0000935069-08-002908",
+  "total_rows": 59,
+  "holding_count": 54,
+  "subtotal_count": 4,
+  "total_count": 1,
+  "error_count": 2,
+  "warning_count": 1,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "DISTRESSED": {
+      "calculated_fv": "103757383",
+      "calculated_cost": "99594208",
+      "calculated_pct": "21.64",
+      "extracted_fv": "103757383",
+      "extracted_cost": "99594208",
+      "extracted_pct": "21.64",
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "EVENT DRIVEN": {
+      "calculated_fv": "45294999",
+      "calculated_cost": "42477069",
+      "calculated_pct": "9.44",
+      "extracted_fv": "45294999",
+      "extracted_cost": "42477069",
+      "extracted_pct": "9.44",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "LONG AND/OR SHORT EQUITY": {
+      "calculated_fv": "228438123",
+      "calculated_cost": "240899133",
+      "calculated_pct": "47.63",
+      "extracted_fv": "228438123",
+      "extracted_cost": "240899133",
+      "extracted_pct": "47.63",
+      "holding_count": 31,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MULTI-ARBITRAGE": {
+      "calculated_fv": "65956530",
+      "calculated_cost": "61986197",
+      "calculated_pct": "10.56",
+      "extracted_fv": "65956530",
+      "extracted_cost": "61986197",
+      "extracted_pct": "13.74",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "443447035",
+      "calculated_cost": "444956607",
+      "calculated_pct": "89.27",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL INVESTMENTS IN PORTFOLIO FUNDS",
+      "total_extracted_fv": "443447035"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (10.56%) != extracted subtotal (13.74%), diff=3.18%",
+      "context": {
+        "section_path": "MULTI-ARBITRAGE",
+        "label": "MULTI-ARBITRAGE",
+        "calculated": "10.56",
+        "extracted": "13.74",
+        "diff": "3.18",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_PCT",
+      "message": "Grand total percent (89.27%) != extracted Total (92.45%), diff=3.18%",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL INVESTMENTS IN PORTFOLIO FUNDS",
+        "calculated": "89.27",
+        "extracted": "92.45",
+        "diff": "3.18",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (5069)",
+      "context": {
+        "as_of_date": "September 30, 2008",
+        "filename_date": "5069-08-00"
+      }
+    }
+  ]
+}

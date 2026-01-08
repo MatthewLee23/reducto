@@ -1,0 +1,61 @@
+# Batch #34 - Validation Summary
+
+**Run:** Jan 07, 2026 at 04:38 PM
+
+## Quick Stats
+
+| Metric | Value |
+|--------|-------|
+| Files Validated | 4 |
+| Total Rows Extracted | 706 |
+| Total Validation Errors | 90 |
+| Total Validation Warnings | 36 |
+
+## Arithmetic Validation (Deterministic Checks)
+
+These are **hard logic deterministic checks** that verify all numbers add up correctly:
+
+| Check | Files with Issues |
+|-------|-------------------|
+| Holdings sum to subtotals | 4 failures |
+| Subtotals sum to grand total | 2 failures |
+
+## Top Issues
+
+| Code | Count | Description |
+|------|-------|-------------|
+| `CITATION_VALUE_MISMATCH` | 55 | See detailed report |
+| `MISSING_SUBTOTAL` | 14 | See detailed report |
+| `ARITH_MISMATCH_FV` | 10 | Fair value sum doesn't match subtotal |
+| `TOTAL_MISMATCH_FV` | 10 | See detailed report |
+| `TOTAL_PATH_MISMATCH` | 7 | See detailed report |
+| `ARITH_MISMATCH_PCT` | 4 | Percent sum doesn't match subtotal |
+| `DATE_MISMATCH` | 4 | See detailed report |
+| `TOTAL_MISMATCH_PCT` | 4 | See detailed report |
+| `BBOX_PAGE_OUT_OF_RANGE` | 4 | See detailed report |
+| `NORMALIZATION_APPLIED` | 3 | See detailed report |
+
+## Files with Arithmetic Errors
+
+These files have holdings that don't sum to their subtotals:
+
+- `0000828803-06-000017`
+- `0000930413-04-003491`
+- `0000936772-05-000012`
+- `0001047469-05-022355`
+
+## Files with Grand Total Mismatch
+
+These files have holdings that don't sum to the reported grand total:
+
+- `0000930413-04-003491`
+- `0001047469-05-022355`
+
+## Detailed Reports
+
+For full details, see:
+
+- `validation_details/run_report.json` - Complete machine-readable report
+- `validation_details/run_report.md` - Full human-readable report
+- `validation_details/batch_report.csv` - Per-file analysis spreadsheet
+- `validation_details/<filename>_validation.json` - Per-file validation details

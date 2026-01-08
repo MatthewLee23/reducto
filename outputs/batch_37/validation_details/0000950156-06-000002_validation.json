@@ -1,0 +1,6180 @@
+{
+  "source_name": "0000950156-06-000002",
+  "total_rows": 479,
+  "holding_count": 419,
+  "subtotal_count": 56,
+  "total_count": 4,
+  "error_count": 155,
+  "warning_count": 142,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "417191907",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "322111675",
+  "extracted_total_fv": "445900043",
+  "computed_sums": {
+    "Municipal Bonds > Airport & Port Revenue": {
+      "calculated_fv": "14124082",
+      "calculated_cost": null,
+      "calculated_pct": "4.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "4.5",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Municipal Bonds > Chemicals": {
+      "calculated_fv": "2053094",
+      "calculated_cost": null,
+      "calculated_pct": "0.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Municipal Bonds > General Obligations - General Purpose": {
+      "calculated_fv": "9743362",
+      "calculated_cost": null,
+      "calculated_pct": "3.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.1",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Municipal Bonds > General Obligations - Schools": {
+      "calculated_fv": "1739403",
+      "calculated_cost": null,
+      "calculated_pct": "0.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.5",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Municipal Bonds > Healthcare Revenue - Hospitals.": {
+      "calculated_fv": "124962794",
+      "calculated_cost": null,
+      "calculated_pct": "39.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "39.5",
+      "holding_count": 114,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Municipal Bonds > Healthcare Revenue - Long Term Care": {
+      "calculated_fv": "46372354",
+      "calculated_cost": null,
+      "calculated_pct": "11.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "11.9",
+      "holding_count": 47,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Municipal Bonds": {
+      "calculated_fv": "198995089",
+      "calculated_cost": null,
+      "calculated_pct": "60.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "140.1",
+      "holding_count": 0,
+      "child_count": 6,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Municipal Bonds",
+      "total_extracted_fv": "443125043"
+    },
+    "Industrial Revenue Airlines": {
+      "calculated_fv": "8013498",
+      "calculated_cost": null,
+      "calculated_pct": "2.5",
+      "extracted_fv": "8013498",
+      "extracted_cost": null,
+      "extracted_pct": "2.5",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Industrial Revenue - Chemicals": {
+      "calculated_fv": "3020310",
+      "calculated_cost": null,
+      "calculated_pct": "1.0",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Industrial Revenue Environmental Services": {
+      "calculated_fv": "11063770",
+      "calculated_cost": null,
+      "calculated_pct": "3.5",
+      "extracted_fv": "11063770",
+      "extracted_cost": null,
+      "extracted_pct": "3.5",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Industrial Revenue Metals": {
+      "calculated_fv": "697431",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Industrial Revenue - Other": {
+      "calculated_fv": "16971968",
+      "calculated_cost": null,
+      "calculated_pct": "5.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "5.4",
+      "holding_count": 14,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Industrial Revenue Paper": {
+      "calculated_fv": "21752539",
+      "calculated_cost": null,
+      "calculated_pct": "6.9",
+      "extracted_fv": "21752539",
+      "extracted_cost": null,
+      "extracted_pct": "6.9",
+      "holding_count": 14,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Miscellaneous Revenue - Entertainment & Tourism": {
+      "calculated_fv": "2932565",
+      "calculated_cost": null,
+      "calculated_pct": "0.9",
+      "extracted_fv": "2932565",
+      "extracted_cost": null,
+      "extracted_pct": "0.9",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Miscellaneous Revenue Other": {
+      "calculated_fv": "6394515",
+      "calculated_cost": null,
+      "calculated_pct": "2.0",
+      "extracted_fv": "6394515",
+      "extracted_cost": null,
+      "extracted_pct": "2.0",
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Multi-Family Housing Revenue": {
+      "calculated_fv": "13791218",
+      "calculated_cost": null,
+      "calculated_pct": "4.5",
+      "extracted_fv": "14165076",
+      "extracted_cost": null,
+      "extracted_pct": "4.5",
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Sales & Excise Tax Revenue": {
+      "calculated_fv": "522617",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Single Family Housing Local": {
+      "calculated_fv": "6848087",
+      "calculated_cost": null,
+      "calculated_pct": "2.2",
+      "extracted_fv": "6848087",
+      "extracted_cost": null,
+      "extracted_pct": "2.2",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Single Family Housing Other": {
+      "calculated_fv": "766732",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Single Family Housing - State": {
+      "calculated_fv": "8178019",
+      "calculated_cost": null,
+      "calculated_pct": "2.6",
+      "extracted_fv": "8178019",
+      "extracted_cost": null,
+      "extracted_pct": "2.6",
+      "holding_count": 13,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Solid Waste Revenue": {
+      "calculated_fv": "5288107",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "5288107",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "State & Agency Other": {
+      "calculated_fv": "1302372",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "State & Local Agencies": {
+      "calculated_fv": "8983868",
+      "calculated_cost": null,
+      "calculated_pct": "2.8",
+      "extracted_fv": "8983868",
+      "extracted_cost": null,
+      "extracted_pct": "2.8",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Student Loan Revenue": {
+      "calculated_fv": "683742",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Tax Other": {
+      "calculated_fv": "5780974",
+      "calculated_cost": null,
+      "calculated_pct": "1.8",
+      "extracted_fv": "5780974",
+      "extracted_cost": null,
+      "extracted_pct": "1.8",
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Tax Assessment": {
+      "calculated_fv": "15231507",
+      "calculated_cost": null,
+      "calculated_pct": "4.8",
+      "extracted_fv": "15231507",
+      "extracted_cost": null,
+      "extracted_pct": "4.8",
+      "holding_count": 27,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Tobacco": {
+      "calculated_fv": "18656891",
+      "calculated_cost": null,
+      "calculated_pct": "5.9",
+      "extracted_fv": "18656891",
+      "extracted_cost": null,
+      "extracted_pct": "5.9",
+      "holding_count": 18,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Toll Roads": {
+      "calculated_fv": "3750518",
+      "calculated_cost": null,
+      "calculated_pct": "1.2",
+      "extracted_fv": "3750518",
+      "extracted_cost": null,
+      "extracted_pct": "1.2",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Transportation Special Tax": {
+      "calculated_fv": "9689463",
+      "calculated_cost": null,
+      "calculated_pct": "3.1",
+      "extracted_fv": "9689463",
+      "extracted_cost": null,
+      "extracted_pct": "3.1",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Universities Colleges": {
+      "calculated_fv": "11227692",
+      "calculated_cost": null,
+      "calculated_pct": "3.5",
+      "extracted_fv": "11227692",
+      "extracted_cost": null,
+      "extracted_pct": "3.5",
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Universities - Secondary Schools": {
+      "calculated_fv": "4401659",
+      "calculated_cost": null,
+      "calculated_pct": "1.4",
+      "extracted_fv": "4401659",
+      "extracted_cost": null,
+      "extracted_pct": "1.4",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Utilities Cogeneration": {
+      "calculated_fv": "6968880",
+      "calculated_cost": null,
+      "calculated_pct": "2.2",
+      "extracted_fv": "6968880",
+      "extracted_cost": null,
+      "extracted_pct": "2.2",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Utilities Investor Owned": {
+      "calculated_fv": "32207097",
+      "calculated_cost": null,
+      "calculated_pct": "10.2",
+      "extracted_fv": "32207097",
+      "extracted_cost": null,
+      "extracted_pct": "10.2",
+      "holding_count": 23,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Utilities Municipal Owned": {
+      "calculated_fv": "9682803",
+      "calculated_cost": null,
+      "calculated_pct": "3.1",
+      "extracted_fv": "9682803",
+      "extracted_cost": null,
+      "extracted_pct": "3.1",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Water & Sewer Utility Revenue": {
+      "calculated_fv": "8947254",
+      "calculated_cost": null,
+      "calculated_pct": "2.8",
+      "extracted_fv": "8947254",
+      "extracted_cost": null,
+      "extracted_pct": "2.8",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Floating Rate Demand Notes": {
+      "calculated_fv": "2775000",
+      "calculated_cost": null,
+      "calculated_pct": "0.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.9",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Floating Rate Demand Notes",
+      "total_extracted_fv": "2775000"
+    },
+    "SWAP AGREEMENTS > Interest Rate Swaps": {
+      "calculated_fv": "2275317",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SWAP AGREEMENTS": {
+      "calculated_fv": "2275317",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Restricted Securities": {
+      "calculated_fv": "4014229",
+      "calculated_cost": "4688065",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "322111675",
+      "calculated_cost": "4688065",
+      "calculated_pct": "184.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 32,
+      "subtotal_count": 0,
+      "total_count": 2,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Investments",
+      "total_extracted_fv": "445900043"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_COST",
+      "message": "Grand total cost (4688065) != extracted Total (421879972), diff=$417191907",
+      "context": {
+        "section_path": "(root)",
+        "label": "Total Investments",
+        "calculated": "4688065",
+        "extracted": "421879972",
+        "diff": "417191907"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_FV",
+      "message": "Section sum (198995089) != Total row (443125043), diff=$244129954",
+      "context": {
+        "section_path": "Municipal Bonds",
+        "label": "Total Municipal Bonds",
+        "calculated": "198995089",
+        "extracted": "443125043",
+        "diff": "244129954"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_FV",
+      "message": "Grand total of all holdings (322111675) != extracted Total (445900043), diff=$123788368",
+      "context": {
+        "section_path": "(root)",
+        "label": "Total Investments",
+        "calculated": "322111675",
+        "extracted": "445900043",
+        "diff": "123788368"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (13791218) != extracted subtotal (14165076), diff=$373858",
+      "context": {
+        "section_path": "Multi-Family Housing Revenue",
+        "label": "Multi-Family Housing Revenue",
+        "calculated": "13791218",
+        "extracted": "14165076",
+        "diff": "373858"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (60.1%) != extracted subtotal (140.1%), diff=80.0%",
+      "context": {
+        "section_path": "Municipal Bonds",
+        "label": "Municipal Bonds",
+        "calculated": "60.1",
+        "extracted": "140.1",
+        "diff": "80.0",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '09' don't match citation content digits '75' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 456,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '10' don't match citation content digits '75' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 195,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1000' don't match citation content digits '75' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 470,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1004480' don't match citation content digits '946686' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 437,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1005560' don't match citation content digits '946686' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 269,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1007661' don't match citation content digits '497090' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 139,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1012222' don't match citation content digits '161347' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 343,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1012442' don't match citation content digits '8178019' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 141,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1013210' don't match citation content digits '565029' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 118,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1016510' don't match citation content digits '946686' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 266,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1023370' don't match citation content digits '522617' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 10,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1026609' don't match citation content digits '946686' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 342,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1028931' don't match citation content digits '946686' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 420,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1031880' don't match citation content digits '946686' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 199,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '10345080' don't match citation content digits '946686' (overlap: 25%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 468,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1043020' don't match citation content digits '946686' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 429,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1051870' don't match citation content digits '161347' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 234,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1056670' don't match citation content digits '836889' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 126,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1065930' don't match citation content digits '946686' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 403,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1066930' don't match citation content digits '497090' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 148,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1082480' don't match citation content digits '946686' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 211,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1083910' don't match citation content digits '946686' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 261,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '108422' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 291,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1097230' don't match citation content digits '946686' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 311,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1143450' don't match citation content digits '836889' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 130,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1180692' don't match citation content digits '946686' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 251,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1215780' don't match citation content digits '161347' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 364,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1234995' don't match citation content digits '161347' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 431,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1257899' don't match citation content digits '1305000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 240,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1258963' don't match citation content digits '161347' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 419,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1265523' don't match citation content digits '946686' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 310,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1314063' don't match citation content digits '522617' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 41,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '131808' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 300,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1330638' don't match citation content digits '565029' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 128,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1335555' don't match citation content digits '161347' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 314,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1347700' don't match citation content digits '836889' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 119,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '14' don't match citation content digits '25' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 398,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1400618' don't match citation content digits '946686' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 186,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1424137' don't match citation content digits '2169860' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 114,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1551255' don't match citation content digits '161347' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 426,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1553205' don't match citation content digits '8049' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 24,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '155558' don't match citation content digits '946686' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 226,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '155667' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 256,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1664730' don't match citation content digits '836889' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 129,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1697898' don't match citation content digits '161347' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 427,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1717381' don't match citation content digits '620210' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 32,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1779270' don't match citation content digits '830000836889' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 2,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1815549' don't match citation content digits '131808' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 96,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1823254' don't match citation content digits '982980' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 56,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '18656891' don't match citation content digits '1305000' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 377,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '201201' don't match citation content digits '946686' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 259,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2034060' don't match citation content digits '946686' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 368,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2056220' don't match citation content digits '946686' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 270,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '206176' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 255,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2096280' don't match citation content digits '946686' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 416,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2113920' don't match citation content digits '161347' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 262,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2127140' don't match citation content digits '946686' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 219,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2139720' don't match citation content digits '161347' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 421,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2208360' don't match citation content digits '946686' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 442,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2304826' don't match citation content digits '946686' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 212,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2308877' don't match citation content digits '161347' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 424,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '232803' don't match citation content digits '946686' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 289,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '239136' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 290,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '240182' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 330,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2404760' don't match citation content digits '946686' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 232,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2425018' don't match citation content digits '946686' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 422,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '247505' don't match citation content digits '946686' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 333,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '248970' don't match citation content digits '1305000' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 320,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2512769' don't match citation content digits '161347' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 408,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '255660' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 326,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '258348' don't match citation content digits '161347' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 345,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2586150' don't match citation content digits '946686' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 392,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '262577' don't match citation content digits '946686' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 295,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '264527' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 294,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2772750' don't match citation content digits '161347' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 393,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2864108' don't match citation content digits '1016510' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 166,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2868012' don't match citation content digits '946686' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 304,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2932565' don't match citation content digits '1305000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 243,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3059883' don't match citation content digits '946686' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 321,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3098010' don't match citation content digits '946686' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 433,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '31' don't match citation content digits '725' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 383,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '31' don't match citation content digits '725' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 439,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '311616' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 278,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '315000' don't match citation content digits '625' (overlap: 17%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 104,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3287355' don't match citation content digits '946686' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 220,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '33' don't match citation content digits '725' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 468,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3326561' don't match citation content digits '497090' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 3,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3403590' don't match citation content digits '620210' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 146,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '351589' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 411,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '389812' don't match citation content digits '878774' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 68,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '406121' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 189,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '419104972' don't match citation content digits '946686' (overlap: 44%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 455,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4444444444444444
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4207934' don't match citation content digits '982980' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 57,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '421879972' don't match citation content digits '161347' (overlap: 44%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 467,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4444444444444444
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '430385' don't match citation content digits '1059270' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 18,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4332294' don't match citation content digits '215000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 359,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '443' don't match citation content digits '75' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 469,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '445900043' don't match citation content digits '161347' (overlap: 44%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 467,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4444444444444444
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '452457' don't match citation content digits '131808' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 83,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '456144' don't match citation content digits '131808' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 142,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '467753' don't match citation content digits '108422' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 75,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '473107' don't match citation content digits '946686' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 354,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '48' don't match citation content digits '25' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 329,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '485000' don't match citation content digits '262577' (overlap: 17%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 85,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '500000' don't match citation content digits '3' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 154,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '508705' don't match citation content digits '946686' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 415,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5173200' don't match citation content digits '946686' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 227,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '522555' don't match citation content digits '946686' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 267,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '522617' don't match citation content digits '1305000' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 273,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5288107' don't match citation content digits '1305000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 305,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '545065' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 435,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5457700' don't match citation content digits '836889' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 61,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '565029' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 282,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '572080' don't match citation content digits '946686' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 229,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '572963' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 434,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '577182' don't match citation content digits '1305000' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 399,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '577700' don't match citation content digits '836889' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 168,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5780974' don't match citation content digits '215000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 328,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '620210' don't match citation content digits '946686' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 299,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '622716' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 216,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '647090' don't match citation content digits '522617' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 42,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '651256' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 242,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '65312' don't match citation content digits '497090' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 147,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '65344' don't match citation content digits '837175' (overlap: 40%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 80,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '685000' don't match citation content digits '3' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 108,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '69' don't match citation content digits '75' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 223,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '723002' don't match citation content digits '1016510' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 160,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '724905' don't match citation content digits '1305000' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 389,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '766732' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 286,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '767007' don't match citation content digits '1305000' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 303,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '787401' don't match citation content digits '1305000' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 348,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8013498' don't match citation content digits '161347' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 194,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '803224' don't match citation content digits '1305000' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 407,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8049' don't match citation content digits '1305000' (overlap: 25%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 288,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8178019' don't match citation content digits '1305000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 301,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '833035' don't match citation content digits '565029' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 78,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '835559' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 230,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '849329' don't match citation content digits '161347' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 339,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '857080' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 187,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '870035' don't match citation content digits '946686' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 453,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '881032' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 428,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '892550' don't match citation content digits '131808' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 111,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '89922' don't match citation content digits '1016510' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 165,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '911108' don't match citation content digits '946686' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 233,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '952177' don't match citation content digits '946686' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 340,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9682803' don't match citation content digits '161347' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 446,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '988091' don't match citation content digits '878774' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 17,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '997470' don't match citation content digits '262577' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 66,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '998700' don't match citation content digits '262577' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 124,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "NEGATIVE_FAIR_VALUE",
+      "message": "Non-derivative holding has negative fair_value: $-140049136",
+      "context": {
+        "row": 469,
+        "investment": "Preferred Shares (Issued by the Trust)",
+        "fair_value": "-140049136",
+        "section_path": "(root)"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.02042483660130719 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 153
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.2042483660130719 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 35
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.24754901960784315 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 70
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.3055555555555556 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 151
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.32189542483660133 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 99
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.369281045751634 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 131
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.4019607843137255 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 104
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.4084967320261438 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 156
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=14 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 471
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=14 outside [1, 7]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 471
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=14 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 472
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=14 outside [1, 7]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 472
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=14 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 473
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=14 outside [1, 7]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 473
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 474
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 474
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 475
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 475
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 476
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 476
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 477
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 477
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 478
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 478
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "SWAP AGREEMENTS > Interest Rate Swaps"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 5 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "Restricted Securities"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 135 row(s): RESCUED_BY_DETAIL=8, RESCUED_BY_VOLUME=117, ROW_FROM_NON_SOI_PAGE=10",
+      "context": {
+        "fix_count": 135,
+        "dropped": 10,
+        "converted": 125
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 14 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 471,
+        "row_type": "HOLDING",
+        "investment": "Interest Rate Swap, Fixed 10 Year LIBOR Swap Index (4.5988) / Floating 3 Month LIBOR Swap Index, Exp 11/28/15",
+        "label": null,
+        "original_page": 14,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 14 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 472,
+        "row_type": "HOLDING",
+        "investment": "Interest Rate Swap, Fixed 12 Year BMA Swap Index (3.7978) / Floating 7 Day BMA Swap Index, Exp 5/16/18",
+        "label": null,
+        "original_page": 14,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 14 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 473,
+        "row_type": "HOLDING",
+        "investment": "Interest Rate Swap, Fixed 15 Year LIBOR Swap Index (4.77%) / Floating 3 Month LIBOR Swap Index, Exp 11/29/20",
+        "label": null,
+        "original_page": 14,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 474,
+        "row_type": "HOLDING",
+        "investment": "Arizona Health Facilities Authority Rev. (The Terraces Project), 7.75%, 2033",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 475,
+        "row_type": "HOLDING",
+        "investment": "New Jersey Economic Development Authority, Economic Development Rev. (Holt Hauling & Warehousing), 8.4%, 2015",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 476,
+        "row_type": "HOLDING",
+        "investment": "New Jersey Economic Development Authority, Economic Development Rev. (Holt Hauling & Warehousing), 8.6%, 2017",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 477,
+        "row_type": "HOLDING",
+        "investment": "Pennsylvania Economic Development Financing Authority Rev., Resources Recovery Rev. (Colver) \"G\", 5.125%, 2015",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 478,
+        "row_type": "HOLDING",
+        "investment": "Waterford Township, MI, Economic Development Corp. Rev. (Canterbury Health), 6%, 2039",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 0,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Municipal Bonds",
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 4,
+        "row_type": "HOLDING",
+        "investment": "Port Authority, NY, Special Obligations Rev. (JFK International), MBIA, 5.75%, 2022",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 5,
+        "row_type": "HOLDING",
+        "investment": "Seattle, WA, Airport Trust Rev., FGIC, 5.625%, 2018",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 7,
+        "row_type": "HOLDING",
+        "investment": "Red River Authority, TX, Pollution Control Rev. (Celanese Project), 6.7%, 2030",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 9,
+        "row_type": "HOLDING",
+        "investment": "Huntsville, AL, Capital Improvement Water, \"C\", MBIA, 5%, 2024",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 11,
+        "row_type": "HOLDING",
+        "investment": "Kane Kendall Countys, IL, Capital Appreciation, \"E\", FGIC, 0%, 2023",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 13,
+        "row_type": "HOLDING",
+        "investment": "Lake County, IL, Land Acquisition & Development, 5.75%, 2017",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 15,
+        "row_type": "HOLDING",
+        "investment": "New York City, NY, \"M\", 5%, 2035",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 19,
+        "row_type": "HOLDING",
+        "investment": "Leander, TX, Independent School District, Capital Appreciation, Refunding, School Building, FGIC, 0%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 20,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Healthcare Revenue - Hospitals.",
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 21,
+        "row_type": "HOLDING",
+        "investment": "Allegheny County, PA, Hospital Development Authority Rev (South Hills Health Systems), \"B\", 6.75%, 2025",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 23,
+        "row_type": "HOLDING",
+        "investment": "Allegheny County, PA, Hospital Development Authority Rev (West Penn Allegheny Health), \"B\", 9.25%, 2022",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 24,
+        "row_type": "HOLDING",
+        "investment": "Athens County, OH, Hospital Facilities Rev. (O'Bleness Memorial Hospital), \"A\", 7.125%, 2033",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 25,
+        "row_type": "HOLDING",
+        "investment": "Baldwin County, AL, Eastern Shore Health Care Authority Rev (Thomas Hospital), 5.75%, 2008 (++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 26,
+        "row_type": "HOLDING",
+        "investment": "Brookhaven, NY, Civic Facilities Rev. (Memorial Hospital Medical Center, Inc.), 7.75%, 2010",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 30,
+        "row_type": "HOLDING",
+        "investment": "Chemung County, NY, Civic Facilities Rev. (St. Joseph's Hospital-Elmira), \"A\", 6%, 2013",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 31,
+        "row_type": "HOLDING",
+        "investment": "Chemung County, NY, Civic Facilities Rev. (St. Joseph's Hospital-Elmira), \"B\", 6.35%, 2013",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 35,
+        "row_type": "HOLDING",
+        "investment": "Colorado Health Facilities Authority Rev. (Parkview Medical Center), 6.5%, 2020",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 36,
+        "row_type": "HOLDING",
+        "investment": "Colorado Health Facilities Authority Rev. (Parkview Medical Center), 6.6%, 2025",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 37,
+        "row_type": "HOLDING",
+        "investment": "Colorado Health Facilities Authority Rev. (Portercare Adventist Health Systems), 6.625%, 2011(++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 38,
+        "row_type": "HOLDING",
+        "investment": "Comal County, TX, Health Facilities Development Rev. (McKenna Memorial Hospital), \"A\", 6.125%, 2022",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 39,
+        "row_type": "HOLDING",
+        "investment": "Crittenden County, AR, Arkansas Hospital Rev., 7%, 2020",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 44,
+        "row_type": "HOLDING",
+        "investment": "Denver, CO, Health & Hospital Authority Rev., 5.375%, 2028",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 46,
+        "row_type": "HOLDING",
+        "investment": "District of Columbia, Health & Hospital Authority Rev (Medstar University Hospital), \"D\", 6.875%, 2007(++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 48,
+        "row_type": "HOLDING",
+        "investment": "Gaylord, MI, Hospital Finance Authority Rev. (Otsego Memorial Hospital), 6.5%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 50,
+        "row_type": "HOLDING",
+        "investment": "Gulfport, MS, Hospital Facilities Rev. (Memorial Hospital), 5.75%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 51,
+        "row_type": "HOLDING",
+        "investment": "Highlands County, FL, Health Facilities Authority Rev (Adventist/Sunbelt Hospital), 6%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 52,
+        "row_type": "HOLDING",
+        "investment": "Houston County, AL, Health Care Authority Rev., AMBAC, 6.25%, 2030",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 54,
+        "row_type": "HOLDING",
+        "investment": "Illinois Development Finance Authority, Hospital Authority Rev. (Adventist/Sunbelt Hospital), 5.65%, 2024",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 57,
+        "row_type": "HOLDING",
+        "investment": "Indiana Health Facilities Financing Authority, Hospital Rev (Munster Medical Research Foundation, Inc.), 6.375%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 62,
+        "row_type": "HOLDING",
+        "investment": "Knox County, TN, Health Educational Housing Facilities Board, Hospital Facilities Rev. (Baptist Health Systems), 6.5%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 63,
+        "row_type": "HOLDING",
+        "investment": "Lauderdale County & Florence, AL, Health Care Authority Rev (Coffee Health Group), MBIA, 5.625%, 2021",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 65,
+        "row_type": "HOLDING",
+        "investment": "Lufkin, TX, Health Facilities Rev. (Memorial Health System of East Texas), 5.7%, 2008(++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 67,
+        "row_type": "HOLDING",
+        "investment": "Macomb County, MI, Hospital Finance Authority Rev. (Mount Clemens General Hospital), 5.875%, 2034",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 68,
+        "row_type": "HOLDING",
+        "investment": "Maryland Health & Higher Educational Facilities Authority Rev. (Medstar Health), 5.5%, 2033",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 69,
+        "row_type": "HOLDING",
+        "investment": "Maryland Health & Higher Educational Facilities Authority Rev. (North Arundel Hospital), 6.5%, 2010(++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 70,
+        "row_type": "HOLDING",
+        "investment": "Massachusetts Health & Educational Facilities Authority Rev (Berkshire Health Systems), 6.25%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 71,
+        "row_type": "HOLDING",
+        "investment": "Massachusetts Health & Educational Facilities Authority Rev (Caritas Christi), 6.5%, 2012",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 72,
+        "row_type": "HOLDING",
+        "investment": "Massachusetts Health & Educational Facilities Authority Rev (Caritas Christi), 5.7%, 2015",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 74,
+        "row_type": "HOLDING",
+        "investment": "Massachusetts Health & Educational Facilities Authority Rev (Northern Berkshire Health), \"B\", 6.375%, 2034",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 76,
+        "row_type": "HOLDING",
+        "investment": "Miami Beach, FL, Health Facilities Rev. (Mount Sinai Medical Center), 6.75%, 2029",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 79,
+        "row_type": "HOLDING",
+        "investment": "Mississippi Hospital Equipment, Health Facilities Rev. (Rush Medical Foundation, Inc.), 5.4%, 2007",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 81,
+        "row_type": "HOLDING",
+        "investment": "Montgomery, AL, Special Care Facilities, Financing Authority Rev. (Baptist Health), \"A-2\", MBIA, 0% to 2007, 5% to 2022",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 82,
+        "row_type": "HOLDING",
+        "investment": "Montgomery, AL, Special Care Facilities, Financing Authority Rev. (Baptist Health), \"C\", 5.25%, 2029",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 84,
+        "row_type": "HOLDING",
+        "investment": "Nassau County, NY, Industrial Development Agency, Civic Facilities Rev. (North Shore Health System), 5.625%, 2010",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 85,
+        "row_type": "HOLDING",
+        "investment": "Nassau County, NY, Industrial Development Agency, Civic Facilities Rev. (North Shore Health System), 5.875%, 2011",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 86,
+        "row_type": "HOLDING",
+        "investment": "New Hampshire Health & Educational Facilities Authority Rev (Covenant Health), 6.5%, 2017",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 87,
+        "row_type": "HOLDING",
+        "investment": "New Hampshire Higher Educational & Health Facilities Authority Rev. (Catholic Medical Center), 6.125%, 2032",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 88,
+        "row_type": "HOLDING",
+        "investment": "New Jersey Health Care Facilities, Financing Authority Rev (Children's Specialized Hospital), \"A\", 5.5%, 2030",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 89,
+        "row_type": "HOLDING",
+        "investment": "New Jersey Health Care Facilities, Financing Authority Rev (St. Peter's University Hospital), 6.875%, 2030",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 90,
+        "row_type": "HOLDING",
+        "investment": "New York City, NY, Industrial Development Agency, Civic Facilities Rev. (Staten Island University Hospital), \"A\", 6.375%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 91,
+        "row_type": "HOLDING",
+        "investment": "New York City, NY, Health & Hospital Corp. Rev., \"A\", 5.25%, 2017",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 92,
+        "row_type": "HOLDING",
+        "investment": "New York State Dormitory Authority Rev., Non State Supported Debt (Mt. Sinai NYU Health), 5.5%, 2026",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 93,
+        "row_type": "HOLDING",
+        "investment": "New York State Dormitory Authority Rev., Non State Supported Debt (Mt. Sinai NYU Health), C\", 5.5%, 2026",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 94,
+        "row_type": "HOLDING",
+        "investment": "North Texas Health Facilities Development Corp. Rev. (United Regional Health Care System, Inc.), 6%, 2023",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 97,
+        "row_type": "HOLDING",
+        "investment": "Rhode Island Health & Education Building Rev., Hospital Financing (Lifespan Obligated Group), 6.375%, 2021",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 98,
+        "row_type": "HOLDING",
+        "investment": "Rhode Island Health & Education Building Rev., Hospital Financing (Lifespan Obligated Group), 6.5%, 2032",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 99,
+        "row_type": "HOLDING",
+        "investment": "Royston, GA, Hospital Authority Rev. (Ty Cobb Healthcare Systems, Inc.), 6.375%, 2014",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 100,
+        "row_type": "HOLDING",
+        "investment": "Russell, KY (Bon Secours Health Systems), ETM, 5.85%, 2005(++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 101,
+        "row_type": "HOLDING",
+        "investment": "Salt Lake City, UT, Hospital Authority Rev. INFLOS, AMBAC, ETM (Intermountain Health Care), 10.833%, 2020(+),(++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 102,
+        "row_type": "HOLDING",
+        "investment": "Shelby County, TN, Educational & Hospital Facilities Board Hospital Rev. (Methodist Healthcare), 6.375%, 2012(++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 103,
+        "row_type": "HOLDING",
+        "investment": "Shelby County, TN, Educational & Housing Facilities Board Hospital Rev. (Methodist Healthcare), 6.25%, 2012(++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 104,
+        "row_type": "HOLDING",
+        "investment": "Shelby County, TN, Educational & Housing Facilities Board Hospital Rev. (Methodist Healthcare), 6.25%, 2012(++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 105,
+        "row_type": "HOLDING",
+        "investment": "Shelby County, TN, Educational & Housing Facilities Board Hospital Rev. (Methodist Healthcare), 6.375%, 2012(++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 106,
+        "row_type": "HOLDING",
+        "investment": "South Carolina Jobs & Economic Development Authority (Bon Secours Health Systems, Inc.), \"A\", 5.625%, 2030",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 107,
+        "row_type": "HOLDING",
+        "investment": "South Carolina Jobs & Economic Development Authority, Hospital Facilities Rev. (Palmetto Health Alliance), 6.25%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 108,
+        "row_type": "HOLDING",
+        "investment": "South Carolina Medical University, Hospital Facilities Rev., \"A\", MBIA, 5%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 109,
+        "row_type": "HOLDING",
+        "investment": "South Dakota Health & Education Facilities Authority Rev (Prairie Lakes Health Care System), 5.625%, 2032",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 110,
+        "row_type": "HOLDING",
+        "investment": "Southwestern Illinois Development Authority Rev. (Anderson Hospital), 5.5%, 2020",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 112,
+        "row_type": "HOLDING",
+        "investment": "Springfield, TN, Health & Educational Facilities Rev (Northcrest Medical Center), 5.25%, 2018",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 113,
+        "row_type": "HOLDING",
+        "investment": "State of Arkansas, Development Finance Authority Rev (Washington Regional Medical Center), 7.25%, 2010(++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 114,
+        "row_type": "HOLDING",
+        "investment": "Steubenville, OH, Hospital Authority Rev. (Trinity Health Center), 6.5%, 2030",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 115,
+        "row_type": "HOLDING",
+        "investment": "Stillwater, OK, Medical Center Authority, 5.625%, 2023",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 116,
+        "row_type": "HOLDING",
+        "investment": "Tallahassee, FL, Health Facilities Rev. (Tallahassee Memorial Healthcare), 6.25%, 2020",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 122,
+        "row_type": "HOLDING",
+        "investment": "Wapello County, IA, Hospital Authority Rev. (Ottumwa Regional Health Center), 6.375%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 123,
+        "row_type": "HOLDING",
+        "investment": "Washington County, AR, Hospital Rev., Regional Medical Center \"A\", 5%, 2035",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 125,
+        "row_type": "HOLDING",
+        "investment": "Weirton, WV, Municipal Hospital Building, Commission Rev (Weirton Hospital Medical Center), 6.375%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 131,
+        "row_type": "HOLDING",
+        "investment": "Wisconsin Health & Educational Facilities Authority Rev (Aurora Health Care, Inc.), MBIA, 5.25%, 2017",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 134,
+        "row_type": "HOLDING",
+        "investment": "Yonkers, NY, Industrial Development Agency, Civic Facilities Rev. (St. Joseph's Hospital), \"C\", 6.2%, 2020",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 138,
+        "row_type": "HOLDING",
+        "investment": "Bell County, TX, Health Facilities Development Rev. (Advanced Living Technology), 7.75%, 2006",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 140,
+        "row_type": "HOLDING",
+        "investment": "Bell County, TX, Health Facilities Development Rev. (Advanced Living Technology), 8.5%, 2026",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 141,
+        "row_type": "HOLDING",
+        "investment": "Bridgeport, CT, Senior Living Facility Rev. (3030 Park Retirement Community), 7.25%, 2035",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 143,
+        "row_type": "HOLDING",
+        "investment": "Chester County, PA, Industrial Development Authority Rev. (RHA Nursing Home), 8.5%, 2032",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 145,
+        "row_type": "HOLDING",
+        "investment": "Colorado Health Facilities Authority Rev. (Covenant Retirement Communities, Inc.), \"B\", 6.125%, 2033",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 150,
+        "row_type": "HOLDING",
+        "investment": "Fulton County, GA, Residential Care Facilities (Canterbury Court), \"A\", 6.125%, 2034",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 151,
+        "row_type": "HOLDING",
+        "investment": "Greenville County, SC, Hospital Rev. (Chestnut Hill) \"A\", 88, 2015",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 152,
+        "row_type": "HOLDING",
+        "investment": "Iowa Finance Authority, Health Care Facilities Rev. (Care Initiatives Project), 5.75%, 2018",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 153,
+        "row_type": "HOLDING",
+        "investment": "Iowa Finance Authority, Health Care Facilities Rev. (Care Initiatives Project), 9.25%, 2025",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 154,
+        "row_type": "HOLDING",
+        "investment": "Lenexa, KS, Health Care Facilities Rev. (Lakeview Village, Inc.), 6.875%, 2032",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 156,
+        "row_type": "HOLDING",
+        "investment": "Maine Health & Higher Educational Facilities Rev. (Piper Shores), 7.5%, 2009 (++)",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 157,
+        "row_type": "HOLDING",
+        "investment": "Millbrae, CA, Residential Facilities Rev. (Magnolia of Millbrae), \"A\", 7.375%, 2027",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 158,
+        "row_type": "HOLDING",
+        "investment": "Montgomery County, PA, Higher Education & Health Authority Rev. (AHF/Montgomery), 10.5%, 2020",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 159,
+        "row_type": "HOLDING",
+        "investment": "Montgomery County, PA, Industrial Development Authority Rev (Whitemarsh Continuing Care), 6.125%, 2028",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 161,
+        "row_type": "HOLDING",
+        "investment": "New Jersey Economic Development Authority Rev. (Courthouse Convalescent Center), \"A\", 8.7%, 2014",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 162,
+        "row_type": "HOLDING",
+        "investment": "New Jersey Economic Development Authority Rev. (Lions Gate), \"A\", 5.875%, 2037",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 167,
+        "row_type": "HOLDING",
+        "investment": "Shelby County, TN, Health Educational Rev. (Germantown Village), 7.25%, 2034",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 170,
+        "row_type": "HOLDING",
+        "investment": "Travis County, TX, Health Facilities Development Corp., Retirement Facilities Rev. (Querencia Barton Creek), 5.5%, 2025",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 171,
+        "row_type": "HOLDING",
+        "investment": "Travis County, TX, Health Facilities Development Corp., Retirement Facilities Rev. (Querencia Barton Creek), 5.65%, 2035",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 173,
+        "row_type": "HOLDING",
+        "investment": "Waterford Township, MI, Economic Development Corp. Rev (Canterbury Health), 6%, 2039+",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 174,
+        "row_type": "HOLDING",
+        "investment": "Wilkinsburg, PA, Municipal Authority Health Rev. (Monroeville Christian/Judea), 8.25%, 2027",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 175,
+        "row_type": "HOLDING",
+        "investment": "Cheneyville, LA, Westside Habilitation Center Rev., 8.375%, 2013",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 176,
+        "row_type": "HOLDING",
+        "investment": "Iowa Finance Authority, Community Provider (Boys & Girls Home), 6.25%, 2028",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 177,
+        "row_type": "HOLDING",
+        "investment": "Lehigh County, PA, General Purpose Authority (Kidspeace Corp.), 6%, 2023",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 178,
+        "row_type": "HOLDING",
+        "investment": "New York City, NY, Industrial Development Agency, Civic Facility Rev. (Special Needs Facilities), 6.5%, 2017",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 179,
+        "row_type": "HOLDING",
+        "investment": "New York City, NY, Industrial Development Agency, Civic Facility Rev. (A Very Special Place, Inc.), \"A\", 5.75%, 2029",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 180,
+        "row_type": "HOLDING",
+        "investment": "Orange County, FL, Health Facilities Authority Rev. (GF/ Orlando Healthcare Facilities), 8.75%, 2011",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 181,
+        "row_type": "HOLDING",
+        "investment": "Orange County, FL, Health Facilities Authority Rev. (GF/ Orlando Healthcare Facilities), 9%, 2031",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 135,
+    "dropped_count": 10,
+    "converted_count": 125,
+    "percent_corrected_count": 0,
+    "fix_log": [
+      {
+        "row_idx": 0,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Municipal Bonds|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 4,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Port Authority, NY, Special Obligations |fv=7,421,171",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 5,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Seattle, WA, Airport Trust Rev., FGIC, 5|fv=1,597,080",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 7,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Red River Authority, TX, Pollution Contr|fv=$ 2,053,094",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 8,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:General Obligations - General Purpose|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 9,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Huntsville, AL, Capital Improvement Wate|fv=$ 285,442",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 11,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Kane Kendall Countys, IL, Capital Apprec|fv=770,103",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 13,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Lake County, IL, Land Acquisition & Deve|fv=1,089,850",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 15,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New York City, NY, \"M\", 5%, 2035|fv=3,856,848",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 19,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Leander, TX, Independent School District|fv=320,927",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 20,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Healthcare Revenue - Hospitals.|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 21,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Allegheny County, PA, Hospital Developme|fv=$ 527,230",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 23,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Allegheny County, PA, Hospital Developme|fv=1,187,310",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 24,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Athens County, OH, Hospital Facilities R|fv=1,553,205",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 25,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Baldwin County, AL, Eastern Shore Health|fv=752,521",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 26,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Brookhaven, NY, Civic Facilities Rev. (M|fv=739,515",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 30,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Chemung County, NY, Civic Facilities Rev|fv=542,198",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 31,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Chemung County, NY, Civic Facilities Rev|fv=142,901",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 34,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Coffee County, GA, Hospital Authority Re|fv=40,143",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 35,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Colorado Health Facilities Authority Rev|fv=1,352,139",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 36,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Colorado Health Facilities Authority Rev|fv=1,095,800",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 37,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Colorado Health Facilities Authority Rev|fv=789,480",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 38,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Comal County, TX, Health Facilities Deve|fv=529,740",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 39,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Crittenden County, AR, Arkansas Hospital|fv=1,031,092",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 44,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Denver, CO, Health & Hospital Authority |fv=861,359",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 45,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Denver, CO, Health & Hospital Authority |fv=265,373",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 46,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:District of Columbia, Health & Hospital |fv=1,256,760",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 48,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Gaylord, MI, Hospital Finance Authority |fv=291,345",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 50,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Gulfport, MS, Hospital Facilities Rev. (|fv=1,022,660",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 51,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Highlands County, FL, Health Facilities |fv=970,083",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 52,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Houston County, AL, Health Care Authorit|fv=2,216,800",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 54,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Illinois Development Finance Authority, |fv=1,824,253",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 56,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Indiana Health Facilities Financing Auth|fv=1,823,254",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 57,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Indiana Health Facilities Financing Auth|fv=4,207,934",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 59,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Joplin, MO, Industrial Development Autho|fv=453,776",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 62,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Knox County, TN, Health Educational Hous|fv=1,828,362",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 63,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Lauderdale County & Florence, AL, Health|fv=3,257,820",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 64,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Lufkin, TX, Health Facilities Rev. (Memo|fv=1,638,416",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 65,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Lufkin, TX, Health Facilities Rev. (Memo|fv=1,064,610",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 67,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Macomb County, MI, Hospital Finance Auth|fv=882,384",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 68,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Maryland Health & Higher Educational Fac|fv=389,812",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 69,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Maryland Health & Higher Educational Fac|fv=1,705,350",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 70,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Massachusetts Health & Educational Facil|fv=2,015,330",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 71,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Massachusetts Health & Educational Facil|fv=653,592",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 72,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Massachusetts Health & Educational Facil|fv=513,470",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 73,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Massachusetts Health & Educational Facil|fv=1,399,426",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 74,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Massachusetts Health & Educational Facil|fv=658,720",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 75,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Massachusetts Health & Educational Facil|fv=467,753",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 76,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Miami Beach, FL, Health Facilities Rev. |fv=887,744",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 79,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Mississippi Hospital Equipment, Health F|fv=212,363",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 81,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Montgomery, AL, Special Care Facilities,|fv=1,581,118",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 82,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Montgomery, AL, Special Care Facilities,|fv=765,419",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 84,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Nassau County, NY, Industrial Developmen|fv=646,827",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 85,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Nassau County, NY, Industrial Developmen|fv=512,029",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 86,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New Hampshire Health & Educational Facil|fv=977,254",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 87,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New Hampshire Higher Educational & Healt|fv=1,036,250",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 88,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New Jersey Health Care Facilities, Finan|fv=252,377",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 89,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New Jersey Health Care Facilities, Finan|fv=3,285,780",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 90,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New York City, NY, Industrial Developmen|fv=506,135",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 91,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New York City, NY, Health & Hospital Cor|fv=730,359",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 92,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New York State Dormitory Authority Rev.,|fv=643,058",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 93,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New York State Dormitory Authority Rev.,|fv=506,370",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 94,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:North Texas Health Facilities Developmen|fv=1,073,410",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 97,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Rhode Island Health & Education Building|fv=2,005,265",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 98,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Rhode Island Health & Education Building|fv=556,308",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 99,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Royston, GA, Hospital Authority Rev. (Ty|fv=939,118",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 100,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Russell, KY (Bon Secours Health Systems)|fv=3,003,180",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 101,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Salt Lake City, UT, Hospital Authority R|fv=602,532",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 102,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Shelby County, TN, Educational & Hospita|fv=723,388",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 103,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Shelby County, TN, Educational & Housing|fv=212,741",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 104,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Shelby County, TN, Educational & Housing|fv=362,234",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 105,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Shelby County, TN, Educational & Housing|fv=434,033",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 106,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:South Carolina Jobs & Economic Developme|fv=732,628",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 107,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:South Carolina Jobs & Economic Developme|fv=899,596",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 108,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:South Carolina Medical University, Hospi|fv=699,597",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 109,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:South Dakota Health & Education Faciliti|fv=687,293",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 110,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Southwestern Illinois Development Author|fv=62,420",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 112,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Springfield, TN, Health & Educational Fa|fv=1,383,242",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 113,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:State of Arkansas, Development Finance A|fv=573,320",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 114,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Steubenville, OH, Hospital Authority Rev|fv=1,424,137",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 115,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Stillwater, OK, Medical Center Authority|fv=1,048,170",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 116,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Tallahassee, FL, Health Facilities Rev. |fv=3,274,357",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 122,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Wapello County, IA, Hospital Authority R|fv=1,575,405",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 123,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Washington County, AR, Hospital Rev., Re|fv=243,240",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 125,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Weirton, WV, Municipal Hospital Building|fv=1,117,431",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 131,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Wisconsin Health & Educational Facilitie|fv=5,237,500",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 132,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Yonkers, NY, Industrial Development Agen|fv=733,842",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 134,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Yonkers, NY, Industrial Development Agen|fv=659,700",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 138,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Bell County, TX, Health Facilities Devel|fv=128,346",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 140,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Bell County, TX, Health Facilities Devel|fv=2,183,091",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 141,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Bridgeport, CT, Senior Living Facility R|fv=1,012,442",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 143,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Chester County, PA, Industrial Developme|fv=616,646",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 145,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Colorado Health Facilities Authority Rev|fv=1,070,870",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 150,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Fulton County, GA, Residential Care Faci|fv=332,277",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 151,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Greenville County, SC, Hospital Rev. (Ch|fv=2,199,483",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 152,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Iowa Finance Authority, Health Care Faci|fv=883,177",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 153,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Iowa Finance Authority, Health Care Faci|fv=1,963,127",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 154,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Lenexa, KS, Health Care Facilities Rev. |fv=537,985",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 156,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Maine Health & Higher Educational Facili|fv=906,535",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 157,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Millbrae, CA, Residential Facilities Rev|fv=1,988,084",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 158,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Montgomery County, PA, Higher Education |fv=2,190,791",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 159,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Montgomery County, PA, Industrial Develo|fv=257,355",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 161,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New Jersey Economic Development Authorit|fv=650,858",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 162,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New Jersey Economic Development Authorit|fv=313,181",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 167,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Shelby County, TN, Health Educational Re|fv=857,113",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 170,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Travis County, TX, Health Facilities Dev|fv=212,951",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 171,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Travis County, TX, Health Facilities Dev|fv=299,928",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 173,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Waterford Township, MI, Economic Develop|fv=1,243,170",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 174,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Wilkinsburg, PA, Municipal Authority Hea|fv=1,009,980",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 175,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Cheneyville, LA, Westside Habilitation C|fv=$ 1,427,343",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 176,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Iowa Finance Authority, Community Provid|fv=474,720",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 177,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Lehigh County, PA, General Purpose Autho|fv=2,810,520",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 178,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New York City, NY, Industrial Developmen|fv=1,062,775",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 179,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:New York City, NY, Industrial Developmen|fv=937,800",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 180,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Orange County, FL, Health Facilities Aut|fv=533,078",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 181,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Orange County, FL, Health Facilities Aut|fv=1,071,970",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 182,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Osceola County, FL, Industrial Developme|fv=454,958",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 302,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Solid Waste Revenue|fv=",
+        "old_value": "page=10",
+        "new_value": "valid_pages=[6, 7, 19, 20]"
+      },
+      {
+        "row_idx": 472,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_DETAIL",
+        "confidence": "high",
+        "row_signature": "HOLDING:Interest Rate Swap, Fixed 10 Year LIBOR |fv=450,001",
+        "old_value": "page=14",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 473,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_DETAIL",
+        "confidence": "high",
+        "row_signature": "HOLDING:Interest Rate Swap, Fixed 12 Year BMA Sw|fv=509,208",
+        "old_value": "page=14",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 474,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_DETAIL",
+        "confidence": "high",
+        "row_signature": "HOLDING:Interest Rate Swap, Fixed 15 Year LIBOR |fv=1,316,108",
+        "old_value": "page=14",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 475,
+        "old_row_type": "TOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "TOTAL:Total Interest Rate Swaps|fv=2,275,317",
+        "old_value": "page=14",
+        "new_value": "valid_pages=[6, 7, 19, 20]"
+      },
+      {
+        "row_idx": 476,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_DETAIL",
+        "confidence": "high",
+        "row_signature": "HOLDING:Arizona Health Facilities Authority Rev.|fv=825,878",
+        "old_value": "page=15",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 477,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "HOLDING:Chicago, IL, O'Hare International Airpor|fv=1,779,270",
+        "old_value": "page=15",
+        "new_value": "valid_pages=[6, 7, 19, 20]"
+      },
+      {
+        "row_idx": 478,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "HOLDING:Chicago, IL, Public Building Commission,|fv=1,563,978",
+        "old_value": "page=15",
+        "new_value": "valid_pages=[6, 7, 19, 20]"
+      },
+      {
+        "row_idx": 479,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "HOLDING:Chicago, IL, Public Building Commission,|fv=1,265,523",
+        "old_value": "page=15",
+        "new_value": "valid_pages=[6, 7, 19, 20]"
+      },
+      {
+        "row_idx": 480,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "HOLDING:Contra Costa County, CA, Residential Ren|fv=65,312",
+        "old_value": "page=15",
+        "new_value": "valid_pages=[6, 7, 19, 20]"
+      },
+      {
+        "row_idx": 481,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "HOLDING:Gallery Certificate Trust, PA, Parking R|fv=867,983",
+        "old_value": "page=15",
+        "new_value": "valid_pages=[6, 7, 19, 20]"
+      },
+      {
+        "row_idx": 482,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "HOLDING:Madison County, FL, Rev. (Twin Oaks Proj|fv=547,841",
+        "old_value": "page=15",
+        "new_value": "valid_pages=[6, 7, 19, 20]"
+      },
+      {
+        "row_idx": 483,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_DETAIL",
+        "confidence": "high",
+        "row_signature": "HOLDING:New Jersey Economic Development Authorit|fv=800,000",
+        "old_value": "page=15",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 484,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_DETAIL",
+        "confidence": "high",
+        "row_signature": "HOLDING:New Jersey Economic Development Authorit|fv=800,000",
+        "old_value": "page=15",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 485,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "HOLDING:Niagra Falls, NY, Bridge Commission, Tol|fv=1,765,350",
+        "old_value": "page=15",
+        "new_value": "valid_pages=[6, 7, 19, 20]"
+      },
+      {
+        "row_idx": 486,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_DETAIL",
+        "confidence": "high",
+        "row_signature": "HOLDING:Pennsylvania Economic Development Financ|fv=345,181",
+        "old_value": "page=15",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 487,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_DETAIL",
+        "confidence": "high",
+        "row_signature": "HOLDING:Waterford Township, MI, Economic Develop|fv=1,243,170",
+        "old_value": "page=15",
+        "new_value": "rescued (page not in [6, 7, 19, 20])"
+      },
+      {
+        "row_idx": 488,
+        "old_row_type": "TOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "TOTAL:Total Restricted Securities|fv=11,869,486",
+        "old_value": "page=15",
+        "new_value": "valid_pages=[6, 7, 19, 20]"
+      }
+    ]
+  }
+}

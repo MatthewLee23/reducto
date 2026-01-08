@@ -1,0 +1,606 @@
+{
+  "source_name": "0000216851-06-000012",
+  "total_rows": 71,
+  "holding_count": 55,
+  "subtotal_count": 11,
+  "total_count": 5,
+  "error_count": 4,
+  "warning_count": 18,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "Stocks and Convertible Securities > Energy > Internationals": {
+      "calculated_fv": "170692500",
+      "calculated_cost": null,
+      "calculated_pct": "22.4",
+      "extracted_fv": "170692500",
+      "extracted_cost": null,
+      "extracted_pct": "22.4",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Stocks and Convertible Securities > Energy > Domestics": {
+      "calculated_fv": "86403542",
+      "calculated_cost": null,
+      "calculated_pct": "11.3",
+      "extracted_fv": "86403542",
+      "extracted_cost": null,
+      "extracted_pct": "11.3",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Stocks and Convertible Securities > Energy > Producers": {
+      "calculated_fv": "154915200",
+      "calculated_cost": null,
+      "calculated_pct": "20.3",
+      "extracted_fv": "154915200",
+      "extracted_cost": null,
+      "extracted_pct": "20.3",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Stocks and Convertible Securities > Energy > Distributors": {
+      "calculated_fv": "93795779",
+      "calculated_cost": null,
+      "calculated_pct": "12.3",
+      "extracted_fv": "93795779",
+      "extracted_cost": null,
+      "extracted_pct": "12.3",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Stocks and Convertible Securities > Energy > Services": {
+      "calculated_fv": "153853092",
+      "calculated_cost": null,
+      "calculated_pct": "20.2",
+      "extracted_fv": "153853092",
+      "extracted_cost": null,
+      "extracted_pct": "20.2",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Stocks and Convertible Securities > Energy": {
+      "calculated_fv": "659660113",
+      "calculated_cost": null,
+      "calculated_pct": "86.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Stocks and Convertible Securities > Basic Industries > Basic Materials & Other": {
+      "calculated_fv": "81111719",
+      "calculated_cost": null,
+      "calculated_pct": "10.7",
+      "extracted_fv": "81111719",
+      "extracted_cost": null,
+      "extracted_pct": "10.7",
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Stocks and Convertible Securities > Basic Industries > Paper and Forest Products": {
+      "calculated_fv": "4251000",
+      "calculated_cost": null,
+      "calculated_pct": "0.6",
+      "extracted_fv": "4251000",
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Stocks and Convertible Securities > Basic Industries": {
+      "calculated_fv": "85362719",
+      "calculated_cost": null,
+      "calculated_pct": "11.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Stocks and Convertible Securities": {
+      "calculated_fv": "745022832",
+      "calculated_cost": null,
+      "calculated_pct": "97.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Stocks and Convertible Securities",
+      "total_extracted_fv": "745022832"
+    },
+    "Short-Term Investments > U.S. Government Obligations": {
+      "calculated_fv": "7462529",
+      "calculated_cost": null,
+      "calculated_pct": "1.0",
+      "extracted_fv": "7462529",
+      "extracted_cost": null,
+      "extracted_pct": "1.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Short-Term Investments > Time Deposit": {
+      "calculated_fv": "463973",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": "463973",
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Short-Term Investments > Commercial Paper": {
+      "calculated_fv": "9241920",
+      "calculated_cost": null,
+      "calculated_pct": "1.2",
+      "extracted_fv": "9241920",
+      "extracted_cost": null,
+      "extracted_pct": "1.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "Short-Term Investments": {
+      "calculated_fv": "17168422",
+      "calculated_cost": null,
+      "calculated_pct": "2.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Short-Term Investments",
+      "total_extracted_fv": "17168422"
+    },
+    "Securities Lending Collateral": {
+      "calculated_fv": "5809478",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": "5809478",
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Securities Lending Collateral",
+      "total_extracted_fv": "5809478"
+    },
+    "(root)": {
+      "calculated_fv": "768000732",
+      "calculated_cost": null,
+      "calculated_pct": "100.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '202' don't match citation content digits '8185000' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 35,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '394799' don't match citation content digits '177000' (overlap: 17%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 48,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '493560' don't match citation content digits '210000' (overlap: 17%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 45,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '81111719' don't match citation content digits '93795779' (overlap: 25%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 46,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2005) differs from filename (6851)",
+      "context": {
+        "as_of_date": "December 31, 2005",
+        "filename_date": "6851-06-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Net Assets' but no holdings or child sections",
+      "context": {
+        "section_path": "Net Assets",
+        "label": "Net Assets"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'Total Investments' but no holdings or child sections",
+      "context": {
+        "section_path": "Total Investments",
+        "label": "Total Investments"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 46,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Basic Materials & Other",
+        "original_page": 1,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 47,
+        "row_type": "HOLDING",
+        "investment": "Air Products and Chemicals, Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 58,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "U.S. Government Obligations",
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 59,
+        "row_type": "HOLDING",
+        "investment": "U.S. Treasury Bills",
+        "label": null,
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 60,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Time Deposit",
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 61,
+        "row_type": "HOLDING",
+        "investment": "Wachovia Bank Grand Cayman",
+        "label": null,
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 62,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Commercial Paper",
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 63,
+        "row_type": "HOLDING",
+        "investment": "American General Finance, Inc.",
+        "label": null,
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 64,
+        "row_type": "HOLDING",
+        "investment": "General Electric Capital Corp.",
+        "label": null,
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 65,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "Total Short-Term Investments",
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 66,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Securities Lending Collateral",
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 67,
+        "row_type": "HOLDING",
+        "investment": "Brown Brothers Investment Trust",
+        "label": null,
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 68,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "Total Securities Lending Collateral",
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 69,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "Total Investments",
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [16, 17, 18]",
+      "context": {
+        "row": 70,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "Net Assets",
+        "original_page": 3,
+        "soi_pages": [
+          16,
+          17,
+          18
+        ]
+      }
+    }
+  ]
+}

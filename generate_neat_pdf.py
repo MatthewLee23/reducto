@@ -67,6 +67,14 @@ SUMMARY_CHUNK_RE = re.compile(
     flags=re.IGNORECASE,
 )
 
+# Pattern to detect subsection headers that should be glued to the FOLLOWING block
+# Matches: "CATEGORY NAME-X.XX%" or "CATEGORY NAME -- X.XX%" (geographic/type subsections)
+# Examples: "GRAND CAYMAN-1.36%", "CHILEAN MUTUAL FUNDS-1.48%", "U.S. TREASURY BILLS-0.5%"
+SUBSECTION_HEADER_RE = re.compile(
+    r"^\s*[A-Z][A-Za-z\s.&/\-\']+[-\u2013\u2014]\s*\d+\.?\d*\s*%\s*$",
+    flags=re.MULTILINE,
+)
+
 
 # =============================================================================
 # Data Structures
@@ -311,6 +319,29 @@ def _is_summary_chunk(chunk: str, max_lines: int = 15) -> bool:
     return bool(SUMMARY_CHUNK_RE.search(chunk))
 
 
+def _is_subsection_header_chunk(chunk: str, max_lines: int = 5) -> bool:
+    """
+    Check if a chunk looks like a subsection header (e.g., "GRAND CAYMAN-1.36%").
+    
+    Subsection headers should be glued to the FOLLOWING chunk to keep
+    them together with their content. These are short chunks that contain
+    a category/geographic name followed by a percentage.
+    
+    Examples:
+    - "GRAND CAYMAN-1.36%"
+    - "CHILEAN MUTUAL FUNDS-1.48%"
+    - "U.S. TREASURY BILLS-0.5%"
+    """
+    lines = [ln for ln in chunk.split("\n") if ln.strip()]
+    if len(lines) > max_lines:
+        return False
+    # Check if any line matches the subsection header pattern
+    for line in lines:
+        if SUBSECTION_HEADER_RE.match(line.strip()):
+            return True
+    return False
+
+
 def _render_chunked_table(clean_text: str) -> str:
     """
     Split table content into logical chunks and wrap each in a protected div.
@@ -319,32 +350,68 @@ def _render_chunked_table(clean_text: str) -> str:
     separate logical row groups in SEC filings. Each chunk gets 
     `break-inside: avoid` via CSS to prevent mid-entry page breaks.
     
-    Summary/reconciliation chunks (e.g., "Other assets, less liabilities",
-    "MEMBERS' CAPITAL") additionally get `break-before: avoid` to stay
-    glued to the preceding chunk.
+    Merging logic:
+    1. Summary/reconciliation chunks (e.g., "Total Investment Income",
+       "MEMBERS' CAPITAL") are merged into the PRECEDING chunk (backward merge).
+    2. Subsection header chunks (e.g., "GRAND CAYMAN-1.36%") are merged into
+       the FOLLOWING chunk (forward merge) to keep headers with their content.
     
     Returns HTML string with each chunk wrapped in <div class="table-chunk">.
     """
     # Split by double newlines to identify logical row groups
-    chunks = re.split(r"\n\n+", clean_text)
+    raw_chunks = re.split(r"\n\n+", clean_text)
     
-    html_chunks: List[str] = []
-    for chunk in chunks:
+    # First pass: backward merge summary chunks into previous chunk
+    backward_merged: List[str] = []
+    for chunk in raw_chunks:
         chunk = chunk.rstrip()  # Preserve leading whitespace for column alignment
-        if chunk:
-            # Check if this is a summary chunk that should be glued to the previous
-            if _is_summary_chunk(chunk):
-                # Add break-before: avoid to prevent page break before this chunk
-                # Also add margin-top to preserve visual spacing
-                html_chunks.append(
-                    f'<div class="table-chunk" style="break-before: avoid; page-break-before: avoid; margin-top: 1em;">'
-                    f'<pre class="filing">{html_escape(chunk)}</pre></div>'
-                )
+        if not chunk:
+            continue
+        
+        # Check if this is a summary chunk that should be glued to the previous
+        if _is_summary_chunk(chunk) and backward_merged:
+            # Merge into the previous chunk with double newline to preserve spacing
+            backward_merged[-1] = backward_merged[-1] + "\n\n" + chunk
+        else:
+            # Start a new chunk
+            backward_merged.append(chunk)
+    
+    # Second pass: forward merge subsection headers into the following chunk
+    # We process in reverse to handle consecutive headers correctly
+    final_chunks: List[str] = []
+    pending_header: Optional[str] = None
+    
+    for chunk in reversed(backward_merged):
+        if pending_header:
+            # Prepend the pending header to this chunk
+            chunk = pending_header + "\n\n" + chunk
+            pending_header = None
+        
+        # Check if this chunk is a subsection header that should be glued to the next
+        if _is_subsection_header_chunk(chunk):
+            # Hold this chunk to prepend to the next one
+            if final_chunks:
+                # Prepend to the most recent chunk we've built
+                final_chunks[-1] = chunk + "\n\n" + final_chunks[-1]
             else:
-                # Regular chunk - just prevent breaks inside
-                html_chunks.append(
-                    f'<div class="table-chunk"><pre class="filing">{html_escape(chunk)}</pre></div>'
-                )
+                # No following chunk yet, save as pending
+                pending_header = chunk
+        else:
+            final_chunks.append(chunk)
+    
+    # If there's a leftover pending header, add it as its own chunk
+    if pending_header:
+        final_chunks.append(pending_header)
+    
+    # Reverse back to original order
+    final_chunks.reverse()
+    
+    # Emit each merged chunk as a single protected div
+    html_chunks: List[str] = []
+    for chunk in final_chunks:
+        html_chunks.append(
+            f'<div class="table-chunk"><pre class="filing">{html_escape(chunk)}</pre></div>'
+        )
     
     return "\n".join(html_chunks)
 

@@ -1,0 +1,116 @@
+{
+  "source_name": "0000935069-08-002908",
+  "total_rows": 63,
+  "holding_count": 54,
+  "subtotal_count": 8,
+  "total_count": 1,
+  "error_count": 0,
+  "warning_count": 2,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "DISTRESSED": {
+      "calculated_fv": "103757383",
+      "calculated_cost": "99594208",
+      "calculated_pct": "21.64",
+      "extracted_fv": "103757383",
+      "extracted_cost": "99594208",
+      "extracted_pct": "21.64",
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "EVENT DRIVEN": {
+      "calculated_fv": "45294999",
+      "calculated_cost": "42477069",
+      "calculated_pct": "9.44",
+      "extracted_fv": "45294999",
+      "extracted_cost": "42477069",
+      "extracted_pct": "9.44",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "LONG AND/OR SHORT EQUITY": {
+      "calculated_fv": "228438123",
+      "calculated_cost": "240899133",
+      "calculated_pct": "47.63",
+      "extracted_fv": "228438123",
+      "extracted_cost": "240899133",
+      "extracted_pct": "47.63",
+      "holding_count": 31,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MULTI-ARBITRAGE": {
+      "calculated_fv": "65956530",
+      "calculated_cost": "61986197",
+      "calculated_pct": "13.74",
+      "extracted_fv": "65956530",
+      "extracted_cost": "61986197",
+      "extracted_pct": "13.74",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "443447035",
+      "calculated_cost": "444956607",
+      "calculated_pct": "92.45",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (5069)",
+      "context": {
+        "as_of_date": "September 30, 2008",
+        "filename_date": "5069-08-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ORPHANED_TOTAL",
+      "message": "Section has TOTAL row 'TOTAL INVESTMENTS IN PORTFOLIO FUNDS' but no holdings or child sections",
+      "context": {
+        "section_path": "TOTAL INVESTMENTS IN PORTFOLIO FUNDS",
+        "label": "TOTAL INVESTMENTS IN PORTFOLIO FUNDS"
+      }
+    }
+  ]
+}

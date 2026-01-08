@@ -1104,9 +1104,330 @@ def fix_shifted_subtotals(
 # Main normalization function
 # ---------------------------------------------------------------------------
 
+def _get_row_original_page(row: Dict[str, Any]) -> Optional[int]:
+    """
+    Extract the original_page from a row's citations.
+    
+    Checks key fields (investment, label, fair_value_raw, section_path) for citation info.
+    Returns the first valid original_page found, or None.
+    """
+    # Fields to check for citations (in priority order)
+    fields_to_check = ["investment", "label", "fair_value_raw", "quantity_raw", "percent_net_assets_raw"]
+    
+    for field_name in fields_to_check:
+        field_obj = row.get(field_name)
+        if field_obj is None:
+            continue
+        
+        # Handle wrapped {value, citations} format
+        if isinstance(field_obj, dict):
+            citations = field_obj.get("citations", [])
+            if isinstance(citations, list):
+                for cit in citations:
+                    bbox = cit.get("bbox", {})
+                    original_page = bbox.get("original_page")
+                    if original_page is not None:
+                        try:
+                            return int(original_page)
+                        except (TypeError, ValueError):
+                            continue
+    
+    # Also check section_path items (which may have citations)
+    section_path = row.get("section_path")
+    if isinstance(section_path, list):
+        for item in section_path:
+            if isinstance(item, dict):
+                citations = item.get("citations", [])
+                if isinstance(citations, list):
+                    for cit in citations:
+                        bbox = cit.get("bbox", {})
+                        original_page = bbox.get("original_page")
+                        if original_page is not None:
+                            try:
+                                return int(original_page)
+                            except (TypeError, ValueError):
+                                continue
+    
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Page-based filtering with multi-heuristic rescue
+# ---------------------------------------------------------------------------
+
+# Threshold for Volume Rescue: if a "bad" page has more than this many rows,
+# it's likely the main SOI (not a Summary table) and all rows are rescued.
+VOLUME_RESCUE_THRESHOLD = 20
+
+# Major total labels that should always be rescued (case-insensitive contains)
+MAJOR_TOTAL_PATTERNS = frozenset({
+    "total long term investments",
+    "total short term investments",
+    "total investments",
+    "net assets",
+    "total long-term investments",
+    "total short-term investments",
+})
+
+
+def count_rows_by_page(
+    rows: List[Dict[str, Any]],
+) -> Dict[int, int]:
+    """
+    Count how many rows come from each page number.
+    
+    Used for Volume Rescue heuristic: Summary tables are short (5-15 rows),
+    while the main SOI is long (50+ rows). If many rows cite the same "bad" page,
+    it's likely the model hallucinated the page number for the entire section.
+    
+    Args:
+        rows: List of row dicts with citation metadata
+    
+    Returns:
+        Dict mapping page_number -> count of rows from that page
+    """
+    page_counts: Dict[int, int] = {}
+    for row in rows:
+        page = _get_row_original_page(row)
+        if page is not None:
+            page_counts[page] = page_counts.get(page, 0) + 1
+    return page_counts
+
+
+def get_rescue_pages(
+    rows: List[Dict[str, Any]],
+    soi_pages: set,
+    threshold: int = VOLUME_RESCUE_THRESHOLD,
+) -> set:
+    """
+    Identify "bad" pages that should be rescued via Volume Rescue heuristic.
+    
+    If a page outside soi_pages contributes more than `threshold` rows,
+    it's likely the main SOI (model hallucinated page numbers) rather than
+    a Summary/Highlights table.
+    
+    Args:
+        rows: List of row dicts
+        soi_pages: Set of valid SOI page numbers from the split step
+        threshold: Minimum row count to trigger Volume Rescue
+    
+    Returns:
+        Set of page numbers that should be rescued (all rows kept)
+    """
+    page_counts = count_rows_by_page(rows)
+    rescue_pages: set = set()
+    
+    for page, count in page_counts.items():
+        # Only consider pages that would otherwise be dropped
+        if page not in soi_pages and count > threshold:
+            rescue_pages.add(page)
+    
+    return rescue_pages
+
+
+def is_high_confidence_holding(row: Dict[str, Any]) -> bool:
+    """
+    Check if a row has strong signals of being a detailed holding (Information Density).
+    
+    Used for Detail Rescue heuristic. Summary/Highlights tables show only
+    Name + Value + %. The main SOI often has Interest Rates, Maturity Dates,
+    Principal Amounts, CUSIP numbers, etc.
+    
+    For EQUITY holdings (which lack maturity dates/rates), we also check for:
+    - ADR/GDR suffixes (American/Global Depositary Receipts)
+    - Class A/B/C designations
+    - Series A/B/C designations
+    - PNA/PNB (Chilean preferred share classes)
+    - Common Stock/Preferred Stock keywords
+    
+    Returns True if the row has detail that Summary tables lack.
+    """
+    # Check for detailed fields that summary tables rarely have
+    if unwrap_value(row.get("interest_rate_raw")):
+        return True
+    if unwrap_value(row.get("maturity_date")):
+        return True
+    
+    # Check for investment name complexity (dates, rates, equity indicators)
+    inv = unwrap_value(row.get("investment")) or ""
+    inv_upper = inv.upper()
+    
+    # BOND PATTERNS: "2.125%, 10/09/07" or similar (rate + date)
+    # Loosened regex to allow optional space and various separators
+    if re.search(r"\d+\.?\d*%[,\s]*\d+[/\-]\d+[/\-]\d+", inv):
+        return True
+    
+    # Date ranges like "11/21/06 - 7/24/07"
+    if re.search(r"\d+[/\-]\d+[/\-]\d+\s*[-–—]\s*\d+[/\-]\d+[/\-]\d+", inv):
+        return True
+    
+    # EQUITY PATTERNS: These indicate detailed holdings, not summary rows
+    
+    # ADR/GDR patterns (American/Global Depositary Receipts)
+    # Matches: ", ADR", " ADR", ",ADR", "ADR++" (with footnote markers)
+    if re.search(r"[,\s]ADR\b", inv_upper) or re.search(r"[,\s]GDR\b", inv_upper):
+        return True
+    
+    # Class designations: "Class A", "Class B", "Class C", etc.
+    # Matches: ", Class A", " Class A,", "Class A+"
+    if re.search(r"\bCLASS\s+[A-Z]\b", inv_upper):
+        return True
+    
+    # Series designations: "Series A", "Series B", "Series B, ADR"
+    if re.search(r"\bSERIES\s+[A-Z]\b", inv_upper):
+        return True
+    
+    # Chilean preferred share classes: PNA, PNB (Preferidas Nominativas)
+    # These are specific to Chilean equities like Embotelladora Andina S.A.
+    if re.search(r"[,\s]PN[AB]\b", inv_upper):
+        return True
+    
+    # Common/Preferred stock keywords
+    if re.search(r"\bCOMMON\s+STOCK\b", inv_upper):
+        return True
+    if re.search(r"\bPREFERRED\s+STOCK\b", inv_upper):
+        return True
+    if re.search(r"\bORDINARY\s+SHARES?\b", inv_upper):
+        return True
+    
+    # Convertible notes/bonds with specific terms (e.g., "cv. sub. deb.", "cv. sr. notes")
+    if re.search(r"\bcv\.\s*(sub\.|sr\.)", inv.lower()):
+        return True
+    
+    # CUSIP-like patterns (9 alphanumeric characters)
+    if re.search(r"\b[A-Z0-9]{9}\b", inv_upper):
+        return True
+        
+    return False
+
+
+def is_major_total_row(row: Dict[str, Any]) -> bool:
+    """
+    Check if a row is a major TOTAL that should always be rescued.
+    
+    These labels are standard across N-CSR documents and are critical
+    for arithmetic validation. If the model mis-cites their page, we
+    should still keep them.
+    
+    Returns True if the row is a TOTAL with a major label.
+    """
+    row_type = unwrap_value(row.get("row_type"))
+    if row_type != "TOTAL":
+        return False
+    
+    label = unwrap_value(row.get("label")) or ""
+    label_lower = label.lower().strip()
+    
+    for pattern in MAJOR_TOTAL_PATTERNS:
+        if pattern in label_lower:
+            return True
+    
+    return False
+
+
+def filter_rows_by_page(
+    rows: List[Dict[str, Any]],
+    soi_pages: set,
+    result: NormalizationResult,
+) -> List[Dict[str, Any]]:
+    """
+    Filter out rows that come from pages NOT in the SOI split.
+    
+    This is the CRITICAL defense against "Top Holdings" and other non-SOI tables
+    contaminating the extraction. Rows from pages like Page 1 (Highlights section)
+    are dropped deterministically.
+    
+    MULTI-HEURISTIC RESCUE SYSTEM:
+    Before dropping a row, we check three rescue conditions:
+    
+    1. Volume Rescue: If a "bad" page has >20 rows, it's likely the main SOI
+       (model hallucinated page numbers), not a Summary table. Rescue all rows.
+    
+    2. Detail Rescue: If a row has bond-level detail (interest rate, maturity date,
+       date/rate patterns in investment name), it's from the real SOI. Rescue it.
+    
+    3. Major Total Rescue: If a TOTAL row has a major label (e.g., "TOTAL INVESTMENTS",
+       "NET ASSETS"), rescue it - these are critical for validation.
+    
+    Args:
+        rows: List of row dicts
+        soi_pages: Set of valid SOI page numbers from the split step
+        result: NormalizationResult to update with fix logs
+    
+    Returns:
+        List of rows that come from valid SOI pages only (or rescued rows)
+    """
+    if not soi_pages:
+        # No page constraints - return all rows
+        return rows
+    
+    # STEP 1: Compute Volume Rescue pages
+    # Pages with many rows are likely the main SOI, not Summary tables
+    rescue_pages = get_rescue_pages(rows, soi_pages, threshold=VOLUME_RESCUE_THRESHOLD)
+    
+    filtered_rows = []
+    for idx, row in enumerate(rows):
+        original_page = _get_row_original_page(row)
+        
+        if original_page is not None and original_page not in soi_pages:
+            # Row is from a non-SOI page. Check rescue heuristics in priority order.
+            row_type = unwrap_value(row.get("row_type")) or "UNKNOWN"
+            rescue_reason: Optional[str] = None
+            
+            # Heuristic 1: Volume Rescue
+            if original_page in rescue_pages:
+                rescue_reason = "RESCUED_BY_VOLUME"
+            
+            # Heuristic 2: Detail Rescue (for HOLDINGs with bond-level detail)
+            elif row_type == "HOLDING" and is_high_confidence_holding(row):
+                rescue_reason = "RESCUED_BY_DETAIL"
+            
+            # Heuristic 3: Major Total Rescue
+            elif is_major_total_row(row):
+                rescue_reason = "RESCUED_BY_MAJOR_TOTAL"
+            
+            if rescue_reason:
+                # KEEP the row and log the rescue
+                result.fix_log.append(FixLogEntry(
+                    row_idx=idx,
+                    old_row_type=row_type,
+                    new_row_type=row_type,
+                    action="converted",  # Treated as 'fixed'/kept
+                    reason_code=rescue_reason,
+                    confidence="high",
+                    row_signature=get_row_signature(row),
+                    old_value=f"page={original_page}",
+                    new_value=f"rescued (page not in {sorted(soi_pages)})",
+                ))
+                result.fix_count += 1
+                result.converted_count += 1
+                filtered_rows.append(row)
+            else:
+                # DROP the row - confirmed Summary/Highlights contamination
+                result.fix_log.append(FixLogEntry(
+                    row_idx=idx,
+                    old_row_type=row_type,
+                    new_row_type=None,
+                    action="dropped",
+                    reason_code="ROW_FROM_NON_SOI_PAGE",
+                    confidence="high",
+                    row_signature=get_row_signature(row),
+                    old_value=f"page={original_page}",
+                    new_value=f"valid_pages={sorted(soi_pages)}",
+                ))
+                result.dropped_count += 1
+                result.fix_count += 1
+        else:
+            # Row is from a valid SOI page (or page unknown) - KEEP IT
+            filtered_rows.append(row)
+    
+    return filtered_rows
+
+
 def normalize_soi_rows(
     soi_rows: List[Dict[str, Any]],
     *,
+    soi_pages: Optional[set] = None,
     convert_to_subtotal: bool = True,
     drop_unfixable: bool = True,
 ) -> Tuple[List[Dict[str, Any]], NormalizationResult]:
@@ -1115,6 +1436,9 @@ def normalize_soi_rows(
     
     Args:
         soi_rows: List of row dicts from Reducto extraction
+        soi_pages: Optional set of valid SOI page numbers. If provided, rows from
+                   pages NOT in this set will be dropped. This is the primary defense
+                   against "Top Holdings" contamination from non-SOI pages.
         convert_to_subtotal: If True, convert phantom holdings to SUBTOTAL when possible
         drop_unfixable: If True, drop rows that can't be safely converted
     
@@ -1122,6 +1446,12 @@ def normalize_soi_rows(
         (normalized_rows, result) where result contains fix log and statistics
     """
     result = NormalizationResult(rows=[])
+    
+    # FIRST: Apply page-based filtering to remove rows from non-SOI pages
+    # This is the critical defense against "Top Holdings" and other non-SOI tables
+    # contaminating the extraction. Must happen BEFORE any other processing.
+    if soi_pages:
+        soi_rows = filter_rows_by_page(soi_rows, soi_pages, result)
     
     # Track current heading context for label inference
     current_heading: Optional[str] = None

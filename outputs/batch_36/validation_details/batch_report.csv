@@ -1,0 +1,6 @@
+filename,status,error_message,total_rows,holding_count,subtotal_count,total_count,validation_errors,validation_warnings,has_arithmetic_error,max_dollar_diff,root_sum_mismatch,calculated_total_fv,extracted_total_fv,top_error_code
+0000828803-06-000017.pdf,success,,123,82,34,7,25,42,True,21603815,False,,,CITATION_VALUE_MISMATCH
+0000930413-04-003491.pdf,success,,445,355,77,13,6,6,True,1287806886,False,,,TOTAL_MISMATCH_COST
+0000936772-05-000012.pdf,success,,151,116,31,4,50,34,True,194950754,False,,,CITATION_VALUE_MISMATCH
+0000950116-05-002117.pdf,success,,188,0,0,0,188,1,False,0,False,,,MISSING_ROW_TYPE
+0001047469-05-022355.pdf,success,,72,43,23,6,2,1,True,104895635,True,,,TOTAL_MISMATCH_COST

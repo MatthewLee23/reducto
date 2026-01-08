@@ -134,6 +134,8 @@ class ValidationResult:
             "ARITH_MISMATCH_COST",
             "ARITH_MISMATCH_PCT",
             "SHIFTED_SUBTOTAL_DETECTED",
+            "PARTIAL_EXTRACTION_FV",
+            "ZERO_EXTRACTION",
         }
         
         def get_diff_value(issue: Issue) -> Decimal:
@@ -1210,16 +1212,40 @@ def _validate_node_arithmetic(
                         likely_correct_section=shifted_from,
                     )
                 else:
-                    result.add(
-                        "error",
-                        "ARITH_MISMATCH_FV",
-                        f"Calculated fair_value ({node.calc_fv}) != extracted subtotal ({node.extracted_fv}), diff=${diff}",
-                        section_path=path_str,
-                        label=label,
-                        calculated=str(node.calc_fv),
-                        extracted=str(node.extracted_fv),
-                        diff=str(diff),
+                    # Check if this is likely a partial extraction issue
+                    # (we got the subtotal but missed holdings)
+                    extraction_ratio = float(node.calc_fv) / float(node.extracted_fv) if node.extracted_fv > 0 else 0
+                    is_partial_extraction = (
+                        node.calc_fv < node.extracted_fv and
+                        extraction_ratio < 0.95  # Less than 95% of expected value
                     )
+                    
+                    if is_partial_extraction:
+                        missing_value = node.extracted_fv - node.calc_fv
+                        result.add(
+                            "error",
+                            "PARTIAL_EXTRACTION_FV",
+                            f"Likely missing holdings: calculated fair_value ({node.calc_fv}) is only {extraction_ratio:.1%} of subtotal ({node.extracted_fv}). Missing ~${missing_value} ({len(node.holdings)} holdings found)",
+                            section_path=path_str,
+                            label=label,
+                            calculated=str(node.calc_fv),
+                            extracted=str(node.extracted_fv),
+                            diff=str(diff),
+                            extraction_ratio=f"{extraction_ratio:.1%}",
+                            missing_value=str(missing_value),
+                            holdings_found=len(node.holdings),
+                        )
+                    else:
+                        result.add(
+                            "error",
+                            "ARITH_MISMATCH_FV",
+                            f"Calculated fair_value ({node.calc_fv}) != extracted subtotal ({node.extracted_fv}), diff=${diff}",
+                            section_path=path_str,
+                            label=label,
+                            calculated=str(node.calc_fv),
+                            extracted=str(node.extracted_fv),
+                            diff=str(diff),
+                        )
                 result.has_arithmetic_error = True
                 if diff > result.max_dollar_diff:
                     result.max_dollar_diff = diff
@@ -1281,6 +1307,19 @@ def _validate_node_arithmetic(
                     f"Section has {len(node.holdings)} holdings but no SUBTOTAL row",
                     section_path=path_str,
                 )
+        
+        # Check for ZERO extraction: subtotal exists but no holdings extracted at all
+        if not node.holdings and not node.children and node.extracted_fv is not None and node.extracted_fv > 0:
+            result.add(
+                "error",
+                "ZERO_EXTRACTION",
+                f"Section has subtotal (${node.extracted_fv}) but NO holdings extracted. All holdings in this section were skipped.",
+                section_path=path_str,
+                label=label,
+                extracted_fv=str(node.extracted_fv),
+                holdings_found=0,
+            )
+            result.has_arithmetic_error = True
 
     # Validate TOTAL rows if present for this section (INCLUDING ROOT)
     # This catches skipped sections: if grand total != sum of all holdings
