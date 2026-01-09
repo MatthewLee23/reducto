@@ -227,11 +227,41 @@ SUMMARY_TABLE_KEYWORDS = [
 
 ---
 
-## Reruns Required
+## Verification Results
 
-After fixes are applied, the following PDFs need to be re-processed:
-- [ ] 0000930413-05-005563.pdf
-- [ ] 0000828803-06-000009.pdf
-- [ ] 0001133228-04-000267.pdf
-- [ ] 0000900092-06-000075.pdf
-- [ ] 0001144204-05-006328.pdf
+Re-ran main.py on problematic PDFs in `pdfs-for-main-extraction/reruns/reruns-5/` (batch_43).
+
+### 0000930413-05-005563.pdf - FIX VERIFIED
+
+**Before (batch_42):**
+- `has_arithmetic_error`: true
+- `error_count`: 3
+- 12 rows dropped by SUMMARY_TABLE_BLOCK_DETECTED
+- `calculated_total_fv`: $85,617,420 (only 22% of actual)
+- `extracted_total_fv`: $389,013,672
+
+**After (batch_43 with fix):**
+- `has_arithmetic_error`: **false**
+- `error_count`: **0**
+- Only 1 row dropped (legitimate "CASH AND OTHER ASSETS LESS LIABILITIES" total)
+- `calculated_total_fv`: $389,013,672 (matches extracted)
+- All holdings in "ORDINARY SHARES OF GOLD MINING COMPANIES" section (~$303M) are now preserved
+
+### 0001133228-04-000267.pdf - VERIFICATION PENDING
+
+The extraction for this file (19 pages) was still in progress when the batch was interrupted. Re-run required to verify the fix.
+
+### Other Files (not affected by sanitizer fix)
+
+- `0000828803-06-000009.pdf`: 4 errors, 5 warnings (expected - multi-fund complexity)
+- `0001144204-05-006328.pdf`: 26 errors, 4 warnings (expected - citation alignment issues)
+- `0000900092-06-000075.pdf`: Extraction still in progress when interrupted
+
+## Reruns Completed
+
+PDFs re-processed in `pdfs-for-main-extraction/reruns/reruns-5/`:
+- [x] 0000930413-05-005563.pdf - **FIX VERIFIED**
+- [x] 0000828803-06-000009.pdf - Completed (errors expected, not sanitizer-related)
+- [x] 0001144204-05-006328.pdf - Completed (errors expected, not sanitizer-related)
+- [ ] 0001133228-04-000267.pdf - Extraction interrupted, needs re-run
+- [ ] 0000900092-06-000075.pdf - Extraction interrupted, needs re-run
