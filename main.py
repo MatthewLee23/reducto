@@ -450,6 +450,95 @@ def _load_json(path: Path) -> Optional[Dict[str, Any]]:
         return None
 
 
+def _validate_single_file(
+    extract_json: dict,
+    split_json: Optional[dict],
+    file_stem: str,
+    validation_details_dir: Path,
+) -> Optional[ValidationResult]:
+    """
+    Validate a single extraction result and write the per-file validation report.
+    
+    This is called immediately after each extraction completes, enabling incremental
+    validation reports even if the batch doesn't complete fully.
+    
+    Returns the ValidationResult or None if validation couldn't be performed.
+    """
+    if extract_json is None:
+        return None
+    
+    # Extract SOI pages from split result for page-based filtering
+    soi_pages_set: set = set()
+    if split_json:
+        splits = split_json.get("result", {}).get("splits", [])
+        for split in splits:
+            if str(split.get("name", "")).lower() == "soi":
+                pages = split.get("pages", []) or []
+                soi_pages_list = [int(p) for p in pages if isinstance(p, int) or str(p).isdigit()]
+                
+                # First: validate split completeness and expand if sparse
+                soi_pages_list = validate_split_completeness(soi_pages_list, verbose=False)
+                
+                # CRITICAL: Check for multi-fund patterns and expand aggressively
+                soi_pages_list = validate_split_for_multi_fund(
+                    soi_pages_list,
+                    extract_json=extract_json,
+                    verbose=False,
+                )
+                
+                # Determine dynamic page gap based on document type
+                dynamic_gap = get_dynamic_page_gap(extract_json, split_json, verbose=False)
+                # Fill gaps to capture continuation pages the splitter may have missed
+                soi_pages_list = fill_page_gaps(soi_pages_list, max_gap=dynamic_gap, verbose=False)
+                soi_pages_set = set(soi_pages_list)
+                break
+    
+    # Sanitize soi_rows before validation to fix misclassified rows
+    norm_result: NormalizationResult | None = None
+    soi_rows = extract_json.get("result", {}).get("soi_rows", [])
+    if soi_rows:
+        sanitized_rows, norm_result = normalize_soi_rows(
+            soi_rows,
+            soi_pages=soi_pages_set if soi_pages_set else None,
+        )
+        # Replace with sanitized rows for validation
+        if "result" in extract_json:
+            extract_json["result"]["soi_rows"] = sanitized_rows
+    
+    val_result = validate_extract_response(
+        extract_json,
+        split_json=split_json,
+        source_name=file_stem,
+    )
+    
+    # Attach normalization metadata and add warning if fixes were applied
+    if norm_result and norm_result.fix_count > 0:
+        val_result.normalization = norm_result.to_dict()
+        # Add a warning issue to highlight normalization was applied
+        reason_summary = ", ".join(
+            f"{code}={count}" 
+            for code, count in sorted(
+                {e.reason_code: sum(1 for x in norm_result.fix_log if x.reason_code == e.reason_code) 
+                 for e in norm_result.fix_log}.items()
+            )
+        )
+        val_result.add(
+            "warning",
+            "NORMALIZATION_APPLIED",
+            f"Sanitizer fixed {norm_result.fix_count} row(s): {reason_summary}",
+            fix_count=norm_result.fix_count,
+            dropped=norm_result.dropped_count,
+            converted=norm_result.converted_count,
+        )
+    
+    # Write per-file validation report immediately
+    val_output = validation_details_dir / f"{file_stem}_validation.json"
+    with open(val_output, "w") as f:
+        json.dump(val_result.to_dict(), f, indent=2)
+    
+    return val_result
+
+
 async def process_file(
     client: AsyncReducto,
     pdf_path: Path,
@@ -457,6 +546,7 @@ async def process_file(
     extract_urls_dir: Path,
     extract_dir: Path,
     semaphore: asyncio.Semaphore,
+    validation_details_dir: Optional[Path] = None,
 ) -> dict:
     """Upload -> split -> extract SOI pages for a single file (PDF or TXT)."""
     async with semaphore:
@@ -473,6 +563,19 @@ async def process_file(
                 # Load existing JSONs for validation
                 existing_split_json = _load_json(split_output)
                 existing_extract_json = _load_json(extract_urls_output)
+                
+                # Run incremental validation if validation_details_dir is provided
+                val_result = None
+                if validation_details_dir and existing_extract_json:
+                    val_result = _validate_single_file(
+                        existing_extract_json,
+                        existing_split_json,
+                        pdf_path.stem,
+                        validation_details_dir,
+                    )
+                    if val_result:
+                        print(f"  [VALIDATED] {pdf_path.name}: {val_result.error_count()}E/{val_result.warning_count()}W")
+                
                 return {
                     "file": pdf_path.name,
                     "status": "skipped",
@@ -483,6 +586,7 @@ async def process_file(
                     "soi_pages": [],
                     "split_json": existing_split_json,
                     "extract_json": existing_extract_json,
+                    "validation_result": val_result,
                 }
 
             # Ensure split exists (reuse if present)
@@ -505,6 +609,7 @@ async def process_file(
                     "split_output": str(split_output),
                     "split_json": split_json,
                     "extract_json": None,
+                    "validation_result": None,
                 }
             
             # Validate split quality and log any warnings
@@ -550,6 +655,18 @@ async def process_file(
 
             print(f"  [DONE] {pdf_path.name}")
 
+            # Run incremental validation if validation_details_dir is provided
+            val_result = None
+            if validation_details_dir and extract_json:
+                val_result = _validate_single_file(
+                    extract_json,
+                    split_json,
+                    pdf_path.stem,
+                    validation_details_dir,
+                )
+                if val_result:
+                    print(f"  [VALIDATED] {pdf_path.name}: {val_result.error_count()}E/{val_result.warning_count()}W")
+
             return {
                 "file": pdf_path.name,
                 "status": "success",
@@ -559,6 +676,7 @@ async def process_file(
                 "soi_pages": soi_pages,
                 "split_json": split_json,
                 "extract_json": extract_json,
+                "validation_result": val_result,
             }
 
         except Exception as e:
@@ -572,6 +690,7 @@ async def process_file(
                 "traceback": tb,
                 "split_json": None,
                 "extract_json": None,
+                "validation_result": None,
             }
 
 
@@ -1050,8 +1169,9 @@ async def main(input_folder: str = "txt"):
     semaphore = asyncio.Semaphore(MAX_CONCURRENCY)
 
     # Create all tasks (extract_dir now holds both extract response and raw result)
+    # Pass validation_details_dir to enable incremental validation as each file completes
     tasks = [
-        process_file(client, file_path, split_dir, extract_dir, extract_dir, semaphore)
+        process_file(client, file_path, split_dir, extract_dir, extract_dir, semaphore, validation_details_dir)
         for file_path in all_files
     ]
 
@@ -1061,94 +1181,16 @@ async def main(input_folder: str = "txt"):
     
     all_results = await asyncio.gather(*tasks)
 
-    # Run validation on all successful/skipped files with extract_json
+    # Collect validation results from process_file (already computed incrementally)
+    # Per-file validation reports were already written as each file completed
     print()
-    print("Running validation on extracted files...")
+    print("Collecting validation results...")
     
     validation_results: List[ValidationResult] = []
-    
     for result in all_results:
-        extract_json = result.get("extract_json")
-        split_json = result.get("split_json")
-        
-        if extract_json is not None:
-            file_stem = Path(result["file"]).stem
-            
-            # Extract SOI pages from split result for page-based filtering
-            soi_pages_set: set = set()
-            if split_json:
-                splits = split_json.get("result", {}).get("splits", [])
-                for split in splits:
-                    if str(split.get("name", "")).lower() == "soi":
-                        pages = split.get("pages", []) or []
-                        soi_pages_list = [int(p) for p in pages if isinstance(p, int) or str(p).isdigit()]
-                        
-                        # First: validate split completeness and expand if sparse
-                        soi_pages_list = validate_split_completeness(soi_pages_list, verbose=True)
-                        
-                        # CRITICAL: Check for multi-fund patterns and expand aggressively
-                        # This catches documents where Fund A and Fund B have separate SOI sections
-                        # and the splitter only identified some pages from each
-                        soi_pages_list = validate_split_for_multi_fund(
-                            soi_pages_list,
-                            extract_json=extract_json,
-                            verbose=True,
-                        )
-                        
-                        # Determine dynamic page gap based on document type
-                        dynamic_gap = get_dynamic_page_gap(extract_json, split_json, verbose=True)
-                        # Fill gaps to capture continuation pages the splitter may have missed
-                        soi_pages_list = fill_page_gaps(soi_pages_list, max_gap=dynamic_gap, verbose=True)
-                        soi_pages_set = set(soi_pages_list)
-                        break
-            
-            # Sanitize soi_rows before validation to fix misclassified rows
-            # Pass soi_pages to enable page-based filtering. The gap-filling above ensures
-            # we don't drop valid continuation pages. Content-based filtering in the sanitizer
-            # will catch "Top Holdings" tables that slip through.
-            norm_result: NormalizationResult | None = None
-            soi_rows = extract_json.get("result", {}).get("soi_rows", [])
-            if soi_rows:
-                sanitized_rows, norm_result = normalize_soi_rows(
-                    soi_rows,
-                    soi_pages=soi_pages_set if soi_pages_set else None,
-                )
-                # Replace with sanitized rows for validation
-                if "result" in extract_json:
-                    extract_json["result"]["soi_rows"] = sanitized_rows
-            
-            val_result = validate_extract_response(
-                extract_json,
-                split_json=split_json,
-                source_name=file_stem,
-            )
-            
-            # Attach normalization metadata and add warning if fixes were applied
-            if norm_result and norm_result.fix_count > 0:
-                val_result.normalization = norm_result.to_dict()
-                # Add a warning issue to highlight normalization was applied
-                reason_summary = ", ".join(
-                    f"{code}={count}" 
-                    for code, count in sorted(
-                        {e.reason_code: sum(1 for x in norm_result.fix_log if x.reason_code == e.reason_code) 
-                         for e in norm_result.fix_log}.items()
-                    )
-                )
-                val_result.add(
-                    "warning",
-                    "NORMALIZATION_APPLIED",
-                    f"Sanitizer fixed {norm_result.fix_count} row(s): {reason_summary}",
-                    fix_count=norm_result.fix_count,
-                    dropped=norm_result.dropped_count,
-                    converted=norm_result.converted_count,
-                )
-            
+        val_result = result.get("validation_result")
+        if val_result is not None:
             validation_results.append(val_result)
-            
-            # Write per-file validation report to validation_details/
-            val_output = validation_details_dir / f"{file_stem}_validation.json"
-            with open(val_output, "w") as f:
-                json.dump(val_result.to_dict(), f, indent=2)
 
     # Write comprehensive reports (summary at batch root, details in validation_details/)
     print("Writing reports...")
