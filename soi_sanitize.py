@@ -1547,10 +1547,42 @@ def filter_rows_by_page(
 # ---------------------------------------------------------------------------
 
 # Threshold: TOTAL rows with percent < this value indicate a "Top Holdings" table
-SUMMARY_TABLE_PERCENT_THRESHOLD = Decimal("80")
+# Lowered from 80% to 50% to avoid incorrectly flagging legitimate SOI sections
+# (e.g., "ORDINARY SHARES OF GOLD MINING COMPANIES" at 76.4% was incorrectly dropped)
+SUMMARY_TABLE_PERCENT_THRESHOLD = Decimal("50")
 
 # Maximum row count for a section to be considered a "summary table"
 SUMMARY_TABLE_MAX_ROWS = 20
+
+# Keywords that indicate a summary/highlights table (case-insensitive)
+SUMMARY_TABLE_KEYWORDS = [
+    "top ",
+    "top-",
+    "largest",
+    "biggest",
+    "holdings summary",
+    "summary of",
+    "highlights",
+    "principal holdings",
+    "major holdings",
+]
+
+
+def _has_summary_table_keyword(row: Dict[str, Any]) -> bool:
+    """
+    Check if a row's label contains keywords indicating a summary table.
+    
+    Summary tables often have labels like "Top 10 Holdings", "Largest Investments",
+    "Holdings Summary", etc.
+    """
+    label = unwrap_value(row.get("label")) or ""
+    investment = unwrap_value(row.get("investment")) or ""
+    section_path = unwrap_value(row.get("section_path")) or ""
+    
+    # Combine all text fields to check
+    combined_text = f"{label} {investment} {section_path}".lower()
+    
+    return any(keyword in combined_text for keyword in SUMMARY_TABLE_KEYWORDS)
 
 
 def _is_summary_total_row(row: Dict[str, Any]) -> bool:
@@ -1558,8 +1590,9 @@ def _is_summary_total_row(row: Dict[str, Any]) -> bool:
     Check if a TOTAL row indicates this is a summary/highlights table.
     
     Summary tables (like "Top Holdings") typically have:
-    - A TOTAL row with percent_net_assets_raw < 80% (e.g., "Top 10 Holdings: 35.2%")
+    - A TOTAL row with percent_net_assets_raw < 50% (e.g., "Top 10 Holdings: 35.2%")
     - Few holdings (5-20)
+    - Often have keywords like "Top", "Largest", "Summary" in the label
     
     Returns True if the row is a TOTAL with a suspiciously low percentage.
     """
@@ -1575,7 +1608,7 @@ def _is_summary_total_row(row: Dict[str, Any]) -> bool:
     if pct is None:
         return False
     
-    # If the total is < 80% of net assets, this is likely a summary table
+    # If the total is < 50% of net assets, this is likely a summary table
     # Real SOI totals are typically 90-160%
     return pct < SUMMARY_TABLE_PERCENT_THRESHOLD
 
@@ -1621,8 +1654,12 @@ def drop_summary_tables(
     Detect and drop entire "summary table" blocks based on content analysis.
     
     A summary table (e.g., "Top 10 Holdings", "Largest Investments") is identified by:
-    1. Having a TOTAL row with percent_net_assets_raw < 80%
+    1. Having a TOTAL row with percent_net_assets_raw < 50%
     2. Having fewer than SUMMARY_TABLE_MAX_ROWS holdings in the block
+    3. Optionally having keywords like "Top", "Largest", "Summary" in labels
+    
+    Note: The threshold was lowered from 80% to 50% to avoid incorrectly flagging
+    legitimate SOI sections (e.g., a section with 76.4% of net assets was being dropped).
     
     This is a content-based defense that catches summary tables even if they're
     on pages included in the SOI split (via gap-filling or splitter error).
@@ -1646,10 +1683,17 @@ def drop_summary_tables(
             if unwrap_value(r.get("row_type")) == "HOLDING"
         )
         
-        # Check if any TOTAL in this block indicates a summary table
+        # Check if any TOTAL in this block indicates a summary table (low percentage)
         has_summary_total = any(_is_summary_total_row(r) for r in block_rows)
         
-        if has_summary_total and holding_count < SUMMARY_TABLE_MAX_ROWS:
+        # Check if any row has summary table keywords
+        has_summary_keyword = any(_has_summary_table_keyword(r) for r in block_rows)
+        
+        # Drop if: (low percentage total AND few holdings) OR (has summary keywords AND few holdings)
+        # This ensures we catch both percentage-based and keyword-based summary tables
+        should_drop = (has_summary_total or has_summary_keyword) and holding_count < SUMMARY_TABLE_MAX_ROWS
+        
+        if should_drop:
             # This block is a summary table - mark all rows for dropping
             for idx in range(block_start, block_end + 1):
                 indices_to_drop.add(idx)
