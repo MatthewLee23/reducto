@@ -1,0 +1,43 @@
+{
+  "result": {
+    "section_mapping": null,
+    "splits": [
+      {
+        "name": "OTHER_FS",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          15,
+          16,
+          17,
+          18
+        ],
+        "conf": "low",
+        "partitions": null
+      },
+      {
+        "name": "SOI",
+        "pages": [
+          12,
+          13,
+          14
+        ],
+        "conf": "high",
+        "partitions": null
+      }
+    ]
+  },
+  "usage": {
+    "num_pages": 18,
+    "credits": null
+  }
+}

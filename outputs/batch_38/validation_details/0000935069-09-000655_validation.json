@@ -1,0 +1,209 @@
+{
+  "source_name": "0000935069-09-000655",
+  "total_rows": 0,
+  "holding_count": 0,
+  "subtotal_count": 0,
+  "total_count": 0,
+  "error_count": 0,
+  "warning_count": 2,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {},
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2008) differs from filename (5069)",
+      "context": {
+        "as_of_date": "DECEMBER 31, 2008",
+        "filename_date": "5069-09-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 15 row(s): SUMMARY_TABLE_BLOCK_DETECTED=15",
+      "context": {
+        "fix_count": 15,
+        "dropped": 15,
+        "converted": 0
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 15,
+    "dropped_count": 15,
+    "converted_count": 0,
+    "percent_corrected_count": 0,
+    "fix_log": [
+      {
+        "row_idx": 0,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Artis Aggressive Growth (Institutional),|fv=$ 4,671,250",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 1,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Artis Partners 2X (Institutional), L.P.|fv=20,982,875",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 2,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Coatue Qualified Partners, L.P.|fv=15,759,411",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 3,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Dundonald Fund I, L.P.|fv=11,968,876",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 4,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Intrepid Capital Fund (QP), L.P.|fv=7,568,750",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 5,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Loch Capital Fund I, L.P.|fv=19,227,250",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 6,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Seligman Tech Spectrum Fund, L.L.C.|fv=5,389,728",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 7,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Seligman Tech Spectrum, Ltd., Class Al, |fv=10,451,221",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 8,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Shannon River Partner II, L.P.|fv=12,569,349",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 9,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:TCS Capital II, L.P.|fv=6,937,113",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 10,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Tiger Global Fund, L.P.|fv=5,308,289",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 11,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Tracer Capital Partners QP, L.P.|fv=8,441,988",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 12,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:LONG/SHORT EQUITY SUBTOTAL|fv=$129,276,100",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 13,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Redeemed Investment Funds|fv=",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 14,
+        "old_row_type": "TOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "TOTAL:TOTAL|fv=$129,276,100",
+        "old_value": null,
+        "new_value": null
+      }
+    ]
+  }
+}

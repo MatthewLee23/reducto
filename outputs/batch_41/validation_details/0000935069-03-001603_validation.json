@@ -1,0 +1,687 @@
+{
+  "source_name": "0000935069-03-001603",
+  "total_rows": 61,
+  "holding_count": 50,
+  "subtotal_count": 7,
+  "total_count": 4,
+  "error_count": 28,
+  "warning_count": 13,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "48503011",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "117264521",
+  "extracted_total_fv": "68761510",
+  "computed_sums": {
+    "FIXED INCOME ARBITRAGE": {
+      "calculated_fv": "3912071",
+      "calculated_cost": "3790000",
+      "calculated_pct": "5.25",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "EVENT DRIVEN": {
+      "calculated_fv": "20717954",
+      "calculated_cost": "19050000",
+      "calculated_pct": "27.83",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "EQUITY ARBITRAGE": {
+      "calculated_fv": "44131485",
+      "calculated_cost": "41625500",
+      "calculated_pct": "59.31",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MULTI-STRATEGY SERIES M > FIXED INCOME ARBITRAGE": {
+      "calculated_fv": "3103078",
+      "calculated_cost": "2980000",
+      "calculated_pct": "5.77",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MULTI-STRATEGY SERIES M > EVENT DRIVEN": {
+      "calculated_fv": "12408077",
+      "calculated_cost": "11380000",
+      "calculated_pct": "23.07",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MULTI-STRATEGY SERIES M > EQUITY ARBITRAGE": {
+      "calculated_fv": "11811196",
+      "calculated_cost": "11641000",
+      "calculated_pct": "21.96",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MULTI-STRATEGY SERIES M > DISCRETIONARY": {
+      "calculated_fv": "21180660",
+      "calculated_cost": "19830000",
+      "calculated_pct": "39.37",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MULTI-STRATEGY SERIES M": {
+      "calculated_fv": "48503011",
+      "calculated_cost": "45831000",
+      "calculated_pct": "90.17",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 0,
+      "total_count": 2,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL INVESTMENTS",
+      "total_extracted_fv": "48503011"
+    },
+    "(root)": {
+      "calculated_fv": "117264521",
+      "calculated_cost": "110296500",
+      "calculated_pct": "182.56",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 0,
+      "total_count": 2,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL INVESTMENTS",
+      "total_extracted_fv": "68761510"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_FV",
+      "message": "Grand total of all holdings (117264521) != extracted Total (68761510), diff=$48503011",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "117264521",
+        "extracted": "68761510",
+        "diff": "48503011"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_COST",
+      "message": "Grand total cost (110296500) != extracted Total (64465500), diff=$45831000",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "110296500",
+        "extracted": "64465500",
+        "diff": "45831000"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_PCT",
+      "message": "Grand total percent (182.56%) != extracted Total (92.39%), diff=90.17%",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "182.56",
+        "extracted": "92.39",
+        "diff": "90.17",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '10000' don't match citation content digits '142251' (overlap: 20%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 29,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '10000' don't match citation content digits '53792498' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 60,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1474669' don't match citation content digits '48503011' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 41,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '153' don't match citation content digits '1262' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 45,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '159' don't match citation content digits '72927' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 44,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '199' don't match citation content digits '205' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 18,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '251' don't match citation content digits '72927' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 36,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2664136' don't match citation content digits '48503011' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 54,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2738694' don't match citation content digits '48503011' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 53,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '274' don't match citation content digits '1262' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 41,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2938172' don't match citation content digits '48503011' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 49,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4145663' don't match citation content digits '230' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 21,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4180048' don't match citation content digits '2295553' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 25,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4856344' don't match citation content digits '2094112' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 22,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '557' don't match citation content digits '2320382' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 21,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '562' don't match citation content digits '308' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 25,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5974732' don't match citation content digits '1059596' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 27,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '653' don't match citation content digits '281' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 22,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '68761510' don't match citation content digits '1415453' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 28,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '711' don't match citation content digits '72927' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 58,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '74424443' don't match citation content digits '1059596' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 29,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '803' don't match citation content digits '142' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 27,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '808' don't match citation content digits '300' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 24,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '882996' don't match citation content digits '48503011' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 43,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '931' don't match citation content digits '142' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 26,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2003) differs from filename (5069)",
+      "context": {
+        "as_of_date": "SEPTEMBER 30, 2003",
+        "filename_date": "5069-03-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "FUND_MISSING_TOTAL",
+      "message": "Fund 'FIXED INCOME ARBITRAGE' has no TOTAL row for validation",
+      "context": {
+        "fund_name": "FIXED INCOME ARBITRAGE",
+        "holding_count": 3,
+        "child_count": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MULTI_FUND_DOCUMENT_DETECTED",
+      "message": "Document contains 2 distinct funds. Validating each fund separately.",
+      "context": {
+        "fund_count": 2,
+        "fund_names": [
+          "FIXED INCOME ARBITRAGE",
+          "MULTI-STRATEGY SERIES M"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 2 row(s): SUMMARY_TABLE_BLOCK_DETECTED=2",
+      "context": {
+        "fix_count": 2,
+        "dropped": 2,
+        "converted": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "OVER_EXTRACTION_DETECTED",
+      "message": "Calculated sum (117264521) is 171% of TOTAL (68761510), suggesting duplicate holdings",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "117264521",
+        "extracted": "68761510",
+        "ratio": "171%"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "POSSIBLE_DUPLICATE_HOLDINGS",
+      "message": "Section percentage (182.56%) exceeds 110%, may indicate duplicate holdings from multi-fund contamination",
+      "context": {
+        "section_path": "(root)",
+        "calculated_pct": "182.56",
+        "holding_count": 0,
+        "child_count": 4
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 9 which is not in SOI split [2, 10, 11]",
+      "context": {
+        "row": 39,
+        "row_type": "HOLDING",
+        "investment": "GoldenTree High Yield Partners, L.P.",
+        "label": null,
+        "original_page": 9,
+        "soi_pages": [
+          2,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 9 which is not in SOI split [2, 10, 11]",
+      "context": {
+        "row": 44,
+        "row_type": "HOLDING",
+        "investment": "Taconic Capital Partners, L. P.",
+        "label": null,
+        "original_page": 9,
+        "soi_pages": [
+          2,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 9 which is not in SOI split [2, 10, 11]",
+      "context": {
+        "row": 45,
+        "row_type": "HOLDING",
+        "investment": "West Broadway Partners, L.P.",
+        "label": null,
+        "original_page": 9,
+        "soi_pages": [
+          2,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 9 which is not in SOI split [2, 10, 11]",
+      "context": {
+        "row": 52,
+        "row_type": "HOLDING",
+        "investment": "Chilton Small Cap Partners, L.P. Class A",
+        "label": null,
+        "original_page": 9,
+        "soi_pages": [
+          2,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 9 which is not in SOI split [2, 10, 11]",
+      "context": {
+        "row": 56,
+        "row_type": "HOLDING",
+        "investment": "Oberon Long/Short Japan Trust",
+        "label": null,
+        "original_page": 9,
+        "soi_pages": [
+          2,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 9 which is not in SOI split [2, 10, 11]",
+      "context": {
+        "row": 58,
+        "row_type": "HOLDING",
+        "investment": "Willow Creek Capital Partners, L.P.",
+        "label": null,
+        "original_page": 9,
+        "soi_pages": [
+          2,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_PATH_MISMATCH",
+      "message": "TOTAL label 'MEMBERS' CAPITAL' mentions categories not in section path",
+      "context": {
+        "section_path": "MULTI-STRATEGY SERIES M",
+        "label": "MEMBERS' CAPITAL",
+        "keywords": [
+          "members",
+          "capital"
+        ]
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 2,
+    "dropped_count": 2,
+    "converted_count": 0,
+    "percent_corrected_count": 0,
+    "fix_log": [
+      {
+        "row_idx": 29,
+        "old_row_type": "TOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "TOTAL:OTHER ASSETS, LESS LIABILITIES|fv=5,662,933",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 61,
+        "old_row_type": "TOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "TOTAL:OTHER ASSETS, LESS LIABILITIES|fv=5289487",
+        "old_value": null,
+        "new_value": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,2618 @@
+{
+  "source_name": "0001233087-05-000018",
+  "total_rows": 269,
+  "holding_count": 210,
+  "subtotal_count": 52,
+  "total_count": 7,
+  "error_count": 20,
+  "warning_count": 43,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "13044727",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "578612110",
+  "extracted_total_fv": "565567383",
+  "computed_sums": {
+    "BONDS > COMMERCIAL SERVICES": {
+      "calculated_fv": "3203500",
+      "calculated_cost": null,
+      "calculated_pct": "0.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.9",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > COMMUNICATIONS": {
+      "calculated_fv": "26726340",
+      "calculated_cost": null,
+      "calculated_pct": "7.0",
+      "extracted_fv": "26726340",
+      "extracted_cost": null,
+      "extracted_pct": "7.0",
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > CONSUMER DURABLES": {
+      "calculated_fv": "9813572",
+      "calculated_cost": null,
+      "calculated_pct": "2.6",
+      "extracted_fv": "9813572",
+      "extracted_cost": null,
+      "extracted_pct": "2.6",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > CONSUMER NON-DURABLES": {
+      "calculated_fv": "7160000",
+      "calculated_cost": null,
+      "calculated_pct": "1.9",
+      "extracted_fv": "7160000",
+      "extracted_cost": null,
+      "extracted_pct": "1.9",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > CONSUMER SERVICES": {
+      "calculated_fv": "56562956",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 15,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > ELECTRONIC TECHNOLOGY": {
+      "calculated_fv": "8302500",
+      "calculated_cost": null,
+      "calculated_pct": "2.2",
+      "extracted_fv": "8302500",
+      "extracted_cost": null,
+      "extracted_pct": "2.2",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > ENERGY MINERALS": {
+      "calculated_fv": "4290000",
+      "calculated_cost": null,
+      "calculated_pct": "1.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > HEALTH SERVICES": {
+      "calculated_fv": "15144000",
+      "calculated_cost": null,
+      "calculated_pct": "4.0",
+      "extracted_fv": "15144000",
+      "extracted_cost": null,
+      "extracted_pct": "4.0",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > INDUSTRIAL SERVICES": {
+      "calculated_fv": "5959185",
+      "calculated_cost": null,
+      "calculated_pct": "1.6",
+      "extracted_fv": "5959185",
+      "extracted_cost": null,
+      "extracted_pct": "1.6",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > NON-ENERGY MINERALS": {
+      "calculated_fv": "4230000",
+      "calculated_cost": null,
+      "calculated_pct": "1.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > PROCESS INDUSTRIES": {
+      "calculated_fv": "19337500",
+      "calculated_cost": null,
+      "calculated_pct": "5.1",
+      "extracted_fv": "19337500",
+      "extracted_cost": null,
+      "extracted_pct": "5.1",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > PRODUCER MANUFACTURING": {
+      "calculated_fv": "12416250",
+      "calculated_cost": null,
+      "calculated_pct": "3.2",
+      "extracted_fv": "12416250",
+      "extracted_cost": null,
+      "extracted_pct": "3.2",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > REAL ESTATE INVESTMENT TRUSTS": {
+      "calculated_fv": "4235000",
+      "calculated_cost": null,
+      "calculated_pct": "1.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > RETAIL": {
+      "calculated_fv": "2012500",
+      "calculated_cost": null,
+      "calculated_pct": "0.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.5",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > TECHNOLOGY SERVICES": {
+      "calculated_fv": "3120000",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > TRANSPORTATION": {
+      "calculated_fv": "4332000",
+      "calculated_cost": null,
+      "calculated_pct": "1.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS > UTILITIES": {
+      "calculated_fv": "21845624",
+      "calculated_cost": null,
+      "calculated_pct": "5.7",
+      "extracted_fv": "21845624",
+      "extracted_cost": null,
+      "extracted_pct": "5.7",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "BONDS": {
+      "calculated_fv": "208690927",
+      "calculated_cost": null,
+      "calculated_pct": "39.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 17,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL BONDS",
+      "total_extracted_fv": "208690927"
+    },
+    "MORTGAGE-BACKED SECURITIES > FEDERAL HOME LOAN MORTGAGE CORP. (FHLMC) FIXED RATE": {
+      "calculated_fv": "59647223",
+      "calculated_cost": null,
+      "calculated_pct": "15.7",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "15.7",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MORTGAGE-BACKED SECURITIES > GOVERNMENT NATIONAL MORTGAGE ASSOCIATION (GNMA) FIXED RATE": {
+      "calculated_fv": "21729203",
+      "calculated_cost": null,
+      "calculated_pct": "5.7",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "5.7",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MORTGAGE-BACKED SECURITIES > FEDERAL NATIONAL MORTGAGE ASSOCIATION (FNMA) ADJUSTABLE RATE": {
+      "calculated_fv": "4253449",
+      "calculated_cost": null,
+      "calculated_pct": "1.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.1",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MORTGAGE-BACKED SECURITIES > FEDERAL NATIONAL MORTGAGE ASSOCIATION (FNMA) FIXED RATE": {
+      "calculated_fv": "38476751",
+      "calculated_cost": null,
+      "calculated_pct": "10.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "10.1",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "MORTGAGE-BACKED SECURITIES": {
+      "calculated_fv": "124106626",
+      "calculated_cost": null,
+      "calculated_pct": "32.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "32.6",
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL MORTGAGE-BACKED SECURITIES",
+      "total_extracted_fv": "124106626"
+    },
+    "ASSET-BACKED SECURITIES AND COMMERCIAL MORTGAGE-BACKED SECURITIES > CONSUMER SERVICES": {
+      "calculated_fv": "1035101",
+      "calculated_cost": null,
+      "calculated_pct": "0.3",
+      "extracted_fv": null,
+      "extracted_cost": "1000000",
+      "extracted_pct": "0.3",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ASSET-BACKED SECURITIES AND COMMERCIAL MORTGAGE-BACKED SECURITIES > FINANCE": {
+      "calculated_fv": "38063576",
+      "calculated_cost": null,
+      "calculated_pct": "10.0",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "10.0",
+      "holding_count": 12,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ASSET-BACKED SECURITIES AND COMMERCIAL MORTGAGE-BACKED SECURITIES": {
+      "calculated_fv": "39098677",
+      "calculated_cost": null,
+      "calculated_pct": "10.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "10.3",
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL ASSET-BACKED SECURITIES AND COMMERCIAL MORTGAGE-BACKED SECURITIES",
+      "total_extracted_fv": "39098677"
+    },
+    "SENIOR FLOATING RATE INTERESTS > COMMUNICATIONS": {
+      "calculated_fv": "28381446",
+      "calculated_cost": null,
+      "calculated_pct": "7.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "7.4",
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > CONSUMER DURABLES": {
+      "calculated_fv": "9351161",
+      "calculated_cost": null,
+      "calculated_pct": "2.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.4",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > CONSUMER NON-DURABLES": {
+      "calculated_fv": "6843147",
+      "calculated_cost": null,
+      "calculated_pct": "1.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.8",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > CONSUMER SERVICES": {
+      "calculated_fv": "48545797",
+      "calculated_cost": null,
+      "calculated_pct": "12.7",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "12.7",
+      "holding_count": 22,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > ENERGY MINERALS": {
+      "calculated_fv": "4507261",
+      "calculated_cost": null,
+      "calculated_pct": "1.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.2",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > FINANCE": {
+      "calculated_fv": "15540810",
+      "calculated_cost": null,
+      "calculated_pct": "4.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "4.1",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > ELECTRONIC TECHNOLOGY": {
+      "calculated_fv": "606505",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > HEALTH SERVICES": {
+      "calculated_fv": "8472087",
+      "calculated_cost": null,
+      "calculated_pct": "2.28",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.28",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > INDUSTRIAL SERVICES": {
+      "calculated_fv": "4976277",
+      "calculated_cost": null,
+      "calculated_pct": "1.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > NON-ENERGY MINERALS": {
+      "calculated_fv": "6700511",
+      "calculated_cost": null,
+      "calculated_pct": "1.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.8",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > PROCESS INDUSTRIES": {
+      "calculated_fv": "12109720",
+      "calculated_cost": null,
+      "calculated_pct": "3.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.2",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > PRODUCER MANUFACTURING": {
+      "calculated_fv": "13357706",
+      "calculated_cost": null,
+      "calculated_pct": "3.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.5",
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > RETAIL TRADE": {
+      "calculated_fv": "8649350",
+      "calculated_cost": null,
+      "calculated_pct": "2.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.3",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > TECHNOLOGY SERVICES": {
+      "calculated_fv": "2918742",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS > UTILITIES": {
+      "calculated_fv": "4951946",
+      "calculated_cost": null,
+      "calculated_pct": "1.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SENIOR FLOATING RATE INTERESTS": {
+      "calculated_fv": "175912466",
+      "calculated_cost": null,
+      "calculated_pct": "46.28",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "46.2",
+      "holding_count": 0,
+      "child_count": 15,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL SENIOR FLOATING RATE INTERESTS",
+      "total_extracted_fv": "175912466"
+    },
+    "FOREIGN GOVERNMENT AND AGENCY SECURITIES": {
+      "calculated_fv": "17758687",
+      "calculated_cost": null,
+      "calculated_pct": "4.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "4.6",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL FOREIGN GOVERNMENT AND AGENCY SECURITIES",
+      "total_extracted_fv": "17758687"
+    },
+    "SHORT TERM INVESTMENT > MONEY FUND": {
+      "calculated_fv": "13044727",
+      "calculated_cost": null,
+      "calculated_pct": "3.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SHORT TERM INVESTMENT": {
+      "calculated_fv": "13044727",
+      "calculated_cost": null,
+      "calculated_pct": "3.4",
+      "extracted_fv": null,
+      "extracted_cost": "13044727",
+      "extracted_pct": "3.4",
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "578612110",
+      "calculated_cost": null,
+      "calculated_pct": "137.08",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 6,
+      "subtotal_count": 0,
+      "total_count": 2,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL LONG TERM INVESTMENTS",
+      "total_extracted_fv": "565567383"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_FV",
+      "message": "Grand total of all holdings (578612110) != extracted Total (565567383), diff=$13044727",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL LONG TERM INVESTMENTS",
+        "calculated": "578612110",
+        "extracted": "565567383",
+        "diff": "13044727"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_PCT",
+      "message": "Calculated percent (46.28%) != extracted subtotal (46.2%), diff=0.08%",
+      "context": {
+        "section_path": "SENIOR FLOATING RATE INTERESTS",
+        "label": "SENIOR FLOATING RATE INTERESTS",
+        "calculated": "46.28",
+        "extracted": "46.2",
+        "diff": "0.08",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '09' don't match citation content digits '112534' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 0,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1933250' don't match citation content digits '1481684' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 46,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2000000' don't match citation content digits '663783' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 59,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '207574528' don't match citation content digits '1481684' (overlap: 22%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 89,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2222222222222222
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2300000' don't match citation content digits '1481684' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 38,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2577000' don't match citation content digits '3000000' (overlap: 43%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 30,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3203500' don't match citation content digits '1481684' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 1,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3375000' don't match citation content digits '4062084' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 41,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4000000' don't match citation content digits '663783' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 13,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4000000' don't match citation content digits '663783' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 32,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4000000' don't match citation content digits '663783' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 53,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4179096' don't match citation content digits '4028542' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 85,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4190000' don't match citation content digits '663783' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 53,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4229116' don't match citation content digits '673206' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 32,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4230000' don't match citation content digits '1481684' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 57,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4250000' don't match citation content digits '28381446' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 65,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5000000' don't match citation content digits '663783' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 82,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8302500' don't match citation content digits '1481684' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 42,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2005) differs from filename (3087)",
+      "context": {
+        "as_of_date": "SEPTEMBER 30, 2005",
+        "filename_date": "3087-05-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 15 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "BONDS > CONSUMER SERVICES"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 54 row(s): RESCUED_BY_DETAIL=1, RESCUED_BY_VOLUME=52, ROW_FROM_NON_SOI_PAGE=1",
+      "context": {
+        "fix_count": 54,
+        "dropped": 1,
+        "converted": 53
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 3,
+        "row_type": "HOLDING",
+        "investment": "Dobson Cellular Systems Inc., senior secured note, 9.875%, 11/01/12",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 4,
+        "row_type": "HOLDING",
+        "investment": "Inmarsat Finance PLC, senior note, 7.625%, 6/30/12",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 6,
+        "row_type": "HOLDING",
+        "investment": "MCI Inc., senior note, 7.688%, 5/01/09",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 7,
+        "row_type": "HOLDING",
+        "investment": "Millicom International Cellular SA, senior note, 10.00%, 12/01/13",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 11,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Total COMMUNICATIONS",
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 16,
+        "row_type": "HOLDING",
+        "investment": "Simmons Co., senior sub. note, 7.875%, 1/15/14",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 17,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Total CONSUMER DURABLES",
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 19,
+        "row_type": "HOLDING",
+        "investment": "Rayovac Corp., senior sub. note, 8.50%, 10/01/13",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 20,
+        "row_type": "HOLDING",
+        "investment": "Smithfield Foods Inc., senior note, 8.00%, 10/15/09",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 22,
+        "row_type": "HOLDING",
+        "investment": "AMC Entertainment Inc., senior note, FRN, 8.040%, 8/15/10",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 23,
+        "row_type": "HOLDING",
+        "investment": "Boyd Gaming Corp., senior sub. note, 8.75%, 4/15/12",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 25,
+        "row_type": "HOLDING",
+        "investment": "Charter Communications Holdings II LLC, senior note, 10.25%, 9/15/10",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 26,
+        "row_type": "HOLDING",
+        "investment": "Clear Channel Communications Inc., senior note, 7.65%, 9/15/10",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 27,
+        "row_type": "HOLDING",
+        "investment": "CSC Holdings Inc., senior note, 8.125%, 7/15/09",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 28,
+        "row_type": "HOLDING",
+        "investment": "Dex Media West LLC, senior sub. note, 9.875%, 8/15/13",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 29,
+        "row_type": "HOLDING",
+        "investment": "DIRECTV Holdings LLC, senior note, 8.375%, 3/15/13",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 31,
+        "row_type": "HOLDING",
+        "investment": "Liberty Media Corp., senior note, 7.875%, 7/15/09",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 39,
+        "row_type": "HOLDING",
+        "investment": "Flextronics International Ltd., senior sub. note, 6.50%, 5/15/13",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 40,
+        "row_type": "HOLDING",
+        "investment": "Sanmina-SCI Corp., senior sub. note, 6.75%, 3/01/13",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 44,
+        "row_type": "HOLDING",
+        "investment": "Chesapeake Energy Corp., senior note, 7.50%, 6/15/14",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 47,
+        "row_type": "HOLDING",
+        "investment": "Davita Inc., senior sub. note, 7.25%, 3/15/15",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 49,
+        "row_type": "HOLDING",
+        "investment": "Tenet Healthcare Corp., senior note, 6.375%, 12/01/11",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 50,
+        "row_type": "HOLDING",
+        "investment": "Vanguard Health Holding Co. II LLC, senior sub. note, 9.00%, 10/01/14",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 57,
+        "row_type": "HOLDING",
+        "investment": "Ispat Inland ULC, senior secured note, FRN, 10.254%, 4/01/10",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 62,
+        "row_type": "HOLDING",
+        "investment": "JSG Funding PLC, senior sub. note, 7.75%, 4/01/15",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 63,
+        "row_type": "HOLDING",
+        "investment": "Nalco Co., senior note, 7.75%, 11/15/11",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 65,
+        "row_type": "HOLDING",
+        "investment": "Rhodia SA, senior note, 10.25%, 6/01/10",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 66,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Total PROCESS INDUSTRIES",
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 68,
+        "row_type": "HOLDING",
+        "investment": "Case New Holland Inc., senior note, 9.25%, 8/01/11",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 69,
+        "row_type": "HOLDING",
+        "investment": "Invensys PLC, senior note, 144A, 9.875%, 3/15/11",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 70,
+        "row_type": "HOLDING",
+        "investment": "Milacron Escrow Corp., senior secured note, 11.50%, 5/15/11",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 71,
+        "row_type": "HOLDING",
+        "investment": "TRW Automotive Inc., senior note, 9.375%, 2/15/13",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 72,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Total PRODUCER MANUFACTURING",
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 74,
+        "row_type": "HOLDING",
+        "investment": "Host Marriott LP, senior note, 9.25%, 10/01/07",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 76,
+        "row_type": "HOLDING",
+        "investment": "GSC Holdings Corp., 144A, FRN, 7.875%, 10/01/11",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 84,
+        "row_type": "HOLDING",
+        "investment": "Edison Mission Energy, senior note, 9.875%, 4/15/11",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 87,
+        "row_type": "HOLDING",
+        "investment": "Utilicorp United Inc., senior note, 9.95%, 2/01/11",
+        "label": null,
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 88,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Total UTILITIES",
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 2 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 89,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "TOTAL BONDS",
+        "original_page": 2,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 3 which is not in SOI split [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "context": {
+        "row": 36,
+        "row_type": "HOLDING",
+        "investment": "Advanstar Communications Inc., senior secured note, 10.75%, 8/15/10",
+        "label": null,
+        "original_page": 3,
+        "soi_pages": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 54,
+    "dropped_count": 1,
+    "converted_count": 53,
+    "percent_corrected_count": 0,
+    "fix_log": [
+      {
+        "row_idx": 2,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:COMMUNICATIONS|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 3,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Dobson Cellular Systems Inc., senior sec|fv=4,400,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 4,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Inmarsat Finance PLC, senior note, 7.625|fv=1,991,340",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 5,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Intelsat Bermuda Ltd., senior note, 144A|fv=4,090,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 6,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:MCI Inc., senior note, 7.688%, 5/01/09|fv=2,080,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 7,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Millicom International Cellular SA, seni|fv=4,150,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 11,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Total COMMUNICATIONS|fv=26,726,340",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 12,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:CONSUMER DURABLES|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 16,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Simmons Co., senior sub. note, 7.875%, 1|fv=1,850,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 17,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Total CONSUMER DURABLES|fv=9,813,572",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 18,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:CONSUMER NON-DURABLES|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 19,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Rayovac Corp., senior sub. note, 8.50%, |fv=2,910,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 20,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Smithfield Foods Inc., senior note, 8.00|fv=4,250,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 22,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:AMC Entertainment Inc., senior note, FRN|fv=2,245,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 23,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Boyd Gaming Corp., senior sub. note, 8.7|fv=4,040,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 24,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Caesars Entertainment Inc., senior sub. |fv=4,330,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 25,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Charter Communications Holdings II LLC, |fv=2,115,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 26,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Clear Channel Communications Inc., senio|fv=4,120,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 27,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:CSC Holdings Inc., senior note, 8.125%, |fv=4,346,304",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 28,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Dex Media West LLC, senior sub. note, 9.|fv=4,050,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 29,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:DIRECTV Holdings LLC, senior note, 8.375|fv=4,435,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 31,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Liberty Media Corp., senior note, 7.875%|fv=3,442,500",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 36,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:CONSUMER SERVICES|fv=56,562,956",
+        "old_value": "page=3",
+        "new_value": "valid_pages=[9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]"
+      },
+      {
+        "row_idx": 37,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_DETAIL",
+        "confidence": "high",
+        "row_signature": "HOLDING:Advanstar Communications Inc., senior se|fv=4,350,000",
+        "old_value": "page=3",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 38,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:ELECTRONIC TECHNOLOGY|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 40,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Flextronics International Ltd., senior s|fv=717,500",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 41,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Sanmina-SCI Corp., senior sub. note, 6.7|fv=1,910,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 44,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:ENERGY MINERALS|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 45,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Chesapeake Energy Corp., senior note, 7.|fv=4,290,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 48,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Davita Inc., senior sub. note, 7.25%, 3/|fv=1,018,750",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 50,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Tenet Healthcare Corp., senior note, 6.3|fv=3,750,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 51,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Vanguard Health Holding Co. II LLC, seni|fv=4,280,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 53,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:INDUSTRIAL SERVICES|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 57,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:NON-ENERGY MINERALS|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 58,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Ispat Inland ULC, senior secured note, F|fv=4,230,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 59,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:PROCESS INDUSTRIES|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 63,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:JSG Funding PLC, senior sub. note, 7.75%|fv=2,565,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 64,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Nalco Co., senior note, 7.75%, 11/15/11|fv=2,055,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 66,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Rhodia SA, senior note, 10.25%, 6/01/10|fv=4,250,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 67,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Total PROCESS INDUSTRIES|fv=19,337,500",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 69,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Case New Holland Inc., senior note, 9.25|fv=4,250,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 70,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Invensys PLC, senior note, 144A, 9.875%,|fv=2,996,250",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 71,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Milacron Escrow Corp., senior secured no|fv=1,900,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 72,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:TRW Automotive Inc., senior note, 9.375%|fv=3,270,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 73,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Total PRODUCER MANUFACTURING|fv=12,416,250",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 74,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:REAL ESTATE INVESTMENT TRUSTS|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 75,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Host Marriott LP, senior note, 9.25%, 10|fv=4,235,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 77,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:GSC Holdings Corp., 144A, FRN, 7.875%, 1|fv=2,012,500",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 78,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:TECHNOLOGY SERVICES|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 80,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:TRANSPORTATION|fv=",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 85,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Edison Mission Energy, senior note, 9.87|fv=3,570,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 88,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Utilicorp United Inc., senior note, 9.95|fv=2,255,000",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 89,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Total UTILITIES|fv=21,845,624",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      },
+      {
+        "row_idx": 90,
+        "old_row_type": "TOTAL",
+        "new_row_type": "TOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "TOTAL:TOTAL BONDS|fv=208,690,927",
+        "old_value": "page=2",
+        "new_value": "rescued (page not in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])"
+      }
+    ]
+  }
+}

@@ -93,6 +93,124 @@ SUMMARY_CATEGORY_PATTERN = re.compile(
     re.IGNORECASE
 )
 
+# Keywords that indicate a row is a SHORT POSITION (liability)
+# These should have NEGATIVE fair values, but some documents display them as positive
+# "market value" - we need to convert them to negative for correct arithmetic
+SHORT_POSITION_KEYWORDS = frozenset({
+    "written call options",
+    "written put options",
+    "call options written",
+    "put options written",
+    "options written",
+    "short position",
+    "short positions",
+    "securities sold short",
+    "sold short",
+    "short sales",
+})
+
+# ---------------------------------------------------------------------------
+# Liability / Contra-Entry Detection
+# ---------------------------------------------------------------------------
+
+# Keywords that indicate a row is a liability or contra-entry, not a regular holding
+# These rows should be excluded from arithmetic validation totals
+LIABILITY_KEYWORDS = frozenset({
+    "at redemption value",
+    "redemption value",
+    "preferred stock, at redemption",
+    "preferred shares",  # When at root level with negative value
+    "other assets less liabilities",
+    "other assets and liabilities",
+    "assets less liabilities",
+    "liabilities",
+    "net unrealized depreciation",
+    "unrealized depreciation",
+    "net unrealized loss",
+    "contra",
+    "payable",
+    "accrued expenses",
+    "deferred",
+})
+
+# More specific patterns that strongly indicate liability rows
+LIABILITY_PATTERNS = [
+    re.compile(r"preferred\s+stock.*redemption", re.IGNORECASE),
+    re.compile(r"preferred\s+shares.*redemption", re.IGNORECASE),
+    re.compile(r"other\s+assets.*liabilities", re.IGNORECASE),
+    re.compile(r"net\s+assets", re.IGNORECASE),
+]
+
+
+def is_liability_row(row: Dict[str, Any]) -> bool:
+    """
+    Detect rows that are liabilities or contra-entries, not regular holdings.
+    
+    These rows appear in SOI documents but should NOT be summed with regular holdings.
+    They typically represent:
+    - Redemption value disclosures (informational only)
+    - Liabilities that offset assets
+    - "Other assets less liabilities" line items
+    - Net unrealized depreciation entries
+    
+    Returns True if the row appears to be a liability/contra-entry.
+    """
+    investment = unwrap_value(row.get("investment")) or ""
+    label = unwrap_value(row.get("label")) or ""
+    text = (investment + " " + label).lower().strip()
+    
+    if not text:
+        return False
+    
+    # Check against keyword list
+    for keyword in LIABILITY_KEYWORDS:
+        if keyword in text:
+            return True
+    
+    # Check against regex patterns
+    for pattern in LIABILITY_PATTERNS:
+        if pattern.search(text):
+            return True
+    
+    return False
+
+
+def should_exclude_from_totals(row: Dict[str, Any]) -> bool:
+    """
+    Determine if a row should be excluded from arithmetic validation.
+    
+    Exclusion criteria:
+    1. Row matches liability/contra-entry keywords
+    2. HOLDING row with negative fair_value at root level (likely misclassified)
+    3. Row has liability-like investment name with negative value
+    
+    Returns True if the row should be excluded from sum calculations.
+    """
+    # Check if it's a known liability row pattern
+    if is_liability_row(row):
+        return True
+    
+    # Check for negative fair_value at root level
+    row_type = unwrap_value(row.get("row_type"))
+    if row_type != "HOLDING":
+        return False
+    
+    fv_raw = unwrap_value(row.get("fair_value_raw"))
+    if not fv_raw:
+        return False
+    
+    fv = parse_decimal_simple(fv_raw)
+    if fv is None or fv >= 0:
+        return False
+    
+    # Negative fair_value HOLDING at root or shallow section = likely contra-entry
+    section_path = normalize_section_path(row.get("section_path"))
+    if len(section_path) <= 1:
+        # Root level or single-level section with negative value
+        return True
+    
+    return False
+
 
 # ---------------------------------------------------------------------------
 # Data structures
@@ -1424,6 +1542,229 @@ def filter_rows_by_page(
     return filtered_rows
 
 
+# ---------------------------------------------------------------------------
+# Content-based summary table detection
+# ---------------------------------------------------------------------------
+
+# Threshold: TOTAL rows with percent < this value indicate a "Top Holdings" table
+SUMMARY_TABLE_PERCENT_THRESHOLD = Decimal("80")
+
+# Maximum row count for a section to be considered a "summary table"
+SUMMARY_TABLE_MAX_ROWS = 20
+
+
+def _is_summary_total_row(row: Dict[str, Any]) -> bool:
+    """
+    Check if a TOTAL row indicates this is a summary/highlights table.
+    
+    Summary tables (like "Top Holdings") typically have:
+    - A TOTAL row with percent_net_assets_raw < 80% (e.g., "Top 10 Holdings: 35.2%")
+    - Few holdings (5-20)
+    
+    Returns True if the row is a TOTAL with a suspiciously low percentage.
+    """
+    row_type = unwrap_value(row.get("row_type"))
+    if row_type != "TOTAL":
+        return False
+    
+    pct_raw = unwrap_value(row.get("percent_net_assets_raw"))
+    if not pct_raw:
+        return False
+    
+    pct = parse_decimal_simple(pct_raw)
+    if pct is None:
+        return False
+    
+    # If the total is < 80% of net assets, this is likely a summary table
+    # Real SOI totals are typically 90-160%
+    return pct < SUMMARY_TABLE_PERCENT_THRESHOLD
+
+
+def _group_rows_by_block(
+    rows: List[Dict[str, Any]],
+) -> List[Tuple[int, int, List[Dict[str, Any]]]]:
+    """
+    Group rows into "blocks" based on TOTAL row boundaries.
+    
+    A block is a sequence of rows ending with a TOTAL row. This helps identify
+    isolated summary tables that have their own Total row.
+    
+    Returns:
+        List of (start_idx, end_idx, rows_in_block) tuples
+    """
+    blocks: List[Tuple[int, int, List[Dict[str, Any]]]] = []
+    current_block: List[Dict[str, Any]] = []
+    block_start = 0
+    
+    for idx, row in enumerate(rows):
+        current_block.append(row)
+        row_type = unwrap_value(row.get("row_type"))
+        
+        if row_type == "TOTAL":
+            # End of block
+            blocks.append((block_start, idx, current_block))
+            current_block = []
+            block_start = idx + 1
+    
+    # Handle remaining rows without a TOTAL
+    if current_block:
+        blocks.append((block_start, len(rows) - 1, current_block))
+    
+    return blocks
+
+
+def drop_summary_tables(
+    rows: List[Dict[str, Any]],
+    result: NormalizationResult,
+) -> List[Dict[str, Any]]:
+    """
+    Detect and drop entire "summary table" blocks based on content analysis.
+    
+    A summary table (e.g., "Top 10 Holdings", "Largest Investments") is identified by:
+    1. Having a TOTAL row with percent_net_assets_raw < 80%
+    2. Having fewer than SUMMARY_TABLE_MAX_ROWS holdings in the block
+    
+    This is a content-based defense that catches summary tables even if they're
+    on pages included in the SOI split (via gap-filling or splitter error).
+    
+    Args:
+        rows: List of row dicts
+        result: NormalizationResult to update with fix logs
+    
+    Returns:
+        List of rows with summary table blocks removed
+    """
+    blocks = _group_rows_by_block(rows)
+    
+    # Identify blocks to drop
+    indices_to_drop: set = set()
+    
+    for block_start, block_end, block_rows in blocks:
+        # Count holdings in this block
+        holding_count = sum(
+            1 for r in block_rows 
+            if unwrap_value(r.get("row_type")) == "HOLDING"
+        )
+        
+        # Check if any TOTAL in this block indicates a summary table
+        has_summary_total = any(_is_summary_total_row(r) for r in block_rows)
+        
+        if has_summary_total and holding_count < SUMMARY_TABLE_MAX_ROWS:
+            # This block is a summary table - mark all rows for dropping
+            for idx in range(block_start, block_end + 1):
+                indices_to_drop.add(idx)
+    
+    if not indices_to_drop:
+        return rows
+    
+    # Drop the identified rows
+    cleaned_rows = []
+    for idx, row in enumerate(rows):
+        if idx in indices_to_drop:
+            row_type = unwrap_value(row.get("row_type")) or "UNKNOWN"
+            result.fix_log.append(FixLogEntry(
+                row_idx=idx,
+                old_row_type=row_type,
+                new_row_type=None,
+                action="dropped",
+                reason_code="SUMMARY_TABLE_BLOCK_DETECTED",
+                confidence="high",
+                row_signature=get_row_signature(row),
+            ))
+            result.dropped_count += 1
+            result.fix_count += 1
+        else:
+            cleaned_rows.append(row)
+    
+    return cleaned_rows
+
+
+def fix_short_position_signs(
+    rows: List[Dict[str, Any]],
+    result: NormalizationResult,
+) -> List[Dict[str, Any]]:
+    """
+    Convert positive fair values to negative for SHORT POSITION holdings.
+    
+    Some documents display short positions (written options, securities sold short)
+    as positive "market value" but they are liabilities that should be subtracted
+    from total investments. This function detects such rows and converts their
+    fair_value_raw to negative.
+    
+    Args:
+        rows: List of row dicts
+        result: NormalizationResult to update with fix logs
+    
+    Returns:
+        List of rows with short position signs corrected
+    """
+    corrected_rows = []
+    
+    for idx, row in enumerate(rows):
+        row_type = unwrap_value(row.get("row_type"))
+        if row_type not in ("HOLDING", "SUBTOTAL", "TOTAL"):
+            corrected_rows.append(row)
+            continue
+        
+        # Check section_path and label for short position indicators
+        section_path = normalize_section_path(row.get("section_path"))
+        label = (unwrap_value(row.get("label")) or "").lower()
+        investment = (unwrap_value(row.get("investment")) or "").lower()
+        path_str = " ".join(section_path).lower()
+        
+        # Check if this row is in a short position section
+        is_short_position = any(
+            kw in path_str or kw in label or kw in investment 
+            for kw in SHORT_POSITION_KEYWORDS
+        )
+        
+        if not is_short_position:
+            corrected_rows.append(row)
+            continue
+        
+        # Get fair_value
+        fv_raw = unwrap_value(row.get("fair_value_raw"))
+        if not fv_raw:
+            corrected_rows.append(row)
+            continue
+        
+        fv = parse_decimal_simple(fv_raw)
+        if fv is None or fv <= 0:
+            # Already negative or zero - no fix needed
+            corrected_rows.append(row)
+            continue
+        
+        # Positive fair_value in a short position section - convert to negative
+        row_copy = copy.deepcopy(row)
+        
+        # Preserve the original format but make it negative
+        # Handle cases like "2,500" -> "-2,500" or "$2,500" -> "-$2,500"
+        fv_str = str(fv_raw).strip()
+        if fv_str.startswith("$"):
+            new_value = f"-${fv_str[1:]}"
+        else:
+            new_value = f"-{fv_str}"
+        
+        set_wrapped_value(row_copy, "fair_value_raw", new_value)
+        corrected_rows.append(row_copy)
+        
+        result.fix_log.append(FixLogEntry(
+            row_idx=idx,
+            old_row_type=row_type,
+            new_row_type=row_type,
+            action="converted",
+            reason_code="SHORT_POSITION_SIGN_CORRECTED",
+            confidence="high",
+            row_signature=get_row_signature(row),
+            old_value=fv_raw,
+            new_value=new_value,
+        ))
+        result.fix_count += 1
+        result.converted_count += 1
+    
+    return corrected_rows
+
+
 def normalize_soi_rows(
     soi_rows: List[Dict[str, Any]],
     *,
@@ -1452,6 +1793,11 @@ def normalize_soi_rows(
     # contaminating the extraction. Must happen BEFORE any other processing.
     if soi_pages:
         soi_rows = filter_rows_by_page(soi_rows, soi_pages, result)
+    
+    # SECOND: Apply content-based summary table detection
+    # This catches "Top Holdings" tables that slip through the page filter
+    # (e.g., from gap-filled pages or splitter errors)
+    soi_rows = drop_summary_tables(soi_rows, result)
     
     # Track current heading context for label inference
     current_heading: Optional[str] = None
@@ -1535,6 +1881,38 @@ def normalize_soi_rows(
         # Only process HOLDING rows for phantom detection
         if row_type != "HOLDING":
             result.rows.append(copy.deepcopy(row))
+            continue
+        
+        # Check for liability/contra-entry rows that should be excluded from totals
+        # These are rows like "Preferred Stock, at redemption value" with negative values
+        # that cause arithmetic validation failures when summed with regular holdings
+        if should_exclude_from_totals(row):
+            investment = unwrap_value(row.get("investment")) or ""
+            fv_raw = unwrap_value(row.get("fair_value_raw")) or ""
+            
+            # Convert to SUBTOTAL with special marker to exclude from arithmetic
+            # This preserves the row in the output while preventing validation errors
+            fixed_row = copy.deepcopy(row)
+            set_wrapped_value(fixed_row, "row_type", "SUBTOTAL")
+            set_wrapped_value(fixed_row, "label", investment)
+            set_wrapped_value(fixed_row, "investment", None)
+            # Add marker to indicate this is a contra-entry
+            fixed_row["_exclude_from_arithmetic"] = True
+            
+            result.rows.append(fixed_row)
+            result.fix_log.append(FixLogEntry(
+                row_idx=idx,
+                old_row_type="HOLDING",
+                new_row_type="SUBTOTAL",
+                action="converted",
+                reason_code="LIABILITY_CONTRA_ENTRY_DETECTED",
+                confidence="high",
+                row_signature=get_row_signature(row),
+                old_value=f"investment='{investment}', fv='{fv_raw}'",
+                new_value="Converted to SUBTOTAL, excluded from arithmetic",
+            ))
+            result.converted_count += 1
+            result.fix_count += 1
             continue
         
         # Check for column header as holding
@@ -1712,7 +2090,543 @@ def normalize_soi_rows(
     # Fix shifted subtotals (off-by-one section attribution)
     result.rows = fix_shifted_subtotals(result.rows, result)
     
+    # CRITICAL: Infer missing fund names for multi-fund documents
+    # This fixes the pattern where holdings have strategy categories at root level
+    # instead of proper fund names (e.g., ['EVENT DRIVEN'] instead of ['FCT', 'EVENT DRIVEN'])
+    result.rows = infer_missing_fund_names(result.rows, result)
+    
+    # Remove duplicate holdings (same investment + value but different section paths)
+    result.rows = remove_duplicate_holdings(result.rows, result)
+    
+    # CRITICAL: Fix short position signs
+    # Some documents display short positions (written options, sold short) as positive
+    # market values, but they're liabilities that should be negative for correct arithmetic
+    result.rows = fix_short_position_signs(result.rows, result)
+    
+    # Validate per-fund arithmetic (adds warnings for multi-fund documents)
+    result.rows = validate_per_fund_arithmetic(result.rows, result)
+    
     return result.rows, result
+
+
+# ---------------------------------------------------------------------------
+# Multi-fund inference: Detect and fix missing fund names in section_path
+# ---------------------------------------------------------------------------
+
+# Known strategy categories that should NOT be at root level in multi-fund docs
+STRATEGY_CATEGORIES = frozenset({
+    "event driven",
+    "fixed income arbitrage",
+    "equity arbitrage",
+    "credit strategies",
+    "long/short equity",
+    "multi-strategy",
+    "convertible arbitrage",
+    "distressed/restructuring",
+    "merger arbitrage",
+    "global macro",
+    "statistical arbitrage",
+    "relative value",
+    "capital structure arbitrage",
+    "volatility arbitrage",
+    "macro",
+    "special situations",
+})
+
+
+def _is_strategy_category(name: str) -> bool:
+    """Check if a name is a known strategy category (not a fund name)."""
+    if not name:
+        return False
+    return name.lower().strip() in STRATEGY_CATEGORIES
+
+
+def _extract_fund_name_from_total(row: Dict[str, Any]) -> Optional[str]:
+    """
+    Try to extract a fund name from a TOTAL row's label or section_path.
+    
+    TOTAL rows often contain fund-identifying information like:
+    - "MEMBERS' CAPITAL - FCT"
+    - "TOTAL INVESTMENTS - Multi-Strategy Series M"
+    - section_path = ['Multi-Strategy Series M']
+    """
+    label = unwrap_value(row.get("label")) or ""
+    section_path = normalize_section_path(row.get("section_path"))
+    
+    # Check section_path first - if it has a fund name, use it
+    if section_path:
+        first_elem = section_path[0]
+        if not _is_strategy_category(first_elem):
+            return first_elem
+    
+    # Try to extract from label patterns
+    label_lower = label.lower()
+    
+    # Pattern: "MEMBERS' CAPITAL - FCT" -> "FCT"
+    if " - " in label:
+        parts = label.split(" - ")
+        for part in parts:
+            part = part.strip()
+            # Skip generic parts
+            if part.lower() in ("total investments", "members' capital", "net assets"):
+                continue
+            if len(part) > 2 and not _is_strategy_category(part):
+                return part
+    
+    # Pattern: "TOTAL INVESTMENTS (Fund Name)" -> "Fund Name"
+    paren_match = re.search(r"\(([^)]+)\)", label)
+    if paren_match:
+        potential_fund = paren_match.group(1).strip()
+        if not _is_strategy_category(potential_fund) and len(potential_fund) > 2:
+            return potential_fund
+    
+    return None
+
+
+def detect_multi_fund_mislabeling(
+    rows: List[Dict[str, Any]]
+) -> Tuple[bool, Dict[str, str], List[int]]:
+    """
+    Detect when holdings have strategy categories at root level instead of fund names.
+    
+    Pattern detection:
+    1. Some holdings have section_path = ["STRATEGY_NAME"] (no fund)
+    2. Other holdings have section_path = ["FUND_NAME", "STRATEGY_NAME"]
+    3. Both use the SAME strategy names (EVENT DRIVEN, EQUITY ARBITRAGE, etc.)
+    
+    Returns:
+        (is_multi_fund_mislabeled, fund_name_mapping, affected_row_indices)
+        
+        - is_multi_fund_mislabeled: True if we detected the mislabeling pattern
+        - fund_name_mapping: Dict mapping strategy names to inferred fund names
+        - affected_row_indices: List of row indices that need fund name prepended
+    """
+    # Collect section_path patterns
+    root_strategies: Dict[str, List[int]] = {}  # strategy -> [row_indices]
+    nested_strategies: Dict[str, List[Tuple[str, int]]] = {}  # strategy -> [(fund_name, row_idx)]
+    total_rows: List[Dict[str, Any]] = []
+    
+    for idx, row in enumerate(rows):
+        row_type = unwrap_value(row.get("row_type"))
+        section_path = normalize_section_path(row.get("section_path"))
+        
+        if row_type == "TOTAL":
+            total_rows.append(row)
+            continue
+        
+        if not section_path:
+            continue
+        
+        first_elem = section_path[0].upper()
+        
+        if len(section_path) == 1:
+            # Root-level category
+            if _is_strategy_category(first_elem.lower()):
+                if first_elem not in root_strategies:
+                    root_strategies[first_elem] = []
+                root_strategies[first_elem].append(idx)
+        elif len(section_path) >= 2:
+            # Nested category - first element might be fund name
+            second_elem = section_path[1].upper() if len(section_path) > 1 else ""
+            if _is_strategy_category(second_elem.lower()):
+                # First element is likely a fund name
+                fund_name = section_path[0]
+                if second_elem not in nested_strategies:
+                    nested_strategies[second_elem] = []
+                nested_strategies[second_elem].append((fund_name, idx))
+    
+    # Check if we have the mislabeling pattern:
+    # Same strategy names appearing both at root and nested under fund names
+    is_mislabeled = False
+    fund_name_mapping: Dict[str, str] = {}
+    affected_indices: List[int] = []
+    
+    # Find strategies that appear both at root and nested
+    common_strategies = set(root_strategies.keys()) & set(nested_strategies.keys())
+    
+    if common_strategies and root_strategies:
+        # We have the pattern! Try to infer the fund name for root-level holdings
+        is_mislabeled = True
+        
+        # Try to get fund name from TOTAL rows
+        inferred_fund_name: Optional[str] = None
+        for total_row in total_rows:
+            fund_name = _extract_fund_name_from_total(total_row)
+            if fund_name:
+                # Check if this fund name is NOT already used in nested strategies
+                used_fund_names = set()
+                for strategy, entries in nested_strategies.items():
+                    for fn, _ in entries:
+                        used_fund_names.add(fn.upper())
+                
+                if fund_name.upper() not in used_fund_names:
+                    inferred_fund_name = fund_name
+                    break
+        
+        # If we couldn't infer from TOTAL rows, use a generic name
+        if not inferred_fund_name:
+            # Look at what fund names are already used
+            existing_funds = set()
+            for strategy, entries in nested_strategies.items():
+                for fn, _ in entries:
+                    existing_funds.add(fn)
+            
+            # If there's only one other fund, the root-level holdings belong to "Fund 1"
+            if len(existing_funds) == 1:
+                inferred_fund_name = "Fund 1"
+            else:
+                inferred_fund_name = "Unnamed Fund"
+        
+        # Build the mapping
+        for strategy in root_strategies:
+            fund_name_mapping[strategy] = inferred_fund_name
+            affected_indices.extend(root_strategies[strategy])
+    
+    return is_mislabeled, fund_name_mapping, affected_indices
+
+
+def infer_missing_fund_names(
+    rows: List[Dict[str, Any]],
+    result: NormalizationResult,
+) -> List[Dict[str, Any]]:
+    """
+    Detect and fix holdings that have strategy categories at root level instead of fund names.
+    
+    In multi-fund documents, holdings should have section_path = [FUND_NAME, STRATEGY, ...].
+    If the extraction model failed to include the fund name, this function:
+    1. Detects the pattern (same strategies at different depths)
+    2. Infers the missing fund name from TOTAL rows or document context
+    3. Prepends the fund name to affected section_paths
+    
+    This is a FALLBACK fix for when the extraction prompt improvements don't work.
+    
+    Args:
+        rows: List of row dicts
+        result: NormalizationResult to update with fix logs
+    
+    Returns:
+        List of rows with corrected section_paths
+    """
+    is_mislabeled, fund_mapping, affected_indices = detect_multi_fund_mislabeling(rows)
+    
+    if not is_mislabeled or not affected_indices:
+        return rows
+    
+    affected_set = set(affected_indices)
+    corrected_rows = []
+    
+    for idx, row in enumerate(rows):
+        if idx not in affected_set:
+            corrected_rows.append(row)
+            continue
+        
+        # Get the current section_path
+        section_path = normalize_section_path(row.get("section_path"))
+        if not section_path:
+            corrected_rows.append(row)
+            continue
+        
+        first_elem = section_path[0].upper()
+        inferred_fund = fund_mapping.get(first_elem)
+        
+        if not inferred_fund:
+            corrected_rows.append(row)
+            continue
+        
+        # Create corrected row with fund name prepended
+        row_copy = copy.deepcopy(row)
+        
+        # Build new section_path with fund name first
+        old_path = row.get("section_path", [])
+        if isinstance(old_path, list):
+            new_section_path = []
+            # Add the inferred fund name as first element
+            if old_path and isinstance(old_path[0], dict):
+                # Preserve wrapped format
+                fund_elem = copy.deepcopy(old_path[0])
+                fund_elem["value"] = inferred_fund
+                new_section_path.append(fund_elem)
+            else:
+                new_section_path.append({"value": inferred_fund, "citations": []})
+            
+            # Add original path elements
+            for elem in old_path:
+                new_section_path.append(copy.deepcopy(elem) if isinstance(elem, dict) else {"value": elem, "citations": []})
+            
+            row_copy["section_path"] = new_section_path
+        
+        corrected_rows.append(row_copy)
+        
+        # Log the fix
+        row_type = unwrap_value(row.get("row_type")) or "UNKNOWN"
+        result.fix_log.append(FixLogEntry(
+            row_idx=idx,
+            old_row_type=row_type,
+            new_row_type=row_type,
+            action="converted",
+            reason_code="FUND_NAME_INFERRED",
+            confidence="medium",
+            row_signature=get_row_signature(row),
+            old_value=" > ".join(section_path),
+            new_value=f"{inferred_fund} > " + " > ".join(section_path),
+        ))
+        result.converted_count += 1
+        result.fix_count += 1
+    
+    return corrected_rows
+
+
+def detect_duplicate_holdings(rows: List[Dict[str, Any]]) -> List[int]:
+    """
+    Detect holdings that appear twice with different section_paths.
+    
+    Pattern: Same (investment_name, fair_value) but different section_paths.
+    This indicates cross-fund contamination in multi-fund documents where
+    the extraction model assigned the same holding to multiple funds.
+    
+    Returns indices of duplicate rows to remove (keep the first occurrence).
+    """
+    seen: Dict[Tuple[str, str], int] = {}  # (name, value) -> first_index
+    duplicates: List[int] = []
+    
+    for idx, row in enumerate(rows):
+        if unwrap_value(row.get("row_type")) != "HOLDING":
+            continue
+        
+        inv = normalize_text(unwrap_value(row.get("investment")) or "")
+        fv = unwrap_value(row.get("fair_value_raw")) or ""
+        
+        # Skip if no meaningful investment name or value
+        if not inv or len(inv) < 5:
+            continue
+        if not fv:
+            continue
+        
+        key = (inv, fv)
+        if key in seen:
+            # This is a duplicate - same holding appears twice
+            duplicates.append(idx)
+        else:
+            seen[key] = idx
+    
+    return duplicates
+
+
+def detect_cross_fund_duplicates(rows: List[Dict[str, Any]]) -> List[Tuple[int, str, str]]:
+    """
+    Detect when the same holding appears under multiple fund names.
+    
+    This is a more specific form of duplicate detection that catches cross-fund
+    contamination where the same holding is extracted with different fund prefixes
+    in section_path.
+    
+    Pattern: Same (investment_name, fair_value) but different FUND names
+    (first element of section_path).
+    
+    Returns:
+        List of (row_idx, fund_name, reason) tuples for rows to flag
+    """
+    # Group holdings by (investment, fair_value)
+    holding_groups: Dict[Tuple[str, str], List[Tuple[int, Tuple[str, ...]]]] = {}
+    
+    for idx, row in enumerate(rows):
+        if unwrap_value(row.get("row_type")) != "HOLDING":
+            continue
+        
+        inv = normalize_text(unwrap_value(row.get("investment")) or "")
+        fv = unwrap_value(row.get("fair_value_raw")) or ""
+        section_path = normalize_section_path(row.get("section_path"))
+        
+        # Skip if no meaningful investment name or value
+        if not inv or len(inv) < 5:
+            continue
+        if not fv:
+            continue
+        
+        key = (inv, fv)
+        if key not in holding_groups:
+            holding_groups[key] = []
+        holding_groups[key].append((idx, section_path))
+    
+    # Find groups with multiple fund names
+    cross_fund_issues: List[Tuple[int, str, str]] = []
+    
+    for (inv, fv), occurrences in holding_groups.items():
+        if len(occurrences) < 2:
+            continue
+        
+        # Extract fund names (first element of section_path)
+        fund_names: Dict[str, List[int]] = {}
+        for idx, path in occurrences:
+            fund_name = path[0] if path else "(root)"
+            if fund_name not in fund_names:
+                fund_names[fund_name] = []
+            fund_names[fund_name].append(idx)
+        
+        # If same holding appears under different fund names, flag it
+        if len(fund_names) > 1:
+            # Keep the first occurrence, flag the rest
+            first_fund = list(fund_names.keys())[0]
+            for fund_name, indices in fund_names.items():
+                if fund_name != first_fund:
+                    for idx in indices:
+                        cross_fund_issues.append((
+                            idx,
+                            fund_name,
+                            f"Holding '{inv[:40]}' (${fv}) appears under multiple funds: {list(fund_names.keys())}"
+                        ))
+    
+    return cross_fund_issues
+
+
+def validate_per_fund_arithmetic(
+    rows: List[Dict[str, Any]],
+    result: NormalizationResult,
+) -> List[Dict[str, Any]]:
+    """
+    Validate that each fund's holdings sum to that fund's TOTAL row.
+    
+    This is a pre-validation check that can add warnings to the result
+    when fund-level arithmetic doesn't match.
+    
+    For multi-fund documents, this helps identify:
+    - Partial extraction (missing holdings for a fund)
+    - Over-extraction (duplicate holdings or cross-fund contamination)
+    - Misattributed holdings (wrong fund in section_path)
+    
+    Args:
+        rows: List of row dicts
+        result: NormalizationResult to update with warnings
+    
+    Returns:
+        The same list of rows (no modifications, just validation)
+    """
+    # Group rows by fund name (first element of section_path)
+    fund_holdings: Dict[str, List[Dict[str, Any]]] = {}
+    fund_totals: Dict[str, Dict[str, Any]] = {}
+    
+    for row in rows:
+        row_type = unwrap_value(row.get("row_type"))
+        section_path = normalize_section_path(row.get("section_path"))
+        
+        # Get fund name (first element of section_path, or "(root)" if empty)
+        fund_name = section_path[0] if section_path else "(root)"
+        
+        if row_type == "HOLDING":
+            if fund_name not in fund_holdings:
+                fund_holdings[fund_name] = []
+            fund_holdings[fund_name].append(row)
+        elif row_type == "TOTAL":
+            # Only track TOTAL rows at fund level (section_path length <= 1)
+            if len(section_path) <= 1:
+                fund_totals[fund_name] = row
+    
+    # Check if this is a multi-fund document
+    if len(fund_holdings) < 2:
+        return rows  # Single fund or no fund structure
+    
+    # Validate each fund's arithmetic
+    for fund_name, holdings in fund_holdings.items():
+        if fund_name not in fund_totals:
+            continue  # No TOTAL row for this fund
+        
+        total_row = fund_totals[fund_name]
+        
+        # Calculate sum of holdings
+        holdings_sum = Decimal("0")
+        for holding in holdings:
+            fv_raw = unwrap_value(holding.get("fair_value_raw"))
+            if fv_raw:
+                fv = parse_decimal_simple(fv_raw)
+                if fv is not None:
+                    holdings_sum += fv
+        
+        # Get extracted total
+        ext_fv_raw = unwrap_value(total_row.get("fair_value_raw"))
+        ext_fv = parse_decimal_simple(ext_fv_raw) if ext_fv_raw else None
+        
+        if ext_fv is not None and ext_fv > 0:
+            extraction_ratio = float(holdings_sum) / float(ext_fv)
+            
+            if extraction_ratio < 0.5:
+                # Severe under-extraction
+                result.fix_log.append(FixLogEntry(
+                    row_idx=-1,  # Not a specific row
+                    old_row_type="FUND_VALIDATION",
+                    new_row_type="FUND_VALIDATION",
+                    action="converted",  # Using "converted" to indicate a warning was added
+                    reason_code="FUND_PARTIAL_EXTRACTION_WARNING",
+                    confidence="high",
+                    row_signature=f"Fund: {fund_name}",
+                    old_value=f"calculated=${holdings_sum}",
+                    new_value=f"expected=${ext_fv}, ratio={extraction_ratio:.1%}",
+                ))
+            elif extraction_ratio > 1.5:
+                # Over-extraction (likely cross-fund contamination)
+                result.fix_log.append(FixLogEntry(
+                    row_idx=-1,
+                    old_row_type="FUND_VALIDATION",
+                    new_row_type="FUND_VALIDATION",
+                    action="converted",
+                    reason_code="FUND_OVER_EXTRACTION_WARNING",
+                    confidence="high",
+                    row_signature=f"Fund: {fund_name}",
+                    old_value=f"calculated=${holdings_sum}",
+                    new_value=f"expected=${ext_fv}, ratio={extraction_ratio:.1%}",
+                ))
+    
+    return rows
+
+
+def remove_duplicate_holdings(
+    rows: List[Dict[str, Any]],
+    result: NormalizationResult,
+) -> List[Dict[str, Any]]:
+    """
+    Remove HOLDING rows that are duplicates (same investment + fair_value).
+    
+    This fixes multi-fund contamination where the same holding is extracted
+    twice with different section_paths (e.g., once under root and once under
+    a specific fund name).
+    
+    Keeps the first occurrence and removes subsequent duplicates.
+    
+    Args:
+        rows: List of row dicts
+        result: NormalizationResult to update with fix logs
+    
+    Returns:
+        List of rows with duplicates removed
+    """
+    duplicates = set(detect_duplicate_holdings(rows))
+    
+    if not duplicates:
+        return rows
+    
+    cleaned_rows = []
+    for idx, row in enumerate(rows):
+        if idx in duplicates:
+            inv = unwrap_value(row.get("investment")) or ""
+            fv = unwrap_value(row.get("fair_value_raw")) or ""
+            section_path = normalize_section_path(row.get("section_path"))
+            
+            result.fix_log.append(FixLogEntry(
+                row_idx=idx,
+                old_row_type="HOLDING",
+                new_row_type=None,
+                action="dropped",
+                reason_code="DUPLICATE_HOLDING_DETECTED",
+                confidence="high",
+                row_signature=get_row_signature(row),
+                old_value=f"inv='{inv[:40]}', fv='{fv}'",
+                new_value=f"section_path='{' > '.join(section_path)}'",
+            ))
+            result.dropped_count += 1
+            result.fix_count += 1
+        else:
+            cleaned_rows.append(row)
+    
+    return cleaned_rows
 
 
 def get_normalization_summary(result: NormalizationResult) -> Dict[str, Any]:

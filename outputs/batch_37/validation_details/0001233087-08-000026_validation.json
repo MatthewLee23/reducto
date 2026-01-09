@@ -1,11 +1,11 @@
 {
   "source_name": "0001233087-08-000026",
-  "total_rows": 308,
+  "total_rows": 319,
   "holding_count": 261,
-  "subtotal_count": 39,
-  "total_count": 8,
+  "subtotal_count": 47,
+  "total_count": 11,
   "error_count": 127,
-  "warning_count": 17,
+  "warning_count": 13,
   "has_arithmetic_error": true,
   "max_dollar_diff": "953183",
   "root_sum_mismatch": true,
@@ -403,15 +403,15 @@
     "ASSET-BACKED SECURITIES AND COMMERCIAL MORTGAGE-BACKED SECURITIES > BANKS": {
       "calculated_fv": "13618005",
       "calculated_cost": null,
-      "calculated_pct": null,
+      "calculated_pct": "4.3",
       "extracted_fv": null,
       "extracted_cost": null,
-      "extracted_pct": null,
+      "extracted_pct": "4.3",
       "holding_count": 10,
       "child_count": 0,
-      "subtotal_count": 0,
+      "subtotal_count": 1,
       "total_count": 0,
-      "pct_bridged_from_subtotal": false,
+      "pct_bridged_from_subtotal": true,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
       "parent_subtotals_excluded": 0
@@ -435,7 +435,7 @@
     "ASSET-BACKED SECURITIES AND COMMERCIAL MORTGAGE-BACKED SECURITIES": {
       "calculated_fv": "24569081",
       "calculated_cost": null,
-      "calculated_pct": "3.5",
+      "calculated_pct": "7.8",
       "extracted_fv": null,
       "extracted_cost": null,
       "extracted_pct": null,
@@ -501,15 +501,15 @@
     "SENIOR FLOATING RATE INTERESTS > CONSUMER DURABLES & APPAREL": {
       "calculated_fv": "3856125",
       "calculated_cost": null,
-      "calculated_pct": null,
+      "calculated_pct": "1.2",
       "extracted_fv": null,
       "extracted_cost": null,
-      "extracted_pct": null,
+      "extracted_pct": "1.2",
       "holding_count": 2,
       "child_count": 0,
-      "subtotal_count": 0,
+      "subtotal_count": 1,
       "total_count": 0,
-      "pct_bridged_from_subtotal": false,
+      "pct_bridged_from_subtotal": true,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
       "parent_subtotals_excluded": 0
@@ -533,15 +533,15 @@
     "SENIOR FLOATING RATE INTERESTS > DIVERSIFIED FINANCIALS": {
       "calculated_fv": "1627720",
       "calculated_cost": null,
-      "calculated_pct": null,
+      "calculated_pct": "0.5",
       "extracted_fv": null,
       "extracted_cost": null,
-      "extracted_pct": null,
+      "extracted_pct": "0.5",
       "holding_count": 1,
       "child_count": 0,
-      "subtotal_count": 0,
+      "subtotal_count": 1,
       "total_count": 0,
-      "pct_bridged_from_subtotal": false,
+      "pct_bridged_from_subtotal": true,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
       "parent_subtotals_excluded": 0
@@ -581,15 +581,15 @@
     "SENIOR FLOATING RATE INTERESTS > HEALTH CARE EQUIPMENT & SERVICES": {
       "calculated_fv": "17078959",
       "calculated_cost": null,
-      "calculated_pct": null,
+      "calculated_pct": "5.4",
       "extracted_fv": null,
       "extracted_cost": null,
-      "extracted_pct": null,
+      "extracted_pct": "5.4",
       "holding_count": 13,
       "child_count": 0,
-      "subtotal_count": 0,
+      "subtotal_count": 1,
       "total_count": 0,
-      "pct_bridged_from_subtotal": false,
+      "pct_bridged_from_subtotal": true,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
       "parent_subtotals_excluded": 0
@@ -597,15 +597,15 @@
     "SENIOR FLOATING RATE INTERESTS > HOUSEHOLD & PERSONAL PRODUCTS": {
       "calculated_fv": "593250",
       "calculated_cost": null,
-      "calculated_pct": null,
+      "calculated_pct": "0.2",
       "extracted_fv": null,
       "extracted_cost": null,
-      "extracted_pct": null,
+      "extracted_pct": "0.2",
       "holding_count": 1,
       "child_count": 0,
-      "subtotal_count": 0,
+      "subtotal_count": 1,
       "total_count": 0,
-      "pct_bridged_from_subtotal": false,
+      "pct_bridged_from_subtotal": true,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
       "parent_subtotals_excluded": 0
@@ -693,15 +693,15 @@
     "SENIOR FLOATING RATE INTERESTS > SEMICONDUCTORS & SEMICONDUCTOR EQUIPMENT": {
       "calculated_fv": "1522495",
       "calculated_cost": null,
-      "calculated_pct": null,
+      "calculated_pct": "0.5",
       "extracted_fv": null,
       "extracted_cost": null,
-      "extracted_pct": null,
+      "extracted_pct": "0.5",
       "holding_count": 1,
       "child_count": 0,
-      "subtotal_count": 0,
+      "subtotal_count": 1,
       "total_count": 0,
-      "pct_bridged_from_subtotal": false,
+      "pct_bridged_from_subtotal": true,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
       "parent_subtotals_excluded": 0
@@ -773,7 +773,7 @@
     "SENIOR FLOATING RATE INTERESTS": {
       "calculated_fv": "181055782",
       "calculated_cost": null,
-      "calculated_pct": "49.6",
+      "calculated_pct": "57.4",
       "extracted_fv": null,
       "extracted_cost": null,
       "extracted_pct": null,
@@ -809,15 +809,15 @@
     "SHORT TERM INVESTMENTS > FOREIGN GOVERNMENT AND AGENCY SECURITIES": {
       "calculated_fv": "1622062",
       "calculated_cost": null,
-      "calculated_pct": null,
+      "calculated_pct": "0.5",
       "extracted_fv": null,
-      "extracted_cost": null,
-      "extracted_pct": null,
+      "extracted_cost": "1608429",
+      "extracted_pct": "0.5",
       "holding_count": 1,
       "child_count": 0,
-      "subtotal_count": 0,
+      "subtotal_count": 1,
       "total_count": 0,
-      "pct_bridged_from_subtotal": false,
+      "pct_bridged_from_subtotal": true,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
       "parent_subtotals_excluded": 0
@@ -825,15 +825,15 @@
     "SHORT TERM INVESTMENTS > MONEY MARKET FUNDS": {
       "calculated_fv": "953183",
       "calculated_cost": null,
-      "calculated_pct": null,
+      "calculated_pct": "0.3",
       "extracted_fv": null,
-      "extracted_cost": null,
-      "extracted_pct": null,
+      "extracted_cost": "953183",
+      "extracted_pct": "0.3",
       "holding_count": 1,
       "child_count": 0,
-      "subtotal_count": 0,
+      "subtotal_count": 1,
       "total_count": 0,
-      "pct_bridged_from_subtotal": false,
+      "pct_bridged_from_subtotal": true,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
       "parent_subtotals_excluded": 0
@@ -841,7 +841,7 @@
     "SHORT TERM INVESTMENTS": {
       "calculated_fv": "2575245",
       "calculated_cost": null,
-      "calculated_pct": null,
+      "calculated_pct": "0.8",
       "extracted_fv": null,
       "extracted_cost": null,
       "extracted_pct": null,
@@ -857,14 +857,14 @@
     "(root)": {
       "calculated_fv": "495729267",
       "calculated_cost": null,
-      "calculated_pct": "144.3",
+      "calculated_pct": "157.2",
       "extracted_fv": null,
       "extracted_cost": null,
       "extracted_pct": null,
       "holding_count": 0,
       "child_count": 6,
       "subtotal_count": 0,
-      "total_count": 3,
+      "total_count": 6,
       "pct_bridged_from_subtotal": false,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
@@ -892,7 +892,7 @@
       "message": "Value digits '1000000' don't match citation content digits '235873' (overlap: 0%)",
       "context": {
         "field": "quantity_raw",
-        "row": 150,
+        "row": 151,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -903,7 +903,7 @@
       "message": "Value digits '1075200' don't match citation content digits '2916112' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 220,
+        "row": 225,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -914,7 +914,7 @@
       "message": "Value digits '11465660' don't match citation content digits '12234177' (overlap: 38%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 302,
+        "row": 308,
         "citation_idx": 0,
         "overlap_ratio": 0.375
       }
@@ -925,7 +925,7 @@
       "message": "Value digits '1162373' don't match citation content digits '4542622' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 174,
+        "row": 175,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -936,7 +936,7 @@
       "message": "Value digits '1263449' don't match citation content digits '4582000' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 174,
+        "row": 175,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -947,7 +947,7 @@
       "message": "Value digits '1266041' don't match citation content digits '2395685' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 147,
+        "row": 148,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -958,7 +958,7 @@
       "message": "Value digits '128047' don't match citation content digits '1161575' (overlap: 33%)",
       "context": {
         "field": "quantity_raw",
-        "row": 214,
+        "row": 218,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -969,7 +969,7 @@
       "message": "Value digits '1299938' don't match citation content digits '238750' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 186,
+        "row": 188,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -980,7 +980,7 @@
       "message": "Value digits '1350000' don't match citation content digits '235873' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 186,
+        "row": 188,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -991,7 +991,7 @@
       "message": "Value digits '1394004' don't match citation content digits '9193992' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 262,
+        "row": 267,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1002,7 +1002,7 @@
       "message": "Value digits '1395000' don't match citation content digits '1723486' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 142,
+        "row": 143,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1013,7 +1013,7 @@
       "message": "Value digits '13987' don't match citation content digits '4582000' (overlap: 20%)",
       "context": {
         "field": "quantity_raw",
-        "row": 159,
+        "row": 160,
         "citation_idx": 0,
         "overlap_ratio": 0.2
       }
@@ -1024,7 +1024,7 @@
       "message": "Value digits '1436338' don't match citation content digits '12085000' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 294,
+        "row": 300,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1035,7 +1035,7 @@
       "message": "Value digits '1438878' don't match citation content digits '2916112' (overlap: 14%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 215,
+        "row": 219,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1046,7 +1046,7 @@
       "message": "Value digits '1463680' don't match citation content digits '4542622' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 274,
+        "row": 280,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1057,7 +1057,7 @@
       "message": "Value digits '1478909' don't match citation content digits '9193992' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 282,
+        "row": 288,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1068,7 +1068,7 @@
       "message": "Value digits '1478909' don't match citation content digits '9193992' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 283,
+        "row": 289,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1079,7 +1079,7 @@
       "message": "Value digits '1479354' don't match citation content digits '9193992' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 281,
+        "row": 287,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1090,7 +1090,7 @@
       "message": "Value digits '1485607' don't match citation content digits '2991247' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 224,
+        "row": 229,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1101,7 +1101,7 @@
       "message": "Value digits '1491875' don't match citation content digits '3696245' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 241,
+        "row": 246,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1112,7 +1112,7 @@
       "message": "Value digits '1498194' don't match citation content digits '1183002' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 196,
+        "row": 198,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1123,7 +1123,7 @@
       "message": "Value digits '1522495' don't match citation content digits '1041491' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 263,
+        "row": 269,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1134,7 +1134,7 @@
       "message": "Value digits '1552923' don't match citation content digits '1161575' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 199,
+        "row": 202,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1145,7 +1145,7 @@
       "message": "Value digits '1553107' don't match citation content digits '3696245' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 235,
+        "row": 240,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1156,7 +1156,7 @@
       "message": "Value digits '1556087' don't match citation content digits '1183002' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 201,
+        "row": 204,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1167,7 +1167,7 @@
       "message": "Value digits '1565433' don't match citation content digits '1707414' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 274,
+        "row": 280,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1178,7 +1178,7 @@
       "message": "Value digits '1605000' don't match citation content digits '1723486' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 139,
+        "row": 140,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1189,7 +1189,7 @@
       "message": "Value digits '1609838' don't match citation content digits '2991247' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 222,
+        "row": 227,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1200,7 +1200,7 @@
       "message": "Value digits '1618253' don't match citation content digits '2991247' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 244,
+        "row": 249,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1211,7 +1211,7 @@
       "message": "Value digits '1621833' don't match citation content digits '9055902' (overlap: 14%)",
       "context": {
         "field": "quantity_raw",
-        "row": 282,
+        "row": 288,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1222,7 +1222,7 @@
       "message": "Value digits '1621833' don't match citation content digits '9055902' (overlap: 14%)",
       "context": {
         "field": "quantity_raw",
-        "row": 283,
+        "row": 289,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1233,7 +1233,7 @@
       "message": "Value digits '1622062' don't match citation content digits '7394657' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 303,
+        "row": 310,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1244,7 +1244,7 @@
       "message": "Value digits '1636614' don't match citation content digits '1912488' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 218,
+        "row": 223,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1255,7 +1255,7 @@
       "message": "Value digits '1668636' don't match citation content digits '5000000' (overlap: 0%)",
       "context": {
         "field": "quantity_raw",
-        "row": 290,
+        "row": 296,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1266,7 +1266,7 @@
       "message": "Value digits '1700000' don't match citation content digits '235873' (overlap: 14%)",
       "context": {
         "field": "quantity_raw",
-        "row": 148,
+        "row": 149,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1277,7 +1277,7 @@
       "message": "Value digits '1703704' don't match citation content digits '1161575' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 196,
+        "row": 198,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1288,7 +1288,7 @@
       "message": "Value digits '1749267' don't match citation content digits '9193992' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 272,
+        "row": 278,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1299,7 +1299,7 @@
       "message": "Value digits '1750000' don't match citation content digits '3712434' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 241,
+        "row": 246,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1310,7 +1310,7 @@
       "message": "Value digits '176316' don't match citation content digits '1912488' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 158,
+        "row": 159,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1321,7 +1321,7 @@
       "message": "Value digits '1795500' don't match citation content digits '3712434' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 235,
+        "row": 240,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1332,7 +1332,7 @@
       "message": "Value digits '1796786' don't match citation content digits '4542622' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 167,
+        "row": 168,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1343,7 +1343,7 @@
       "message": "Value digits '18' don't match citation content digits '9055902' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 273,
+        "row": 279,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1354,7 +1354,7 @@
       "message": "Value digits '181055782' don't match citation content digits '12029' (overlap: 44%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 292,
+        "row": 298,
         "citation_idx": 0,
         "overlap_ratio": 0.4444444444444444
       }
@@ -1365,7 +1365,7 @@
       "message": "Value digits '1820565' don't match citation content digits '7394657' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 268,
+        "row": 274,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1376,7 +1376,7 @@
       "message": "Value digits '1823154' don't match citation content digits '4974220' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 253,
+        "row": 258,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1387,7 +1387,7 @@
       "message": "Value digits '1850304' don't match citation content digits '9055902' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 275,
+        "row": 281,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1398,7 +1398,7 @@
       "message": "Value digits '1857019' don't match citation content digits '2458735' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 149,
+        "row": 150,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1409,7 +1409,7 @@
       "message": "Value digits '1890500' don't match citation content digits '1161575' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 197,
+        "row": 200,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1420,7 +1420,7 @@
       "message": "Value digits '1892883' don't match citation content digits '2991247' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 243,
+        "row": 248,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1431,7 +1431,7 @@
       "message": "Value digits '1898977' don't match citation content digits '3712434' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 236,
+        "row": 241,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1442,7 +1442,7 @@
       "message": "Value digits '1908091' don't match citation content digits '4582000' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 167,
+        "row": 168,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1453,7 +1453,7 @@
       "message": "Value digits '19107' don't match citation content digits '7394657' (overlap: 40%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 143,
+        "row": 144,
         "citation_idx": 0,
         "overlap_ratio": 0.4
       }
@@ -1464,7 +1464,7 @@
       "message": "Value digits '1989899' don't match citation content digits '4582000' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 166,
+        "row": 167,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1475,7 +1475,7 @@
       "message": "Value digits '2000000' don't match citation content digits '1723486' (overlap: 14%)",
       "context": {
         "field": "quantity_raw",
-        "row": 141,
+        "row": 142,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1486,7 +1486,7 @@
       "message": "Value digits '2023390' don't match citation content digits '4542622' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 163,
+        "row": 164,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1497,7 +1497,7 @@
       "message": "Value digits '2036114' don't match citation content digits '4974220' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 260,
+        "row": 265,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1508,7 +1508,7 @@
       "message": "Value digits '2083605' don't match citation content digits '5000000' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 253,
+        "row": 258,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1519,7 +1519,7 @@
       "message": "Value digits '2084295' don't match citation content digits '5000000' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 277,
+        "row": 283,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1530,7 +1530,7 @@
       "message": "Value digits '2155089' don't match citation content digits '1161575' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 205,
+        "row": 209,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1541,7 +1541,7 @@
       "message": "Value digits '2183500' don't match citation content digits '4974220' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 260,
+        "row": 265,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1552,7 +1552,7 @@
       "message": "Value digits '2337855' don't match citation content digits '2991247' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 223,
+        "row": 228,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1563,7 +1563,7 @@
       "message": "Value digits '2340000' don't match citation content digits '12234177' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 251,
+        "row": 256,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1574,7 +1574,7 @@
       "message": "Value digits '236373' don't match citation content digits '7211000' (overlap: 33%)",
       "context": {
         "field": "quantity_raw",
-        "row": 143,
+        "row": 144,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1585,7 +1585,7 @@
       "message": "Value digits '2408484' don't match citation content digits '2916112' (overlap: 14%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 279,
+        "row": 285,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1596,7 +1596,7 @@
       "message": "Value digits '2434677' don't match citation content digits '4582000' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 163,
+        "row": 164,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1607,7 +1607,7 @@
       "message": "Value digits '2448964' don't match citation content digits '1183002' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 205,
+        "row": 209,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1618,7 +1618,7 @@
       "message": "Value digits '2461995' don't match citation content digits '1183002' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 206,
+        "row": 210,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1629,7 +1629,7 @@
       "message": "Value digits '2475000' don't match citation content digits '2916112' (overlap: 14%)",
       "context": {
         "field": "quantity_raw",
-        "row": 279,
+        "row": 285,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1640,7 +1640,7 @@
       "message": "Value digits '2579259' don't match citation content digits '1183002' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 207,
+        "row": 211,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1651,7 +1651,7 @@
       "message": "Value digits '2711000' don't match citation content digits '235873' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 227,
+        "row": 232,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1662,7 +1662,7 @@
       "message": "Value digits '2717434' don't match citation content digits '1161575' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 206,
+        "row": 210,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1673,7 +1673,7 @@
       "message": "Value digits '2729375' don't match citation content digits '1161575' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 207,
+        "row": 211,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1684,7 +1684,7 @@
       "message": "Value digits '2730000' don't match citation content digits '4542622' (overlap: 14%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 173,
+        "row": 174,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1695,7 +1695,7 @@
       "message": "Value digits '2923913' don't match citation content digits '12085000' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 287,
+        "row": 293,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1706,7 +1706,7 @@
       "message": "Value digits '296204' don't match citation content digits '235873' (overlap: 33%)",
       "context": {
         "field": "quantity_raw",
-        "row": 191,
+        "row": 193,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1717,7 +1717,7 @@
       "message": "Value digits '2970000' don't match citation content digits '128526' (overlap: 14%)",
       "context": {
         "field": "quantity_raw",
-        "row": 291,
+        "row": 297,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1728,7 +1728,7 @@
       "message": "Value digits '2970000' don't match citation content digits '3696245' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 239,
+        "row": 244,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1739,7 +1739,7 @@
       "message": "Value digits '3000000' don't match citation content digits '2458735' (overlap: 14%)",
       "context": {
         "field": "quantity_raw",
-        "row": 137,
+        "row": 138,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1750,7 +1750,7 @@
       "message": "Value digits '3000000' don't match citation content digits '2458735' (overlap: 14%)",
       "context": {
         "field": "quantity_raw",
-        "row": 154,
+        "row": 155,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1761,7 +1761,7 @@
       "message": "Value digits '3184500' don't match citation content digits '3696245' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 170,
+        "row": 171,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1772,7 +1772,7 @@
       "message": "Value digits '3193804' don't match citation content digits '9055902' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 267,
+        "row": 273,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1783,7 +1783,7 @@
       "message": "Value digits '338286' don't match citation content digits '4974220' (overlap: 17%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 255,
+        "row": 260,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -1794,7 +1794,7 @@
       "message": "Value digits '3494721' don't match citation content digits '238750' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 183,
+        "row": 184,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1805,7 +1805,7 @@
       "message": "Value digits '3570000' don't match citation content digits '1161575' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 257,
+        "row": 262,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1816,7 +1816,7 @@
       "message": "Value digits '3588190' don't match citation content digits '3712434' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 211,
+        "row": 215,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1827,7 +1827,7 @@
       "message": "Value digits '365714' don't match citation content digits '5000000' (overlap: 17%)",
       "context": {
         "field": "quantity_raw",
-        "row": 255,
+        "row": 260,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -1838,7 +1838,7 @@
       "message": "Value digits '37' don't match citation content digits '12085000' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 293,
+        "row": 299,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1849,7 +1849,7 @@
       "message": "Value digits '3700000' don't match citation content digits '235873' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 180,
+        "row": 181,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1860,7 +1860,7 @@
       "message": "Value digits '376650' don't match citation content digits '29912473712434' (overlap: 33%)",
       "context": {
         "field": "quantity_raw",
-        "row": 229,
+        "row": 234,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1871,7 +1871,7 @@
       "message": "Value digits '38' don't match citation content digits '9055902' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 278,
+        "row": 284,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1882,7 +1882,7 @@
       "message": "Value digits '3846575' don't match citation content digits '3712434' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 188,
+        "row": 190,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1893,7 +1893,7 @@
       "message": "Value digits '3960000' don't match citation content digits '1412729' (overlap: 14%)",
       "context": {
         "field": "quantity_raw",
-        "row": 254,
+        "row": 259,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1904,7 +1904,7 @@
       "message": "Value digits '3979849' don't match citation content digits '3712434' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 221,
+        "row": 226,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1915,7 +1915,7 @@
       "message": "Value digits '4000000' don't match citation content digits '235873' (overlap: 0%)",
       "context": {
         "field": "quantity_raw",
-        "row": 180,
+        "row": 181,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1926,7 +1926,7 @@
       "message": "Value digits '4000000' don't match citation content digits '3712434' (overlap: 14%)",
       "context": {
         "field": "quantity_raw",
-        "row": 239,
+        "row": 244,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1937,7 +1937,7 @@
       "message": "Value digits '4026176' don't match citation content digits '235873' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 183,
+        "row": 184,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1948,7 +1948,7 @@
       "message": "Value digits '4080386' don't match citation content digits '3712434' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 211,
+        "row": 215,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1959,7 +1959,7 @@
       "message": "Value digits '4214193' don't match citation content digits '235873' (overlap: 29%)",
       "context": {
         "field": "quantity_raw",
-        "row": 193,
+        "row": 195,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1970,7 +1970,7 @@
       "message": "Value digits '4243108' don't match citation content digits '1031106' (overlap: 43%)",
       "context": {
         "field": "quantity_raw",
-        "row": 165,
+        "row": 166,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1981,7 +1981,7 @@
       "message": "Value digits '430280' don't match citation content digits '9193992' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 212,
+        "row": 216,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1992,7 +1992,7 @@
       "message": "Value digits '447755' don't match citation content digits '50000009055902' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 266,
+        "row": 272,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2003,7 +2003,7 @@
       "message": "Value digits '455265' don't match citation content digits '4974220' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 276,
+        "row": 282,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2014,7 +2014,7 @@
       "message": "Value digits '478976' don't match citation content digits '9055902' (overlap: 17%)",
       "context": {
         "field": "quantity_raw",
-        "row": 212,
+        "row": 216,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -2025,7 +2025,7 @@
       "message": "Value digits '48' don't match citation content digits '100123' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 168,
+        "row": 169,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -2036,7 +2036,7 @@
       "message": "Value digits '486250' don't match citation content digits '9193992' (overlap: 17%)",
       "context": {
         "field": "quantity_raw",
-        "row": 266,
+        "row": 272,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -2047,7 +2047,7 @@
       "message": "Value digits '517357' don't match citation content digits '1183002' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 204,
+        "row": 208,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2058,7 +2058,7 @@
       "message": "Value digits '531696' don't match citation content digits '5000000' (overlap: 17%)",
       "context": {
         "field": "quantity_raw",
-        "row": 276,
+        "row": 282,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -2069,7 +2069,7 @@
       "message": "Value digits '540984' don't match citation content digits '12234177' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 230,
+        "row": 235,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2080,7 +2080,7 @@
       "message": "Value digits '550094936' don't match citation content digits '5000000' (overlap: 44%)",
       "context": {
         "field": "cost_raw",
-        "row": 304,
+        "row": 311,
         "citation_idx": 0,
         "overlap_ratio": 0.4444444444444444
       }
@@ -2091,7 +2091,7 @@
       "message": "Value digits '555800' don't match citation content digits '60070123' (overlap: 33%)",
       "context": {
         "field": "quantity_raw",
-        "row": 204,
+        "row": 208,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2102,7 +2102,7 @@
       "message": "Value digits '563341' don't match citation content digits '4582000' (overlap: 33%)",
       "context": {
         "field": "quantity_raw",
-        "row": 176,
+        "row": 177,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2113,7 +2113,7 @@
       "message": "Value digits '593250' don't match citation content digits '2916112' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 216,
+        "row": 221,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2124,7 +2124,7 @@
       "message": "Value digits '605756' don't match citation content digits '3712434' (overlap: 17%)",
       "context": {
         "field": "quantity_raw",
-        "row": 145,
+        "row": 146,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -2135,7 +2135,7 @@
       "message": "Value digits '617007' don't match citation content digits '2395685' (overlap: 17%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 151,
+        "row": 152,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -2146,7 +2146,7 @@
       "message": "Value digits '64630' don't match citation content digits '12234177' (overlap: 40%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 288,
+        "row": 294,
         "citation_idx": 0,
         "overlap_ratio": 0.4
       }
@@ -2157,7 +2157,7 @@
       "message": "Value digits '700000' don't match citation content digits '2458735' (overlap: 17%)",
       "context": {
         "field": "quantity_raw",
-        "row": 151,
+        "row": 152,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -2168,7 +2168,7 @@
       "message": "Value digits '709125' don't match citation content digits '4542622' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 171,
+        "row": 172,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2179,7 +2179,7 @@
       "message": "Value digits '75326' don't match citation content digits '12085000' (overlap: 40%)",
       "context": {
         "field": "quantity_raw",
-        "row": 288,
+        "row": 294,
         "citation_idx": 0,
         "overlap_ratio": 0.4
       }
@@ -2190,7 +2190,7 @@
       "message": "Value digits '775000' don't match citation content digits '128526' (overlap: 17%)",
       "context": {
         "field": "quantity_raw",
-        "row": 171,
+        "row": 172,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -2201,7 +2201,7 @@
       "message": "Value digits '78190' don't match citation content digits '128526' (overlap: 40%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 203,
+        "row": 207,
         "citation_idx": 0,
         "overlap_ratio": 0.4
       }
@@ -2212,7 +2212,7 @@
       "message": "Value digits '782833' don't match citation content digits '5000000' (overlap: 0%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 259,
+        "row": 264,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -2223,7 +2223,7 @@
       "message": "Value digits '799909' don't match citation content digits '1723486' (overlap: 17%)",
       "context": {
         "field": "quantity_raw",
-        "row": 144,
+        "row": 145,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -2234,7 +2234,7 @@
       "message": "Value digits '84000' don't match citation content digits '128526' (overlap: 20%)",
       "context": {
         "field": "quantity_raw",
-        "row": 203,
+        "row": 207,
         "citation_idx": 0,
         "overlap_ratio": 0.2
       }
@@ -2245,7 +2245,7 @@
       "message": "Value digits '900000' don't match citation content digits '235873' (overlap: 0%)",
       "context": {
         "field": "quantity_raw",
-        "row": 202,
+        "row": 205,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -2256,7 +2256,7 @@
       "message": "Value digits '903015' don't match citation content digits '2458735' (overlap: 33%)",
       "context": {
         "field": "quantity_raw",
-        "row": 156,
+        "row": 157,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2267,7 +2267,7 @@
       "message": "Value digits '970109' don't match citation content digits '2458735' (overlap: 17%)",
       "context": {
         "field": "quantity_raw",
-        "row": 157,
+        "row": 158,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -2278,7 +2278,7 @@
       "message": "bbox.width=-0.010620915032679739 out of [0,1]",
       "context": {
         "field": "fair_value_raw",
-        "row": 284
+        "row": 290
       }
     },
     {
@@ -2287,7 +2287,7 @@
       "message": "bbox.width=-0.07352941176470588 out of [0,1]",
       "context": {
         "field": "fair_value_raw",
-        "row": 236
+        "row": 241
       }
     },
     {
@@ -2301,76 +2301,27 @@
     },
     {
       "severity": "warning",
-      "code": "MISSING_SUBTOTAL",
-      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",
       "context": {
-        "section_path": "SENIOR FLOATING RATE INTERESTS > DIVERSIFIED FINANCIALS"
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_SUBTOTAL",
-      "message": "Section has 1 holdings but no SUBTOTAL row",
-      "context": {
-        "section_path": "SENIOR FLOATING RATE INTERESTS > HOUSEHOLD & PERSONAL PRODUCTS"
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_SUBTOTAL",
-      "message": "Section has 1 holdings but no SUBTOTAL row",
-      "context": {
-        "section_path": "SENIOR FLOATING RATE INTERESTS > SEMICONDUCTORS & SEMICONDUCTOR EQUIPMENT"
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_SUBTOTAL",
-      "message": "Section has 1 holdings but no SUBTOTAL row",
-      "context": {
-        "section_path": "SHORT TERM INVESTMENTS > FOREIGN GOVERNMENT AND AGENCY SECURITIES"
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_SUBTOTAL",
-      "message": "Section has 1 holdings but no SUBTOTAL row",
-      "context": {
-        "section_path": "SHORT TERM INVESTMENTS > MONEY MARKET FUNDS"
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_SUBTOTAL",
-      "message": "Section has 10 holdings but no SUBTOTAL row",
-      "context": {
-        "section_path": "ASSET-BACKED SECURITIES AND COMMERCIAL MORTGAGE-BACKED SECURITIES > BANKS"
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_SUBTOTAL",
-      "message": "Section has 13 holdings but no SUBTOTAL row",
-      "context": {
-        "section_path": "SENIOR FLOATING RATE INTERESTS > HEALTH CARE EQUIPMENT & SERVICES"
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_SUBTOTAL",
-      "message": "Section has 2 holdings but no SUBTOTAL row",
-      "context": {
-        "section_path": "SENIOR FLOATING RATE INTERESTS > CONSUMER DURABLES & APPAREL"
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "NORMALIZATION_APPLIED",
-      "message": "Sanitizer fixed 17 row(s): RESCUED_BY_DETAIL=4, RESCUED_BY_MAJOR_TOTAL=2, ROW_FROM_NON_SOI_PAGE=11",
-      "context": {
-        "fix_count": 17,
-        "dropped": 11,
-        "converted": 6
+        "row": 312,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "MONEY MARKET FUNDS",
+        "original_page": 11,
+        "soi_pages": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
       }
     },
     {
@@ -2378,7 +2329,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 11 which is not in SOI split [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",
       "context": {
-        "row": 305,
+        "row": 313,
         "row_type": "HOLDING",
         "investment": "Franklin Institutional Fiduciary Trust Money Market Portfolio, 1.98%",
         "label": null,
@@ -2403,7 +2354,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 11 which is not in SOI split [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",
       "context": {
-        "row": 306,
+        "row": 314,
         "row_type": "TOTAL",
         "investment": null,
         "label": "TOTAL INVESTMENTS",
@@ -2428,7 +2379,82 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 11 which is not in SOI split [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",
       "context": {
-        "row": 307,
+        "row": 315,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "PREFERRED SHARES",
+        "original_page": 11,
+        "soi_pages": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",
+      "context": {
+        "row": 316,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "NET UNREALIZED APPRECIATION ON FORWARD EXCHANGE CONTRACTS",
+        "original_page": 11,
+        "soi_pages": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",
+      "context": {
+        "row": 317,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "OTHER ASSETS, LESS LIABILITIES",
+        "original_page": 11,
+        "soi_pages": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",
+      "context": {
+        "row": 318,
         "row_type": "TOTAL",
         "investment": null,
         "label": "NET ASSETS APPLICABLE TO COMMON SHARES",
@@ -2453,7 +2479,32 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 4 which is not in SOI split [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",
       "context": {
-        "row": 236,
+        "row": 136,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "BANKS",
+        "original_page": 4,
+        "soi_pages": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 4 which is not in SOI split [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",
+      "context": {
+        "row": 241,
         "row_type": "HOLDING",
         "investment": "Verso Paper Holdings LLC, Term Loan B, 5.512%, 8/01/13",
         "label": null,
@@ -2478,7 +2529,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 4 which is not in SOI split [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",
       "context": {
-        "row": 284,
+        "row": 290,
         "row_type": "HOLDING",
         "investment": "Intelsat Subsidiary Holding Co. Ltd., Term Loan B, 5.288%, 6/30/13",
         "label": null,
@@ -2498,200 +2549,5 @@
         ]
       }
     }
-  ],
-  "normalization": {
-    "fix_count": 17,
-    "dropped_count": 11,
-    "converted_count": 6,
-    "percent_corrected_count": 0,
-    "fix_log": [
-      {
-        "row_idx": 136,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:BANKS|fv=",
-        "old_value": "page=4",
-        "new_value": "valid_pages=[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]"
-      },
-      {
-        "row_idx": 186,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:CONSUMER DURABLES & APPAREL|fv=",
-        "old_value": "page=4",
-        "new_value": "valid_pages=[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]"
-      },
-      {
-        "row_idx": 199,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:DIVERSIFIED FINANCIALS|fv=",
-        "old_value": "page=4",
-        "new_value": "valid_pages=[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]"
-      },
-      {
-        "row_idx": 206,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:HEALTH CARE EQUIPMENT & SERVICES|fv=",
-        "old_value": "page=4",
-        "new_value": "valid_pages=[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]"
-      },
-      {
-        "row_idx": 220,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:HOUSEHOLD & PERSONAL PRODUCTS|fv=",
-        "old_value": "page=4",
-        "new_value": "valid_pages=[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]"
-      },
-      {
-        "row_idx": 241,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:Verso Paper Holdings LLC, Term Loan B, 5|fv=1,766,049",
-        "old_value": "page=4",
-        "new_value": "rescued (page not in [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23])"
-      },
-      {
-        "row_idx": 257,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:Nexstar Broadcasting Inc., Term Loan B, |fv=732,809",
-        "old_value": "page=4",
-        "new_value": "rescued (page not in [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23])"
-      },
-      {
-        "row_idx": 268,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:SEMICONDUCTORS & SEMICONDUCTOR EQUIPMENT|fv=",
-        "old_value": "page=4",
-        "new_value": "valid_pages=[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]"
-      },
-      {
-        "row_idx": 290,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:Intelsat Subsidiary Holding Co. Ltd., Te|fv=795,569",
-        "old_value": "page=4",
-        "new_value": "rescued (page not in [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23])"
-      },
-      {
-        "row_idx": 309,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:FOREIGN GOVERNMENT AND AGENCY SECURITIES|fv=",
-        "old_value": "page=4",
-        "new_value": "valid_pages=[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]"
-      },
-      {
-        "row_idx": 312,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:MONEY MARKET FUNDS|fv=",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]"
-      },
-      {
-        "row_idx": 313,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:Franklin Institutional Fiduciary Trust M|fv=953,183",
-        "old_value": "page=11",
-        "new_value": "rescued (page not in [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23])"
-      },
-      {
-        "row_idx": 314,
-        "old_row_type": "TOTAL",
-        "new_row_type": "TOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_MAJOR_TOTAL",
-        "confidence": "high",
-        "row_signature": "TOTAL:TOTAL INVESTMENTS|fv=495,729,267",
-        "old_value": "page=11",
-        "new_value": "rescued (page not in [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23])"
-      },
-      {
-        "row_idx": 315,
-        "old_row_type": "TOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "TOTAL:PREFERRED SHARES|fv=-90,000,000",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]"
-      },
-      {
-        "row_idx": 316,
-        "old_row_type": "TOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "TOTAL:NET UNREALIZED APPRECIATION ON FORWARD E|fv=1,422,912",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]"
-      },
-      {
-        "row_idx": 317,
-        "old_row_type": "TOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "TOTAL:OTHER ASSETS, LESS LIABILITIES|fv=-91,728,166",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]"
-      },
-      {
-        "row_idx": 318,
-        "old_row_type": "TOTAL",
-        "new_row_type": "TOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_MAJOR_TOTAL",
-        "confidence": "high",
-        "row_signature": "TOTAL:NET ASSETS APPLICABLE TO COMMON SHARES|fv=315,424,013",
-        "old_value": "page=11",
-        "new_value": "rescued (page not in [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23])"
-      }
-    ]
-  }
+  ]
 }

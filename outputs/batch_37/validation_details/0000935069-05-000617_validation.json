@@ -1,15 +1,15 @@
 {
   "source_name": "0000935069-05-000617",
-  "total_rows": 379,
-  "holding_count": 313,
-  "subtotal_count": 61,
-  "total_count": 5,
-  "error_count": 137,
-  "warning_count": 144,
+  "total_rows": 389,
+  "holding_count": 318,
+  "subtotal_count": 64,
+  "total_count": 7,
+  "error_count": 135,
+  "warning_count": 170,
   "has_arithmetic_error": true,
-  "max_dollar_diff": "563743822",
+  "max_dollar_diff": "28000",
   "root_sum_mismatch": true,
-  "calculated_total_fv": "1441764262",
+  "calculated_total_fv": "2005536084",
   "extracted_total_fv": "2005508084",
   "computed_sums": {
     "COMMON STOCKS > AEROSPACE": {
@@ -175,15 +175,15 @@
     "COMMON STOCKS > ENERGY AND UTILITIES: NATURAL GAS": {
       "calculated_fv": "69323665",
       "calculated_cost": "61413614",
-      "calculated_pct": null,
-      "extracted_fv": null,
-      "extracted_cost": null,
-      "extracted_pct": null,
+      "calculated_pct": "3.5",
+      "extracted_fv": "69323665",
+      "extracted_cost": "61413614",
+      "extracted_pct": "3.5",
       "holding_count": 16,
       "child_count": 0,
-      "subtotal_count": 0,
+      "subtotal_count": 1,
       "total_count": 0,
-      "pct_bridged_from_subtotal": false,
+      "pct_bridged_from_subtotal": true,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
       "parent_subtotals_excluded": 0
@@ -479,7 +479,7 @@
     "COMMON STOCKS": {
       "calculated_fv": "1348786734",
       "calculated_cost": "1207938631",
-      "calculated_pct": "63.8",
+      "calculated_pct": "67.3",
       "extracted_fv": null,
       "extracted_cost": null,
       "extracted_pct": null,
@@ -1074,15 +1074,99 @@
       "hierarchy_detected": false,
       "parent_subtotals_excluded": 0
     },
-    "(root)": {
-      "calculated_fv": "1441764262",
-      "calculated_cost": "1297879220",
-      "calculated_pct": "68.4",
+    "U.S. GOVERNMENT OBLIGATIONS > U.S. Treasury Bills": {
+      "calculated_fv": "388743822",
+      "calculated_cost": "388726514",
+      "calculated_pct": "19.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "19.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "U.S. GOVERNMENT OBLIGATIONS": {
+      "calculated_fv": "388743822",
+      "calculated_cost": "388726514",
+      "calculated_pct": "19.4",
       "extracted_fv": null,
       "extracted_cost": null,
       "extracted_pct": null,
       "holding_count": 0,
-      "child_count": 5,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SHORT-TERM OBLIGATIONS > REPURCHASE AGREEMENTS": {
+      "calculated_fv": "175000000",
+      "calculated_cost": "175000000",
+      "calculated_pct": "8.7",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "8.7",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SHORT-TERM OBLIGATIONS": {
+      "calculated_fv": "175000000",
+      "calculated_cost": "175000000",
+      "calculated_pct": "8.7",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL SHORT-TERM OBLIGATIONS",
+      "total_extracted_fv": "175000000"
+    },
+    "WRITTEN CALL OPTIONS -- SHORT POSITION": {
+      "calculated_fv": "28000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL WRITTEN CALL OPTIONS -- SHORT POSITION",
+      "total_extracted_fv": "28000"
+    },
+    "(root)": {
+      "calculated_fv": "2005536084",
+      "calculated_cost": "1861605734",
+      "calculated_pct": "100.0",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 8,
       "subtotal_count": 0,
       "total_count": 2,
       "pct_bridged_from_subtotal": false,
@@ -1097,38 +1181,13 @@
     {
       "severity": "error",
       "code": "ROOT_TOTAL_MISMATCH_FV",
-      "message": "Grand total of all holdings (1441764262) != extracted Total (2005508084), diff=$563743822",
+      "message": "Grand total of all holdings (2005536084) != extracted Total (2005508084), diff=$28000",
       "context": {
         "section_path": "(root)",
         "label": "TOTAL INVESTMENTS",
-        "calculated": "1441764262",
+        "calculated": "2005536084",
         "extracted": "2005508084",
-        "diff": "563743822"
-      }
-    },
-    {
-      "severity": "error",
-      "code": "ROOT_TOTAL_MISMATCH_COST",
-      "message": "Grand total cost (1297879220) != extracted Total (1861605734), diff=$563726514",
-      "context": {
-        "section_path": "(root)",
-        "label": "TOTAL INVESTMENTS",
-        "calculated": "1297879220",
-        "extracted": "1861605734",
-        "diff": "563726514"
-      }
-    },
-    {
-      "severity": "error",
-      "code": "ROOT_TOTAL_MISMATCH_PCT",
-      "message": "Grand total percent (68.4%) != extracted Total (100.0%), diff=31.6%",
-      "context": {
-        "section_path": "(root)",
-        "label": "TOTAL INVESTMENTS",
-        "calculated": "68.4",
-        "extracted": "100.0",
-        "diff": "31.6",
-        "suspect_misread_percent": null
+        "diff": "28000"
       }
     },
     {
@@ -1137,7 +1196,7 @@
       "message": "Value digits '10282085' don't match citation content digits '374076' (overlap: 25%)",
       "context": {
         "field": "cost_raw",
-        "row": 232,
+        "row": 233,
         "citation_idx": 0,
         "overlap_ratio": 0.25
       }
@@ -1148,7 +1207,7 @@
       "message": "Value digits '1038528' don't match citation content digits '2217924' (overlap: 29%)",
       "context": {
         "field": "cost_raw",
-        "row": 288,
+        "row": 289,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1170,7 +1229,7 @@
       "message": "Value digits '10643630' don't match citation content digits '282540' (overlap: 38%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 133,
+        "row": 134,
         "citation_idx": 0,
         "overlap_ratio": 0.375
       }
@@ -1181,7 +1240,7 @@
       "message": "Value digits '1126654' don't match citation content digits '910803' (overlap: 29%)",
       "context": {
         "field": "cost_raw",
-        "row": 279,
+        "row": 280,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1203,7 +1262,7 @@
       "message": "Value digits '1178270' don't match citation content digits '282540' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 184,
+        "row": 185,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1214,7 +1273,7 @@
       "message": "Value digits '12259858' don't match citation content digits '374076' (overlap: 0%)",
       "context": {
         "field": "cost_raw",
-        "row": 172,
+        "row": 173,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1225,7 +1284,7 @@
       "message": "Value digits '1247019' don't match citation content digits '374076' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 257,
+        "row": 258,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1236,7 +1295,7 @@
       "message": "Value digits '1255706' don't match citation content digits '374076' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 118,
+        "row": 119,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1247,7 +1306,7 @@
       "message": "Value digits '125580' don't match citation content digits '479600' (overlap: 17%)",
       "context": {
         "field": "cost_raw",
-        "row": 154,
+        "row": 155,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -1269,7 +1328,7 @@
       "message": "Value digits '1285636' don't match citation content digits '231031' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 278,
+        "row": 279,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1291,7 +1350,7 @@
       "message": "Value digits '1343953' don't match citation content digits '14109990' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 270,
+        "row": 271,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1302,7 +1361,7 @@
       "message": "Value digits '1348786734' don't match citation content digits '2461500' (overlap: 40%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 294,
+        "row": 295,
         "citation_idx": 0,
         "overlap_ratio": 0.4
       }
@@ -1313,7 +1372,7 @@
       "message": "Value digits '1369425' don't match citation content digits '15385500' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 192,
+        "row": 193,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1368,7 +1427,7 @@
       "message": "Value digits '14711216' don't match citation content digits '35' (overlap: 0%)",
       "context": {
         "field": "cost_raw",
-        "row": 122,
+        "row": 123,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1390,7 +1449,7 @@
       "message": "Value digits '1507350' don't match citation content digits '402841' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 257,
+        "row": 258,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1412,7 +1471,7 @@
       "message": "Value digits '151500' don't match citation content digits '22000' (overlap: 33%)",
       "context": {
         "field": "quantity_raw",
-        "row": 250,
+        "row": 251,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1489,7 +1548,7 @@
       "message": "Value digits '1716540' don't match citation content digits '282540' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 278,
+        "row": 279,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1500,7 +1559,7 @@
       "message": "Value digits '17226202' don't match citation content digits '374076' (overlap: 38%)",
       "context": {
         "field": "cost_raw",
-        "row": 173,
+        "row": 174,
         "citation_idx": 0,
         "overlap_ratio": 0.375
       }
@@ -1533,7 +1592,7 @@
       "message": "Value digits '17633732' don't match citation content digits '14109990' (overlap: 12%)",
       "context": {
         "field": "cost_raw",
-        "row": 235,
+        "row": 236,
         "citation_idx": 0,
         "overlap_ratio": 0.125
       }
@@ -1566,7 +1625,7 @@
       "message": "Value digits '18' don't match citation content digits '374076' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 221,
+        "row": 222,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1577,7 +1636,7 @@
       "message": "Value digits '1819400' don't match citation content digits '975260' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 268,
+        "row": 269,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1588,7 +1647,7 @@
       "message": "Value digits '184718289' don't match citation content digits '3835400' (overlap: 44%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 115,
+        "row": 116,
         "citation_idx": 0,
         "overlap_ratio": 0.4444444444444444
       }
@@ -1599,7 +1658,7 @@
       "message": "Value digits '18568142' don't match citation content digits '374076' (overlap: 25%)",
       "context": {
         "field": "cost_raw",
-        "row": 185,
+        "row": 186,
         "citation_idx": 0,
         "overlap_ratio": 0.25
       }
@@ -1610,7 +1669,7 @@
       "message": "Value digits '1884444' don't match citation content digits '910803' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 269,
+        "row": 270,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1632,7 +1691,7 @@
       "message": "Value digits '1966659' don't match citation content digits '2217924' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 169,
+        "row": 170,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1654,7 +1713,7 @@
       "message": "Value digits '206472' don't match citation content digits '910803' (overlap: 17%)",
       "context": {
         "field": "cost_raw",
-        "row": 285,
+        "row": 286,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -1687,7 +1746,7 @@
       "message": "Value digits '235475' don't match citation content digits '231031' (overlap: 33%)",
       "context": {
         "field": "cost_raw",
-        "row": 240,
+        "row": 241,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1709,7 +1768,7 @@
       "message": "Value digits '2387180' don't match citation content digits '374076' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 182,
+        "row": 183,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1742,7 +1801,7 @@
       "message": "Value digits '2455119' don't match citation content digits '374076' (overlap: 14%)",
       "context": {
         "field": "cost_raw",
-        "row": 198,
+        "row": 199,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1764,7 +1823,7 @@
       "message": "Value digits '2482979' don't match citation content digits '374076' (overlap: 29%)",
       "context": {
         "field": "cost_raw",
-        "row": 204,
+        "row": 205,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1808,7 +1867,7 @@
       "message": "Value digits '2686693' don't match citation content digits '2217924' (overlap: 29%)",
       "context": {
         "field": "cost_raw",
-        "row": 189,
+        "row": 190,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1819,7 +1878,7 @@
       "message": "Value digits '2760275' don't match citation content digits '1380807' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 289,
+        "row": 290,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1830,7 +1889,7 @@
       "message": "Value digits '2778495' don't match citation content digits '1557500' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 289,
+        "row": 290,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1863,7 +1922,7 @@
       "message": "Value digits '2916859' don't match citation content digits '14109990' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 264,
+        "row": 265,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1874,7 +1933,7 @@
       "message": "Value digits '2939066' don't match citation content digits '2217924' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 281,
+        "row": 282,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1885,7 +1944,7 @@
       "message": "Value digits '2978081' don't match citation content digits '374076' (overlap: 29%)",
       "context": {
         "field": "cost_raw",
-        "row": 245,
+        "row": 246,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1896,7 +1955,7 @@
       "message": "Value digits '3070809' don't match citation content digits '1602000' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 131,
+        "row": 132,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1907,7 +1966,7 @@
       "message": "Value digits '3071433' don't match citation content digits '14109990' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 222,
+        "row": 223,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1918,7 +1977,7 @@
       "message": "Value digits '3112735' don't match citation content digits '282540' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 243,
+        "row": 244,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1929,7 +1988,7 @@
       "message": "Value digits '328522' don't match citation content digits '1557500' (overlap: 17%)",
       "context": {
         "field": "cost_raw",
-        "row": 291,
+        "row": 292,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -1940,7 +1999,7 @@
       "message": "Value digits '3304985' don't match citation content digits '231031' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 243,
+        "row": 244,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1951,7 +2010,7 @@
       "message": "Value digits '3342930' don't match citation content digits '124550' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 247,
+        "row": 248,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1962,7 +2021,7 @@
       "message": "Value digits '3348823' don't match citation content digits '12455014109990' (overlap: 29%)",
       "context": {
         "field": "cost_raw",
-        "row": 218,
+        "row": 219,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1973,7 +2032,7 @@
       "message": "Value digits '3444806' don't match citation content digits '2217924' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 168,
+        "row": 169,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1984,7 +2043,7 @@
       "message": "Value digits '354880' don't match citation content digits '975260' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 285,
+        "row": 286,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1995,7 +2054,7 @@
       "message": "Value digits '37900' don't match citation content digits '282540' (overlap: 40%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 123,
+        "row": 124,
         "citation_idx": 0,
         "overlap_ratio": 0.4
       }
@@ -2006,7 +2065,7 @@
       "message": "Value digits '3808349' don't match citation content digits '14109990' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 273,
+        "row": 274,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2061,7 +2120,7 @@
       "message": "Value digits '429085' don't match citation content digits '374076' (overlap: 33%)",
       "context": {
         "field": "cost_raw",
-        "row": 155,
+        "row": 156,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2094,7 +2153,7 @@
       "message": "Value digits '4389476' don't match citation content digits '14109990' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 239,
+        "row": 240,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2116,7 +2175,7 @@
       "message": "Value digits '4439400' don't match citation content digits '176850' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 203,
+        "row": 204,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -2127,7 +2186,7 @@
       "message": "Value digits '4576250' don't match citation content digits '15385500' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 273,
+        "row": 274,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2149,7 +2208,7 @@
       "message": "Value digits '4780417' don't match citation content digits '975260' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 287,
+        "row": 288,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2160,7 +2219,7 @@
       "message": "Value digits '5099882' don't match citation content digits '374076' (overlap: 14%)",
       "context": {
         "field": "cost_raw",
-        "row": 231,
+        "row": 232,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -2171,7 +2230,7 @@
       "message": "Value digits '5412741' don't match citation content digits '374076' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 186,
+        "row": 187,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2182,7 +2241,7 @@
       "message": "Value digits '5592578' don't match citation content digits '2217924' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 215,
+        "row": 216,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2193,7 +2252,7 @@
       "message": "Value digits '55998' don't match citation content digits '124550' (overlap: 40%)",
       "context": {
         "field": "cost_raw",
-        "row": 220,
+        "row": 221,
         "citation_idx": 0,
         "overlap_ratio": 0.4
       }
@@ -2204,7 +2263,7 @@
       "message": "Value digits '5678316' don't match citation content digits '124550' (overlap: 29%)",
       "context": {
         "field": "cost_raw",
-        "row": 202,
+        "row": 203,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -2226,7 +2285,7 @@
       "message": "Value digits '5806427' don't match citation content digits '7320919' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 132,
+        "row": 133,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2237,7 +2296,7 @@
       "message": "Value digits '5858941' don't match citation content digits '231031' (overlap: 14%)",
       "context": {
         "field": "cost_raw",
-        "row": 138,
+        "row": 139,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -2248,7 +2307,7 @@
       "message": "Value digits '59' don't match citation content digits '231031' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 259,
+        "row": 260,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -2270,7 +2329,7 @@
       "message": "Value digits '6582' don't match citation content digits '50000' (overlap: 25%)",
       "context": {
         "field": "quantity_raw",
-        "row": 290,
+        "row": 291,
         "citation_idx": 0,
         "overlap_ratio": 0.25
       }
@@ -2292,7 +2351,7 @@
       "message": "Value digits '65905' don't match citation content digits '35' (overlap: 40%)",
       "context": {
         "field": "cost_raw",
-        "row": 116,
+        "row": 117,
         "citation_idx": 0,
         "overlap_ratio": 0.4
       }
@@ -2314,7 +2373,7 @@
       "message": "Value digits '6759200' don't match citation content digits '15385500' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 219,
+        "row": 220,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2325,7 +2384,7 @@
       "message": "Value digits '6854713' don't match citation content digits '231031' (overlap: 29%)",
       "context": {
         "field": "cost_raw",
-        "row": 128,
+        "row": 129,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -2336,7 +2395,7 @@
       "message": "Value digits '71100' don't match citation content digits '300000' (overlap: 40%)",
       "context": {
         "field": "quantity_raw",
-        "row": 131,
+        "row": 132,
         "citation_idx": 0,
         "overlap_ratio": 0.4
       }
@@ -2347,7 +2406,7 @@
       "message": "Value digits '7379904' don't match citation content digits '402841' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 276,
+        "row": 277,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -2369,7 +2428,7 @@
       "message": "Value digits '759763' don't match citation content digits '35' (overlap: 33%)",
       "context": {
         "field": "cost_raw",
-        "row": 119,
+        "row": 120,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2380,7 +2439,7 @@
       "message": "Value digits '77500' don't match citation content digits '90000' (overlap: 40%)",
       "context": {
         "field": "quantity_raw",
-        "row": 168,
+        "row": 169,
         "citation_idx": 0,
         "overlap_ratio": 0.4
       }
@@ -2402,7 +2461,7 @@
       "message": "Value digits '78726' don't match citation content digits '910803' (overlap: 20%)",
       "context": {
         "field": "cost_raw",
-        "row": 286,
+        "row": 287,
         "citation_idx": 0,
         "overlap_ratio": 0.2
       }
@@ -2424,7 +2483,7 @@
       "message": "Value digits '8156500' don't match citation content digits '231031' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 142,
+        "row": 143,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2435,7 +2494,7 @@
       "message": "Value digits '8186775' don't match citation content digits '2217924' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 165,
+        "row": 166,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2446,7 +2505,7 @@
       "message": "Value digits '8188152' don't match citation content digits '231031' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 260,
+        "row": 261,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2468,7 +2527,7 @@
       "message": "Value digits '8215368' don't match citation content digits '7320919' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 210,
+        "row": 211,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2479,7 +2538,7 @@
       "message": "Value digits '8549765' don't match citation content digits '374076' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 223,
+        "row": 224,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2490,7 +2549,7 @@
       "message": "Value digits '8553485' don't match citation content digits '231031' (overlap: 14%)",
       "context": {
         "field": "cost_raw",
-        "row": 160,
+        "row": 161,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -2501,7 +2560,7 @@
       "message": "Value digits '8628951' don't match citation content digits '231031' (overlap: 29%)",
       "context": {
         "field": "cost_raw",
-        "row": 129,
+        "row": 130,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -2512,7 +2571,7 @@
       "message": "Value digits '8736356' don't match citation content digits '231031' (overlap: 29%)",
       "context": {
         "field": "cost_raw",
-        "row": 133,
+        "row": 134,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -2523,7 +2582,7 @@
       "message": "Value digits '8864810' don't match citation content digits '374076' (overlap: 43%)",
       "context": {
         "field": "cost_raw",
-        "row": 143,
+        "row": 144,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2534,7 +2593,7 @@
       "message": "Value digits '89520' don't match citation content digits '374076' (overlap: 20%)",
       "context": {
         "field": "cost_raw",
-        "row": 193,
+        "row": 194,
         "citation_idx": 0,
         "overlap_ratio": 0.2
       }
@@ -2545,7 +2604,7 @@
       "message": "Value digits '91653' don't match citation content digits '2217924' (overlap: 40%)",
       "context": {
         "field": "cost_raw",
-        "row": 151,
+        "row": 152,
         "citation_idx": 0,
         "overlap_ratio": 0.4
       }
@@ -2556,7 +2615,7 @@
       "message": "Value digits '92' don't match citation content digits '35' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 115,
+        "row": 116,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -2567,7 +2626,7 @@
       "message": "Value digits '9329860' don't match citation content digits '2461500' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 165,
+        "row": 166,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2578,7 +2637,7 @@
       "message": "Value digits '93633' don't match citation content digits '2217924' (overlap: 20%)",
       "context": {
         "field": "cost_raw",
-        "row": 156,
+        "row": 157,
         "citation_idx": 0,
         "overlap_ratio": 0.2
       }
@@ -2589,7 +2648,7 @@
       "message": "Value digits '9567840' don't match citation content digits '231031' (overlap: 14%)",
       "context": {
         "field": "cost_raw",
-        "row": 139,
+        "row": 140,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -2600,7 +2659,7 @@
       "message": "Value digits '9739400' don't match citation content digits '282540' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 129,
+        "row": 130,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -2611,33 +2670,6 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 352
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
-        "field": "fair_value_raw",
-        "row": 353
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
-        "field": "cost_raw",
-        "row": 353
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
-        "field": "quantity_raw",
         "row": 353
       }
     },
@@ -2673,7 +2705,7 @@
       "code": "BBOX_PAGE_OUT_OF_RANGE",
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
-        "field": "percent_net_assets_raw",
+        "field": "fair_value_raw",
         "row": 355
       }
     },
@@ -2682,17 +2714,8 @@
       "code": "BBOX_PAGE_OUT_OF_RANGE",
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
-        "field": "fair_value_raw",
-        "row": 356
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
         "field": "cost_raw",
-        "row": 356
+        "row": 355
       }
     },
     {
@@ -2701,34 +2724,7 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "quantity_raw",
-        "row": 356
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
-        "field": "fair_value_raw",
-        "row": 357
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
-        "field": "cost_raw",
-        "row": 357
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
-        "field": "quantity_raw",
-        "row": 357
+        "row": 355
       }
     },
     {
@@ -2737,6 +2733,42 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "percent_net_assets_raw",
+        "row": 356
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 357
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 357
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 357
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
         "row": 358
       }
     },
@@ -2745,17 +2777,8 @@
       "code": "BBOX_PAGE_OUT_OF_RANGE",
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
-        "field": "fair_value_raw",
-        "row": 359
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
         "field": "cost_raw",
-        "row": 359
+        "row": 358
       }
     },
     {
@@ -2764,7 +2787,7 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "quantity_raw",
-        "row": 359
+        "row": 358
       }
     },
     {
@@ -2773,6 +2796,15 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "percent_net_assets_raw",
+        "row": 359
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
         "row": 360
       }
     },
@@ -2781,17 +2813,8 @@
       "code": "BBOX_PAGE_OUT_OF_RANGE",
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
-        "field": "fair_value_raw",
-        "row": 361
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
         "field": "cost_raw",
-        "row": 361
+        "row": 360
       }
     },
     {
@@ -2800,7 +2823,7 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "quantity_raw",
-        "row": 361
+        "row": 360
       }
     },
     {
@@ -2809,6 +2832,15 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "percent_net_assets_raw",
+        "row": 361
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
         "row": 362
       }
     },
@@ -2817,17 +2849,8 @@
       "code": "BBOX_PAGE_OUT_OF_RANGE",
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
-        "field": "fair_value_raw",
-        "row": 363
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
         "field": "cost_raw",
-        "row": 363
+        "row": 362
       }
     },
     {
@@ -2836,7 +2859,7 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "quantity_raw",
-        "row": 363
+        "row": 362
       }
     },
     {
@@ -2845,6 +2868,15 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "percent_net_assets_raw",
+        "row": 363
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
         "row": 364
       }
     },
@@ -2853,17 +2885,8 @@
       "code": "BBOX_PAGE_OUT_OF_RANGE",
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
-        "field": "fair_value_raw",
-        "row": 365
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
         "field": "cost_raw",
-        "row": 365
+        "row": 364
       }
     },
     {
@@ -2872,7 +2895,7 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "quantity_raw",
-        "row": 365
+        "row": 364
       }
     },
     {
@@ -2881,6 +2904,15 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "percent_net_assets_raw",
+        "row": 365
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
         "row": 366
       }
     },
@@ -2889,17 +2921,8 @@
       "code": "BBOX_PAGE_OUT_OF_RANGE",
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
-        "field": "fair_value_raw",
-        "row": 367
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
         "field": "cost_raw",
-        "row": 367
+        "row": 366
       }
     },
     {
@@ -2908,7 +2931,7 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "quantity_raw",
-        "row": 367
+        "row": 366
       }
     },
     {
@@ -2917,6 +2940,15 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "percent_net_assets_raw",
+        "row": 367
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
         "row": 368
       }
     },
@@ -2925,17 +2957,8 @@
       "code": "BBOX_PAGE_OUT_OF_RANGE",
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
-        "field": "fair_value_raw",
-        "row": 369
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
         "field": "cost_raw",
-        "row": 369
+        "row": 368
       }
     },
     {
@@ -2944,7 +2967,7 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "quantity_raw",
-        "row": 369
+        "row": 368
       }
     },
     {
@@ -2953,6 +2976,15 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "percent_net_assets_raw",
+        "row": 369
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
         "row": 370
       }
     },
@@ -2961,17 +2993,8 @@
       "code": "BBOX_PAGE_OUT_OF_RANGE",
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
-        "field": "fair_value_raw",
-        "row": 371
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
         "field": "cost_raw",
-        "row": 371
+        "row": 370
       }
     },
     {
@@ -2980,7 +3003,7 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "quantity_raw",
-        "row": 371
+        "row": 370
       }
     },
     {
@@ -2989,6 +3012,15 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "percent_net_assets_raw",
+        "row": 371
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
         "row": 372
       }
     },
@@ -2997,17 +3029,8 @@
       "code": "BBOX_PAGE_OUT_OF_RANGE",
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
-        "field": "fair_value_raw",
-        "row": 373
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=10 outside [1, 9]",
-      "context": {
         "field": "cost_raw",
-        "row": 373
+        "row": 372
       }
     },
     {
@@ -3016,6 +3039,15 @@
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "quantity_raw",
+        "row": 372
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
         "row": 373
       }
     },
@@ -3042,34 +3074,34 @@
       "code": "BBOX_PAGE_OUT_OF_RANGE",
       "message": "bbox.page=10 outside [1, 9]",
       "context": {
-        "field": "percent_net_assets_raw",
+        "field": "quantity_raw",
+        "row": 374
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
         "row": 375
       }
     },
     {
       "severity": "warning",
       "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=11 outside [1, 9]",
-      "context": {
-        "field": "fair_value_raw",
-        "row": 376
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=11 outside [1, 9]",
+      "message": "bbox.page=10 outside [1, 9]",
       "context": {
         "field": "cost_raw",
-        "row": 376
+        "row": 375
       }
     },
     {
       "severity": "warning",
       "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=11 outside [1, 9]",
+      "message": "bbox.page=10 outside [1, 9]",
       "context": {
-        "field": "quantity_raw",
+        "field": "percent_net_assets_raw",
         "row": 376
       }
     },
@@ -3088,6 +3120,15 @@
       "message": "bbox.page=11 outside [1, 9]",
       "context": {
         "field": "cost_raw",
+        "row": 377
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
         "row": 377
       }
     },
@@ -3097,7 +3138,7 @@
       "message": "bbox.page=11 outside [1, 9]",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 377
+        "row": 378
       }
     },
     {
@@ -3106,7 +3147,187 @@
       "message": "bbox.page=11 outside [1, 9]",
       "context": {
         "field": "fair_value_raw",
-        "row": 378
+        "row": 379
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 379
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 379
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 380
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 381
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 381
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 381
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 382
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 382
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 382
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 383
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 383
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 384
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 384
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 384
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 385
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 385
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 386
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 386
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 387
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 388
       }
     },
     {
@@ -3116,24 +3337,6 @@
       "context": {
         "as_of_date": "DECEMBER 31, 2004",
         "filename_date": "5069-05-00"
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_SUBTOTAL",
-      "message": "Section has 16 holdings but no SUBTOTAL row",
-      "context": {
-        "section_path": "COMMON STOCKS > ENERGY AND UTILITIES: NATURAL GAS"
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "NORMALIZATION_APPLIED",
-      "message": "Sanitizer fixed 98 row(s): RESCUED_BY_DETAIL=1, RESCUED_BY_MAJOR_TOTAL=2, RESCUED_BY_VOLUME=85, ROW_FROM_NON_SOI_PAGE=10",
-      "context": {
-        "fix_count": 98,
-        "dropped": 10,
-        "converted": 88
       }
     },
     {
@@ -3834,7 +4037,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 376,
+        "row": 377,
         "row_type": "HOLDING",
         "investment": "WHX Corp., 10.500%, 04/15/05",
         "label": null,
@@ -3855,7 +4058,133 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 377,
+        "row": 378,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "U.S. Treasury Bills",
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
+      "context": {
+        "row": 379,
+        "row_type": "HOLDING",
+        "investment": "1.727% to 2.2028++, 01/13/05 to 03/17/05",
+        "label": null,
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
+      "context": {
+        "row": 380,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "REPURCHASE AGREEMENTS",
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
+      "context": {
+        "row": 381,
+        "row_type": "HOLDING",
+        "investment": "ABN Amro, 1.450%, dated 12/31/04, due 01/03/05, proceeds at maturity, $100,012,083",
+        "label": null,
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
+      "context": {
+        "row": 382,
+        "row_type": "HOLDING",
+        "investment": "Barclays Capital, 1.300%, dated 12/31/04, due 01/03/05, proceeds at maturity, $75,008,125",
+        "label": null,
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
+      "context": {
+        "row": 383,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "TOTAL SHORT-TERM OBLIGATIONS",
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
+      "context": {
+        "row": 384,
         "row_type": "TOTAL",
         "investment": null,
         "label": "TOTAL INVESTMENTS",
@@ -3876,7 +4205,70 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 378,
+        "row": 385,
+        "row_type": "HOLDING",
+        "investment": "T Rowe Price Jan. 05/65",
+        "label": null,
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
+      "context": {
+        "row": 386,
+        "row_type": "HOLDING",
+        "investment": "Verizon Communications Jan. 05/40",
+        "label": null,
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
+      "context": {
+        "row": 387,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "TOTAL WRITTEN CALL OPTIONS -- SHORT POSITION",
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
+      "context": {
+        "row": 388,
         "row_type": "TOTAL",
         "investment": null,
         "label": "NET ASSETS -- COMMON STOCK",
@@ -3895,9 +4287,30 @@
     {
       "severity": "warning",
       "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 4 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
+      "context": {
+        "row": 99,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "ENERGY AND UTILITIES: NATURAL GAS",
+        "original_page": 4,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          10,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 297,
+        "row": 298,
         "row_type": "HOLDING",
         "investment": "General American Investors Co. Inc., 5.950% Cumulative Pfd., Ser. B",
         "label": null,
@@ -3918,7 +4331,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 298,
+        "row": 299,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "AEROSPACE",
@@ -3939,7 +4352,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 299,
+        "row": 300,
         "row_type": "HOLDING",
         "investment": "Northrop Grumman Corp., 7.000% Cv. Pfd., Ser. B .",
         "label": null,
@@ -3960,7 +4373,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 300,
+        "row": 301,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "AUTOMOTIVE",
@@ -3981,7 +4394,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 301,
+        "row": 302,
         "row_type": "HOLDING",
         "investment": "General Motors Corp., 4.500% Cv. Pfd., Ser. A.",
         "label": null,
@@ -4002,7 +4415,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 302,
+        "row": 303,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "AVIATION: PARTS AND SERVICES",
@@ -4023,7 +4436,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 303,
+        "row": 304,
         "row_type": "HOLDING",
         "investment": "Sequa Corp., $5.00 Cv. Pfd.",
         "label": null,
@@ -4044,7 +4457,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 304,
+        "row": 305,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "BROADCASTING",
@@ -4065,7 +4478,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 305,
+        "row": 306,
         "row_type": "HOLDING",
         "investment": "Emmis Communications Corp., 6.250% Cv. Pfd., Ser. A .",
         "label": null,
@@ -4086,7 +4499,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 306,
+        "row": 307,
         "row_type": "HOLDING",
         "investment": "Sinclair Broadcast Group Inc., 6.000% Cv. Pfd., Ser. D.",
         "label": null,
@@ -4107,7 +4520,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 307,
+        "row": 308,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "BUILDING AND CONSTRUCTION",
@@ -4128,7 +4541,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 308,
+        "row": 309,
         "row_type": "HOLDING",
         "investment": "Fleetwood Capital Trust, 6.000% Cv. Pfd.+",
         "label": null,
@@ -4149,7 +4562,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 309,
+        "row": 310,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "BUSINESS SERVICES",
@@ -4170,7 +4583,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 310,
+        "row": 311,
         "row_type": "HOLDING",
         "investment": "Allied Waste Industries Inc., 6.250% Cv. Pfd.",
         "label": null,
@@ -4191,7 +4604,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 311,
+        "row": 312,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "CABLE AND SATELLITE",
@@ -4212,7 +4625,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 312,
+        "row": 313,
         "row_type": "HOLDING",
         "investment": "Rainbow Equity Securities Trust II, 6.250% Cv. Pfd.",
         "label": null,
@@ -4233,7 +4646,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 313,
+        "row": 314,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "CONSUMER PRODUCTS",
@@ -4254,7 +4667,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 314,
+        "row": 315,
         "row_type": "HOLDING",
         "investment": "Newell Financial Trust, 5.250% Cv. Pfd.",
         "label": null,
@@ -4275,7 +4688,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 315,
+        "row": 316,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "DIVERSIFIED INDUSTRIAL",
@@ -4296,7 +4709,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 316,
+        "row": 317,
         "row_type": "HOLDING",
         "investment": "Owens-Illinois Inc., 4.750% Cv. Pfd.",
         "label": null,
@@ -4317,7 +4730,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 317,
+        "row": 318,
         "row_type": "HOLDING",
         "investment": "Smurfit-Stone Container Corp., 7.000% Cv. Pfd., Ser. A.",
         "label": null,
@@ -4338,7 +4751,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 318,
+        "row": 319,
         "row_type": "HOLDING",
         "investment": "US Steel Corp., 7.000% Cv. Pfd., Ser. B .",
         "label": null,
@@ -4359,7 +4772,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 319,
+        "row": 320,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "ENERGY AND UTILITIES",
@@ -4380,7 +4793,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 320,
+        "row": 321,
         "row_type": "HOLDING",
         "investment": "Arch Coal Inc., 5.000% Cv. Pfd.",
         "label": null,
@@ -4401,7 +4814,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 321,
+        "row": 322,
         "row_type": "HOLDING",
         "investment": "Chesapeake Energy Corp., 5.000% Cv. Pfd.",
         "label": null,
@@ -4422,7 +4835,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 322,
+        "row": 323,
         "row_type": "HOLDING",
         "investment": "Chesapeake Energy Corp., 6.000% Cv. Pfd.",
         "label": null,
@@ -4443,7 +4856,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 323,
+        "row": 324,
         "row_type": "HOLDING",
         "investment": "CMS Energy Corp., 4.500% Cv. Pfd.",
         "label": null,
@@ -4464,7 +4877,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 324,
+        "row": 325,
         "row_type": "HOLDING",
         "investment": "El Paso Corp., 4.750% Cv. Pfd.",
         "label": null,
@@ -4485,7 +4898,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 325,
+        "row": 326,
         "row_type": "HOLDING",
         "investment": "Hanover Compressor, 7.250% Cv. Pfd.",
         "label": null,
@@ -4506,7 +4919,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 326,
+        "row": 327,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "ENTERTAINMENT",
@@ -4527,7 +4940,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 327,
+        "row": 328,
         "row_type": "HOLDING",
         "investment": "Six Flags Inc., 7.250% Cv. Pfd.",
         "label": null,
@@ -4548,7 +4961,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 328,
+        "row": 329,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "FINANCIAL SERVICES",
@@ -4569,7 +4982,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 329,
+        "row": 330,
         "row_type": "HOLDING",
         "investment": "Doral Financial Corp., 4.750% Cv. Pfd.",
         "label": null,
@@ -4590,7 +5003,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 330,
+        "row": 331,
         "row_type": "HOLDING",
         "investment": "National Australia Bank Ltd., 7.875% Cv. Pfd.",
         "label": null,
@@ -4611,7 +5024,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 331,
+        "row": 332,
         "row_type": "HOLDING",
         "investment": "United Fire & Casualty Co., 6.375% Cv. Pfd., Ser. A.",
         "label": null,
@@ -4632,7 +5045,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 332,
+        "row": 333,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "HEALTH CARE",
@@ -4653,7 +5066,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 333,
+        "row": 334,
         "row_type": "HOLDING",
         "investment": "McKesson Financing Trust, 5.000% Cv. Pfd.",
         "label": null,
@@ -4674,7 +5087,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 334,
+        "row": 335,
         "row_type": "HOLDING",
         "investment": "Omnicare Inc., 4.000% Cv. Pfd.",
         "label": null,
@@ -4695,7 +5108,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 335,
+        "row": 336,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "METALS AND MINING",
@@ -4716,7 +5129,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 336,
+        "row": 337,
         "row_type": "HOLDING",
         "investment": "Phelps Dodge Corp., 6.750% Cv. Pfd.",
         "label": null,
@@ -4737,7 +5150,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 337,
+        "row": 338,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "REAL ESTATE INVESTMENT TRUST",
@@ -4758,7 +5171,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 338,
+        "row": 339,
         "row_type": "HOLDING",
         "investment": "Equity Office Properties Trust, 5.250% Cv. Pfd., Ser. B .",
         "label": null,
@@ -4779,7 +5192,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 339,
+        "row": 340,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "TELECOMMUNICATIONS",
@@ -4800,7 +5213,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 340,
+        "row": 341,
         "row_type": "HOLDING",
         "investment": "Cincinnati Bell Inc., 6.750% Cv. Pfd., Ser. B ...",
         "label": null,
@@ -4821,7 +5234,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 341,
+        "row": 342,
         "row_type": "HOLDING",
         "investment": "Crown Castle International Corp., 6.250% Cv. Pfd. ..",
         "label": null,
@@ -4842,7 +5255,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 342,
+        "row": 343,
         "row_type": "SUBTOTAL",
         "investment": null,
         "label": "TRANSPORTATION",
@@ -4863,7 +5276,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 343,
+        "row": 344,
         "row_type": "HOLDING",
         "investment": "GATX Corp., $2.50 Cv. Pfd.",
         "label": null,
@@ -4884,7 +5297,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 344,
+        "row": 345,
         "row_type": "HOLDING",
         "investment": "Kansas City Southern, 4.250% Cv. Pfd.",
         "label": null,
@@ -4905,7 +5318,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 10, 12, 13]",
       "context": {
-        "row": 345,
+        "row": 346,
         "row_type": "TOTAL",
         "investment": null,
         "label": "TOTAL CONVERTIBLE PREFERRED STOCKS",
@@ -4921,1091 +5334,5 @@
         ]
       }
     }
-  ],
-  "normalization": {
-    "fix_count": 98,
-    "dropped_count": 10,
-    "converted_count": 88,
-    "percent_corrected_count": 0,
-    "fix_log": [
-      {
-        "row_idx": 8,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:CABLE AND SATELLITE|fv=15561732",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 11,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:EchoStar Communications Corp., Cl. A|fv=9,972,000",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 13,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:UnitedGlobalCom Inc., Cl. A+|fv=1,040,382",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 22,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Procter & Gamble Co.|fv=3,855,600",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 23,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Swedish Match AB|fv=8,336,820",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 24,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:DIVERSIFIED INDUSTRIAL|fv=54851909",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 25,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Bouygues SA|fv=11,553,622",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 27,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Cooper Industries Ltd., Cl A|fv=8,146,800",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 28,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:GATX Corp.|fv=6,207,600",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 33,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Tomkins plc|fv=5,130,297",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 37,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:ENERGY AND UTILITIES: ELECTRIC|fv=47567886",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 38,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:American Electric Power Co. Inc.|fv=10,302,000",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 41,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:DTE Energy Co.|fv=754,775",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 42,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Duquesne Light Holdings Inc.|fv=5,278,000",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 44,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Great Plains Energy Inc.|fv=18,470,800",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 45,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:ENERGY AND UTILITIES: INTEGRATED|fv=277953982",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 46,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Allegheny Energy Inc.+|fv=591,300",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 47,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:ALLETE Inc.|fv=4,410,000",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 51,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Black Hills Corp.|fv=316,004",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 52,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Burlington Resources Inc.|fv=2,610,000",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 53,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Central Vermont Public Service Corp.|fv=530,328",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 57,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Cinergy Corp.|fv=13,321,600",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 58,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:CONSOL Energy Inc.|fv=6,978,500",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 60,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Dominion Resources Inc.|fv=135,480",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 61,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Duke Energy Corp.|fv=6,560,470",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 69,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Hawaiian Electric Industries Inc.|fv=3,789,500",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 70,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Hera SpA|fv=720,402",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 72,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Hokuriku Electric Power Co.|fv=1,472,655",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 76,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:MGE Energy Inc.|fv=54,045",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 78,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:NiSource Inc.|fv=5,922,800",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 80,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:OGE Energy Corp.|fv=13,255,000",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 82,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Pepco Holdings Inc.|fv=12,792,000",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 84,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Progress Energy Inc.|fv=14,476,800",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 85,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Public Service Enterprise Group Inc.|fv=13,460,200",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 86,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Scottish Power plc, ADR|fv=6,232,000",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 89,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:TECO Energy Inc.|fv=30,680",
-        "old_value": "page=1",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 99,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:ENERGY AND UTILITIES: NATURAL GAS|fv=69323665",
-        "old_value": "page=4",
-        "new_value": "valid_pages=[3, 5, 7, 9, 10, 12, 13]"
-      },
-      {
-        "row_idx": 298,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:General American Investors Co. Inc., 5.9|fv=1,872,750",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 299,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:AEROSPACE|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 300,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Northrop Grumman Corp., 7.000% Cv. Pfd.,|fv=1,097,663",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 301,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:AUTOMOTIVE|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 302,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:General Motors Corp., 4.500% Cv. Pfd., S|fv=501,800",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 303,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:AVIATION: PARTS AND SERVICES|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 304,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Sequa Corp., $5.00 Cv. Pfd.|fv=1,189,500",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 305,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:BROADCASTING|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 306,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Emmis Communications Corp., 6.250% Cv. P|fv=804,033",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 307,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Sinclair Broadcast Group Inc., 6.000% Cv|fv=11,524,850",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 308,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:BUILDING AND CONSTRUCTION|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 309,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Fleetwood Capital Trust, 6.000% Cv. Pfd.|fv=9,100",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 310,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:BUSINESS SERVICES|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 311,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Allied Waste Industries Inc., 6.250% Cv.|fv=948,780",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 312,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:CABLE AND SATELLITE|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 313,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Rainbow Equity Securities Trust II, 6.25|fv=250,100",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 314,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:CONSUMER PRODUCTS|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 315,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Newell Financial Trust, 5.250% Cv. Pfd.|fv=6,545,662",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 316,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:DIVERSIFIED INDUSTRIAL|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 317,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Owens-Illinois Inc., 4.750% Cv. Pfd.|fv=7,265,700",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 318,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Smurfit-Stone Container Corp., 7.000% Cv|fv=2,052,801",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 319,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:US Steel Corp., 7.000% Cv. Pfd., Ser. B |fv=166,850",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 320,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:ENERGY AND UTILITIES|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 321,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Arch Coal Inc., 5.000% Cv. Pfd.|fv=887,250",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 322,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Chesapeake Energy Corp., 5.000% Cv. Pfd.|fv=2,447,000",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 323,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Chesapeake Energy Corp., 6.000% Cv. Pfd.|fv=242,325",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 324,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:CMS Energy Corp., 4.500% Cv. Pfd.|fv=1,272,500",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 325,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:El Paso Corp., 4.750% Cv. Pfd.|fv=4,771,000",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 326,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Hanover Compressor, 7.250% Cv. Pfd.|fv=2,226,634",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 327,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:ENTERTAINMENT|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 328,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Six Flags Inc., 7.250% Cv. Pfd.|fv=3,717,840",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 329,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:FINANCIAL SERVICES|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 330,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Doral Financial Corp., 4.750% Cv. Pfd.|fv=1,307,320",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 331,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:National Australia Bank Ltd., 7.875% Cv.|fv=8,157,100",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 332,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:United Fire & Casualty Co., 6.375% Cv. P|fv=215,322",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 333,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:HEALTH CARE|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 334,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:McKesson Financing Trust, 5.000% Cv. Pfd|fv=2,900,518",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 335,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Omnicare Inc., 4.000% Cv. Pfd.|fv=551,600",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 336,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:METALS AND MINING|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 337,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Phelps Dodge Corp., 6.750% Cv. Pfd.|fv=1,241,160",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 338,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:REAL ESTATE INVESTMENT TRUST|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 339,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Equity Office Properties Trust, 5.250% C|fv=107,856",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 340,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:TELECOMMUNICATIONS|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 341,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Cincinnati Bell Inc., 6.750% Cv. Pfd., S|fv=1,609,625",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 342,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Crown Castle International Corp., 6.250%|fv=5,929,000",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 343,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:TRANSPORTATION|fv=",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 344,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:GATX Corp., $2.50 Cv. Pfd.|fv=225,000",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 345,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Kansas City Southern, 4.250% Cv. Pfd.|fv=645,911",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 346,
-        "old_row_type": "TOTAL",
-        "new_row_type": "TOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "TOTAL:TOTAL CONVERTIBLE PREFERRED STOCKS|fv=70,811,800",
-        "old_value": "page=8",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 377,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:WHX Corp., 10.500%, 04/15/05|fv=955,000",
-        "old_value": "page=11",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 378,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:U.S. Treasury Bills|fv=",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[3, 5, 7, 9, 10, 12, 13]"
-      },
-      {
-        "row_idx": 379,
-        "old_row_type": "HOLDING",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "HOLDING:1.727% to 2.2028++, 01/13/05 to 03/17/05|fv=388,743,822",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[3, 5, 7, 9, 10, 12, 13]"
-      },
-      {
-        "row_idx": 380,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:REPURCHASE AGREEMENTS|fv=",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[3, 5, 7, 9, 10, 12, 13]"
-      },
-      {
-        "row_idx": 381,
-        "old_row_type": "HOLDING",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "HOLDING:ABN Amro, 1.450%, dated 12/31/04, due 01|fv=$ 100,000,000",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[3, 5, 7, 9, 10, 12, 13]"
-      },
-      {
-        "row_idx": 382,
-        "old_row_type": "HOLDING",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "HOLDING:Barclays Capital, 1.300%, dated 12/31/04|fv=75,000,000",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[3, 5, 7, 9, 10, 12, 13]"
-      },
-      {
-        "row_idx": 383,
-        "old_row_type": "TOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "TOTAL:TOTAL SHORT-TERM OBLIGATIONS|fv=175,000,000",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[3, 5, 7, 9, 10, 12, 13]"
-      },
-      {
-        "row_idx": 384,
-        "old_row_type": "TOTAL",
-        "new_row_type": "TOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_MAJOR_TOTAL",
-        "confidence": "high",
-        "row_signature": "TOTAL:TOTAL INVESTMENTS|fv=2,005,508,084",
-        "old_value": "page=11",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      },
-      {
-        "row_idx": 385,
-        "old_row_type": "HOLDING",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "HOLDING:T Rowe Price Jan. 05/65|fv=$ 2,500",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[3, 5, 7, 9, 10, 12, 13]"
-      },
-      {
-        "row_idx": 386,
-        "old_row_type": "HOLDING",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "HOLDING:Verizon Communications Jan. 05/40|fv=25,500",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[3, 5, 7, 9, 10, 12, 13]"
-      },
-      {
-        "row_idx": 387,
-        "old_row_type": "TOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "TOTAL:TOTAL WRITTEN CALL OPTIONS -- SHORT POSI|fv=28,000",
-        "old_value": "page=11",
-        "new_value": "valid_pages=[3, 5, 7, 9, 10, 12, 13]"
-      },
-      {
-        "row_idx": 388,
-        "old_row_type": "TOTAL",
-        "new_row_type": "TOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_MAJOR_TOTAL",
-        "confidence": "high",
-        "row_signature": "TOTAL:NET ASSETS -- COMMON STOCK|fv=$1,706,703,344",
-        "old_value": "page=11",
-        "new_value": "rescued (page not in [3, 5, 7, 9, 10, 12, 13])"
-      }
-    ]
-  }
+  ]
 }

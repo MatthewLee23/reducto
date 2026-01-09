@@ -1,11 +1,11 @@
 {
   "source_name": "0000935069-09-000655",
-  "total_rows": 13,
+  "total_rows": 15,
   "holding_count": 12,
-  "subtotal_count": 1,
-  "total_count": 0,
+  "subtotal_count": 2,
+  "total_count": 1,
   "error_count": 0,
-  "warning_count": 2,
+  "warning_count": 3,
   "has_arithmetic_error": false,
   "max_dollar_diff": "0",
   "root_sum_mismatch": false,
@@ -36,13 +36,15 @@
       "extracted_cost": null,
       "extracted_pct": null,
       "holding_count": 0,
-      "child_count": 1,
+      "child_count": 2,
       "subtotal_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pct_bridged_from_subtotal": false,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
-      "parent_subtotals_excluded": 0
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL",
+      "total_extracted_fv": "129276100"
     },
     "(root)": {
       "calculated_fv": "129276100",
@@ -73,43 +75,33 @@
     },
     {
       "severity": "warning",
-      "code": "NORMALIZATION_APPLIED",
-      "message": "Sanitizer fixed 2 row(s): ROW_FROM_NON_SOI_PAGE=2",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [14]",
       "context": {
-        "fix_count": 2,
-        "dropped": 2,
-        "converted": 0
+        "row": 13,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Redeemed Investment Funds",
+        "original_page": 1,
+        "soi_pages": [
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [14]",
+      "context": {
+        "row": 14,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "TOTAL",
+        "original_page": 1,
+        "soi_pages": [
+          14
+        ]
       }
     }
-  ],
-  "normalization": {
-    "fix_count": 2,
-    "dropped_count": 2,
-    "converted_count": 0,
-    "percent_corrected_count": 0,
-    "fix_log": [
-      {
-        "row_idx": 13,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:Redeemed Investment Funds|fv=--",
-        "old_value": "page=1",
-        "new_value": "valid_pages=[14]"
-      },
-      {
-        "row_idx": 14,
-        "old_row_type": "TOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "TOTAL:TOTAL|fv=$129,276,100",
-        "old_value": "page=1",
-        "new_value": "valid_pages=[14]"
-      }
-    ]
-  }
+  ]
 }

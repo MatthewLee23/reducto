@@ -1,0 +1,5546 @@
+{
+  "source_name": "0001379491-07-000103",
+  "total_rows": 403,
+  "holding_count": 323,
+  "subtotal_count": 73,
+  "total_count": 7,
+  "error_count": 14,
+  "warning_count": 148,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "1084923262",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "1096392446",
+  "extracted_total_fv": "1027251758",
+  "computed_sums": {
+    "SOVEREIGN DEBT OBLIGATIONS > Argentina": {
+      "calculated_fv": "68916245",
+      "calculated_cost": null,
+      "calculated_pct": "7.0",
+      "extracted_fv": "71875375",
+      "extracted_cost": null,
+      "extracted_pct": "7.0",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Brazil": {
+      "calculated_fv": "155372925",
+      "calculated_cost": null,
+      "calculated_pct": "15.1",
+      "extracted_fv": "155372925",
+      "extracted_cost": null,
+      "extracted_pct": "15.1",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Bulgaria": {
+      "calculated_fv": "3788730",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Colombia": {
+      "calculated_fv": "37798618",
+      "calculated_cost": null,
+      "calculated_pct": "3.7",
+      "extracted_fv": "37798618",
+      "extracted_cost": null,
+      "extracted_pct": "3.7",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Costa Rica": {
+      "calculated_fv": "6520515",
+      "calculated_cost": null,
+      "calculated_pct": "0.6",
+      "extracted_fv": "6520515",
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Dominican Republic": {
+      "calculated_fv": "9483292",
+      "calculated_cost": null,
+      "calculated_pct": "0.9",
+      "extracted_fv": "9483292",
+      "extracted_cost": null,
+      "extracted_pct": "0.9",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > El Salvador": {
+      "calculated_fv": "10098425",
+      "calculated_cost": null,
+      "calculated_pct": "1.0",
+      "extracted_fv": "10098425",
+      "extracted_cost": null,
+      "extracted_pct": "1.0",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Indonesia": {
+      "calculated_fv": "30916926",
+      "calculated_cost": null,
+      "calculated_pct": "3.0",
+      "extracted_fv": "30916926",
+      "extracted_cost": null,
+      "extracted_pct": "3.0",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Jamaica": {
+      "calculated_fv": "3916508",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": "3916508",
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Lebanon": {
+      "calculated_fv": "11435350",
+      "calculated_cost": null,
+      "calculated_pct": "1.1",
+      "extracted_fv": "11435350",
+      "extracted_cost": null,
+      "extracted_pct": "1.1",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Mexico": {
+      "calculated_fv": "118665414",
+      "calculated_cost": null,
+      "calculated_pct": "11.6",
+      "extracted_fv": "118665414",
+      "extracted_cost": null,
+      "extracted_pct": "11.6",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Panama": {
+      "calculated_fv": "45456800",
+      "calculated_cost": null,
+      "calculated_pct": "4.4",
+      "extracted_fv": "45456800",
+      "extracted_cost": null,
+      "extracted_pct": "4.4",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Peru": {
+      "calculated_fv": "39591909",
+      "calculated_cost": null,
+      "calculated_pct": "3.9",
+      "extracted_fv": "39591909",
+      "extracted_cost": null,
+      "extracted_pct": "3.9",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Philippines": {
+      "calculated_fv": "77543940",
+      "calculated_cost": null,
+      "calculated_pct": "7.5",
+      "extracted_fv": "77543940",
+      "extracted_cost": null,
+      "extracted_pct": "7.5",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Russia": {
+      "calculated_fv": "34911094",
+      "calculated_cost": null,
+      "calculated_pct": "3.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > South Africa": {
+      "calculated_fv": "5979806",
+      "calculated_cost": null,
+      "calculated_pct": "0.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Turkey": {
+      "calculated_fv": "46220535",
+      "calculated_cost": null,
+      "calculated_pct": "4.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "4.5",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Ukraine": {
+      "calculated_fv": "8498701",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": "8498701",
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Uruguay": {
+      "calculated_fv": "25733568",
+      "calculated_cost": null,
+      "calculated_pct": "2.5",
+      "extracted_fv": "25733568",
+      "extracted_cost": null,
+      "extracted_pct": "2.5",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Venezuela": {
+      "calculated_fv": "47971334",
+      "calculated_cost": null,
+      "calculated_pct": "4.4",
+      "extracted_fv": "45012204",
+      "extracted_cost": null,
+      "extracted_pct": "4.4",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS": {
+      "calculated_fv": "788820635",
+      "calculated_cost": null,
+      "calculated_pct": "76.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 20,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Sovereign Debt Obligations",
+      "total_extracted_fv": "788820635"
+    },
+    "CORPORATE DEBT OBLIGATIONS > Belgium": {
+      "calculated_fv": "722750",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Bermuda": {
+      "calculated_fv": "2511500",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": "2511500",
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Brazil": {
+      "calculated_fv": "6595992",
+      "calculated_cost": null,
+      "calculated_pct": "0.6",
+      "extracted_fv": "6595992",
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Canada": {
+      "calculated_fv": "7558500",
+      "calculated_cost": null,
+      "calculated_pct": "0.7",
+      "extracted_fv": "7558500",
+      "extracted_cost": null,
+      "extracted_pct": "0.7",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Cayman Islands": {
+      "calculated_fv": "1600000",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > China": {
+      "calculated_fv": "4025700",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > France": {
+      "calculated_fv": "781875",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Hong Kong": {
+      "calculated_fv": "4459176",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Ireland": {
+      "calculated_fv": "1473750",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Jamaica": {
+      "calculated_fv": "3603880",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Kazakhstan": {
+      "calculated_fv": "8628732",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": "8628732",
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Luxembourg": {
+      "calculated_fv": "781875",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Malaysia": {
+      "calculated_fv": "7840533",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Mexico": {
+      "calculated_fv": "2766284",
+      "calculated_cost": null,
+      "calculated_pct": "0.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.3",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Netherlands": {
+      "calculated_fv": "515312",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "515312",
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Peru": {
+      "calculated_fv": "13258998",
+      "calculated_cost": null,
+      "calculated_pct": "1.3",
+      "extracted_fv": "13258998",
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Russia": {
+      "calculated_fv": "63773719",
+      "calculated_cost": null,
+      "calculated_pct": "6.2",
+      "extracted_fv": "63773719",
+      "extracted_cost": null,
+      "extracted_pct": "6.2",
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Singapore": {
+      "calculated_fv": "959000",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": "959000",
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > South Korea": {
+      "calculated_fv": "1475250",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Ukraine": {
+      "calculated_fv": "2875500",
+      "calculated_cost": null,
+      "calculated_pct": "0.3",
+      "extracted_fv": "2875500",
+      "extracted_cost": null,
+      "extracted_pct": "0.3",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > United Kingdom": {
+      "calculated_fv": "1856375",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": "1856375",
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > United States": {
+      "calculated_fv": "161856268",
+      "calculated_cost": null,
+      "calculated_pct": "15.8",
+      "extracted_fv": "161856268",
+      "extracted_cost": null,
+      "extracted_pct": "15.8",
+      "holding_count": 166,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS": {
+      "calculated_fv": "299920969",
+      "calculated_cost": null,
+      "calculated_pct": "29.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 22,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Corporate Debt Obligations",
+      "total_extracted_fv": "299920969"
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > WARRANTS": {
+      "calculated_fv": "2422500",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Warrants",
+      "total_extracted_fv": "2422500"
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > SHORT-TERM INVESTMENTS > Time Deposit": {
+      "calculated_fv": "1410000",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > SHORT-TERM INVESTMENTS": {
+      "calculated_fv": "1410000",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Short-Term Investments",
+      "total_extracted_fv": "1410000"
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > CREDIT DEFAULT SWAP CONTRACTS > Buy Contracts": {
+      "calculated_fv": "-70107",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > CREDIT DEFAULT SWAP CONTRACTS > Sale Contracts": {
+      "calculated_fv": "3984706",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > CREDIT DEFAULT SWAP CONTRACTS": {
+      "calculated_fv": "3914599",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > FORWARD CURRENCY EXCHANGE CONTRACTS > Sale Contracts": {
+      "calculated_fv": "-96257",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > FORWARD CURRENCY EXCHANGE CONTRACTS": {
+      "calculated_fv": "-96257",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND": {
+      "calculated_fv": "7650842",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Investments",
+      "total_extracted_fv": "1092574104"
+    },
+    "(root)": {
+      "calculated_fv": "1096392446",
+      "calculated_cost": null,
+      "calculated_pct": "106.4",
+      "extracted_fv": "-65322346",
+      "extracted_cost": null,
+      "extracted_pct": "-6.4",
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Net Assets",
+      "total_extracted_fv": "1027251758"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_FV",
+      "message": "Grand total of all holdings (1096392446) != extracted Total (1027251758), diff=$69140688",
+      "context": {
+        "section_path": "(root)",
+        "label": "Net Assets",
+        "calculated": "1096392446",
+        "extracted": "1027251758",
+        "diff": "69140688"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (47971334) != extracted subtotal (45012204), diff=$2959130",
+      "context": {
+        "section_path": "SOVEREIGN DEBT OBLIGATIONS > Venezuela",
+        "label": "Venezuela",
+        "calculated": "47971334",
+        "extracted": "45012204",
+        "diff": "2959130"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (68916245) != extracted subtotal (71875375), diff=$2959130",
+      "context": {
+        "section_path": "SOVEREIGN DEBT OBLIGATIONS > Argentina",
+        "label": "Argentina",
+        "calculated": "68916245",
+        "extracted": "71875375",
+        "diff": "2959130"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_PCT",
+      "message": "Section percent (0.4%) != Total row (106.4%), diff=106.0%",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND",
+        "label": "Total Investments",
+        "calculated": "0.4",
+        "extracted": "106.4",
+        "diff": "106.0",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_PCT",
+      "message": "Grand total percent (106.4%) != extracted Total (100.0%), diff=6.4%",
+      "context": {
+        "section_path": "(root)",
+        "label": "Net Assets",
+        "calculated": "106.4",
+        "extracted": "100.0",
+        "diff": "6.4",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '116' don't match citation content digits '722' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 54,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '151' don't match citation content digits '722' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 5,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '158' don't match citation content digits '275' (overlap: 33%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 202,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '34' don't match citation content digits '02' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 89,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '39' don't match citation content digits '02' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 70,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '44' don't match citation content digits '02' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 62,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '44' don't match citation content digits '722' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 111,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "FUND_SEVERE_PARTIAL_EXTRACTION",
+      "message": "Fund 'ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND': Only 0.7% of holdings extracted. Calculated $7650842 vs TOTAL $1092574104. Missing ~$1084923262.",
+      "context": {
+        "fund_name": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND",
+        "label": "Total Investments",
+        "calculated": "7650842",
+        "extracted": "1092574104",
+        "diff": "1084923262",
+        "extraction_ratio": "0.7%",
+        "missing_value": "1084923262"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "SEVERE_SECTION_PARTIAL_EXTRACTION",
+      "message": "CRITICAL: Only 0.7% of holdings extracted. Calculated $7650842 vs TOTAL $1092574104. Missing ~$1084923262. Likely missing entire pages or sections.",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND",
+        "label": "Total Investments",
+        "calculated": "7650842",
+        "extracted": "1092574104",
+        "diff": "1084923262",
+        "extraction_ratio": "0.7%",
+        "missing_value": "1084923262",
+        "severity_level": "critical"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2007) differs from filename (9491)",
+      "context": {
+        "as_of_date": "March 31, 2007",
+        "filename_date": "9491-07-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > FORWARD CURRENCY EXCHANGE CONTRACTS > Sale Contracts"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > CREDIT DEFAULT SWAP CONTRACTS > Buy Contracts"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 8 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > CREDIT DEFAULT SWAP CONTRACTS > Sale Contracts"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MULTI_FUND_DOCUMENT_DETECTED",
+      "message": "Document contains 3 distinct funds. Validating each fund separately.",
+      "context": {
+        "fund_count": 3,
+        "fund_names": [
+          "SOVEREIGN DEBT OBLIGATIONS",
+          "CORPORATE DEBT OBLIGATIONS",
+          "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND"
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 91 row(s): FUND_PARTIAL_EXTRACTION_WARNING=1, RESCUED_BY_VOLUME=90, ROW_FROM_NON_SOI_PAGE=1",
+      "context": {
+        "fix_count": 91,
+        "dropped": 1,
+        "converted": 90
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 7,
+        "row_type": "HOLDING",
+        "investment": "Republic of Brazil 8.00%, 1/15/18 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 24,
+        "row_type": "HOLDING",
+        "investment": "Costa Rican Colon Structured Note Zero Coupon, 1/10/08 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 25,
+        "row_type": "HOLDING",
+        "investment": "Republic of Costa Rica 8.05%, 1/31/13 (a) (e).",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 26,
+        "row_type": "HOLDING",
+        "investment": "Republic of Costa Rica 8.11%, 2/01/12 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 29,
+        "row_type": "HOLDING",
+        "investment": "Dominican Peso Structured Notes 11.871%, 1/07/08 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 36,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "El Salvador",
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 38,
+        "row_type": "HOLDING",
+        "investment": "Indonesia Rupiah Structured Note 11.07%, 10/15/14 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 40,
+        "row_type": "HOLDING",
+        "investment": "Republic of Indonesia 6.875%, 3/09/17 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 41,
+        "row_type": "HOLDING",
+        "investment": "Republic of Indonesia 7.25%, 4/20/15 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 42,
+        "row_type": "HOLDING",
+        "investment": "Republic of Indonesia 7.50%, 1/15/16 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 43,
+        "row_type": "HOLDING",
+        "investment": "Republic of Indonesia 8.50%, 10/12/35 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 46,
+        "row_type": "HOLDING",
+        "investment": "Government of Jamaica 9.25%, 10/17/25(a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 47,
+        "row_type": "HOLDING",
+        "investment": "Government of Jamaica 10.625%, 6/20/17 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 48,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Jamaica",
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 50,
+        "row_type": "HOLDING",
+        "investment": "Lebanese Republic 7.875%, 5/20/11 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 51,
+        "row_type": "HOLDING",
+        "investment": "Lebanese Republic 10.125%, 8/06/08 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 52,
+        "row_type": "HOLDING",
+        "investment": "Lebanese Republic 11.625%, 5/11/16 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 53,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Lebanon",
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 55,
+        "row_type": "HOLDING",
+        "investment": "Mexican Bonos Series M 20 10.00%, 12/05/24 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 56,
+        "row_type": "HOLDING",
+        "investment": "Mexican Bonos Series MI10 9.00%, 12/20/12 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 58,
+        "row_type": "HOLDING",
+        "investment": "United Mexican States 11.375%, 9/15/16 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 59,
+        "row_type": "HOLDING",
+        "investment": "United Mexican States Series A 6.75%, 9/27/34 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 60,
+        "row_type": "HOLDING",
+        "investment": "United Mexican States Series A 8.00%, 9/24/22 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 61,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Mexico",
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 63,
+        "row_type": "HOLDING",
+        "investment": "MMG Fiduciary (AES El Salvador) 6.75%, 2/01/16 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 67,
+        "row_type": "HOLDING",
+        "investment": "Republic of Panama 8.875%, 9/30/27 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 68,
+        "row_type": "HOLDING",
+        "investment": "Republic of Panama 9.375%, 7/23/12-4/01/29 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 69,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Panama",
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 78,
+        "row_type": "HOLDING",
+        "investment": "Republic of Philippines 7.50%, 9/25/24 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 79,
+        "row_type": "HOLDING",
+        "investment": "Republic of Philippines 7.75%, 1/14/31 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 80,
+        "row_type": "HOLDING",
+        "investment": "Republic of Philippines 8.00%, 1/15/16 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 82,
+        "row_type": "HOLDING",
+        "investment": "Republic of Philippines 8.375%, 2/15/11 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 83,
+        "row_type": "HOLDING",
+        "investment": "Republic of Philippines 8.875%, 3/17/15 (a) (d)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 84,
+        "row_type": "HOLDING",
+        "investment": "Republic of Philippines 9.00%, 2/15/13 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 85,
+        "row_type": "HOLDING",
+        "investment": "Republic of Philippines 9.50%, 10/21/24-2/02/30 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 86,
+        "row_type": "HOLDING",
+        "investment": "Republic of Philippines 9.875%, 1/15/19 (d)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 87,
+        "row_type": "HOLDING",
+        "investment": "Republic of Philippines 10.625%, 3/16/25 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 88,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Philippines",
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 92,
+        "row_type": "HOLDING",
+        "investment": "Republic of South Africa 7.375%, 4/25/12 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 94,
+        "row_type": "HOLDING",
+        "investment": "Republic of Turkey 6.875%, 3/17/36(a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 95,
+        "row_type": "HOLDING",
+        "investment": "Republic of Turkey 7.00%, 6/05/20 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 96,
+        "row_type": "HOLDING",
+        "investment": "Republic of Turkey 7.375%, 2/05/25 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 97,
+        "row_type": "HOLDING",
+        "investment": "Republic of Turkey 8.00%, 2/14/34 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 98,
+        "row_type": "HOLDING",
+        "investment": "Turkey Government Bond Zero Coupon, 11/26/08 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 101,
+        "row_type": "HOLDING",
+        "investment": "Government of Ukraine 7.65%, 6/11/13 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 102,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Ukraine",
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 104,
+        "row_type": "HOLDING",
+        "investment": "Republic of Uruguay 7.625%, 3/21/36 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 106,
+        "row_type": "HOLDING",
+        "investment": "Republic of Uruguay 8.00%, 11/18/22 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 109,
+        "row_type": "HOLDING",
+        "investment": "Uruguay Government International Bond 5.00%, 9/14/18 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 113,
+        "row_type": "HOLDING",
+        "investment": "Republic of Venezuela 6.00%, 12/09/20 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 114,
+        "row_type": "HOLDING",
+        "investment": "Republic of Venezuela 7.00%, 12/01/18 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 117,
+        "row_type": "HOLDING",
+        "investment": "Republic of Venezuela 9.25%, 9/15/27 (d)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 118,
+        "row_type": "HOLDING",
+        "investment": "Republic of Venezuela 10.75%, 9/19/13 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 120,
+        "row_type": "HOLDING",
+        "investment": "Republic of Venezuela Series V 7.00%, 3/28/11 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 121,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Venezuela",
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 127,
+        "row_type": "HOLDING",
+        "investment": "Intelsat Bermuda, Ltd. 11.25%, 6/15/16(e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 130,
+        "row_type": "HOLDING",
+        "investment": "Banco BMG SA 9.15%, 1/15/16 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 131,
+        "row_type": "HOLDING",
+        "investment": "Vale Overseas Ltd. 6.875%, 11/21/36 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 135,
+        "row_type": "HOLDING",
+        "investment": "Domtar, Inc. 5.375%, 12/01/13 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 142,
+        "row_type": "HOLDING",
+        "investment": "Shaw Communications, Inc. 7.20%, 12/15/11 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 149,
+        "row_type": "HOLDING",
+        "investment": "Rhodia SA 8.875%, 6/01/11 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 153,
+        "row_type": "HOLDING",
+        "investment": "Elan Finance PLC/Elan Finance Corp. 7.75%, 11/15/11 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 157,
+        "row_type": "HOLDING",
+        "investment": "Alb Finance BV 9.25%, 9/25/13 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 158,
+        "row_type": "HOLDING",
+        "investment": "Kazkommerts International BV 8.50%, 4/16/13 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 159,
+        "row_type": "HOLDING",
+        "investment": "Tengizchevroil Finance Co. 6.124%, 11/15/14 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 168,
+        "row_type": "HOLDING",
+        "investment": "NXP BV/NXP Funding LLC 8.11%, 10/15/13 (a) (c) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 169,
+        "row_type": "HOLDING",
+        "investment": "NXP BV/NXP Funding LLC 9.50%, 10/15/15 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 170,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Netherlands",
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 177,
+        "row_type": "HOLDING",
+        "investment": "Citigroup (JSC Severstal) 9.25%, 4/19/14 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 180,
+        "row_type": "HOLDING",
+        "investment": "Gazprom OAO 9.625%, 3/01/13 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 181,
+        "row_type": "HOLDING",
+        "investment": "Gazprombank 6.50%, 9/23/15 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 183,
+        "row_type": "HOLDING",
+        "investment": "Mobile Telesystems Finance 9.75%, 1/30/08 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 184,
+        "row_type": "HOLDING",
+        "investment": "Russian Standard Finance 7.50%, 10/07/10 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 186,
+        "row_type": "HOLDING",
+        "investment": "Tyumen Oil Co. 11.00%, 11/06/07(a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 187,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Russia",
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 195,
+        "row_type": "HOLDING",
+        "investment": "Kyivstar 7.75%, 4/27/12 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 196,
+        "row_type": "HOLDING",
+        "investment": "Kyivstar 10.375%, 8/17/09 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 197,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "Ukraine",
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 201,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "United Kingdom",
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 222,
+        "row_type": "HOLDING",
+        "investment": "CA, Inc. Series B 8.00%, 4/15/12 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 270,
+        "row_type": "HOLDING",
+        "investment": "HCA, Inc. 9.25%, 11/15/16 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 271,
+        "row_type": "HOLDING",
+        "investment": "Healthsouth Corp. 10.75%, 6/15/16 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 274,
+        "row_type": "HOLDING",
+        "investment": "Hexion US Finance Corp./ Hexion Nova Scotia Finance ULC 9.86%, 11/15/14 (a) (c) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 276,
+        "row_type": "HOLDING",
+        "investment": "Hilton Hotels Corp. 7.625%, 12/01/12 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 278,
+        "row_type": "HOLDING",
+        "investment": "Host Hotels & Resorts LP 6.875%, 11/01/14 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 286,
+        "row_type": "HOLDING",
+        "investment": "Jostens IH Corp. 7.625%, 10/01/12 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 289,
+        "row_type": "HOLDING",
+        "investment": "Kinder Morgan Finance Co. 5.70%, 1/05/16 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 292,
+        "row_type": "HOLDING",
+        "investment": "Lear Corp. Series B 8.50%, 12/01/13 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 294,
+        "row_type": "HOLDING",
+        "investment": "Level 3 Financing, Inc. 8.75%, 2/15/17 (a) (e)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 298,
+        "row_type": "HOLDING",
+        "investment": "Liberty Media Corp. 5.70%, 5/15/13 (a)",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 319,
+        "row_type": "HOLDING",
+        "investment": "Qwest Capital Funding, Inc. 7.25%, 2/15/11 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 320,
+        "row_type": "HOLDING",
+        "investment": "Qwest Corp. 6.875%, 9/15/33 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 321,
+        "row_type": "HOLDING",
+        "investment": "Rainbow National Services LLC 8.75%, 9/01/12 (a) (e)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 322,
+        "row_type": "HOLDING",
+        "investment": "Rainbow National Services LLC 10.375%, 9/01/14 (a) (e)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 323,
+        "row_type": "HOLDING",
+        "investment": "Range Resources Corp. 7.50%, 5/15/16 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 324,
+        "row_type": "HOLDING",
+        "investment": "RBS Global, Inc. and Rexnord Corp. 9.50%, 8/01/14 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 325,
+        "row_type": "HOLDING",
+        "investment": "RBS Global, Inc. and Rexnord Corp. 11.75%, 8/01/16 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 326,
+        "row_type": "HOLDING",
+        "investment": "Regency Energy Partners 8.375%, 12/15/13 (a) (e)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 327,
+        "row_type": "HOLDING",
+        "investment": "Reliant Energy, Inc. 6.75%, 12/15/14 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 328,
+        "row_type": "HOLDING",
+        "investment": "Reynolds American, Inc. 7.25%, 6/01/13 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 329,
+        "row_type": "HOLDING",
+        "investment": "Reynolds American, Inc. 7.625%, 6/01/16 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 330,
+        "row_type": "HOLDING",
+        "investment": "RH Donnelley Corp. Series A-1 6.875%, 1/15/13 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 331,
+        "row_type": "HOLDING",
+        "investment": "RH Donnelley Corp. Series A-3 8.875%, 1/15/16 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 332,
+        "row_type": "HOLDING",
+        "investment": "Rite Aid Corp. 6.875%, 8/15/13 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 333,
+        "row_type": "HOLDING",
+        "investment": "Rite Aid Corp. 9.25%, 6/01/13",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 334,
+        "row_type": "HOLDING",
+        "investment": "Rural Cellular Corp. 9.75%, 1/15/10 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 335,
+        "row_type": "HOLDING",
+        "investment": "Sbarro, Inc. 10.375%, 2/01/15 (a) (e)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 336,
+        "row_type": "HOLDING",
+        "investment": "Select Medical Corp. 7.625%, 2/01/15 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 337,
+        "row_type": "HOLDING",
+        "investment": "Serena Software, Inc. Series WI 10.375%, 3/15/16(a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 338,
+        "row_type": "HOLDING",
+        "investment": "Sierra Pacific Resources 8.625%, 3/15/14 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 339,
+        "row_type": "HOLDING",
+        "investment": "Sirius Satellite Radio, Inc. 9.625%, 8/01/13 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 340,
+        "row_type": "HOLDING",
+        "investment": "Six Flags, Inc. 9.75%, 4/15/13 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 341,
+        "row_type": "HOLDING",
+        "investment": "Southern Copper Corp. 7.50%, 7/27/35 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 342,
+        "row_type": "HOLDING",
+        "investment": "Spectrum Brands, Inc. 7.375%, 2/01/15 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 343,
+        "row_type": "HOLDING",
+        "investment": "Stater Brothers Holdings 8.125%, 6/15/12 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 344,
+        "row_type": "HOLDING",
+        "investment": "Station Casinos, Inc. 6.625%, 3/15/18 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 345,
+        "row_type": "HOLDING",
+        "investment": "Sungard Data Systems, Inc. 9.125%, 8/15/13 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 346,
+        "row_type": "HOLDING",
+        "investment": "Tenet Healthcare Corp. 7.375%, 2/01/13 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 347,
+        "row_type": "HOLDING",
+        "investment": "Tenneco, Inc. 8.625%, 11/15/14 (a).",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 348,
+        "row_type": "HOLDING",
+        "investment": "Terrestar Networks, Inc. 15.00%, 2/15/14 (a) (e) (f)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 349,
+        "row_type": "HOLDING",
+        "investment": "Time Warner Telecom Holdings, Inc. 9.25%, 2/15/14 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 350,
+        "row_type": "HOLDING",
+        "investment": "Trinity Industries, Inc. 6.50%, 3/15/14 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 351,
+        "row_type": "HOLDING",
+        "investment": "Trump Entertainment Resorts, Inc. 8.50%, 6/01/15 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 352,
+        "row_type": "HOLDING",
+        "investment": "Turning Stone Resort Casino Enterprise 9.125%, 12/15/10 (a) (e)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 353,
+        "row_type": "HOLDING",
+        "investment": "TXU Corp. Series P 5.55%, 11/15/14 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 354,
+        "row_type": "HOLDING",
+        "investment": "TXU Corp. Series Q 6.50%, 11/15/24 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 355,
+        "row_type": "HOLDING",
+        "investment": "Unisys Corp. 8.00%, 10/15/12 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 356,
+        "row_type": "HOLDING",
+        "investment": "United Rentals North America, Inc. 6.50%, 2/15/12 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 357,
+        "row_type": "HOLDING",
+        "investment": "Universal City Florida Holding Co. 8.375%, 5/01/10 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 358,
+        "row_type": "HOLDING",
+        "investment": "Vanguard Health Holding Co. 11.25%, 10/01/15 (g)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 359,
+        "row_type": "HOLDING",
+        "investment": "Visteon Corp. 7.00%, 3/10/14 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 360,
+        "row_type": "HOLDING",
+        "investment": "Visteon Corp. 8.25%, 8/01/10 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 361,
+        "row_type": "HOLDING",
+        "investment": "West Corp. 9.50%, 10/15/14 (a) (e)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 362,
+        "row_type": "HOLDING",
+        "investment": "William Lyon Homes, Inc. 10.75%, 4/01/13 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 363,
+        "row_type": "HOLDING",
+        "investment": "Williams Cos, Inc. 7.625%, 7/15/19 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 364,
+        "row_type": "HOLDING",
+        "investment": "Windstream Corp. 8.125%, 8/01/13 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 365,
+        "row_type": "HOLDING",
+        "investment": "Windstream Corp. 8.625%, 8/01/16 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 366,
+        "row_type": "HOLDING",
+        "investment": "WMG Holdings Corp. 9.50%, 12/15/14 (a) (g)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 367,
+        "row_type": "HOLDING",
+        "investment": "Wynn Las Vegas LLC/Corp. 6.625%, 12/01/14 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 368,
+        "row_type": "HOLDING",
+        "investment": "XM Satellite Radio, Inc. 9.75%, 5/01/14 (a)",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 369,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "United States",
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 370,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "Total Corporate Debt Obligations",
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 91,
+    "dropped_count": 1,
+    "converted_count": 90,
+    "percent_corrected_count": 0,
+    "fix_log": [
+      {
+        "row_idx": 7,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Brazil 8.00%, 1/15/18 (a)|fv=10,208,421",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 24,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Costa Rican Colon Structured Note Zero C|fv=2,543,982",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 25,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Costa Rica 8.05%, 1/31/13 (a|fv=2,069,248",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 26,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Costa Rica 8.11%, 2/01/12 (a|fv=1,907,285",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 29,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Dominican Peso Structured Notes 11.871%,|fv=5,390,142",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 36,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:El Salvador|fv=10,098,425",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 38,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Indonesia Rupiah Structured Note 11.07%,|fv=10,125,756",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 40,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Indonesia 6.875%, 3/09/17 (a|fv=4,171,470",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 41,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Indonesia 7.25%, 4/20/15 (a)|fv=2,666,000",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 42,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Indonesia 7.50%, 1/15/16 (a)|fv=1,536,500",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 43,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Indonesia 8.50%, 10/12/35 (a|fv=3,488,800",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 46,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Government of Jamaica 9.25%, 10/17/25(a)|fv=1,085,460",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 47,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Government of Jamaica 10.625%, 6/20/17 (|fv=2,831,048",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 48,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Jamaica|fv=3,916,508",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 50,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Lebanese Republic 7.875%, 5/20/11 (a) (e|fv=2,437,875",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 51,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Lebanese Republic 10.125%, 8/06/08 (a) (|fv=7,688,525",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 52,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Lebanese Republic 11.625%, 5/11/16 (a) (|fv=1,308,950",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 53,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Lebanon|fv=11,435,350",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 55,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Mexican Bonos Series M 20 10.00%, 12/05/|fv=9,955,394",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 56,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Mexican Bonos Series MI10 9.00%, 12/20/1|fv=29,928,440",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 58,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:United Mexican States 11.375%, 9/15/16 (|fv=15,970,625",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 59,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:United Mexican States Series A 6.75%, 9/|fv=6,761,100",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 60,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:United Mexican States Series A 8.00%, 9/|fv=40,267,888",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 61,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Mexico|fv=118,665,414",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 63,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:MMG Fiduciary (AES El Salvador) 6.75%, 2|fv=3,099,606",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 67,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Panama 8.875%, 9/30/27 (a)|fv=9,589,398",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 68,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Panama 9.375%, 7/23/12-4/01/|fv=21,826,129",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 69,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Panama|fv=45,456,800",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 78,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Philippines 7.50%, 9/25/24 (|fv=1,977,750",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 79,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Philippines 7.75%, 1/14/31 (|fv=7,191,195",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 80,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Philippines 8.00%, 1/15/16 (|fv=679,129",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 82,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Philippines 8.375%, 2/15/11 |fv=746,586",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 83,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Philippines 8.875%, 3/17/15 |fv=20,524,613",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 84,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Philippines 9.00%, 2/15/13 (|fv=3,257,593",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 85,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Philippines 9.50%, 10/21/24-|fv=6,131,025",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 86,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Philippines 9.875%, 1/15/19 |fv=18,717,569",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 87,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Philippines 10.625%, 3/16/25|fv=3,919,387",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 88,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Philippines|fv=77,543,940",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 92,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of South Africa 7.375%, 4/25/12|fv=5,979,806",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 94,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Turkey 6.875%, 3/17/36(a)|fv=17,239,275",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 95,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Turkey 7.00%, 6/05/20 (a)|fv=1,610,000",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 96,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Turkey 7.375%, 2/05/25 (a)|fv=9,352,305",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 97,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Turkey 8.00%, 2/14/34 (a)|fv=979,875",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 98,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Turkey Government Bond Zero Coupon, 11/2|fv=17,039,080",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 99,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "ROW_FROM_NON_SOI_PAGE",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Turkey|fv=46,220,535",
+        "old_value": "page=4",
+        "new_value": "valid_pages=[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]"
+      },
+      {
+        "row_idx": 102,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Government of Ukraine 7.65%, 6/11/13 (a)|fv=4,572,493",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 103,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Ukraine|fv=8,498,701",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 105,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Uruguay 7.625%, 3/21/36 (a)|fv=1,650,000",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 107,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Uruguay 8.00%, 11/18/22 (a)|fv=10,540,265",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 110,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Uruguay Government International Bond 5.|fv=815,341",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 114,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Venezuela 6.00%, 12/09/20 (a|fv=1,273,263",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 115,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Venezuela 7.00%, 12/01/18 (a|fv=12,717,588",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 118,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Venezuela 9.25%, 9/15/27 (d)|fv=9,511,135",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 119,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Venezuela 10.75%, 9/19/13 (a|fv=412,698",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 121,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Republic of Venezuela Series V 7.00%, 3/|fv=2,959,130",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 122,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Venezuela|fv=45,012,204",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 128,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Intelsat Bermuda, Ltd. 11.25%, 6/15/16(e|fv=1,816,000",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 131,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Banco BMG SA 9.15%, 1/15/16 (a) (e)|fv=3,547,500",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 132,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Vale Overseas Ltd. 6.875%, 11/21/36 (a)|fv=3,048,492",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 136,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Domtar, Inc. 5.375%, 12/01/13 (a)|fv=368,500",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 143,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Shaw Communications, Inc. 7.20%, 12/15/1|fv=212,000",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 150,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Rhodia SA 8.875%, 6/01/11 (a)|fv=781,875",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 154,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Elan Finance PLC/Elan Finance Corp. 7.75|fv=1,473,750",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 158,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Alb Finance BV 9.25%, 9/25/13 (a) (e)|fv=2,900,077",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 159,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Kazkommerts International BV 8.50%, 4/16|fv=3,172,500",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 160,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Tengizchevroil Finance Co. 6.124%, 11/15|fv=2,556,155",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 169,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:NXP BV/NXP Funding LLC 8.11%, 10/15/13 (|fv=257,187",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 170,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:NXP BV/NXP Funding LLC 9.50%, 10/15/15 (|fv=258,125",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 171,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Netherlands|fv=515,312",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 178,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Citigroup (JSC Severstal) 9.25%, 4/19/14|fv=2,442,165",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 181,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Gazprom OAO 9.625%, 3/01/13 (a) (e)|fv=32,744,308",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 182,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Gazprombank 6.50%, 9/23/15 (a)|fv=1,945,127",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 184,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Mobile Telesystems Finance 9.75%, 1/30/0|fv=5,552,495",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 185,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Russian Standard Finance 7.50%, 10/07/10|fv=3,279,785",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 187,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Tyumen Oil Co. 11.00%, 11/06/07(a) (e)|fv=1,104,025",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 188,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Russia|fv=63,773,719",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 196,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Kyivstar 7.75%, 4/27/12 (a) (e)|fv=933,750",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 197,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Kyivstar 10.375%, 8/17/09 (a) (e)|fv=1,941,750",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 198,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:Ukraine|fv=2,875,500",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 202,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:United Kingdom|fv=1,856,375",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 223,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:CA, Inc. Series B 8.00%, 4/15/12 (a)|fv=913,500",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 271,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:HCA, Inc. 9.25%, 11/15/16 (a) (e)|fv=1,995,687",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 272,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Healthsouth Corp. 10.75%, 6/15/16 (a) (e|fv=598,125",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 275,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Hexion US Finance Corp./ Hexion Nova Sco|fv=563,750",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 277,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Hilton Hotels Corp. 7.625%, 12/01/12 (a)|fv=426,500",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 279,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Host Hotels & Resorts LP 6.875%, 11/01/1|fv=203,000",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 287,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Jostens IH Corp. 7.625%, 10/01/12 (a)|fv=508,750",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 290,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Kinder Morgan Finance Co. 5.70%, 1/05/16|fv=234,402",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 293,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Lear Corp. Series B 8.50%, 12/01/13 (a)|fv=579,750",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 295,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Level 3 Financing, Inc. 8.75%, 2/15/17 (|fv=1,360,125",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": 299,
+        "old_row_type": "HOLDING",
+        "new_row_type": "HOLDING",
+        "action": "converted",
+        "reason_code": "RESCUED_BY_VOLUME",
+        "confidence": "high",
+        "row_signature": "HOLDING:Liberty Media Corp. 5.70%, 5/15/13 (a)|fv=335,570",
+        "old_value": "page=1",
+        "new_value": "rescued (page not in [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])"
+      },
+      {
+        "row_idx": -1,
+        "old_row_type": "FUND_VALIDATION",
+        "new_row_type": "FUND_VALIDATION",
+        "action": "converted",
+        "reason_code": "FUND_PARTIAL_EXTRACTION_WARNING",
+        "confidence": "high",
+        "row_signature": "Fund: ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND",
+        "old_value": "calculated=$7650842",
+        "new_value": "expected=$1092574104, ratio=0.7%"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+# Validation Summary
+
+**Run:** Jan 08, 2026 at 05:20 PM
+**Files validated:** 8
+**Total rows:** 2,480
+
+## Results
+
+- ✅ Clean files: 0
+- ⚠️ Files with warnings only: 1
+- ❌ Files with errors: 7
+- 🔢 Files with arithmetic errors: 7
+
+## Files with Arithmetic Errors
+
+- 0000935069-03-001603
+- 0000935069-05-000617
+- 0000936772-03-000287
+- 0000950156-06-000002
+- 0001233087-05-000018
+- 0001233087-08-000026
+- 0001379491-07-000103
+
+## Issue Breakdown
+
+| Code | Count |
+|------|-------|
+| ROW_FROM_NON_SOI_PAGE | 298 |
+| BBOX_PAGE_OUT_OF_RANGE | 211 |
+| CITATION_VALUE_MISMATCH | 206 |
+| BBOX_OUT_OF_RANGE | 40 |
+| POSSIBLE_DUPLICATE_HOLDINGS | 8 |
+| DATE_MISMATCH | 7 |
+| ARITH_MISMATCH_FV | 6 |
+| ARITH_MISMATCH_PCT | 6 |
+| TOTAL_PATH_MISMATCH | 6 |
+| MISSING_SUBTOTAL | 5 |
+| SUBTOTAL_PATH_MISMATCH | 4 |
+| NORMALIZATION_APPLIED | 4 |
+| TOTAL_MISMATCH_FV | 4 |
+| TOTAL_MISMATCH_PCT | 4 |
+| ROOT_TOTAL_MISMATCH_FV | 3 |
+| SEVERE_SECTION_PARTIAL_EXTRACTION | 3 |
+| TOTAL_MISMATCH_COST | 2 |
+| ROOT_TOTAL_MISMATCH_COST | 1 |
+| ROOT_TOTAL_MISMATCH_PCT | 1 |
+| OVER_EXTRACTION_DETECTED | 1 |

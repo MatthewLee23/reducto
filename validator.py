@@ -563,9 +563,49 @@ DERIVATIVE_KEYWORDS = {
     "collateralized", "covered", "liability", "liabilities",
 }
 
+# Keywords that indicate liability/contra-entry rows (should be excluded from arithmetic)
+LIABILITY_KEYWORDS = {
+    "at redemption value",
+    "redemption value",
+    "preferred stock, at redemption",
+    "preferred shares",
+    "other assets less liabilities",
+    "other assets and liabilities",
+    "assets less liabilities",
+    "net unrealized depreciation",
+    "unrealized depreciation",
+    "net unrealized loss",
+    "contra",
+    "payable",
+    "accrued expenses",
+    "deferred",
+    "net assets",
+}
+
 # Reasonable price bounds for sanity checks
 MIN_REASONABLE_PRICE = Decimal("0.0001")  # $0.0001 per share minimum
 MAX_REASONABLE_PRICE = Decimal("1000000")  # $1,000,000 per share maximum
+
+
+def _is_liability_row_pattern(investment: Optional[str], label: Optional[str] = None) -> bool:
+    """
+    Check if a row appears to be a liability or contra-entry based on its text.
+    
+    These rows represent:
+    - Redemption value disclosures (informational only)
+    - Liabilities that offset assets
+    - "Other assets less liabilities" line items
+    - Net unrealized depreciation entries
+    """
+    text = ((investment or "") + " " + (label or "")).lower().strip()
+    if not text:
+        return False
+    
+    for keyword in LIABILITY_KEYWORDS:
+        if keyword in text:
+            return True
+    
+    return False
 
 
 def _is_derivative_section(section_path: Tuple[str, ...], investment: Optional[str]) -> bool:
@@ -618,17 +658,45 @@ def validate_semantic_constraints(
     
     is_derivative = _is_derivative_section(section_path, investment)
     
-    # Check 1: Negative fair_value on non-derivative
-    if fv is not None and fv < 0 and not is_derivative:
+    # Check 0: Liability/contra-entry detection (warning only - sanitizer should handle these)
+    is_liability = _is_liability_row_pattern(investment)
+    if is_liability:
         result.add(
-            "error",
-            "NEGATIVE_FAIR_VALUE",
-            f"Non-derivative holding has negative fair_value: ${fv}",
+            "warning",
+            "LIABILITY_ROW_DETECTED",
+            f"Row appears to be a liability/contra-entry, not a regular holding. "
+            f"This may cause arithmetic validation errors if not handled properly.",
             row=row_idx,
             investment=investment or "(unknown)",
-            fair_value=str(fv),
+            fair_value=str(fv) if fv is not None else "(none)",
             section_path=" > ".join(section_path) if section_path else "(root)",
         )
+    
+    # Check 1: Negative fair_value on non-derivative
+    # If it's a liability row, downgrade to warning since these are expected to be negative
+    if fv is not None and fv < 0 and not is_derivative:
+        if is_liability:
+            # Liability rows with negative values are expected - just warn
+            result.add(
+                "warning",
+                "NEGATIVE_FAIR_VALUE_LIABILITY",
+                f"Liability/contra-entry has negative fair_value: ${fv}. "
+                f"This row should be excluded from arithmetic totals.",
+                row=row_idx,
+                investment=investment or "(unknown)",
+                fair_value=str(fv),
+                section_path=" > ".join(section_path) if section_path else "(root)",
+            )
+        else:
+            result.add(
+                "error",
+                "NEGATIVE_FAIR_VALUE",
+                f"Non-derivative holding has negative fair_value: ${fv}",
+                row=row_idx,
+                investment=investment or "(unknown)",
+                fair_value=str(fv),
+                section_path=" > ".join(section_path) if section_path else "(root)",
+            )
     
     # Check 2: Price sanity check (only for positive values and quantities)
     if fv is not None and qty is not None and qty != 0 and fv > 0 and qty > 0:
@@ -825,6 +893,188 @@ def _path_contains_keywords(section_path: Tuple[str, ...], keywords: List[str]) 
             return True
     
     return False
+
+
+def validate_per_fund_arithmetic(
+    root: "ValidationNode",
+    result: "ValidationResult",
+) -> None:
+    """
+    For multi-fund documents, validate that each fund's holdings sum to that fund's TOTAL row.
+    
+    This catches issues where:
+    - Holdings from different funds are mixed together
+    - A fund's holdings are partially extracted
+    - Cross-fund contamination causes arithmetic errors
+    
+    Multi-fund documents are detected by having multiple depth-1 children in the tree,
+    each representing a distinct fund.
+    """
+    # Check if this is a multi-fund document (multiple depth-1 children)
+    if len(root.children) < 2:
+        return  # Single fund or no fund structure, skip per-fund validation
+    
+    # Check if the depth-1 children look like fund names (not just asset classes)
+    # Fund names typically contain: "Fund", "Trust", "Series", or are long proper nouns
+    fund_indicators = {"fund", "trust", "series", "income", "municipal", "global", "alliance"}
+    
+    potential_funds = []
+    for child_name, child_node in root.children.items():
+        name_lower = child_name.lower()
+        # Check if this looks like a fund name
+        is_fund_like = (
+            any(indicator in name_lower for indicator in fund_indicators) or
+            len(child_name) > 30 or  # Long names are usually fund names
+            child_node.total_rows  # Has its own TOTAL row
+        )
+        if is_fund_like:
+            potential_funds.append((child_name, child_node))
+    
+    # If we have at least 2 potential funds, validate each one
+    if len(potential_funds) < 2:
+        return
+    
+    # Add a note that this is a multi-fund document
+    fund_names = [name for name, _ in potential_funds]
+    result.add(
+        "warning",
+        "MULTI_FUND_DOCUMENT_DETECTED",
+        f"Document contains {len(potential_funds)} distinct funds. Validating each fund separately.",
+        fund_count=len(potential_funds),
+        fund_names=fund_names[:5],  # Limit to first 5 for readability
+    )
+    
+    # Validate each fund's arithmetic
+    for fund_name, fund_node in potential_funds:
+        # Check if fund has a TOTAL row
+        if not fund_node.total_rows:
+            result.add(
+                "warning",
+                "FUND_MISSING_TOTAL",
+                f"Fund '{fund_name}' has no TOTAL row for validation",
+                fund_name=fund_name,
+                holding_count=len(fund_node.holdings),
+                child_count=len(fund_node.children),
+            )
+            continue
+        
+        # Get the fund's TOTAL row values
+        total_row = fund_node.total_rows[0]
+        ext_fv, ext_cost, ext_pct = _extract_row_values(total_row)
+        total_label = unwrap_value(total_row.get("label")) or "TOTAL"
+        
+        # Calculate the fund's holdings sum
+        if fund_node.calc_fv is not None and ext_fv is not None and ext_fv > 0:
+            extraction_ratio = float(fund_node.calc_fv) / float(ext_fv)
+            diff = abs(fund_node.calc_fv - ext_fv)
+            
+            if extraction_ratio < 0.5:
+                # Severe under-extraction for this fund
+                missing_value = ext_fv - fund_node.calc_fv
+                result.add(
+                    "error",
+                    "FUND_SEVERE_PARTIAL_EXTRACTION",
+                    f"Fund '{fund_name}': Only {extraction_ratio:.1%} of holdings extracted. "
+                    f"Calculated ${fund_node.calc_fv} vs TOTAL ${ext_fv}. Missing ~${missing_value}.",
+                    fund_name=fund_name,
+                    label=total_label,
+                    calculated=str(fund_node.calc_fv),
+                    extracted=str(ext_fv),
+                    diff=str(diff),
+                    extraction_ratio=f"{extraction_ratio:.1%}",
+                    missing_value=str(missing_value),
+                )
+                result.has_arithmetic_error = True
+            elif extraction_ratio > 1.5:
+                # Over-extraction for this fund (likely cross-fund contamination)
+                excess_value = fund_node.calc_fv - ext_fv
+                result.add(
+                    "error",
+                    "FUND_OVER_EXTRACTION",
+                    f"Fund '{fund_name}': {extraction_ratio:.1%} of expected holdings extracted. "
+                    f"Calculated ${fund_node.calc_fv} vs TOTAL ${ext_fv}. Excess ~${excess_value}. "
+                    f"Likely cross-fund contamination.",
+                    fund_name=fund_name,
+                    label=total_label,
+                    calculated=str(fund_node.calc_fv),
+                    extracted=str(ext_fv),
+                    diff=str(diff),
+                    extraction_ratio=f"{extraction_ratio:.1%}",
+                    excess_value=str(excess_value),
+                )
+                result.has_arithmetic_error = True
+            elif diff > DOLLAR_TOLERANCE:
+                # Standard mismatch
+                result.add(
+                    "error",
+                    "FUND_TOTAL_MISMATCH_FV",
+                    f"Fund '{fund_name}': Calculated ${fund_node.calc_fv} != TOTAL ${ext_fv}, diff=${diff}",
+                    fund_name=fund_name,
+                    label=total_label,
+                    calculated=str(fund_node.calc_fv),
+                    extracted=str(ext_fv),
+                    diff=str(diff),
+                    extraction_ratio=f"{extraction_ratio:.1%}",
+                )
+                result.has_arithmetic_error = True
+
+
+def validate_section_completeness(
+    node: "ValidationNode",
+    result: "ValidationResult",
+) -> None:
+    """
+    Check if extracted holdings represent a complete section without duplicates.
+    
+    Flags sections where:
+    - calculated_pct > 100% for a single fund (indicates duplicate counting)
+    - Multiple funds appear to have merged holdings
+    
+    This validation helps detect multi-fund contamination issues.
+    """
+    # Recursively check children first
+    for child in node.children.values():
+        validate_section_completeness(child, result)
+    
+    path_str = node.path_str()
+    is_root = not node.path
+    
+    # Check for percentage > 100% which indicates duplicate counting
+    # (Only for root level or fund-level nodes, not for individual asset classes)
+    if node.calc_pct is not None and node.calc_pct > Decimal("110"):
+        # More than 110% suggests duplicate holdings (allowing some room for leveraged funds)
+        # Note: Some leveraged funds legitimately have >100% invested
+        if is_root or len(node.path) == 1:
+            result.add(
+                "warning",
+                "POSSIBLE_DUPLICATE_HOLDINGS",
+                f"Section percentage ({node.calc_pct}%) exceeds 110%, may indicate duplicate holdings from multi-fund contamination",
+                section_path=path_str,
+                calculated_pct=str(node.calc_pct),
+                holding_count=len(node.holdings),
+                child_count=len(node.children),
+            )
+    
+    # Check for TOTAL rows where calculated value is significantly higher than extracted
+    # This indicates over-extraction (duplicate holdings being summed)
+    if node.total_rows:
+        total_row = node.total_rows[0]
+        ext_fv, _, _ = _extract_row_values(total_row)
+        
+        if node.calc_fv is not None and ext_fv is not None and ext_fv > 0:
+            ratio = float(node.calc_fv) / float(ext_fv)
+            if ratio > 1.5:  # Calculated is 50%+ higher than expected
+                total_label = unwrap_value(total_row.get("label")) or "TOTAL"
+                result.add(
+                    "warning",
+                    "OVER_EXTRACTION_DETECTED",
+                    f"Calculated sum ({node.calc_fv}) is {ratio:.0%} of TOTAL ({ext_fv}), suggesting duplicate holdings",
+                    section_path=path_str,
+                    label=total_label,
+                    calculated=str(node.calc_fv),
+                    extracted=str(ext_fv),
+                    ratio=f"{ratio:.0%}",
+                )
 
 
 def validate_hierarchy_integrity(
@@ -1152,6 +1402,7 @@ def _validate_node_arithmetic(
     result: ValidationResult,
     computed: Dict[str, Any],
     sibling_calcs: Optional[Dict[Tuple[str, ...], Decimal]] = None,
+    is_multi_fund: bool = False,
 ) -> None:
     """
     Validate arithmetic for a node: calculated vs extracted values.
@@ -1159,12 +1410,19 @@ def _validate_node_arithmetic(
     
     Root node is now validated for TOTAL rows to catch skipped sections.
     
+    MULTI-FUND HANDLING:
+    When is_multi_fund=True and we're at the root node with a TOTAL row:
+    - Skip root-level TOTAL validation if there are multiple fund-level children
+    - The root TOTAL likely belongs to only ONE fund, not the sum of all
+    - Per-fund validation in validate_per_fund_arithmetic() handles this case
+    
     Args:
         node: The validation node to check
         result: ValidationResult to append issues to
         computed: Dict to store computed sums for reporting
         sibling_calcs: Optional dict of sibling section paths to their calc_fv values,
                        used to detect shifted subtotals (off-by-one attribution)
+        is_multi_fund: True if this document has multiple funds (detected by caller)
     """
     # Build sibling calculations map for children
     child_calcs: Dict[Tuple[str, ...], Decimal] = {}
@@ -1174,10 +1432,15 @@ def _validate_node_arithmetic(
     
     # Validate children first, passing sibling information
     for child in node.children.values():
-        _validate_node_arithmetic(child, result, computed, child_calcs)
+        _validate_node_arithmetic(child, result, computed, child_calcs, is_multi_fund)
     
     path_str = node.path_str()
     is_root = not node.path
+    
+    # MULTI-FUND HANDLING: Skip root-level TOTAL validation if this is a multi-fund document
+    # The root TOTAL row likely belongs to only ONE fund, not the sum of all funds
+    # Per-fund validation in validate_per_fund_arithmetic() handles this case
+    skip_root_total_validation = is_root and is_multi_fund and len(node.children) >= 2
     
     # For non-root nodes, validate SUBTOTAL arithmetic
     if not is_root:
@@ -1323,7 +1586,8 @@ def _validate_node_arithmetic(
 
     # Validate TOTAL rows if present for this section (INCLUDING ROOT)
     # This catches skipped sections: if grand total != sum of all holdings
-    if node.total_rows:
+    # EXCEPTION: Skip root-level validation for multi-fund documents
+    if node.total_rows and not skip_root_total_validation:
         # Use first total row for primary validation
         total_row = node.total_rows[0]
         ext_fv, ext_cost, ext_pct = _extract_row_values(total_row)
@@ -1338,18 +1602,44 @@ def _validate_node_arithmetic(
         if node.calc_fv is not None and ext_fv is not None:
             diff = abs(node.calc_fv - ext_fv)
             if diff > DOLLAR_TOLERANCE:
-                error_code = "ROOT_TOTAL_MISMATCH_FV" if is_root else "TOTAL_MISMATCH_FV"
-                error_msg = f"Grand total of all holdings ({node.calc_fv}) != extracted Total ({ext_fv}), diff=${diff}" if is_root else f"Section sum ({node.calc_fv}) != Total row ({ext_fv}), diff=${diff}"
-                result.add(
-                    "error",
-                    error_code,
-                    error_msg,
-                    section_path=path_str,
-                    label=total_label,
-                    calculated=str(node.calc_fv),
-                    extracted=str(ext_fv),
-                    diff=str(diff),
-                )
+                # Calculate extraction ratio to detect severity
+                extraction_ratio = float(node.calc_fv) / float(ext_fv) if ext_fv > 0 else 0
+                
+                # Check for SEVERE partial extraction (captured <50% of expected)
+                if extraction_ratio < 0.5 and node.calc_fv < ext_fv:
+                    error_code = "SEVERE_PARTIAL_EXTRACTION" if is_root else "SEVERE_SECTION_PARTIAL_EXTRACTION"
+                    missing_value = ext_fv - node.calc_fv
+                    error_msg = (
+                        f"CRITICAL: Only {extraction_ratio:.1%} of holdings extracted. "
+                        f"Calculated ${node.calc_fv} vs TOTAL ${ext_fv}. "
+                        f"Missing ~${missing_value}. Likely missing entire pages or sections."
+                    )
+                    result.add(
+                        "error",
+                        error_code,
+                        error_msg,
+                        section_path=path_str,
+                        label=total_label,
+                        calculated=str(node.calc_fv),
+                        extracted=str(ext_fv),
+                        diff=str(diff),
+                        extraction_ratio=f"{extraction_ratio:.1%}",
+                        missing_value=str(missing_value),
+                        severity_level="critical",
+                    )
+                else:
+                    error_code = "ROOT_TOTAL_MISMATCH_FV" if is_root else "TOTAL_MISMATCH_FV"
+                    error_msg = f"Grand total of all holdings ({node.calc_fv}) != extracted Total ({ext_fv}), diff=${diff}" if is_root else f"Section sum ({node.calc_fv}) != Total row ({ext_fv}), diff=${diff}"
+                    result.add(
+                        "error",
+                        error_code,
+                        error_msg,
+                        section_path=path_str,
+                        label=total_label,
+                        calculated=str(node.calc_fv),
+                        extracted=str(ext_fv),
+                        diff=str(diff),
+                    )
                 result.has_arithmetic_error = True
                 if is_root:
                     result.root_sum_mismatch = True
@@ -1433,6 +1723,13 @@ def validate_arithmetic(
     Tolerances:
       - $1 for dollar amounts (fair_value, cost)
       - 0.01% for percentages
+    
+    MULTI-FUND HANDLING:
+    When multiple funds are detected (multiple depth-1 children with TOTAL rows),
+    root-level TOTAL validation is skipped because:
+    - The root TOTAL row typically belongs to only ONE fund
+    - Summing all holdings from ALL funds would create a false mismatch
+    - Per-fund validation in validate_per_fund_arithmetic() handles this case
     """
     if not rows:
         return
@@ -1446,13 +1743,97 @@ def validate_arithmetic(
     # Calculate sums bottom-up
     _calculate_node_sums(root, result, computed)
     
+    # Detect multi-fund documents BEFORE running arithmetic validation
+    # Multi-fund = multiple depth-1 children that each have their own TOTAL rows
+    is_multi_fund = _detect_multi_fund_tree(root)
+    
     # Validate arithmetic at each node (including Total rows attached to nodes)
-    _validate_node_arithmetic(root, result, computed, sibling_calcs=None)
+    # Pass is_multi_fund to skip root-level TOTAL validation for multi-fund docs
+    _validate_node_arithmetic(root, result, computed, sibling_calcs=None, is_multi_fund=is_multi_fund)
+    
+    # Validate per-fund arithmetic for multi-fund documents
+    # This is the PRIMARY validation for multi-fund docs
+    validate_per_fund_arithmetic(root, result)
     
     # Validate hierarchy integrity (label vs path consistency)
     validate_hierarchy_integrity(root, result)
     
+    # Validate section completeness (detect over-extraction / duplicate holdings)
+    validate_section_completeness(root, result)
+    
     result.computed_sums = computed
+
+
+def _detect_multi_fund_tree(root: ValidationNode) -> bool:
+    """
+    Detect if the validation tree represents a multi-fund document.
+    
+    Multi-fund documents have multiple depth-1 children where:
+    - Each child represents a distinct fund
+    - Each fund has its own TOTAL row
+    - Or: Holdings exist at different depths with the same strategy names
+    
+    This detection is used to skip root-level TOTAL validation,
+    which would incorrectly sum all funds' holdings against one fund's TOTAL.
+    
+    Returns:
+        True if this appears to be a multi-fund document
+    """
+    if len(root.children) < 2:
+        return False
+    
+    # Count children that have their own TOTAL rows (fund-level totals)
+    children_with_totals = sum(1 for child in root.children.values() if child.total_rows)
+    
+    # If multiple children have TOTAL rows, this is multi-fund
+    if children_with_totals >= 2:
+        return True
+    
+    # Check for strategy categories at root level (indicates mislabeled multi-fund)
+    # Known strategy categories that shouldn't be at root level
+    strategy_categories = {
+        "event driven", "fixed income arbitrage", "equity arbitrage",
+        "credit strategies", "long/short equity", "multi-strategy",
+        "convertible arbitrage", "distressed/restructuring", "merger arbitrage",
+        "global macro", "statistical arbitrage", "relative value",
+    }
+    
+    has_strategy_at_root = False
+    has_fund_like_child = False
+    
+    for child_name in root.children.keys():
+        name_lower = child_name.lower().strip()
+        if name_lower in strategy_categories:
+            has_strategy_at_root = True
+        elif len(child_name) > 20 or any(kw in name_lower for kw in ["fund", "trust", "series"]):
+            has_fund_like_child = True
+    
+    # Strategy at root + fund-like child = multi-fund with mislabeling
+    if has_strategy_at_root and has_fund_like_child:
+        return True
+    
+    # Check if root has a TOTAL row but children also have significant holdings
+    # This pattern indicates the root TOTAL belongs to one fund, not all
+    if root.total_rows and len(root.children) >= 2:
+        # Count total holdings across all children
+        total_child_holdings = sum(
+            len(child.holdings) + sum(len(gc.holdings) for gc in child.children.values())
+            for child in root.children.values()
+        )
+        if total_child_holdings > 20:  # Significant number of holdings
+            # Check if root TOTAL value is much less than sum of all children
+            root_total_fv = None
+            if root.total_rows:
+                fv, _, _ = _extract_row_values(root.total_rows[0])
+                root_total_fv = fv
+            
+            if root_total_fv is not None and root.calc_fv is not None:
+                ratio = float(root_total_fv) / float(root.calc_fv) if root.calc_fv > 0 else 1.0
+                if ratio < 0.7:  # Root TOTAL is <70% of calculated sum
+                    # Root TOTAL likely belongs to one fund, not all
+                    return True
+    
+    return False
 
 
 # ---------------------------------------------------------------------------

@@ -1,15 +1,15 @@
 {
   "source_name": "0000950156-06-000002",
-  "total_rows": 479,
-  "holding_count": 419,
-  "subtotal_count": 56,
-  "total_count": 4,
+  "total_rows": 489,
+  "holding_count": 426,
+  "subtotal_count": 57,
+  "total_count": 6,
   "error_count": 155,
-  "warning_count": 142,
+  "warning_count": 166,
   "has_arithmetic_error": true,
-  "max_dollar_diff": "417191907",
+  "max_dollar_diff": "409806860",
   "root_sum_mismatch": true,
-  "calculated_total_fv": "322111675",
+  "calculated_total_fv": "329966932",
   "extracted_total_fv": "445900043",
   "computed_sums": {
     "Municipal Bonds > Airport & Port Revenue": {
@@ -337,16 +337,16 @@
     "Solid Waste Revenue": {
       "calculated_fv": "5288107",
       "calculated_cost": null,
-      "calculated_pct": null,
+      "calculated_pct": "1.7",
       "extracted_fv": "5288107",
       "extracted_cost": null,
-      "extracted_pct": null,
+      "extracted_pct": "1.7",
       "holding_count": 3,
       "child_count": 0,
-      "subtotal_count": 1,
+      "subtotal_count": 2,
       "total_count": 0,
-      "pct_bridged_from_subtotal": false,
-      "multi_subtotal_sum": false,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
       "hierarchy_detected": false,
       "parent_subtotals_excluded": 0
     },
@@ -602,11 +602,13 @@
       "holding_count": 3,
       "child_count": 0,
       "subtotal_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pct_bridged_from_subtotal": false,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
-      "parent_subtotals_excluded": 0
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Interest Rate Swaps",
+      "total_extracted_fv": "2275317"
     },
     "SWAP AGREEMENTS": {
       "calculated_fv": "2275317",
@@ -625,25 +627,27 @@
       "parent_subtotals_excluded": 0
     },
     "Restricted Securities": {
-      "calculated_fv": "4014229",
-      "calculated_cost": "4688065",
+      "calculated_fv": "11869486",
+      "calculated_cost": "12073112",
       "calculated_pct": null,
       "extracted_fv": null,
       "extracted_cost": null,
       "extracted_pct": null,
-      "holding_count": 5,
+      "holding_count": 12,
       "child_count": 0,
       "subtotal_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pct_bridged_from_subtotal": false,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
-      "parent_subtotals_excluded": 0
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Restricted Securities",
+      "total_extracted_fv": "11869486"
     },
     "(root)": {
-      "calculated_fv": "322111675",
-      "calculated_cost": "4688065",
-      "calculated_pct": "184.1",
+      "calculated_fv": "329966932",
+      "calculated_cost": "12073112",
+      "calculated_pct": "185.8",
       "extracted_fv": null,
       "extracted_cost": null,
       "extracted_pct": null,
@@ -663,13 +667,13 @@
     {
       "severity": "error",
       "code": "ROOT_TOTAL_MISMATCH_COST",
-      "message": "Grand total cost (4688065) != extracted Total (421879972), diff=$417191907",
+      "message": "Grand total cost (12073112) != extracted Total (421879972), diff=$409806860",
       "context": {
         "section_path": "(root)",
         "label": "Total Investments",
-        "calculated": "4688065",
+        "calculated": "12073112",
         "extracted": "421879972",
-        "diff": "417191907"
+        "diff": "409806860"
       }
     },
     {
@@ -687,13 +691,13 @@
     {
       "severity": "error",
       "code": "ROOT_TOTAL_MISMATCH_FV",
-      "message": "Grand total of all holdings (322111675) != extracted Total (445900043), diff=$123788368",
+      "message": "Grand total of all holdings (329966932) != extracted Total (445900043), diff=$115933111",
       "context": {
         "section_path": "(root)",
         "label": "Total Investments",
-        "calculated": "322111675",
+        "calculated": "329966932",
         "extracted": "445900043",
-        "diff": "123788368"
+        "diff": "115933111"
       }
     },
     {
@@ -727,7 +731,7 @@
       "message": "Value digits '09' don't match citation content digits '75' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 456,
+        "row": 457,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -749,7 +753,7 @@
       "message": "Value digits '1000' don't match citation content digits '75' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 470,
+        "row": 471,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -760,7 +764,7 @@
       "message": "Value digits '1004480' don't match citation content digits '946686' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 437,
+        "row": 438,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -793,7 +797,7 @@
       "message": "Value digits '1012222' don't match citation content digits '161347' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 343,
+        "row": 344,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -848,7 +852,7 @@
       "message": "Value digits '1026609' don't match citation content digits '946686' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 342,
+        "row": 343,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -859,7 +863,7 @@
       "message": "Value digits '1028931' don't match citation content digits '946686' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 420,
+        "row": 421,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -881,7 +885,7 @@
       "message": "Value digits '10345080' don't match citation content digits '946686' (overlap: 25%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 468,
+        "row": 469,
         "citation_idx": 0,
         "overlap_ratio": 0.25
       }
@@ -892,7 +896,7 @@
       "message": "Value digits '1043020' don't match citation content digits '946686' (overlap: 14%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 429,
+        "row": 430,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -925,7 +929,7 @@
       "message": "Value digits '1065930' don't match citation content digits '946686' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 403,
+        "row": 404,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -980,7 +984,7 @@
       "message": "Value digits '1097230' don't match citation content digits '946686' (overlap: 14%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 311,
+        "row": 312,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1013,7 +1017,7 @@
       "message": "Value digits '1215780' don't match citation content digits '161347' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 364,
+        "row": 365,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1024,7 +1028,7 @@
       "message": "Value digits '1234995' don't match citation content digits '161347' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 431,
+        "row": 432,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1046,7 +1050,7 @@
       "message": "Value digits '1258963' don't match citation content digits '161347' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 419,
+        "row": 420,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1057,7 +1061,7 @@
       "message": "Value digits '1265523' don't match citation content digits '946686' (overlap: 14%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 310,
+        "row": 311,
         "citation_idx": 0,
         "overlap_ratio": 0.14285714285714285
       }
@@ -1101,7 +1105,7 @@
       "message": "Value digits '1335555' don't match citation content digits '161347' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 314,
+        "row": 315,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1123,7 +1127,7 @@
       "message": "Value digits '14' don't match citation content digits '25' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 398,
+        "row": 399,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1156,7 +1160,7 @@
       "message": "Value digits '1551255' don't match citation content digits '161347' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 426,
+        "row": 427,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1211,7 +1215,7 @@
       "message": "Value digits '1697898' don't match citation content digits '161347' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 427,
+        "row": 428,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1266,7 +1270,7 @@
       "message": "Value digits '18656891' don't match citation content digits '1305000' (overlap: 38%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 377,
+        "row": 378,
         "citation_idx": 0,
         "overlap_ratio": 0.375
       }
@@ -1288,7 +1292,7 @@
       "message": "Value digits '2034060' don't match citation content digits '946686' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 368,
+        "row": 369,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1321,7 +1325,7 @@
       "message": "Value digits '2096280' don't match citation content digits '946686' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 416,
+        "row": 417,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1354,7 +1358,7 @@
       "message": "Value digits '2139720' don't match citation content digits '161347' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 421,
+        "row": 422,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1365,7 +1369,7 @@
       "message": "Value digits '2208360' don't match citation content digits '946686' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 442,
+        "row": 443,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1387,7 +1391,7 @@
       "message": "Value digits '2308877' don't match citation content digits '161347' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 424,
+        "row": 425,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1420,7 +1424,7 @@
       "message": "Value digits '240182' don't match citation content digits '946686' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 330,
+        "row": 331,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1442,7 +1446,7 @@
       "message": "Value digits '2425018' don't match citation content digits '946686' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 422,
+        "row": 423,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1453,7 +1457,7 @@
       "message": "Value digits '247505' don't match citation content digits '946686' (overlap: 17%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 333,
+        "row": 334,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -1464,7 +1468,7 @@
       "message": "Value digits '248970' don't match citation content digits '1305000' (overlap: 17%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 320,
+        "row": 321,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -1475,7 +1479,7 @@
       "message": "Value digits '2512769' don't match citation content digits '161347' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 408,
+        "row": 409,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1486,7 +1490,7 @@
       "message": "Value digits '255660' don't match citation content digits '946686' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 326,
+        "row": 327,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1497,7 +1501,7 @@
       "message": "Value digits '258348' don't match citation content digits '161347' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 345,
+        "row": 346,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1508,7 +1512,7 @@
       "message": "Value digits '2586150' don't match citation content digits '946686' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 392,
+        "row": 393,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1541,7 +1545,7 @@
       "message": "Value digits '2772750' don't match citation content digits '161347' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 393,
+        "row": 394,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1563,7 +1567,7 @@
       "message": "Value digits '2868012' don't match citation content digits '946686' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 304,
+        "row": 305,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1585,7 +1589,7 @@
       "message": "Value digits '3059883' don't match citation content digits '946686' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 321,
+        "row": 322,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1596,7 +1600,7 @@
       "message": "Value digits '3098010' don't match citation content digits '946686' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 433,
+        "row": 434,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1607,7 +1611,7 @@
       "message": "Value digits '31' don't match citation content digits '725' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 383,
+        "row": 384,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1618,7 +1622,7 @@
       "message": "Value digits '31' don't match citation content digits '725' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 439,
+        "row": 440,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1662,7 +1666,7 @@
       "message": "Value digits '33' don't match citation content digits '725' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 468,
+        "row": 469,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1695,7 +1699,7 @@
       "message": "Value digits '351589' don't match citation content digits '946686' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 411,
+        "row": 412,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1728,7 +1732,7 @@
       "message": "Value digits '419104972' don't match citation content digits '946686' (overlap: 44%)",
       "context": {
         "field": "cost_raw",
-        "row": 455,
+        "row": 456,
         "citation_idx": 0,
         "overlap_ratio": 0.4444444444444444
       }
@@ -1750,7 +1754,7 @@
       "message": "Value digits '421879972' don't match citation content digits '161347' (overlap: 44%)",
       "context": {
         "field": "cost_raw",
-        "row": 467,
+        "row": 468,
         "citation_idx": 0,
         "overlap_ratio": 0.4444444444444444
       }
@@ -1772,7 +1776,7 @@
       "message": "Value digits '4332294' don't match citation content digits '215000' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 359,
+        "row": 360,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -1783,7 +1787,7 @@
       "message": "Value digits '443' don't match citation content digits '75' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 469,
+        "row": 470,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1794,7 +1798,7 @@
       "message": "Value digits '445900043' don't match citation content digits '161347' (overlap: 44%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 467,
+        "row": 468,
         "citation_idx": 0,
         "overlap_ratio": 0.4444444444444444
       }
@@ -1838,7 +1842,7 @@
       "message": "Value digits '473107' don't match citation content digits '946686' (overlap: 17%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 354,
+        "row": 355,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -1849,7 +1853,7 @@
       "message": "Value digits '48' don't match citation content digits '25' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 329,
+        "row": 330,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -1882,7 +1886,7 @@
       "message": "Value digits '508705' don't match citation content digits '946686' (overlap: 17%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 415,
+        "row": 416,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -1926,7 +1930,7 @@
       "message": "Value digits '5288107' don't match citation content digits '1305000' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 305,
+        "row": 306,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -1937,7 +1941,7 @@
       "message": "Value digits '545065' don't match citation content digits '946686' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 435,
+        "row": 436,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1981,7 +1985,7 @@
       "message": "Value digits '572963' don't match citation content digits '946686' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 434,
+        "row": 435,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -1992,7 +1996,7 @@
       "message": "Value digits '577182' don't match citation content digits '1305000' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 399,
+        "row": 400,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2014,7 +2018,7 @@
       "message": "Value digits '5780974' don't match citation content digits '215000' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 328,
+        "row": 329,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -2124,7 +2128,7 @@
       "message": "Value digits '724905' don't match citation content digits '1305000' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 389,
+        "row": 390,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2146,7 +2150,7 @@
       "message": "Value digits '767007' don't match citation content digits '1305000' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 303,
+        "row": 304,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2157,7 +2161,7 @@
       "message": "Value digits '787401' don't match citation content digits '1305000' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 348,
+        "row": 349,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2179,7 +2183,7 @@
       "message": "Value digits '803224' don't match citation content digits '1305000' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 407,
+        "row": 408,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2234,7 +2238,7 @@
       "message": "Value digits '849329' don't match citation content digits '161347' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 339,
+        "row": 340,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2256,7 +2260,7 @@
       "message": "Value digits '870035' don't match citation content digits '946686' (overlap: 17%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 453,
+        "row": 454,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -2267,7 +2271,7 @@
       "message": "Value digits '881032' don't match citation content digits '946686' (overlap: 33%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 428,
+        "row": 429,
         "citation_idx": 0,
         "overlap_ratio": 0.3333333333333333
       }
@@ -2311,7 +2315,7 @@
       "message": "Value digits '952177' don't match citation content digits '946686' (overlap: 17%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 340,
+        "row": 341,
         "citation_idx": 0,
         "overlap_ratio": 0.16666666666666666
       }
@@ -2322,7 +2326,7 @@
       "message": "Value digits '9682803' don't match citation content digits '161347' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 446,
+        "row": 447,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
       }
@@ -2365,7 +2369,7 @@
       "code": "NEGATIVE_FAIR_VALUE",
       "message": "Non-derivative holding has negative fair_value: $-140049136",
       "context": {
-        "row": 469,
+        "row": 470,
         "investment": "Preferred Shares (Issued by the Trust)",
         "fair_value": "-140049136",
         "section_path": "(root)"
@@ -2446,19 +2450,10 @@
     {
       "severity": "warning",
       "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=14 outside [1, 7]",
+      "message": "bbox.page=10 outside [1, 7]",
       "context": {
-        "field": "fair_value_raw",
-        "row": 471
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=14 outside [1, 7]",
-      "context": {
-        "field": "quantity_raw",
-        "row": 471
+        "field": "percent_net_assets_raw",
+        "row": 302
       }
     },
     {
@@ -2500,7 +2495,7 @@
     {
       "severity": "warning",
       "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=15 outside [1, 7]",
+      "message": "bbox.page=14 outside [1, 7]",
       "context": {
         "field": "fair_value_raw",
         "row": 474
@@ -2509,27 +2504,18 @@
     {
       "severity": "warning",
       "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=15 outside [1, 7]",
+      "message": "bbox.page=14 outside [1, 7]",
       "context": {
-        "field": "cost_raw",
+        "field": "quantity_raw",
         "row": 474
       }
     },
     {
       "severity": "warning",
       "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=15 outside [1, 7]",
+      "message": "bbox.page=14 outside [1, 7]",
       "context": {
         "field": "fair_value_raw",
-        "row": 475
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "BBOX_PAGE_OUT_OF_RANGE",
-      "message": "bbox.page=15 outside [1, 7]",
-      "context": {
-        "field": "cost_raw",
         "row": 475
       }
     },
@@ -2589,28 +2575,182 @@
     },
     {
       "severity": "warning",
-      "code": "MISSING_SUBTOTAL",
-      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
       "context": {
-        "section_path": "SWAP AGREEMENTS > Interest Rate Swaps"
+        "field": "fair_value_raw",
+        "row": 479
       }
     },
     {
       "severity": "warning",
-      "code": "MISSING_SUBTOTAL",
-      "message": "Section has 5 holdings but no SUBTOTAL row",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
       "context": {
-        "section_path": "Restricted Securities"
+        "field": "cost_raw",
+        "row": 479
       }
     },
     {
       "severity": "warning",
-      "code": "NORMALIZATION_APPLIED",
-      "message": "Sanitizer fixed 135 row(s): RESCUED_BY_DETAIL=8, RESCUED_BY_VOLUME=117, ROW_FROM_NON_SOI_PAGE=10",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
       "context": {
-        "fix_count": 135,
-        "dropped": 10,
-        "converted": 125
+        "field": "fair_value_raw",
+        "row": 480
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 480
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 481
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 481
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 482
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 482
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 483
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 483
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 484
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 484
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 485
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 485
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 486
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 486
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 487
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "cost_raw",
+        "row": 487
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 488
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=15 outside [1, 7]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 488
       }
     },
     {
@@ -2618,7 +2758,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 14 which is not in SOI split [6, 7, 19, 20]",
       "context": {
-        "row": 471,
+        "row": 472,
         "row_type": "HOLDING",
         "investment": "Interest Rate Swap, Fixed 10 Year LIBOR Swap Index (4.5988) / Floating 3 Month LIBOR Swap Index, Exp 11/28/15",
         "label": null,
@@ -2636,7 +2776,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 14 which is not in SOI split [6, 7, 19, 20]",
       "context": {
-        "row": 472,
+        "row": 473,
         "row_type": "HOLDING",
         "investment": "Interest Rate Swap, Fixed 12 Year BMA Swap Index (3.7978) / Floating 7 Day BMA Swap Index, Exp 5/16/18",
         "label": null,
@@ -2654,7 +2794,7 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 14 which is not in SOI split [6, 7, 19, 20]",
       "context": {
-        "row": 473,
+        "row": 474,
         "row_type": "HOLDING",
         "investment": "Interest Rate Swap, Fixed 15 Year LIBOR Swap Index (4.77%) / Floating 3 Month LIBOR Swap Index, Exp 11/29/20",
         "label": null,
@@ -2670,9 +2810,27 @@
     {
       "severity": "warning",
       "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 14 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 475,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "Total Interest Rate Swaps",
+        "original_page": 14,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
       "context": {
-        "row": 474,
+        "row": 476,
         "row_type": "HOLDING",
         "investment": "Arizona Health Facilities Authority Rev. (The Terraces Project), 7.75%, 2033",
         "label": null,
@@ -2690,45 +2848,9 @@
       "code": "ROW_FROM_NON_SOI_PAGE",
       "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
       "context": {
-        "row": 475,
-        "row_type": "HOLDING",
-        "investment": "New Jersey Economic Development Authority, Economic Development Rev. (Holt Hauling & Warehousing), 8.4%, 2015",
-        "label": null,
-        "original_page": 15,
-        "soi_pages": [
-          6,
-          7,
-          19,
-          20
-        ]
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "ROW_FROM_NON_SOI_PAGE",
-      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
-      "context": {
-        "row": 476,
-        "row_type": "HOLDING",
-        "investment": "New Jersey Economic Development Authority, Economic Development Rev. (Holt Hauling & Warehousing), 8.6%, 2017",
-        "label": null,
-        "original_page": 15,
-        "soi_pages": [
-          6,
-          7,
-          19,
-          20
-        ]
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "ROW_FROM_NON_SOI_PAGE",
-      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
-      "context": {
         "row": 477,
         "row_type": "HOLDING",
-        "investment": "Pennsylvania Economic Development Financing Authority Rev., Resources Recovery Rev. (Colver) \"G\", 5.125%, 2015",
+        "investment": "Chicago, IL, O'Hare International Airport Rev., RITES, FSA, 8.002%, 2022",
         "label": null,
         "original_page": 15,
         "soi_pages": [
@@ -2746,8 +2868,188 @@
       "context": {
         "row": 478,
         "row_type": "HOLDING",
+        "investment": "Chicago, IL, Public Building Commission, Building Rev., RITES, FGIC, 9.349%, 2016",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 479,
+        "row_type": "HOLDING",
+        "investment": "Chicago, IL, Public Building Commission, Building Rev., RITES, FGIC, 9.349%, 2017",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 480,
+        "row_type": "HOLDING",
+        "investment": "Contra Costa County, CA, Residential Rental Facilities Rev. (Cypress Meadows), 7%, 2028",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 481,
+        "row_type": "HOLDING",
+        "investment": "Gallery Certificate Trust, PA, Parking Rev., FSA, 4.5%, 2013",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 482,
+        "row_type": "HOLDING",
+        "investment": "Madison County, FL, Rev. (Twin Oaks Project) \"A\", 6%, 2025",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 483,
+        "row_type": "HOLDING",
+        "investment": "New Jersey Economic Development Authority, Economic Development Rev. (Holt Hauling & Warehousing), 8.4%, 2015",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 484,
+        "row_type": "HOLDING",
+        "investment": "New Jersey Economic Development Authority, Economic Development Rev. (Holt Hauling & Warehousing), 8.6%, 2017",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 485,
+        "row_type": "HOLDING",
+        "investment": "Niagra Falls, NY, Bridge Commission, Toll Rev., RITES, FGIC, 7.071%, 2015",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 486,
+        "row_type": "HOLDING",
+        "investment": "Pennsylvania Economic Development Financing Authority Rev., Resources Recovery Rev. (Colver) \"G\", 5.125%, 2015",
+        "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 487,
+        "row_type": "HOLDING",
         "investment": "Waterford Township, MI, Economic Development Corp. Rev. (Canterbury Health), 6%, 2039",
         "label": null,
+        "original_page": 15,
+        "soi_pages": [
+          6,
+          7,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 15 which is not in SOI split [6, 7, 19, 20]",
+      "context": {
+        "row": 488,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "Total Restricted Securities",
         "original_page": 15,
         "soi_pages": [
           6,
@@ -4683,1498 +4985,5 @@
         ]
       }
     }
-  ],
-  "normalization": {
-    "fix_count": 135,
-    "dropped_count": 10,
-    "converted_count": 125,
-    "percent_corrected_count": 0,
-    "fix_log": [
-      {
-        "row_idx": 0,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:Municipal Bonds|fv=",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 4,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Port Authority, NY, Special Obligations |fv=7,421,171",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 5,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Seattle, WA, Airport Trust Rev., FGIC, 5|fv=1,597,080",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 7,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Red River Authority, TX, Pollution Contr|fv=$ 2,053,094",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 8,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:General Obligations - General Purpose|fv=",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 9,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Huntsville, AL, Capital Improvement Wate|fv=$ 285,442",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 11,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Kane Kendall Countys, IL, Capital Apprec|fv=770,103",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 13,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Lake County, IL, Land Acquisition & Deve|fv=1,089,850",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 15,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New York City, NY, \"M\", 5%, 2035|fv=3,856,848",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 19,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Leander, TX, Independent School District|fv=320,927",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 20,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": "SUBTOTAL",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:Healthcare Revenue - Hospitals.|fv=",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 21,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Allegheny County, PA, Hospital Developme|fv=$ 527,230",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 23,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Allegheny County, PA, Hospital Developme|fv=1,187,310",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 24,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Athens County, OH, Hospital Facilities R|fv=1,553,205",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 25,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Baldwin County, AL, Eastern Shore Health|fv=752,521",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 26,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Brookhaven, NY, Civic Facilities Rev. (M|fv=739,515",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 30,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Chemung County, NY, Civic Facilities Rev|fv=542,198",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 31,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Chemung County, NY, Civic Facilities Rev|fv=142,901",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 34,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Coffee County, GA, Hospital Authority Re|fv=40,143",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 35,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Colorado Health Facilities Authority Rev|fv=1,352,139",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 36,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Colorado Health Facilities Authority Rev|fv=1,095,800",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 37,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Colorado Health Facilities Authority Rev|fv=789,480",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 38,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Comal County, TX, Health Facilities Deve|fv=529,740",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 39,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Crittenden County, AR, Arkansas Hospital|fv=1,031,092",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 44,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Denver, CO, Health & Hospital Authority |fv=861,359",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 45,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Denver, CO, Health & Hospital Authority |fv=265,373",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 46,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:District of Columbia, Health & Hospital |fv=1,256,760",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 48,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Gaylord, MI, Hospital Finance Authority |fv=291,345",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 50,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Gulfport, MS, Hospital Facilities Rev. (|fv=1,022,660",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 51,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Highlands County, FL, Health Facilities |fv=970,083",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 52,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Houston County, AL, Health Care Authorit|fv=2,216,800",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 54,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Illinois Development Finance Authority, |fv=1,824,253",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 56,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Indiana Health Facilities Financing Auth|fv=1,823,254",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 57,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Indiana Health Facilities Financing Auth|fv=4,207,934",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 59,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Joplin, MO, Industrial Development Autho|fv=453,776",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 62,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Knox County, TN, Health Educational Hous|fv=1,828,362",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 63,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Lauderdale County & Florence, AL, Health|fv=3,257,820",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 64,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Lufkin, TX, Health Facilities Rev. (Memo|fv=1,638,416",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 65,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Lufkin, TX, Health Facilities Rev. (Memo|fv=1,064,610",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 67,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Macomb County, MI, Hospital Finance Auth|fv=882,384",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 68,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Maryland Health & Higher Educational Fac|fv=389,812",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 69,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Maryland Health & Higher Educational Fac|fv=1,705,350",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 70,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Massachusetts Health & Educational Facil|fv=2,015,330",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 71,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Massachusetts Health & Educational Facil|fv=653,592",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 72,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Massachusetts Health & Educational Facil|fv=513,470",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 73,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Massachusetts Health & Educational Facil|fv=1,399,426",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 74,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Massachusetts Health & Educational Facil|fv=658,720",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 75,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Massachusetts Health & Educational Facil|fv=467,753",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 76,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Miami Beach, FL, Health Facilities Rev. |fv=887,744",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 79,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Mississippi Hospital Equipment, Health F|fv=212,363",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 81,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Montgomery, AL, Special Care Facilities,|fv=1,581,118",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 82,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Montgomery, AL, Special Care Facilities,|fv=765,419",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 84,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Nassau County, NY, Industrial Developmen|fv=646,827",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 85,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Nassau County, NY, Industrial Developmen|fv=512,029",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 86,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New Hampshire Health & Educational Facil|fv=977,254",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 87,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New Hampshire Higher Educational & Healt|fv=1,036,250",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 88,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New Jersey Health Care Facilities, Finan|fv=252,377",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 89,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New Jersey Health Care Facilities, Finan|fv=3,285,780",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 90,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New York City, NY, Industrial Developmen|fv=506,135",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 91,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New York City, NY, Health & Hospital Cor|fv=730,359",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 92,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New York State Dormitory Authority Rev.,|fv=643,058",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 93,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New York State Dormitory Authority Rev.,|fv=506,370",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 94,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:North Texas Health Facilities Developmen|fv=1,073,410",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 97,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Rhode Island Health & Education Building|fv=2,005,265",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 98,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Rhode Island Health & Education Building|fv=556,308",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 99,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Royston, GA, Hospital Authority Rev. (Ty|fv=939,118",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 100,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Russell, KY (Bon Secours Health Systems)|fv=3,003,180",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 101,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Salt Lake City, UT, Hospital Authority R|fv=602,532",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 102,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Shelby County, TN, Educational & Hospita|fv=723,388",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 103,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Shelby County, TN, Educational & Housing|fv=212,741",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 104,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Shelby County, TN, Educational & Housing|fv=362,234",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 105,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Shelby County, TN, Educational & Housing|fv=434,033",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 106,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:South Carolina Jobs & Economic Developme|fv=732,628",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 107,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:South Carolina Jobs & Economic Developme|fv=899,596",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 108,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:South Carolina Medical University, Hospi|fv=699,597",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 109,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:South Dakota Health & Education Faciliti|fv=687,293",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 110,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Southwestern Illinois Development Author|fv=62,420",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 112,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Springfield, TN, Health & Educational Fa|fv=1,383,242",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 113,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:State of Arkansas, Development Finance A|fv=573,320",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 114,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Steubenville, OH, Hospital Authority Rev|fv=1,424,137",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 115,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Stillwater, OK, Medical Center Authority|fv=1,048,170",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 116,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Tallahassee, FL, Health Facilities Rev. |fv=3,274,357",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 122,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Wapello County, IA, Hospital Authority R|fv=1,575,405",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 123,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Washington County, AR, Hospital Rev., Re|fv=243,240",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 125,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Weirton, WV, Municipal Hospital Building|fv=1,117,431",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 131,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Wisconsin Health & Educational Facilitie|fv=5,237,500",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 132,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Yonkers, NY, Industrial Development Agen|fv=733,842",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 134,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Yonkers, NY, Industrial Development Agen|fv=659,700",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 138,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Bell County, TX, Health Facilities Devel|fv=128,346",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 140,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Bell County, TX, Health Facilities Devel|fv=2,183,091",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 141,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Bridgeport, CT, Senior Living Facility R|fv=1,012,442",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 143,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Chester County, PA, Industrial Developme|fv=616,646",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 145,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Colorado Health Facilities Authority Rev|fv=1,070,870",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 150,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Fulton County, GA, Residential Care Faci|fv=332,277",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 151,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Greenville County, SC, Hospital Rev. (Ch|fv=2,199,483",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 152,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Iowa Finance Authority, Health Care Faci|fv=883,177",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 153,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Iowa Finance Authority, Health Care Faci|fv=1,963,127",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 154,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Lenexa, KS, Health Care Facilities Rev. |fv=537,985",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 156,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Maine Health & Higher Educational Facili|fv=906,535",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 157,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Millbrae, CA, Residential Facilities Rev|fv=1,988,084",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 158,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Montgomery County, PA, Higher Education |fv=2,190,791",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 159,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Montgomery County, PA, Industrial Develo|fv=257,355",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 161,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New Jersey Economic Development Authorit|fv=650,858",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 162,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New Jersey Economic Development Authorit|fv=313,181",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 167,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Shelby County, TN, Health Educational Re|fv=857,113",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 170,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Travis County, TX, Health Facilities Dev|fv=212,951",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 171,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Travis County, TX, Health Facilities Dev|fv=299,928",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 173,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Waterford Township, MI, Economic Develop|fv=1,243,170",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 174,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Wilkinsburg, PA, Municipal Authority Hea|fv=1,009,980",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 175,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Cheneyville, LA, Westside Habilitation C|fv=$ 1,427,343",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 176,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Iowa Finance Authority, Community Provid|fv=474,720",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 177,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Lehigh County, PA, General Purpose Autho|fv=2,810,520",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 178,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New York City, NY, Industrial Developmen|fv=1,062,775",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 179,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:New York City, NY, Industrial Developmen|fv=937,800",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 180,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Orange County, FL, Health Facilities Aut|fv=533,078",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 181,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Orange County, FL, Health Facilities Aut|fv=1,071,970",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 182,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_VOLUME",
-        "confidence": "high",
-        "row_signature": "HOLDING:Osceola County, FL, Industrial Developme|fv=454,958",
-        "old_value": "page=2",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 302,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:Solid Waste Revenue|fv=",
-        "old_value": "page=10",
-        "new_value": "valid_pages=[6, 7, 19, 20]"
-      },
-      {
-        "row_idx": 472,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:Interest Rate Swap, Fixed 10 Year LIBOR |fv=450,001",
-        "old_value": "page=14",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 473,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:Interest Rate Swap, Fixed 12 Year BMA Sw|fv=509,208",
-        "old_value": "page=14",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 474,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:Interest Rate Swap, Fixed 15 Year LIBOR |fv=1,316,108",
-        "old_value": "page=14",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 475,
-        "old_row_type": "TOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "TOTAL:Total Interest Rate Swaps|fv=2,275,317",
-        "old_value": "page=14",
-        "new_value": "valid_pages=[6, 7, 19, 20]"
-      },
-      {
-        "row_idx": 476,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:Arizona Health Facilities Authority Rev.|fv=825,878",
-        "old_value": "page=15",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 477,
-        "old_row_type": "HOLDING",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "HOLDING:Chicago, IL, O'Hare International Airpor|fv=1,779,270",
-        "old_value": "page=15",
-        "new_value": "valid_pages=[6, 7, 19, 20]"
-      },
-      {
-        "row_idx": 478,
-        "old_row_type": "HOLDING",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "HOLDING:Chicago, IL, Public Building Commission,|fv=1,563,978",
-        "old_value": "page=15",
-        "new_value": "valid_pages=[6, 7, 19, 20]"
-      },
-      {
-        "row_idx": 479,
-        "old_row_type": "HOLDING",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "HOLDING:Chicago, IL, Public Building Commission,|fv=1,265,523",
-        "old_value": "page=15",
-        "new_value": "valid_pages=[6, 7, 19, 20]"
-      },
-      {
-        "row_idx": 480,
-        "old_row_type": "HOLDING",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "HOLDING:Contra Costa County, CA, Residential Ren|fv=65,312",
-        "old_value": "page=15",
-        "new_value": "valid_pages=[6, 7, 19, 20]"
-      },
-      {
-        "row_idx": 481,
-        "old_row_type": "HOLDING",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "HOLDING:Gallery Certificate Trust, PA, Parking R|fv=867,983",
-        "old_value": "page=15",
-        "new_value": "valid_pages=[6, 7, 19, 20]"
-      },
-      {
-        "row_idx": 482,
-        "old_row_type": "HOLDING",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "HOLDING:Madison County, FL, Rev. (Twin Oaks Proj|fv=547,841",
-        "old_value": "page=15",
-        "new_value": "valid_pages=[6, 7, 19, 20]"
-      },
-      {
-        "row_idx": 483,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:New Jersey Economic Development Authorit|fv=800,000",
-        "old_value": "page=15",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 484,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:New Jersey Economic Development Authorit|fv=800,000",
-        "old_value": "page=15",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 485,
-        "old_row_type": "HOLDING",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "HOLDING:Niagra Falls, NY, Bridge Commission, Tol|fv=1,765,350",
-        "old_value": "page=15",
-        "new_value": "valid_pages=[6, 7, 19, 20]"
-      },
-      {
-        "row_idx": 486,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:Pennsylvania Economic Development Financ|fv=345,181",
-        "old_value": "page=15",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 487,
-        "old_row_type": "HOLDING",
-        "new_row_type": "HOLDING",
-        "action": "converted",
-        "reason_code": "RESCUED_BY_DETAIL",
-        "confidence": "high",
-        "row_signature": "HOLDING:Waterford Township, MI, Economic Develop|fv=1,243,170",
-        "old_value": "page=15",
-        "new_value": "rescued (page not in [6, 7, 19, 20])"
-      },
-      {
-        "row_idx": 488,
-        "old_row_type": "TOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "TOTAL:Total Restricted Securities|fv=11,869,486",
-        "old_value": "page=15",
-        "new_value": "valid_pages=[6, 7, 19, 20]"
-      }
-    ]
-  }
+  ]
 }

@@ -1,0 +1,122 @@
+{
+  "source_name": "0000935069-03-001603",
+  "total_rows": 30,
+  "holding_count": 25,
+  "subtotal_count": 3,
+  "total_count": 2,
+  "error_count": 0,
+  "warning_count": 2,
+  "has_arithmetic_error": false,
+  "max_dollar_diff": "0",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "FIXED INCOME ARBITRAGE": {
+      "calculated_fv": "3912071",
+      "calculated_cost": "3790000",
+      "calculated_pct": "5.25",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "EVENT DRIVEN": {
+      "calculated_fv": "20717954",
+      "calculated_cost": "19050000",
+      "calculated_pct": "27.83",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "EQUITY ARBITRAGE": {
+      "calculated_fv": "44131485",
+      "calculated_cost": "41625500",
+      "calculated_pct": "59.31",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "(root)": {
+      "calculated_fv": "68761510",
+      "calculated_cost": "64465500",
+      "calculated_pct": "92.39",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 0,
+      "total_count": 2,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL INVESTMENTS",
+      "total_extracted_fv": "68761510"
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2003) differs from filename (5069)",
+      "context": {
+        "as_of_date": "SEPTEMBER 30, 2003",
+        "filename_date": "5069-03-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 1 row(s): SUMMARY_TABLE_BLOCK_DETECTED=1",
+      "context": {
+        "fix_count": 1,
+        "dropped": 1,
+        "converted": 0
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 1,
+    "dropped_count": 1,
+    "converted_count": 0,
+    "percent_corrected_count": 0,
+    "fix_log": [
+      {
+        "row_idx": 29,
+        "old_row_type": "TOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "TOTAL:OTHER ASSETS, LESS LIABILITIES|fv=5662933",
+        "old_value": null,
+        "new_value": null
+      }
+    ]
+  }
+}

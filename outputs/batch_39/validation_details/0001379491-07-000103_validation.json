@@ -1,0 +1,4356 @@
+{
+  "source_name": "0001379491-07-000103",
+  "total_rows": 400,
+  "holding_count": 322,
+  "subtotal_count": 71,
+  "total_count": 7,
+  "error_count": 5,
+  "warning_count": 233,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "936774550",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "SOVEREIGN DEBT OBLIGATIONS > Argentina": {
+      "calculated_fv": "68916245",
+      "calculated_cost": null,
+      "calculated_pct": "7.0",
+      "extracted_fv": "71875375",
+      "extracted_cost": null,
+      "extracted_pct": "7.0",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Brazil": {
+      "calculated_fv": "155372925",
+      "calculated_cost": null,
+      "calculated_pct": "15.1",
+      "extracted_fv": "155372925",
+      "extracted_cost": null,
+      "extracted_pct": "15.1",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Bulgaria": {
+      "calculated_fv": "3788730",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Colombia": {
+      "calculated_fv": "37798618",
+      "calculated_cost": null,
+      "calculated_pct": "3.7",
+      "extracted_fv": "37798618",
+      "extracted_cost": null,
+      "extracted_pct": "3.7",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Costa Rica": {
+      "calculated_fv": "6520515",
+      "calculated_cost": null,
+      "calculated_pct": "0.6",
+      "extracted_fv": "6520515",
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Dominican Republic": {
+      "calculated_fv": "9483292",
+      "calculated_cost": null,
+      "calculated_pct": "0.9",
+      "extracted_fv": "9483292",
+      "extracted_cost": null,
+      "extracted_pct": "0.9",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > El Salvador": {
+      "calculated_fv": "10098425",
+      "calculated_cost": null,
+      "calculated_pct": "1.0",
+      "extracted_fv": "10098425",
+      "extracted_cost": null,
+      "extracted_pct": "1.0",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Indonesia": {
+      "calculated_fv": "30916926",
+      "calculated_cost": null,
+      "calculated_pct": "3.0",
+      "extracted_fv": "30916926",
+      "extracted_cost": null,
+      "extracted_pct": "3.0",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Jamaica": {
+      "calculated_fv": "3916508",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": "3916508",
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Lebanon": {
+      "calculated_fv": "11435350",
+      "calculated_cost": null,
+      "calculated_pct": "1.1",
+      "extracted_fv": "11435350",
+      "extracted_cost": null,
+      "extracted_pct": "1.1",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Mexico": {
+      "calculated_fv": "118665414",
+      "calculated_cost": null,
+      "calculated_pct": "11.6",
+      "extracted_fv": "118665414",
+      "extracted_cost": null,
+      "extracted_pct": "11.6",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Panama": {
+      "calculated_fv": "45456800",
+      "calculated_cost": null,
+      "calculated_pct": "4.4",
+      "extracted_fv": "45456800",
+      "extracted_cost": null,
+      "extracted_pct": "4.4",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Peru": {
+      "calculated_fv": "39591909",
+      "calculated_cost": null,
+      "calculated_pct": "3.9",
+      "extracted_fv": "39591909",
+      "extracted_cost": null,
+      "extracted_pct": "3.9",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Philippines": {
+      "calculated_fv": "77543940",
+      "calculated_cost": null,
+      "calculated_pct": "7.5",
+      "extracted_fv": "77543940",
+      "extracted_cost": null,
+      "extracted_pct": "7.5",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Russia": {
+      "calculated_fv": "34911094",
+      "calculated_cost": null,
+      "calculated_pct": "3.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > South Africa": {
+      "calculated_fv": "5979806",
+      "calculated_cost": null,
+      "calculated_pct": "0.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Turkey": {
+      "calculated_fv": "32140585",
+      "calculated_cost": null,
+      "calculated_pct": "4.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "4.5",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Ukraine": {
+      "calculated_fv": "8498701",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": "8498701",
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Uruguay": {
+      "calculated_fv": "25733568",
+      "calculated_cost": null,
+      "calculated_pct": "2.5",
+      "extracted_fv": "25733568",
+      "extracted_cost": null,
+      "extracted_pct": "2.5",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS > Venezuela": {
+      "calculated_fv": "45012204",
+      "calculated_cost": null,
+      "calculated_pct": "4.4",
+      "extracted_fv": "45012204",
+      "extracted_cost": null,
+      "extracted_pct": "4.4",
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "SOVEREIGN DEBT OBLIGATIONS": {
+      "calculated_fv": "771781555",
+      "calculated_cost": null,
+      "calculated_pct": "76.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 20,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Sovereign Debt Obligations",
+      "total_extracted_fv": "788820635"
+    },
+    "CORPORATE DEBT OBLIGATIONS > Belgium": {
+      "calculated_fv": "722750",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Bermuda": {
+      "calculated_fv": "2511500",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": "2511500",
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Brazil": {
+      "calculated_fv": "6595992",
+      "calculated_cost": null,
+      "calculated_pct": "0.6",
+      "extracted_fv": "6595992",
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Canada": {
+      "calculated_fv": "7558500",
+      "calculated_cost": null,
+      "calculated_pct": "0.7",
+      "extracted_fv": "7558500",
+      "extracted_cost": null,
+      "extracted_pct": "0.7",
+      "holding_count": 9,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Cayman Islands": {
+      "calculated_fv": "1600000",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > China": {
+      "calculated_fv": "4025700",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > France": {
+      "calculated_fv": "781875",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Hong Kong": {
+      "calculated_fv": "4459176",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Ireland": {
+      "calculated_fv": "1473750",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Jamaica": {
+      "calculated_fv": "3603880",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Kazakhstan": {
+      "calculated_fv": "8628732",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": "8628732",
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Luxembourg": {
+      "calculated_fv": "781875",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Malaysia": {
+      "calculated_fv": "7840533",
+      "calculated_cost": null,
+      "calculated_pct": "0.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Mexico": {
+      "calculated_fv": "2766284",
+      "calculated_cost": null,
+      "calculated_pct": "0.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.3",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Netherlands": {
+      "calculated_fv": "515312",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "515312",
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Peru": {
+      "calculated_fv": "13258998",
+      "calculated_cost": null,
+      "calculated_pct": "1.3",
+      "extracted_fv": "13258998",
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Russia": {
+      "calculated_fv": "63773719",
+      "calculated_cost": null,
+      "calculated_pct": "6.2",
+      "extracted_fv": "63773719",
+      "extracted_cost": null,
+      "extracted_pct": "6.2",
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Singapore": {
+      "calculated_fv": "959000",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": "959000",
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > South Korea": {
+      "calculated_fv": "1475250",
+      "calculated_cost": null,
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > Ukraine": {
+      "calculated_fv": "2875500",
+      "calculated_cost": null,
+      "calculated_pct": "0.3",
+      "extracted_fv": "2875500",
+      "extracted_cost": null,
+      "extracted_pct": "0.3",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > United Kingdom": {
+      "calculated_fv": "1856375",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": "1856375",
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS > United States": {
+      "calculated_fv": "122882380",
+      "calculated_cost": null,
+      "calculated_pct": "15.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "15.8",
+      "holding_count": 116,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CORPORATE DEBT OBLIGATIONS": {
+      "calculated_fv": "260947081",
+      "calculated_cost": null,
+      "calculated_pct": "29.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 22,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Telecommunications > Integrated": {
+      "calculated_fv": "4683188",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Telecommunications > Wireless": {
+      "calculated_fv": "669500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Telecommunications > Satellite": {
+      "calculated_fv": "1080800",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Telecommunications": {
+      "calculated_fv": "6433488",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Cable": {
+      "calculated_fv": "1091250",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Energy > Independent": {
+      "calculated_fv": "515000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Energy > Midstream": {
+      "calculated_fv": "3643500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Energy": {
+      "calculated_fv": "4158500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Industrial > Manufacturing": {
+      "calculated_fv": "2237312",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Industrial > Services": {
+      "calculated_fv": "1496250",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Industrial": {
+      "calculated_fv": "3733562",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Utility > Electric": {
+      "calculated_fv": "3731464",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Utility": {
+      "calculated_fv": "3731464",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Consumer > Products": {
+      "calculated_fv": "3197659",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Consumer": {
+      "calculated_fv": "3197659",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Publishing": {
+      "calculated_fv": "698750",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Retailers > Food and Drug": {
+      "calculated_fv": "1334500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Retailers > Restaurants": {
+      "calculated_fv": "208000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Retailers": {
+      "calculated_fv": "1542500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Health Care > Facilities": {
+      "calculated_fv": "1967875",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Health Care": {
+      "calculated_fv": "1967875",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Technology": {
+      "calculated_fv": "1911000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Media > Non-Cable": {
+      "calculated_fv": "2100456",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Media": {
+      "calculated_fv": "2100456",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Entertainment > Theaters": {
+      "calculated_fv": "666750",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Entertainment": {
+      "calculated_fv": "666750",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Metals and Mining": {
+      "calculated_fv": "3233634",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Gaming": {
+      "calculated_fv": "2563000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Automotive > Parts": {
+      "calculated_fv": "1049000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Automotive": {
+      "calculated_fv": "1049000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Lodging": {
+      "calculated_fv": "412500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Homebuilders": {
+      "calculated_fv": "482500",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations": {
+      "calculated_fv": "38973888",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 17,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Corporate Debt Obligations",
+      "total_extracted_fv": "299920969"
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > WARRANTS": {
+      "calculated_fv": "2422500",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Warrants",
+      "total_extracted_fv": "2422500"
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > SHORT-TERM INVESTMENTS > Time Deposit": {
+      "calculated_fv": "1410000",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > SHORT-TERM INVESTMENTS": {
+      "calculated_fv": "1410000",
+      "calculated_cost": null,
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Short-Term Investments",
+      "total_extracted_fv": "1410000"
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > CREDIT DEFAULT SWAP CONTRACTS > Buy Contracts": {
+      "calculated_fv": "-70107",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > CREDIT DEFAULT SWAP CONTRACTS > Sale Contracts": {
+      "calculated_fv": "3984706",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 8,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > CREDIT DEFAULT SWAP CONTRACTS": {
+      "calculated_fv": "3914599",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 2,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > FORWARD CURRENCY EXCHANGE CONTRACTS > Sale Contracts": {
+      "calculated_fv": "-96257",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > FORWARD CURRENCY EXCHANGE CONTRACTS": {
+      "calculated_fv": "-96257",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > REVERSE REPURCHASE AGREEMENTS": {
+      "calculated_fv": "109174824",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Reverse Repurchase Agreements",
+      "total_extracted_fv": "109174824"
+    },
+    "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND": {
+      "calculated_fv": "155799554",
+      "calculated_cost": null,
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 6,
+      "subtotal_count": 0,
+      "total_count": 2,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "Total Investments",
+      "total_extracted_fv": "1092574104"
+    },
+    "(root)": {
+      "calculated_fv": "1188528190",
+      "calculated_cost": null,
+      "calculated_pct": "106.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 3,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_FV",
+      "message": "Section sum (155799554) != Total row (1092574104), diff=$936774550",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND",
+        "label": "Total Investments",
+        "calculated": "155799554",
+        "extracted": "1092574104",
+        "diff": "936774550"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_FV",
+      "message": "Section sum (38973888) != Total row (299920969), diff=$260947081",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations",
+        "label": "Total Corporate Debt Obligations",
+        "calculated": "38973888",
+        "extracted": "299920969",
+        "diff": "260947081"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_FV",
+      "message": "Section sum (771781555) != Total row (788820635), diff=$17039080",
+      "context": {
+        "section_path": "SOVEREIGN DEBT OBLIGATIONS",
+        "label": "Total Sovereign Debt Obligations",
+        "calculated": "771781555",
+        "extracted": "788820635",
+        "diff": "17039080"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ARITH_MISMATCH_FV",
+      "message": "Calculated fair_value (68916245) != extracted subtotal (71875375), diff=$2959130",
+      "context": {
+        "section_path": "SOVEREIGN DEBT OBLIGATIONS > Argentina",
+        "label": "Argentina",
+        "calculated": "68916245",
+        "extracted": "71875375",
+        "diff": "2959130"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_PCT",
+      "message": "Section percent (0.4%) != Total row (106.4%), diff=106.0%",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND",
+        "label": "Total Investments",
+        "calculated": "0.4",
+        "extracted": "106.4",
+        "diff": "106.0",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 318
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 318
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 319
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 319
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 320
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 320
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 321
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 321
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 322
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 322
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 323
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 323
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 324
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 324
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 325
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 325
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 326
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 326
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 327
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 327
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 328
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 328
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 329
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 329
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 330
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 330
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 331
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 331
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 332
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 332
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 333
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 333
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 334
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 334
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 335
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 335
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 336
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 336
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 337
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 337
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 338
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 338
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 339
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 339
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 340
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 340
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 341
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 341
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 342
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 342
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 343
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 343
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 344
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 344
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 345
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 345
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 346
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 346
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 347
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 347
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 348
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 348
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 349
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 349
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 350
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 350
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 351
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 351
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 352
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 352
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 353
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 353
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 354
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 354
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 355
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 355
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 356
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 356
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 357
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 357
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 358
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 358
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 359
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 359
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 360
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 360
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 361
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 361
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 362
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 362
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 363
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 363
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 364
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 364
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 365
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 365
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 366
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 366
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 367
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 367
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 368
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 8]",
+      "context": {
+        "field": "cost_raw",
+        "row": 368
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 8]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 369
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 370
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 370
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 371
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 371
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 372
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 8]",
+      "context": {
+        "field": "cost_raw",
+        "row": 372
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 8]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 373
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 8]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 374
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 375
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 375
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 376
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 376
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 377
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "cost_raw",
+        "row": 377
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 378
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "cost_raw",
+        "row": 378
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 378
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 379
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 379
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 380
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 380
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 381
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 381
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 382
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 382
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 383
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 383
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 384
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 384
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 385
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 385
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 386
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 386
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 387
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 387
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 388
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 388
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 389
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 389
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 390
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 390
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 391
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=12 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 391
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=13 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 392
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=13 outside [1, 8]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 392
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=13 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 393
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=13 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 394
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=13 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 395
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=13 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 396
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=13 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 397
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=13 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 398
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=13 outside [1, 8]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 399
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2007) differs from filename (9491)",
+      "context": {
+        "as_of_date": "March 31, 2007",
+        "filename_date": "9491-07-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Telecommunications > Wireless"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Telecommunications > Satellite"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Energy > Independent"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Industrial > Services"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Retailers > Restaurants"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Entertainment > Theaters"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Metals and Mining"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Lodging"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Homebuilders"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Cable"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Energy > Midstream"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Publishing"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 2 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > FORWARD CURRENCY EXCHANGE CONTRACTS > Sale Contracts"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Industrial > Manufacturing"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Consumer > Products"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Retailers > Food and Drug"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Health Care > Facilities"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Technology"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Media > Non-Cable"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Automotive > Parts"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 3 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > CREDIT DEFAULT SWAP CONTRACTS > Buy Contracts"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 4 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Utility > Electric"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 4 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Gaming"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 6 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > Corporate Debt Obligations > Telecommunications > Integrated"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 8 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND > CREDIT DEFAULT SWAP CONTRACTS > Sale Contracts"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 1 row(s): SUMMARY_TABLE_BLOCK_DETECTED=1",
+      "context": {
+        "fix_count": 1,
+        "dropped": 1,
+        "converted": 0
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 318,
+        "row_type": "HOLDING",
+        "investment": "Qwest Capital Funding, Inc. 7.25%, 2/15/11",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 319,
+        "row_type": "HOLDING",
+        "investment": "Qwest Corp. 6.875%, 9/15/33",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 320,
+        "row_type": "HOLDING",
+        "investment": "Rainbow National Services LLC 8.75%, 9/01/12",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 321,
+        "row_type": "HOLDING",
+        "investment": "Rainbow National Services LLC 10.375%, 9/01/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 322,
+        "row_type": "HOLDING",
+        "investment": "Range Resources Corp. 7.50%, 5/15/16",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 323,
+        "row_type": "HOLDING",
+        "investment": "RBS Global, Inc. and Rexnord Corp. 9.50%, 8/01/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 324,
+        "row_type": "HOLDING",
+        "investment": "RBS Global, Inc. and Rexnord Corp. 11.75%, 8/01/16",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 325,
+        "row_type": "HOLDING",
+        "investment": "Regency Energy Partners 8.375%, 12/15/13",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 326,
+        "row_type": "HOLDING",
+        "investment": "Reliant Energy, Inc. 6.75%, 12/15/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 327,
+        "row_type": "HOLDING",
+        "investment": "Reynolds American, Inc. 7.25%, 6/01/13",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 328,
+        "row_type": "HOLDING",
+        "investment": "Reynolds American, Inc. 7.625%, 6/01/16",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 329,
+        "row_type": "HOLDING",
+        "investment": "RH Donnelley Corp. Series A-1 6.875%, 1/15/13",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 330,
+        "row_type": "HOLDING",
+        "investment": "RH Donnelley Corp. Series A-3 8.875%, 1/15/16",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 331,
+        "row_type": "HOLDING",
+        "investment": "Rite Aid Corp. 6.875%, 8/15/13",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 332,
+        "row_type": "HOLDING",
+        "investment": "Rite Aid Corp. 9.25%, 6/01/13",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 333,
+        "row_type": "HOLDING",
+        "investment": "Rural Cellular Corp. 9.75%, 1/15/10",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 334,
+        "row_type": "HOLDING",
+        "investment": "Sbarro, Inc. 10.375%, 2/01/15",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 335,
+        "row_type": "HOLDING",
+        "investment": "Select Medical Corp. 7.625%, 2/01/15",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 336,
+        "row_type": "HOLDING",
+        "investment": "Serena Software, Inc. Series WI 10.375%, 3/15/16",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 337,
+        "row_type": "HOLDING",
+        "investment": "Sierra Pacific Resources 8.625%, 3/15/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 338,
+        "row_type": "HOLDING",
+        "investment": "Sirius Satellite Radio, Inc. 9.625%, 8/01/13",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 339,
+        "row_type": "HOLDING",
+        "investment": "Six Flags, Inc. 9.75%, 4/15/13",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 340,
+        "row_type": "HOLDING",
+        "investment": "Southern Copper Corp. 7.50%, 7/27/35",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 341,
+        "row_type": "HOLDING",
+        "investment": "Spectrum Brands, Inc. 7.375%, 2/01/15",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 342,
+        "row_type": "HOLDING",
+        "investment": "Stater Brothers Holdings 8.125%, 6/15/12",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 343,
+        "row_type": "HOLDING",
+        "investment": "Station Casinos, Inc. 6.625%, 3/15/18",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 344,
+        "row_type": "HOLDING",
+        "investment": "Sungard Data Systems, Inc. 9.125%, 8/15/13",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 345,
+        "row_type": "HOLDING",
+        "investment": "Tenet Healthcare Corp. 7.375%, 2/01/13",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 346,
+        "row_type": "HOLDING",
+        "investment": "Tenneco, Inc. 8.625%, 11/15/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 347,
+        "row_type": "HOLDING",
+        "investment": "Terrestar Networks, Inc. 15.00%, 2/15/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 348,
+        "row_type": "HOLDING",
+        "investment": "Time Warner Telecom Holdings, Inc. 9.25%, 2/15/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 349,
+        "row_type": "HOLDING",
+        "investment": "Trinity Industries, Inc. 6.50%, 3/15/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 350,
+        "row_type": "HOLDING",
+        "investment": "Trump Entertainment Resorts, Inc. 8.50%, 6/01/15",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 351,
+        "row_type": "HOLDING",
+        "investment": "Turning Stone Resort Casino Enterprise 9.125%, 12/15/10",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 352,
+        "row_type": "HOLDING",
+        "investment": "TXU Corp. Series P 5.55%, 11/15/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 353,
+        "row_type": "HOLDING",
+        "investment": "TXU Corp. Series Q 6.50%, 11/15/24",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 354,
+        "row_type": "HOLDING",
+        "investment": "Unisys Corp. 8.00%, 10/15/12",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 355,
+        "row_type": "HOLDING",
+        "investment": "United Rentals North America, Inc. 6.50%, 2/15/12",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 356,
+        "row_type": "HOLDING",
+        "investment": "Universal City Florida Holding Co. 8.375%, 5/01/10",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 357,
+        "row_type": "HOLDING",
+        "investment": "Vanguard Health Holding Co. 11.25%, 10/01/15",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 358,
+        "row_type": "HOLDING",
+        "investment": "Visteon Corp. 7.00%, 3/10/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 359,
+        "row_type": "HOLDING",
+        "investment": "Visteon Corp. 8.25%, 8/01/10",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 360,
+        "row_type": "HOLDING",
+        "investment": "West Corp. 9.50%, 10/15/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 361,
+        "row_type": "HOLDING",
+        "investment": "William Lyon Homes, Inc. 10.75%, 4/01/13",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 362,
+        "row_type": "HOLDING",
+        "investment": "Williams Cos, Inc. 7.625%, 7/15/19",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 363,
+        "row_type": "HOLDING",
+        "investment": "Windstream Corp. 8.125%, 8/01/13",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 364,
+        "row_type": "HOLDING",
+        "investment": "Windstream Corp. 8.625%, 8/01/16",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 365,
+        "row_type": "HOLDING",
+        "investment": "WMG Holdings Corp. 9.50%, 12/15/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 366,
+        "row_type": "HOLDING",
+        "investment": "Wynn Las Vegas LLC/Corp. 6.625%, 12/01/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 367,
+        "row_type": "HOLDING",
+        "investment": "XM Satellite Radio, Inc. 9.75%, 5/01/14",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [5, 8, 9, 11, 12, 13, 14, 15, 16, 17]",
+      "context": {
+        "row": 368,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "Total Corporate Debt Obligations",
+        "original_page": 10,
+        "soi_pages": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 1,
+    "dropped_count": 1,
+    "converted_count": 0,
+    "percent_corrected_count": 0,
+    "fix_log": [
+      {
+        "row_idx": 379,
+        "old_row_type": "TOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "TOTAL:Other assets less liabilities|fv=-65322346",
+        "old_value": null,
+        "new_value": null
+      }
+    ]
+  }
+}

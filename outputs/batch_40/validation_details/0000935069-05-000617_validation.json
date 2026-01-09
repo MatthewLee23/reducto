@@ -1,0 +1,5354 @@
+{
+  "source_name": "0000935069-05-000617",
+  "total_rows": 394,
+  "holding_count": 318,
+  "subtotal_count": 69,
+  "total_count": 7,
+  "error_count": 127,
+  "warning_count": 114,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "1421499284",
+  "root_sum_mismatch": false,
+  "calculated_total_fv": null,
+  "extracted_total_fv": null,
+  "computed_sums": {
+    "COMMON STOCKS > AEROSPACE": {
+      "calculated_fv": "9722400",
+      "calculated_cost": "11909373",
+      "calculated_pct": "0.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.5",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > AUTOMOTIVE: PARTS AND ACCESSORIES": {
+      "calculated_fv": "29358500",
+      "calculated_cost": "26448160",
+      "calculated_pct": "1.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.5",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > BROADCASTING": {
+      "calculated_fv": "527520",
+      "calculated_cost": "585559",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > CABLE AND SATELLITE": {
+      "calculated_fv": "15561732",
+      "calculated_cost": "14284194",
+      "calculated_pct": "0.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.8",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > COMPUTER SOFTWARE AND SERVICES": {
+      "calculated_fv": "4006500",
+      "calculated_cost": "4108064",
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > CONSUMER PRODUCTS": {
+      "calculated_fv": "25010455",
+      "calculated_cost": "21503300",
+      "calculated_pct": "1.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.2",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > DIVERSIFIED INDUSTRIAL": {
+      "calculated_fv": "54851909",
+      "calculated_cost": "47377386",
+      "calculated_pct": "2.7",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.7",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ELECTRONICS": {
+      "calculated_fv": "660250",
+      "calculated_cost": "659884",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENERGY AND UTILITIES: ELECTRIC": {
+      "calculated_fv": "47567886",
+      "calculated_cost": "43744523",
+      "calculated_pct": "2.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "2.4",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENERGY AND UTILITIES: INTEGRATED": {
+      "calculated_fv": "277953982",
+      "calculated_cost": "248166190",
+      "calculated_pct": "13.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "13.9",
+      "holding_count": 53,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENERGY AND UTILITIES: NATURAL GAS": {
+      "calculated_fv": "69323665",
+      "calculated_cost": "61413614",
+      "calculated_pct": "3.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.5",
+      "holding_count": 16,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENERGY AND UTILITIES: OIL": {
+      "calculated_fv": "184718289",
+      "calculated_cost": "151020735",
+      "calculated_pct": "9.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "9.2",
+      "holding_count": 29,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENERGY AND UTILITIES: WATER": {
+      "calculated_fv": "3842095",
+      "calculated_cost": "3424532",
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENTERTAINMENT": {
+      "calculated_fv": "25985900",
+      "calculated_cost": "22252332",
+      "calculated_pct": "1.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENVIRONMENTAL SERVICES": {
+      "calculated_fv": "2528968",
+      "calculated_cost": "2436379",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > EQUIPMENT AND SUPPLIES": {
+      "calculated_fv": "9329860",
+      "calculated_cost": "8186775",
+      "calculated_pct": "0.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.5",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > FINANCIAL SERVICES": {
+      "calculated_fv": "228549505",
+      "calculated_cost": "210892145",
+      "calculated_pct": "11.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "11.4",
+      "holding_count": 37,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > FOOD AND BEVERAGE": {
+      "calculated_fv": "78647918",
+      "calculated_cost": "72942788",
+      "calculated_pct": "3.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.9",
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > HEALTH CARE": {
+      "calculated_fv": "35681025",
+      "calculated_cost": "40202093",
+      "calculated_pct": "1.8",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.8",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > HOTELS AND GAMING": {
+      "calculated_fv": "28310737",
+      "calculated_cost": "24628445",
+      "calculated_pct": "1.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.4",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > MACHINERY": {
+      "calculated_fv": "26123500",
+      "calculated_cost": "24555946",
+      "calculated_pct": "1.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > METALS AND MINING": {
+      "calculated_fv": "6100790",
+      "calculated_cost": "5396449",
+      "calculated_pct": "0.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.3",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > PUBLISHING": {
+      "calculated_fv": "3112735",
+      "calculated_cost": "3304985",
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > REAL ESTATE": {
+      "calculated_fv": "3365685",
+      "calculated_cost": "3342930",
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > RETAIL": {
+      "calculated_fv": "23750685",
+      "calculated_cost": "24540321",
+      "calculated_pct": "1.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.2",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > SPECIALTY CHEMICALS": {
+      "calculated_fv": "25358552",
+      "calculated_cost": "21037721",
+      "calculated_pct": "1.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.3",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > TELECOMMUNICATIONS": {
+      "calculated_fv": "119155274",
+      "calculated_cost": "100709390",
+      "calculated_pct": "5.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "5.9",
+      "holding_count": 24,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > TRANSPORTATION": {
+      "calculated_fv": "6901922",
+      "calculated_cost": "6104143",
+      "calculated_pct": "0.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.3",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > WIRELESS COMMUNICATIONS": {
+      "calculated_fv": "2778495",
+      "calculated_cost": "2760275",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS": {
+      "calculated_fv": "1348786734",
+      "calculated_cost": "1207938631",
+      "calculated_pct": "67.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 29,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL COMMON STOCKS",
+      "total_extracted_fv": "1348786734"
+    },
+    "PREFERRED STOCKS > CLOSED-END FUNDS": {
+      "calculated_fv": "1872750",
+      "calculated_cost": "1860400",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "PREFERRED STOCKS": {
+      "calculated_fv": "1872750",
+      "calculated_cost": "1860400",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > AEROSPACE": {
+      "calculated_fv": "1097663",
+      "calculated_cost": "997555",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > AUTOMOTIVE": {
+      "calculated_fv": "501800",
+      "calculated_cost": "518910",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > AVIATION: PARTS AND SERVICES": {
+      "calculated_fv": "1189500",
+      "calculated_cost": "1141435",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > BROADCASTING": {
+      "calculated_fv": "12328883",
+      "calculated_cost": "13197056",
+      "calculated_pct": "0.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > BUILDING AND CONSTRUCTION": {
+      "calculated_fv": "9100",
+      "calculated_cost": "6210",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > BUSINESS SERVICES": {
+      "calculated_fv": "948780",
+      "calculated_cost": "1079078",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > CABLE AND SATELLITE": {
+      "calculated_fv": "250100",
+      "calculated_cost": "243462",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > CONSUMER PRODUCTS": {
+      "calculated_fv": "6545662",
+      "calculated_cost": "6516450",
+      "calculated_pct": "0.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.3",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > DIVERSIFIED INDUSTRIAL": {
+      "calculated_fv": "9485351",
+      "calculated_cost": "8053015",
+      "calculated_pct": "0.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.5",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > ENERGY AND UTILITIES": {
+      "calculated_fv": "11846709",
+      "calculated_cost": "11005306",
+      "calculated_pct": "0.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > ENTERTAINMENT": {
+      "calculated_fv": "3717840",
+      "calculated_cost": "3904309",
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > FINANCIAL SERVICES": {
+      "calculated_fv": "9679742",
+      "calculated_cost": "9360115",
+      "calculated_pct": "0.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.5",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > HEALTH CARE": {
+      "calculated_fv": "3452118",
+      "calculated_cost": "3493929",
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > METALS AND MINING": {
+      "calculated_fv": "1241160",
+      "calculated_cost": "1002916",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > REAL ESTATE INVESTMENT TRUST": {
+      "calculated_fv": "107856",
+      "calculated_cost": "104120",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > TELECOMMUNICATIONS": {
+      "calculated_fv": "7538625",
+      "calculated_cost": "7250413",
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > TRANSPORTATION": {
+      "calculated_fv": "870911",
+      "calculated_cost": "751359",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS": {
+      "calculated_fv": "70811800",
+      "calculated_cost": "68625638",
+      "calculated_pct": "3.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "3.5",
+      "holding_count": 0,
+      "child_count": 17,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL CONVERTIBLE PREFERRED STOCKS",
+      "total_extracted_fv": "70811800"
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > AEROSPACE": {
+      "calculated_fv": "1098750",
+      "calculated_cost": "989174",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > AGRICULTURE": {
+      "calculated_fv": "1352812",
+      "calculated_cost": "793722",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > AUTOMOTIVE: PARTS AND ACCESSORIES": {
+      "calculated_fv": "488750",
+      "calculated_cost": "476286",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > BUSINESS SERVICES": {
+      "calculated_fv": "2994250",
+      "calculated_cost": "2953376",
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > COMMUNICATIONS EQUIPMENT": {
+      "calculated_fv": "4070000",
+      "calculated_cost": "4019271",
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > ENTERTAINMENT": {
+      "calculated_fv": "1117500",
+      "calculated_cost": "1029146",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > EQUIPMENT AND SUPPLIES": {
+      "calculated_fv": "745500",
+      "calculated_cost": "709317",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > FINANCIAL SERVICES": {
+      "calculated_fv": "309688",
+      "calculated_cost": "287699",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > FOOD AND BEVERAGE": {
+      "calculated_fv": "802353",
+      "calculated_cost": "981615",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > HEALTH CARE": {
+      "calculated_fv": "328875",
+      "calculated_cost": "300000",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > REAL ESTATE": {
+      "calculated_fv": "908750",
+      "calculated_cost": "971543",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > TELECOMMUNICATIONS": {
+      "calculated_fv": "1955000",
+      "calculated_cost": "1932233",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS > TRANSPORTATION": {
+      "calculated_fv": "4120750",
+      "calculated_cost": "4011169",
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS": {
+      "calculated_fv": "20292978",
+      "calculated_cost": "19454551",
+      "calculated_pct": "1.0",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "1.0",
+      "holding_count": 0,
+      "child_count": 13,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL CONVERTIBLE CORPORATE BONDS",
+      "total_extracted_fv": "19337978"
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > U.S. GOVERNMENT OBLIGATIONS": {
+      "calculated_fv": "388743822",
+      "calculated_cost": "388726514",
+      "calculated_pct": "19.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "19.4",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > SHORT-TERM OBLIGATIONS > REPURCHASE AGREEMENTS": {
+      "calculated_fv": "175000000",
+      "calculated_cost": "175000000",
+      "calculated_pct": "8.7",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "8.7",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > SHORT-TERM OBLIGATIONS": {
+      "calculated_fv": "175000000",
+      "calculated_cost": "175000000",
+      "calculated_pct": "8.7",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "8.7",
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL SHORT-TERM OBLIGATIONS",
+      "total_extracted_fv": "175000000"
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST > WRITTEN CALL OPTIONS": {
+      "calculated_fv": "-28000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL WRITTEN CALL OPTIONS",
+      "total_extracted_fv": "-28000"
+    },
+    "THE GABELLI DIVIDEND & INCOME TRUST": {
+      "calculated_fv": "584008800",
+      "calculated_cost": "583181065",
+      "calculated_pct": "29.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 0,
+      "total_count": 2,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL INVESTMENTS",
+      "total_extracted_fv": "2005508084"
+    },
+    "(root)": {
+      "calculated_fv": "2005480084",
+      "calculated_cost": "1861605734",
+      "calculated_pct": "100.0",
+      "extracted_fv": "-298804740",
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 4,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_COST",
+      "message": "Section cost (583181065) != Total row (1861605734), diff=$1278424669",
+      "context": {
+        "section_path": "THE GABELLI DIVIDEND & INCOME TRUST",
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "583181065",
+        "extracted": "1861605734",
+        "diff": "1278424669"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_COST",
+      "message": "Section cost (19454551) != Total row (18477466), diff=$977085",
+      "context": {
+        "section_path": "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS",
+        "label": "TOTAL CONVERTIBLE CORPORATE BONDS",
+        "calculated": "19454551",
+        "extracted": "18477466",
+        "diff": "977085"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_FV",
+      "message": "Section sum (20292978) != Total row (19337978), diff=$955000",
+      "context": {
+        "section_path": "THE GABELLI DIVIDEND & INCOME TRUST > CONVERTIBLE CORPORATE BONDS",
+        "label": "TOTAL CONVERTIBLE CORPORATE BONDS",
+        "calculated": "20292978",
+        "extracted": "19337978",
+        "diff": "955000"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "TOTAL_MISMATCH_PCT",
+      "message": "Section percent (29.1%) != Total row (100.0%), diff=70.9%",
+      "context": {
+        "section_path": "THE GABELLI DIVIDEND & INCOME TRUST",
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "29.1",
+        "extracted": "100.0",
+        "diff": "70.9",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '08' don't match citation content digits '673' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 8,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '10060829' don't match citation content digits '281823' (overlap: 38%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 197,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1059875' don't match citation content digits '9396000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 18,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '107620' don't match citation content digits '281823' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 126,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '109525' don't match citation content digits '326400' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 291,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '11155000' don't match citation content digits '326400' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 211,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '115000' don't match citation content digits '281823' (overlap: 33%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 167,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '11553622' don't match citation content digits '11909373' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 25,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '124550' don't match citation content digits '585559' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 103,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '12775000' don't match citation content digits '9396000' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 29,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '13321600' don't match citation content digits '9722400' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 57,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1343953' don't match citation content digits '11627550' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 271,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1369425' don't match citation content digits '9722400' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 193,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1385001' don't match citation content digits '9396000' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 90,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1392636' don't match citation content digits '9722400' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 72,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '14384854' don't match citation content digits '11909373' (overlap: 25%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 84,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1454474' don't match citation content digits '9396000' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 90,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1472655' don't match citation content digits '9722400' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 72,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '15000' don't match citation content digits '15' (overlap: 40%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 292,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '15000' don't match citation content digits '281823' (overlap: 20%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 184,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1509017' don't match citation content digits '326400' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 56,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1515634' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 73,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1517100' don't match citation content digits '9396000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 119,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1557500' don't match citation content digits '9396000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 106,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1558572' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 74,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1580951' don't match citation content digits '9396000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 87,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1588564' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 77,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1592808' don't match citation content digits '326400' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 71,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1595014' don't match citation content digits '9396000' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 55,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1644189' don't match citation content digits '326400' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 73,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1684400' don't match citation content digits '9396000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 289,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1716540' don't match citation content digits '326400' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 279,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1728506' don't match citation content digits '9722400' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 55,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1757700' don't match citation content digits '326400' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 10,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1767151' don't match citation content digits '9396000' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 91,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '177240' don't match citation content digits '9531500' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 206,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '17734080' don't match citation content digits '9396000' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 98,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1819400' don't match citation content digits '326400' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 269,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1877085' don't match citation content digits '9396000' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 251,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '1919600' don't match citation content digits '326400' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 77,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '19895100' don't match citation content digits '326400' (overlap: 25%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 186,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '20557400' don't match citation content digits '9396000' (overlap: 38%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 49,
+        "citation_idx": 0,
+        "overlap_ratio": 0.375
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2089572' don't match citation content digits '11909373' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 162,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2094187' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 167,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '210000' don't match citation content digits '15' (overlap: 17%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 28,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '210697' don't match citation content digits '281823' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 26,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '220000' don't match citation content digits '281823' (overlap: 33%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 83,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2225250' don't match citation content digits '9396000' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 180,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '227250' don't match citation content digits '9396000' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 200,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '24' don't match citation content digits '00' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 37,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2400642' don't match citation content digits '281823' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 31,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2482979' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 205,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2495500' don't match citation content digits '9396000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 169,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '25000' don't match citation content digits '281823' (overlap: 20%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 36,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2506082' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 96,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2542650' don't match citation content digits '11909373' (overlap: 14%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 12,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2668642' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 196,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2686693' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 190,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2744342' don't match citation content digits '15' (overlap: 0%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 283,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2776950' don't match citation content digits '326400' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 190,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '280000' don't match citation content digits '281823' (overlap: 33%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 220,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '286000' don't match citation content digits '281823' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 145,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '2915016' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 43,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '29890' don't match citation content digits '326400' (overlap: 40%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 212,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3000' don't match citation content digits '281823' (overlap: 25%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 147,
+        "citation_idx": 0,
+        "overlap_ratio": 0.25
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '304562' don't match citation content digits '281823' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 184,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '320000' don't match citation content digits '281823' (overlap: 33%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 275,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '326904' don't match citation content digits '281823' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 245,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3315840' don't match citation content digits '9396000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 170,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3365685' don't match citation content digits '9722400' (overlap: 0%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 248,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3444806' don't match citation content digits '11627550' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 169,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '35' don't match citation content digits '00' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 99,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '354880' don't match citation content digits '9396000' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 286,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3553478' don't match citation content digits '326400' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 219,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3572715' don't match citation content digits '9722400' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 115,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3605590' don't match citation content digits '19827000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 209,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3668370' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 138,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3835400' don't match citation content digits '9722400' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 115,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3855600' don't match citation content digits '9722400' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 22,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '388860' don't match citation content digits '9531500' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 118,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '3983448' don't match citation content digits '9396000' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 47,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '404400' don't match citation content digits '281823' (overlap: 0%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 95,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4054017' don't match citation content digits '9396000' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 181,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4108064' don't match citation content digits '281823' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 15,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '429085' don't match citation content digits '281823' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 156,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '433003' don't match citation content digits '11627550' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 50,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '441750' don't match citation content digits '9396000' (overlap: 17%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 50,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '44660' don't match citation content digits '527520' (overlap: 20%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 218,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4552640' don't match citation content digits '9396000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 189,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4587600' don't match citation content digits '9396000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 240,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '4771000' don't match citation content digits '9396000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 288,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5099882' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 232,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5403166' don't match citation content digits '11909373' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 214,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5558000' don't match citation content digits '9722400' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 263,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5592578' don't match citation content digits '11909373' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 216,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '55998' don't match citation content digits '11909373' (overlap: 40%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 221,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '57082' don't match citation content digits '281823' (overlap: 40%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 63,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5781380' don't match citation content digits '9396000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 203,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '5839449' don't match citation content digits '9396000' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 131,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6049542' don't match citation content digits '15' (overlap: 14%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 277,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6213750' don't match citation content digits '9722400' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 216,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6240819' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 220,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6478892' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 128,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '65810' don't match citation content digits '326400' (overlap: 40%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 21,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '658750' don't match citation content digits '9396000' (overlap: 33%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 75,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '659884' don't match citation content digits '281823' (overlap: 33%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 36,
+        "citation_idx": 0,
+        "overlap_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '6863680' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 135,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '69243' don't match citation content digits '281823' (overlap: 40%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 147,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '746488' don't match citation content digits '9396000' (overlap: 17%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 75,
+        "citation_idx": 0,
+        "overlap_ratio": 0.16666666666666666
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7798266' don't match citation content digits '281823' (overlap: 29%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 95,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7848000' don't match citation content digits '9396000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 131,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7886725' don't match citation content digits '9396000' (overlap: 14%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 67,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '7942100' don't match citation content digits '9396000' (overlap: 43%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 108,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '79516' don't match citation content digits '281823' (overlap: 20%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 159,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8133855' don't match citation content digits '11909373' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 257,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8195850' don't match citation content digits '9396000' (overlap: 29%)",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 20,
+        "citation_idx": 0,
+        "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8553485' don't match citation content digits '281823' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 161,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '8864810' don't match citation content digits '326400' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 144,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9068488' don't match citation content digits '9396000' (overlap: 43%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 137,
+        "citation_idx": 0,
+        "overlap_ratio": 0.42857142857142855
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '92' don't match citation content digits '00' (overlap: 0%)",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 116,
+        "citation_idx": 0,
+        "overlap_ratio": 0.0
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '93400' don't match citation content digits '580000' (overlap: 40%)",
+      "context": {
+        "field": "quantity_raw",
+        "row": 205,
+        "citation_idx": 0,
+        "overlap_ratio": 0.4
+      }
+    },
+    {
+      "severity": "error",
+      "code": "CITATION_VALUE_MISMATCH",
+      "message": "Value digits '9855124' don't match citation content digits '9396000' (overlap: 14%)",
+      "context": {
+        "field": "cost_raw",
+        "row": 250,
+        "citation_idx": 0,
+        "overlap_ratio": 0.14285714285714285
+      }
+    },
+    {
+      "severity": "error",
+      "code": "SEVERE_SECTION_PARTIAL_EXTRACTION",
+      "message": "CRITICAL: Only 29.1% of holdings extracted. Calculated $584008800 vs TOTAL $2005508084. Missing ~$1421499284. Likely missing entire pages or sections.",
+      "context": {
+        "section_path": "THE GABELLI DIVIDEND & INCOME TRUST",
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "584008800",
+        "extracted": "2005508084",
+        "diff": "1421499284",
+        "extraction_ratio": "29.1%",
+        "missing_value": "1421499284",
+        "severity_level": "critical"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.07761437908496732 out of [0,1]",
+      "context": {
+        "field": "cost_raw",
+        "row": 140
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.07761437908496732 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 271
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.0784313725490196 out of [0,1]",
+      "context": {
+        "field": "cost_raw",
+        "row": 68
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.0784313725490196 out of [0,1]",
+      "context": {
+        "field": "cost_raw",
+        "row": 134
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.0784313725490196 out of [0,1]",
+      "context": {
+        "field": "cost_raw",
+        "row": 215
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.0784313725490196 out of [0,1]",
+      "context": {
+        "field": "cost_raw",
+        "row": 224
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.width=-0.0784313725490196 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 256
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 10]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 393
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2004) differs from filename (5069)",
+      "context": {
+        "as_of_date": "DECEMBER 31, 2004",
+        "filename_date": "5069-05-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 11,
+        "row_type": "HOLDING",
+        "investment": "EchoStar Communications Corp., Cl. A",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 13,
+        "row_type": "HOLDING",
+        "investment": "UnitedGlobalCom Inc., Cl. A+",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 22,
+        "row_type": "HOLDING",
+        "investment": "Procter & Gamble Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 23,
+        "row_type": "HOLDING",
+        "investment": "Swedish Match AB",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 24,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "DIVERSIFIED INDUSTRIAL",
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 25,
+        "row_type": "HOLDING",
+        "investment": "Bouygues SA",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 27,
+        "row_type": "HOLDING",
+        "investment": "Cooper Industries Ltd., Cl A",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 28,
+        "row_type": "HOLDING",
+        "investment": "GATX Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 38,
+        "row_type": "HOLDING",
+        "investment": "American Electric Power Co. Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 41,
+        "row_type": "HOLDING",
+        "investment": "DTE Energy Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 42,
+        "row_type": "HOLDING",
+        "investment": "Duquesne Light Holdings Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 44,
+        "row_type": "HOLDING",
+        "investment": "Great Plains Energy Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 46,
+        "row_type": "HOLDING",
+        "investment": "Allegheny Energy Inc.+",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 51,
+        "row_type": "HOLDING",
+        "investment": "Black Hills Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 52,
+        "row_type": "HOLDING",
+        "investment": "Burlington Resources Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 53,
+        "row_type": "HOLDING",
+        "investment": "Central Vermont Public Service Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 57,
+        "row_type": "HOLDING",
+        "investment": "Cinergy Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 58,
+        "row_type": "HOLDING",
+        "investment": "CONSOL Energy Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 61,
+        "row_type": "HOLDING",
+        "investment": "Duke Energy Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 69,
+        "row_type": "HOLDING",
+        "investment": "Hawaiian Electric Industries Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 70,
+        "row_type": "HOLDING",
+        "investment": "Hera SpA",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 72,
+        "row_type": "HOLDING",
+        "investment": "Hokuriku Electric Power Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 76,
+        "row_type": "HOLDING",
+        "investment": "MGE Energy Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 78,
+        "row_type": "HOLDING",
+        "investment": "NiSource Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 82,
+        "row_type": "HOLDING",
+        "investment": "Pepco Holdings Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 84,
+        "row_type": "HOLDING",
+        "investment": "Progress Energy Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 85,
+        "row_type": "HOLDING",
+        "investment": "Public Service Enterprise Group Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 86,
+        "row_type": "HOLDING",
+        "investment": "Scottish Power plc, ADR",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 89,
+        "row_type": "HOLDING",
+        "investment": "TECO Energy Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 102,
+        "row_type": "HOLDING",
+        "investment": "Delta Natural Gas Co. Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 105,
+        "row_type": "HOLDING",
+        "investment": "Kinder Morgan Energy Partners LP",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 107,
+        "row_type": "HOLDING",
+        "investment": "National Fuel Gas Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 108,
+        "row_type": "HOLDING",
+        "investment": "Nicor Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 109,
+        "row_type": "HOLDING",
+        "investment": "ONEOK Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 111,
+        "row_type": "HOLDING",
+        "investment": "SEMCO Energy Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 112,
+        "row_type": "HOLDING",
+        "investment": "Sempra Energy",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 113,
+        "row_type": "HOLDING",
+        "investment": "South Jersey Industries Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 115,
+        "row_type": "HOLDING",
+        "investment": "Southwest Gas Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 117,
+        "row_type": "HOLDING",
+        "investment": "Amerada Hess Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 121,
+        "row_type": "HOLDING",
+        "investment": "BP plc, ADR",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 122,
+        "row_type": "HOLDING",
+        "investment": "Chesapeake Energy Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 125,
+        "row_type": "HOLDING",
+        "investment": "ConocoPhillips",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 129,
+        "row_type": "HOLDING",
+        "investment": "Eni SpA, ADR",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 130,
+        "row_type": "HOLDING",
+        "investment": "Exxon Mobil Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 132,
+        "row_type": "HOLDING",
+        "investment": "Kaneb Services LLC",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 134,
+        "row_type": "HOLDING",
+        "investment": "Marathon Oil Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 136,
+        "row_type": "HOLDING",
+        "investment": "Nabors Industries Ltd. +",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 139,
+        "row_type": "HOLDING",
+        "investment": "Repsol YPF SA, ADR",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 143,
+        "row_type": "HOLDING",
+        "investment": "Sunoco Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 144,
+        "row_type": "HOLDING",
+        "investment": "Total SA, ADR",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 162,
+        "row_type": "HOLDING",
+        "investment": "Vivendi Universal SA, ADR+",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 174,
+        "row_type": "HOLDING",
+        "investment": "American Express Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 176,
+        "row_type": "HOLDING",
+        "investment": "AmSouth Bancorporation",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 178,
+        "row_type": "HOLDING",
+        "investment": "Bank of New York Co. Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 179,
+        "row_type": "HOLDING",
+        "investment": "Citigroup Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 185,
+        "row_type": "HOLDING",
+        "investment": "Hartford Financial Services Group Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 192,
+        "row_type": "HOLDING",
+        "investment": "PNC Financial Services Group",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 193,
+        "row_type": "HOLDING",
+        "investment": "Popular Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 194,
+        "row_type": "HOLDING",
+        "investment": "Progressive Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 195,
+        "row_type": "HOLDING",
+        "investment": "Riggs National Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 202,
+        "row_type": "HOLDING",
+        "investment": "Wachovia Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 204,
+        "row_type": "HOLDING",
+        "investment": "Washington Mutual Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 207,
+        "row_type": "HOLDING",
+        "investment": "Wells Fargo & Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 213,
+        "row_type": "HOLDING",
+        "investment": "Coca-Cola Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 214,
+        "row_type": "HOLDING",
+        "investment": "ConAgra Foods Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 216,
+        "row_type": "HOLDING",
+        "investment": "General Mills Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 217,
+        "row_type": "HOLDING",
+        "investment": "Heinz (H.J.) Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 221,
+        "row_type": "HOLDING",
+        "investment": "Wrigley (Wm.) Jr. Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 222,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "HEALTH CARE",
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 223,
+        "row_type": "HOLDING",
+        "investment": "Bristol-Myers Squibb Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 226,
+        "row_type": "HOLDING",
+        "investment": "Merck & Co. Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 228,
+        "row_type": "HOLDING",
+        "investment": "Pfizer Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 230,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "HOTELS AND GAMING",
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 231,
+        "row_type": "HOLDING",
+        "investment": "Hilton Group plc",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 234,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "MACHINERY",
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 235,
+        "row_type": "HOLDING",
+        "investment": "CNH Global NV",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 236,
+        "row_type": "HOLDING",
+        "investment": "Deere & Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 237,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "METALS AND MINING",
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 238,
+        "row_type": "HOLDING",
+        "investment": "Arch Coal Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 240,
+        "row_type": "HOLDING",
+        "investment": "Freeport-McMoRan Copper & Gold Inc., Cl. B.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 241,
+        "row_type": "HOLDING",
+        "investment": "Massey Energy Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 242,
+        "row_type": "HOLDING",
+        "investment": "Peabody Energy Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 244,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "PUBLISHING",
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 246,
+        "row_type": "HOLDING",
+        "investment": "Reader's Digest Association Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 247,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "REAL ESTATE",
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 248,
+        "row_type": "HOLDING",
+        "investment": "LNR Property Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 249,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "RETAIL",
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 250,
+        "row_type": "HOLDING",
+        "investment": "Albertson's Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 252,
+        "row_type": "HOLDING",
+        "investment": "Safeway Inc.+",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 253,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "SPECIALTY CHEMICALS",
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 256,
+        "row_type": "HOLDING",
+        "investment": "Dow Chemical Co.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 257,
+        "row_type": "HOLDING",
+        "investment": "E.I. du Pont de Nemours and Co...",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 259,
+        "row_type": "HOLDING",
+        "investment": "Olin Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 263,
+        "row_type": "HOLDING",
+        "investment": "BellSouth Corp.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 264,
+        "row_type": "HOLDING",
+        "investment": "BT Group plc, ADR",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 267,
+        "row_type": "HOLDING",
+        "investment": "Compania de Telecomunicaciones de Chile SA, ADR",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 270,
+        "row_type": "HOLDING",
+        "investment": "Hellenic Telecommunications Organization SA, ADR.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 271,
+        "row_type": "HOLDING",
+        "investment": "Manitoba Telecom Services Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 272,
+        "row_type": "HOLDING",
+        "investment": "MCI Inc.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 277,
+        "row_type": "HOLDING",
+        "investment": "TDC A/S, ADR",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 281,
+        "row_type": "HOLDING",
+        "investment": "Telefonos de Mexico SA de CV, Cl. L, ADR",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 283,
+        "row_type": "HOLDING",
+        "investment": "TELUS Corp., Non-Voting",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 287,
+        "row_type": "HOLDING",
+        "investment": "Ship Finance International Ltd.",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "context": {
+        "row": 294,
+        "row_type": "HOLDING",
+        "investment": "Vimpel-Communications, ADR+",
+        "label": null,
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "TOTAL_PATH_MISMATCH",
+      "message": "TOTAL label 'NET ASSETS -- COMMON STOCK' mentions categories not in section path",
+      "context": {
+        "section_path": "THE GABELLI DIVIDEND & INCOME TRUST",
+        "label": "NET ASSETS -- COMMON STOCK",
+        "keywords": [
+          "common",
+          "stock"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3866 @@
+{
+  "source_name": "0000935069-05-000617",
+  "total_rows": 384,
+  "holding_count": 314,
+  "subtotal_count": 62,
+  "total_count": 8,
+  "error_count": 3,
+  "warning_count": 169,
+  "has_arithmetic_error": true,
+  "max_dollar_diff": "564703599",
+  "root_sum_mismatch": true,
+  "calculated_total_fv": "1440837262",
+  "extracted_total_fv": "2005508084",
+  "computed_sums": {
+    "COMMON STOCKS > AEROSPACE": {
+      "calculated_fv": "9722400",
+      "calculated_cost": "11909373",
+      "calculated_pct": "2.0",
+      "extracted_fv": "9722400",
+      "extracted_cost": "11909373",
+      "extracted_pct": "2.0",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > AUTOMOTIVE: PARTS AND ACCESSORIES": {
+      "calculated_fv": "29358500",
+      "calculated_cost": "26448160",
+      "calculated_pct": null,
+      "extracted_fv": "29358500",
+      "extracted_cost": "26448160",
+      "extracted_pct": "0.0",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > BROADCASTING": {
+      "calculated_fv": "527520",
+      "calculated_cost": "585559",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > CABLE AND SATELLITE": {
+      "calculated_fv": "15561732",
+      "calculated_cost": "14284194",
+      "calculated_pct": "1.0",
+      "extracted_fv": "15561732",
+      "extracted_cost": "14284194",
+      "extracted_pct": "1.0",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > COMPUTER SOFTWARE AND SERVICES": {
+      "calculated_fv": "4006500",
+      "calculated_cost": "4108064",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > CONSUMER PRODUCTS": {
+      "calculated_fv": "25010455",
+      "calculated_cost": "21503300",
+      "calculated_pct": "3.9",
+      "extracted_fv": "25010455",
+      "extracted_cost": "21503300",
+      "extracted_pct": "3.9",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > DIVERSIFIED INDUSTRIAL": {
+      "calculated_fv": "54851909",
+      "calculated_cost": "47377386",
+      "calculated_pct": null,
+      "extracted_fv": "54851909",
+      "extracted_cost": "47377386",
+      "extracted_pct": "0.0",
+      "holding_count": 10,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ELECTRONICS": {
+      "calculated_fv": "660250",
+      "calculated_cost": "659884",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENERGY AND UTILITIES: ELECTRIC": {
+      "calculated_fv": "47567886",
+      "calculated_cost": "43744523",
+      "calculated_pct": "16.3",
+      "extracted_fv": "47567886",
+      "extracted_cost": "43744523",
+      "extracted_pct": "16.3",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENERGY AND UTILITIES: INTEGRATED": {
+      "calculated_fv": "277953982",
+      "calculated_cost": "248166190",
+      "calculated_pct": "3.5",
+      "extracted_fv": "277953982",
+      "extracted_cost": "248166190",
+      "extracted_pct": "3.5",
+      "holding_count": 53,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENERGY AND UTILITIES: NATURAL GAS": {
+      "calculated_fv": "69323665",
+      "calculated_cost": "61413614",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 16,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENERGY AND UTILITIES: OIL": {
+      "calculated_fv": "184718289",
+      "calculated_cost": "151020735",
+      "calculated_pct": "9.4",
+      "extracted_fv": "184718289",
+      "extracted_cost": "151020735",
+      "extracted_pct": "9.4",
+      "holding_count": 29,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENERGY AND UTILITIES: WATER": {
+      "calculated_fv": "3842095",
+      "calculated_cost": "3424532",
+      "calculated_pct": "1.3",
+      "extracted_fv": "3842095",
+      "extracted_cost": "3424532",
+      "extracted_pct": "1.3",
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENTERTAINMENT": {
+      "calculated_fv": "25985900",
+      "calculated_cost": "22252332",
+      "calculated_pct": "0.1",
+      "extracted_fv": "25985900",
+      "extracted_cost": "22252332",
+      "extracted_pct": "0.1",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > ENVIRONMENTAL SERVICES": {
+      "calculated_fv": "2528968",
+      "calculated_cost": "2436379",
+      "calculated_pct": "0.5",
+      "extracted_fv": "2528968",
+      "extracted_cost": "2436379",
+      "extracted_pct": "0.5",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > EQUIPMENT AND SUPPLIES": {
+      "calculated_fv": "9329860",
+      "calculated_cost": "8186775",
+      "calculated_pct": "11.4",
+      "extracted_fv": "9329860",
+      "extracted_cost": "8186775",
+      "extracted_pct": "11.4",
+      "holding_count": 5,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > FINANCIAL SERVICES": {
+      "calculated_fv": "228549505",
+      "calculated_cost": "210892145",
+      "calculated_pct": "3.9",
+      "extracted_fv": "228549505",
+      "extracted_cost": "210892145",
+      "extracted_pct": "3.9",
+      "holding_count": 37,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > FOOD AND BEVERAGE": {
+      "calculated_fv": "78647918",
+      "calculated_cost": "72942788",
+      "calculated_pct": "1.8",
+      "extracted_fv": "78647918",
+      "extracted_cost": "72942788",
+      "extracted_pct": "1.8",
+      "holding_count": 11,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > HEALTH CARE": {
+      "calculated_fv": "35681025",
+      "calculated_cost": "40202093",
+      "calculated_pct": "1.4",
+      "extracted_fv": "35681025",
+      "extracted_cost": "40202093",
+      "extracted_pct": "1.4",
+      "holding_count": 7,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > HOTELS AND GAMING": {
+      "calculated_fv": "28310737",
+      "calculated_cost": "24628445",
+      "calculated_pct": "1.3",
+      "extracted_fv": "28310737",
+      "extracted_cost": "24628445",
+      "extracted_pct": "1.3",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > MACHINERY": {
+      "calculated_fv": "26123500",
+      "calculated_cost": "24555946",
+      "calculated_pct": "0.3",
+      "extracted_fv": "26123500",
+      "extracted_cost": "24555946",
+      "extracted_pct": "0.3",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > METALS AND MINING": {
+      "calculated_fv": "6100790",
+      "calculated_cost": "5396449",
+      "calculated_pct": "0.2",
+      "extracted_fv": "6100790",
+      "extracted_cost": "5396449",
+      "extracted_pct": "0.2",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > PUBLISHING": {
+      "calculated_fv": "3112735",
+      "calculated_cost": "3304985",
+      "calculated_pct": "0.2",
+      "extracted_fv": "3112735",
+      "extracted_cost": "3304985",
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > REAL ESTATE": {
+      "calculated_fv": "3365685",
+      "calculated_cost": "3342930",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > RETAIL": {
+      "calculated_fv": "23750685",
+      "calculated_cost": "24540321",
+      "calculated_pct": "2.5",
+      "extracted_fv": "23750685",
+      "extracted_cost": "24540321",
+      "extracted_pct": "2.5",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 2,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": true,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > SPECIALTY CHEMICALS": {
+      "calculated_fv": "25358552",
+      "calculated_cost": "21037721",
+      "calculated_pct": "5.9",
+      "extracted_fv": "25358552",
+      "extracted_cost": "21037721",
+      "extracted_pct": "5.9",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > TELECOMMUNICATIONS": {
+      "calculated_fv": "119155274",
+      "calculated_cost": "100709390",
+      "calculated_pct": "0.3",
+      "extracted_fv": "119155274",
+      "extracted_cost": "100709390",
+      "extracted_pct": "0.3",
+      "holding_count": 24,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > TRANSPORTATION": {
+      "calculated_fv": "6901922",
+      "calculated_cost": "6104143",
+      "calculated_pct": "0.1",
+      "extracted_fv": "6901922",
+      "extracted_cost": "6104143",
+      "extracted_pct": "0.1",
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS > WIRELESS COMMUNICATIONS": {
+      "calculated_fv": "2778495",
+      "calculated_cost": "2760275",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 4,
+      "child_count": 0,
+      "subtotal_count": 0,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "COMMON STOCKS": {
+      "calculated_fv": "1348786734",
+      "calculated_cost": "1207938631",
+      "calculated_pct": "67.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 29,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL COMMON STOCKS",
+      "total_extracted_fv": "1348786734"
+    },
+    "PREFERRED STOCKS > CLOSED-END FUNDS": {
+      "calculated_fv": "1872750",
+      "calculated_cost": "1860400",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "PREFERRED STOCKS": {
+      "calculated_fv": "1872750",
+      "calculated_cost": "1860400",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 0,
+      "child_count": 1,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > AEROSPACE": {
+      "calculated_fv": "1097663",
+      "calculated_cost": "997555",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > AUTOMOTIVE": {
+      "calculated_fv": "501800",
+      "calculated_cost": "518910",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > AVIATION: PARTS AND SERVICES": {
+      "calculated_fv": "1189500",
+      "calculated_cost": "1141435",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > BROADCASTING": {
+      "calculated_fv": "12328883",
+      "calculated_cost": "13197056",
+      "calculated_pct": "0.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > BUILDING AND CONSTRUCTION": {
+      "calculated_fv": "9100",
+      "calculated_cost": "6210",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > BUSINESS SERVICES": {
+      "calculated_fv": "948780",
+      "calculated_cost": "1079078",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > CABLE AND SATELLITE": {
+      "calculated_fv": "250100",
+      "calculated_cost": "243462",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > CONSUMER PRODUCTS": {
+      "calculated_fv": "6545662",
+      "calculated_cost": "6516450",
+      "calculated_pct": "0.3",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.3",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > DIVERSIFIED INDUSTRIAL": {
+      "calculated_fv": "9485351",
+      "calculated_cost": "8053015",
+      "calculated_pct": "0.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.5",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > ENERGY AND UTILITIES": {
+      "calculated_fv": "11846709",
+      "calculated_cost": "11005306",
+      "calculated_pct": "0.6",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.6",
+      "holding_count": 6,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > ENTERTAINMENT": {
+      "calculated_fv": "3717840",
+      "calculated_cost": "3904309",
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > FINANCIAL SERVICES": {
+      "calculated_fv": "9679742",
+      "calculated_cost": "9360115",
+      "calculated_pct": "0.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.5",
+      "holding_count": 3,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > HEALTH CARE": {
+      "calculated_fv": "3452118",
+      "calculated_cost": "3493929",
+      "calculated_pct": "0.2",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > METALS AND MINING": {
+      "calculated_fv": "1241160",
+      "calculated_cost": "1002916",
+      "calculated_pct": "0.1",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > REAL ESTATE INVESTMENT TRUST": {
+      "calculated_fv": "107856",
+      "calculated_cost": "104120",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > TELECOMMUNICATIONS": {
+      "calculated_fv": "7538625",
+      "calculated_cost": "7250413",
+      "calculated_pct": "0.4",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.4",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS > TRANSPORTATION": {
+      "calculated_fv": "870911",
+      "calculated_cost": "751359",
+      "calculated_pct": null,
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE PREFERRED STOCKS": {
+      "calculated_fv": "70811800",
+      "calculated_cost": "68625638",
+      "calculated_pct": "3.5",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 17,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL CONVERTIBLE PREFERRED STOCKS",
+      "total_extracted_fv": "70811800"
+    },
+    "CONVERTIBLE CORPORATE BONDS > AEROSPACE": {
+      "calculated_fv": "1098750",
+      "calculated_cost": "989174",
+      "calculated_pct": "0.1",
+      "extracted_fv": "1098750",
+      "extracted_cost": "989174",
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS > AGRICULTURE": {
+      "calculated_fv": "1352812",
+      "calculated_cost": "793722",
+      "calculated_pct": "0.1",
+      "extracted_fv": "1352812",
+      "extracted_cost": "793722",
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS > AUTOMOTIVE: PARTS AND ACCESSORIES": {
+      "calculated_fv": "488750",
+      "calculated_cost": "476286",
+      "calculated_pct": null,
+      "extracted_fv": "488750",
+      "extracted_cost": "476286",
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS > BUSINESS SERVICES": {
+      "calculated_fv": "2994250",
+      "calculated_cost": "2953376",
+      "calculated_pct": "0.2",
+      "extracted_fv": "2994250",
+      "extracted_cost": "2953376",
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS > COMMUNICATIONS EQUIPMENT": {
+      "calculated_fv": "4070000",
+      "calculated_cost": "4019271",
+      "calculated_pct": "0.2",
+      "extracted_fv": "4070000",
+      "extracted_cost": "4019271",
+      "extracted_pct": "0.2",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS > ENTERTAINMENT": {
+      "calculated_fv": "1117500",
+      "calculated_cost": "1029146",
+      "calculated_pct": "0.1",
+      "extracted_fv": "1117500",
+      "extracted_cost": "1029146",
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS > EQUIPMENT AND SUPPLIES": {
+      "calculated_fv": "745500",
+      "calculated_cost": "709317",
+      "calculated_pct": null,
+      "extracted_fv": "745500",
+      "extracted_cost": "709317",
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS > FINANCIAL SERVICES": {
+      "calculated_fv": "309688",
+      "calculated_cost": "287699",
+      "calculated_pct": null,
+      "extracted_fv": "309688",
+      "extracted_cost": "287699",
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS > FOOD AND BEVERAGE": {
+      "calculated_fv": "802353",
+      "calculated_cost": "981615",
+      "calculated_pct": null,
+      "extracted_fv": "802353",
+      "extracted_cost": "981615",
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS > HEALTH CARE": {
+      "calculated_fv": "328875",
+      "calculated_cost": "300000",
+      "calculated_pct": null,
+      "extracted_fv": "328875",
+      "extracted_cost": "300000",
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS > REAL ESTATE": {
+      "calculated_fv": "908750",
+      "calculated_cost": "971543",
+      "calculated_pct": null,
+      "extracted_fv": "908750",
+      "extracted_cost": "971543",
+      "extracted_pct": "0.0",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS > TELECOMMUNICATIONS": {
+      "calculated_fv": "1955000",
+      "calculated_cost": "1932233",
+      "calculated_pct": "0.1",
+      "extracted_fv": "1955000",
+      "extracted_cost": "1932233",
+      "extracted_pct": "0.1",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS > TRANSPORTATION": {
+      "calculated_fv": "3165750",
+      "calculated_cost": "3034084",
+      "calculated_pct": "0.2",
+      "extracted_fv": "3165750",
+      "extracted_cost": "3034084",
+      "extracted_pct": "0.2",
+      "holding_count": 1,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 0,
+      "pct_bridged_from_subtotal": true,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0
+    },
+    "CONVERTIBLE CORPORATE BONDS": {
+      "calculated_fv": "19337978",
+      "calculated_cost": "18477466",
+      "calculated_pct": "1.0",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 13,
+      "subtotal_count": 0,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL CONVERTIBLE CORPORATE BONDS",
+      "total_extracted_fv": "19337978"
+    },
+    "WRITTEN CALL OPTIONS -- SHORT POSITION": {
+      "calculated_fv": "28000",
+      "calculated_cost": null,
+      "calculated_pct": null,
+      "extracted_fv": "28000",
+      "extracted_cost": null,
+      "extracted_pct": "0.0",
+      "holding_count": 2,
+      "child_count": 0,
+      "subtotal_count": 1,
+      "total_count": 1,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL WRITTEN CALL OPTIONS -- SHORT POSITION",
+      "total_extracted_fv": "28000"
+    },
+    "(root)": {
+      "calculated_fv": "1440837262",
+      "calculated_cost": "1296902135",
+      "calculated_pct": "71.9",
+      "extracted_fv": null,
+      "extracted_cost": null,
+      "extracted_pct": null,
+      "holding_count": 0,
+      "child_count": 5,
+      "subtotal_count": 0,
+      "total_count": 4,
+      "pct_bridged_from_subtotal": false,
+      "multi_subtotal_sum": false,
+      "hierarchy_detected": false,
+      "parent_subtotals_excluded": 0,
+      "total_label": "TOTAL INVESTMENTS",
+      "total_extracted_fv": "2005508084"
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_COST",
+      "message": "Grand total cost (1296902135) != extracted Total (1861605734), diff=$564703599",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "1296902135",
+        "extracted": "1861605734",
+        "diff": "564703599"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_FV",
+      "message": "Grand total of all holdings (1440837262) != extracted Total (2005508084), diff=$564670822",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "1440837262",
+        "extracted": "2005508084",
+        "diff": "564670822"
+      }
+    },
+    {
+      "severity": "error",
+      "code": "ROOT_TOTAL_MISMATCH_PCT",
+      "message": "Grand total percent (71.9%) != extracted Total (100.0%), diff=28.1%",
+      "context": {
+        "section_path": "(root)",
+        "label": "TOTAL INVESTMENTS",
+        "calculated": "71.9",
+        "extracted": "100.0",
+        "diff": "28.1",
+        "suspect_misread_percent": null
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 353
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 353
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 353
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 354
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 354
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 354
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 355
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 355
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 355
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 356
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 356
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 356
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 357
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 357
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 357
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 358
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 358
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 358
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 359
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 359
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 359
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 360
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 360
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 360
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 361
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 361
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 361
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 362
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 362
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 362
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 363
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 363
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 363
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 364
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 364
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 364
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 365
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 365
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 365
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 366
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 366
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 366
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 367
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 367
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 367
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 368
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 368
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 368
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 369
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 369
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 369
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 370
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 370
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 370
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 371
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 371
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 371
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 372
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 372
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 372
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 373
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 373
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 373
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 374
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 374
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 374
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 375
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=10 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 375
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 376
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "cost_raw",
+        "row": 376
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 376
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 377
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 377
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 378
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "quantity_raw",
+        "row": 378
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 379
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "percent_net_assets_raw",
+        "row": 379
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 380
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 381
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 382
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_PAGE_OUT_OF_RANGE",
+      "message": "bbox.page=11 outside [1, 9]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 383
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "DATE_MISMATCH",
+      "message": "as_of_date year (2004) differs from filename (5069)",
+      "context": {
+        "as_of_date": "DECEMBER 31, 2004",
+        "filename_date": "5069-05-00"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "COMMON STOCKS > BROADCASTING"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "COMMON STOCKS > COMPUTER SOFTWARE AND SERVICES"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "COMMON STOCKS > ELECTRONICS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 1 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "COMMON STOCKS > REAL ESTATE"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 16 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "COMMON STOCKS > ENERGY AND UTILITIES: NATURAL GAS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SUBTOTAL",
+      "message": "Section has 4 holdings but no SUBTOTAL row",
+      "context": {
+        "section_path": "COMMON STOCKS > WIRELESS COMMUNICATIONS"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "NORMALIZATION_APPLIED",
+      "message": "Sanitizer fixed 31 row(s): SHIFTED_SUBTOTAL_CORRECTED=23, SUMMARY_TABLE_BLOCK_DETECTED=8",
+      "context": {
+        "fix_count": 31,
+        "dropped": 8,
+        "converted": 23
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 353,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "BUSINESS SERVICES",
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 354,
+        "row_type": "HOLDING",
+        "investment": "Trans-Lux Corp., Sub. Deb. Cv., 8.250%, 03/01/2012",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 355,
+        "row_type": "HOLDING",
+        "investment": "Trans-Lux Corp., Sub. Deb. Cv., 7.500%, 12/01/2006",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 356,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "COMMUNICATIONS EQUIPMENT",
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 357,
+        "row_type": "HOLDING",
+        "investment": "Agere Systems Inc., Sub. Deb. Cv., 6.500%, 12/15/09",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 358,
+        "row_type": "HOLDING",
+        "investment": "TriQuint Semiconductor Inc., Sub. Deb. Cv., 4.000%, 03/01/07",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 359,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "ENTERTAINMENT",
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 360,
+        "row_type": "HOLDING",
+        "investment": "The Walt Disney Co., Cv., 2.125%, 04/15/23",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 361,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "EQUIPMENT AND SUPPLIES",
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 362,
+        "row_type": "HOLDING",
+        "investment": "Robbins & Myers Inc., Sub. Deb. Cv., 8.000%, 01/31/08",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 363,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "FINANCIAL SERVICES",
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 364,
+        "row_type": "HOLDING",
+        "investment": "AON Corp., Deb. Cv., 3.500%, 11/15/12",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 365,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "FOOD AND BEVERAGE",
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 366,
+        "row_type": "HOLDING",
+        "investment": "Parmalat Soparfi SA, Sub. Deb. Cv., 6.125%, 05/23/32",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 367,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "HEALTH CARE",
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 368,
+        "row_type": "HOLDING",
+        "investment": "Quest Diagnostics Inc., Deb. Cv., 1.750%, 11/30/21",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 369,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "REAL ESTATE",
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 370,
+        "row_type": "HOLDING",
+        "investment": "Palm Harbor Homes Inc., Cv., 3.250%, 05/15/24",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 371,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "TELECOMMUNICATIONS",
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 372,
+        "row_type": "HOLDING",
+        "investment": "Nortel Networks Corp., Cv., 4.250%, 09/01/08",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 373,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "TRANSPORTATION",
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 374,
+        "row_type": "HOLDING",
+        "investment": "GATX Corp., Cv., 7.500%, 02/01/07",
+        "label": null,
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 10 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 375,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "TOTAL CONVERTIBLE CORPORATE BONDS",
+        "original_page": 10,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 376,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "TOTAL INVESTMENTS",
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 377,
+        "row_type": "HOLDING",
+        "investment": "T Rowe Price Jan. 05/65",
+        "label": null,
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 378,
+        "row_type": "HOLDING",
+        "investment": "Verizon Communications Jan. 05/40",
+        "label": null,
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 379,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "WRITTEN CALL OPTIONS -- SHORT POSITION",
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 380,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "TOTAL WRITTEN CALL OPTIONS -- SHORT POSITION",
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 381,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "OTHER ASSETS IN EXCESS OF LIABILITIES",
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 382,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "PREFERRED STOCK",
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 11 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 383,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "NET ASSETS -- COMMON STOCK",
+        "original_page": 11,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 298,
+        "row_type": "HOLDING",
+        "investment": "General American Investors Co. Inc., 5.950% Cumulative Pfd., Ser. B",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 299,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "AEROSPACE",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 300,
+        "row_type": "HOLDING",
+        "investment": "Northrop Grumman Corp., 7.000% Cv. Pfd., Ser. B .",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 301,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "AUTOMOTIVE",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 302,
+        "row_type": "HOLDING",
+        "investment": "General Motors Corp., 4.500% Cv. Pfd., Ser. A.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 303,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "AVIATION: PARTS AND SERVICES",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 304,
+        "row_type": "HOLDING",
+        "investment": "Sequa Corp., $5.00 Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 305,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "BROADCASTING",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 306,
+        "row_type": "HOLDING",
+        "investment": "Emmis Communications Corp., 6.250% Cv. Pfd., Ser. A .",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 307,
+        "row_type": "HOLDING",
+        "investment": "Sinclair Broadcast Group Inc., 6.000% Cv. Pfd., Ser. D.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 308,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "BUILDING AND CONSTRUCTION",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 309,
+        "row_type": "HOLDING",
+        "investment": "Fleetwood Capital Trust, 6.000% Cv. Pfd.+",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 310,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "BUSINESS SERVICES",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 311,
+        "row_type": "HOLDING",
+        "investment": "Allied Waste Industries Inc., 6.250% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 312,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "CABLE AND SATELLITE",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 313,
+        "row_type": "HOLDING",
+        "investment": "Rainbow Equity Securities Trust II, 6.250% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 314,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "CONSUMER PRODUCTS",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 315,
+        "row_type": "HOLDING",
+        "investment": "Newell Financial Trust, 5.250% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 316,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "DIVERSIFIED INDUSTRIAL",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 317,
+        "row_type": "HOLDING",
+        "investment": "Owens-Illinois Inc., 4.750% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 318,
+        "row_type": "HOLDING",
+        "investment": "Smurfit-Stone Container Corp., 7.000% Cv. Pfd., Ser. A.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 319,
+        "row_type": "HOLDING",
+        "investment": "US Steel Corp., 7.000% Cv. Pfd., Ser. B .",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 320,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "ENERGY AND UTILITIES",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 321,
+        "row_type": "HOLDING",
+        "investment": "Arch Coal Inc., 5.000% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 322,
+        "row_type": "HOLDING",
+        "investment": "Chesapeake Energy Corp., 5.000% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 323,
+        "row_type": "HOLDING",
+        "investment": "Chesapeake Energy Corp., 6.000% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 324,
+        "row_type": "HOLDING",
+        "investment": "CMS Energy Corp., 4.500% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 325,
+        "row_type": "HOLDING",
+        "investment": "El Paso Corp., 4.750% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 326,
+        "row_type": "HOLDING",
+        "investment": "Hanover Compressor, 7.250% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 327,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "ENTERTAINMENT",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 328,
+        "row_type": "HOLDING",
+        "investment": "Six Flags Inc., 7.250% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 329,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "FINANCIAL SERVICES",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 330,
+        "row_type": "HOLDING",
+        "investment": "Doral Financial Corp., 4.750% Cv. Pfd. (a)",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 331,
+        "row_type": "HOLDING",
+        "investment": "National Australia Bank Ltd., 7.875% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 332,
+        "row_type": "HOLDING",
+        "investment": "United Fire & Casualty Co., 6.375% Cv. Pfd., Ser. A.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 333,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "HEALTH CARE",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 334,
+        "row_type": "HOLDING",
+        "investment": "McKesson Financing Trust, 5.000% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 335,
+        "row_type": "HOLDING",
+        "investment": "Omnicare Inc., 4.000% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 336,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "METALS AND MINING",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 337,
+        "row_type": "HOLDING",
+        "investment": "Phelps Dodge Corp., 6.750% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 338,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "REAL ESTATE INVESTMENT TRUST",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 339,
+        "row_type": "HOLDING",
+        "investment": "Equity Office Properties Trust, 5.250% Cv. Pfd., Ser. B .",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 340,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "TELECOMMUNICATIONS",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 341,
+        "row_type": "HOLDING",
+        "investment": "Cincinnati Bell Inc., 6.750% Cv. Pfd., Ser. B ...",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 342,
+        "row_type": "HOLDING",
+        "investment": "Crown Castle International Corp., 6.250% Cv. Pfd. ..",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 343,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "TRANSPORTATION",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 344,
+        "row_type": "HOLDING",
+        "investment": "GATX Corp., $2.50 Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 345,
+        "row_type": "HOLDING",
+        "investment": "Kansas City Southern, 4.250% Cv. Pfd.",
+        "label": null,
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 8 which is not in SOI split [3, 5, 7, 9, 12, 13]",
+      "context": {
+        "row": 346,
+        "row_type": "TOTAL",
+        "investment": null,
+        "label": "TOTAL CONVERTIBLE PREFERRED STOCKS",
+        "original_page": 8,
+        "soi_pages": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          13
+        ]
+      }
+    }
+  ],
+  "normalization": {
+    "fix_count": 31,
+    "dropped_count": 8,
+    "converted_count": 23,
+    "percent_corrected_count": 0,
+    "fix_log": [
+      {
+        "row_idx": 376,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:DIVERSIFIED INDUSTRIAL|fv=955,000",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 377,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:WHX Corp., 10.500%, 04/15/05|fv=955,000",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 378,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:U.S. GOVERNMENT OBLIGATIONS|fv=388,743,822",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 379,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:U.S. Treasury Bills, 1.727% to 2.2028++,|fv=388,743,822",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 380,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:REPURCHASE AGREEMENTS|fv=175,000,000",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 381,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:ABN Amro, 1.450%, dated 12/31/04, due 01|fv=$ 100,000,000",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 382,
+        "old_row_type": "HOLDING",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "HOLDING:Barclays Capital, 1.300%, dated 12/31/04|fv=75,000,000",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 383,
+        "old_row_type": "TOTAL",
+        "new_row_type": null,
+        "action": "dropped",
+        "reason_code": "SUMMARY_TABLE_BLOCK_DETECTED",
+        "confidence": "high",
+        "row_signature": "TOTAL:TOTAL SHORT-TERM OBLIGATIONS|fv=175,000,000",
+        "old_value": null,
+        "new_value": null
+      },
+      {
+        "row_idx": 3,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:AUTOMOTIVE: PARTS AND ACCESSORIES|fv=9,722,400",
+        "old_value": "COMMON STOCKS > AUTOMOTIVE: PARTS AND ACCESSORIES",
+        "new_value": "COMMON STOCKS > AEROSPACE"
+      },
+      {
+        "row_idx": 6,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:BROADCASTING|fv=29,358,500",
+        "old_value": "COMMON STOCKS > BROADCASTING",
+        "new_value": "COMMON STOCKS > AUTOMOTIVE: PARTS AND ACCESSORIES"
+      },
+      {
+        "row_idx": 14,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:COMPUTER SOFTWARE AND SERVICES|fv=15,561,732",
+        "old_value": "COMMON STOCKS > COMPUTER SOFTWARE AND SERVICES",
+        "new_value": "COMMON STOCKS > CABLE AND SATELLITE"
+      },
+      {
+        "row_idx": 24,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:DIVERSIFIED INDUSTRIAL|fv=25,010,455",
+        "old_value": "COMMON STOCKS > DIVERSIFIED INDUSTRIAL",
+        "new_value": "COMMON STOCKS > CONSUMER PRODUCTS"
+      },
+      {
+        "row_idx": 35,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:ELECTRONICS|fv=54,851,909",
+        "old_value": "COMMON STOCKS > ELECTRONICS",
+        "new_value": "COMMON STOCKS > DIVERSIFIED INDUSTRIAL"
+      },
+      {
+        "row_idx": 45,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:ENERGY AND UTILITIES: INTEGRATED|fv=47,567,886",
+        "old_value": "COMMON STOCKS > ENERGY AND UTILITIES: INTEGRATED",
+        "new_value": "COMMON STOCKS > ENERGY AND UTILITIES: ELECTRIC"
+      },
+      {
+        "row_idx": 99,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:ENERGY AND UTILITIES: NATURAL GAS|fv=277,953,982",
+        "old_value": "COMMON STOCKS > ENERGY AND UTILITIES: NATURAL GAS",
+        "new_value": "COMMON STOCKS > ENERGY AND UTILITIES: INTEGRATED"
+      },
+      {
+        "row_idx": 146,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:ENERGY AND UTILITIES: WATER|fv=184,718,289",
+        "old_value": "COMMON STOCKS > ENERGY AND UTILITIES: WATER",
+        "new_value": "COMMON STOCKS > ENERGY AND UTILITIES: OIL"
+      },
+      {
+        "row_idx": 158,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:ENTERTAINMENT|fv=3,842,095",
+        "old_value": "COMMON STOCKS > ENTERTAINMENT",
+        "new_value": "COMMON STOCKS > ENERGY AND UTILITIES: WATER"
+      },
+      {
+        "row_idx": 163,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:ENVIRONMENTAL SERVICES|fv=25,985,900",
+        "old_value": "COMMON STOCKS > ENVIRONMENTAL SERVICES",
+        "new_value": "COMMON STOCKS > ENTERTAINMENT"
+      },
+      {
+        "row_idx": 166,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:EQUIPMENT AND SUPPLIES|fv=2,528,968",
+        "old_value": "COMMON STOCKS > EQUIPMENT AND SUPPLIES",
+        "new_value": "COMMON STOCKS > ENVIRONMENTAL SERVICES"
+      },
+      {
+        "row_idx": 172,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:FINANCIAL SERVICES|fv=9,329,860",
+        "old_value": "COMMON STOCKS > FINANCIAL SERVICES",
+        "new_value": "COMMON STOCKS > EQUIPMENT AND SUPPLIES"
+      },
+      {
+        "row_idx": 210,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:FOOD AND BEVERAGE|fv=228,549,505",
+        "old_value": "COMMON STOCKS > FOOD AND BEVERAGE",
+        "new_value": "COMMON STOCKS > FINANCIAL SERVICES"
+      },
+      {
+        "row_idx": 222,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:HEALTH CARE|fv=78,647,918",
+        "old_value": "COMMON STOCKS > HEALTH CARE",
+        "new_value": "COMMON STOCKS > FOOD AND BEVERAGE"
+      },
+      {
+        "row_idx": 230,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:HOTELS AND GAMING|fv=35,681,025",
+        "old_value": "COMMON STOCKS > HOTELS AND GAMING",
+        "new_value": "COMMON STOCKS > HEALTH CARE"
+      },
+      {
+        "row_idx": 234,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:MACHINERY|fv=28,310,737",
+        "old_value": "COMMON STOCKS > MACHINERY",
+        "new_value": "COMMON STOCKS > HOTELS AND GAMING"
+      },
+      {
+        "row_idx": 237,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:METALS AND MINING|fv=26,123,500",
+        "old_value": "COMMON STOCKS > METALS AND MINING",
+        "new_value": "COMMON STOCKS > MACHINERY"
+      },
+      {
+        "row_idx": 244,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:PUBLISHING|fv=6,100,790",
+        "old_value": "COMMON STOCKS > PUBLISHING",
+        "new_value": "COMMON STOCKS > METALS AND MINING"
+      },
+      {
+        "row_idx": 247,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:REAL ESTATE|fv=3,112,735",
+        "old_value": "COMMON STOCKS > REAL ESTATE",
+        "new_value": "COMMON STOCKS > PUBLISHING"
+      },
+      {
+        "row_idx": 253,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:SPECIALTY CHEMICALS|fv=23,750,685",
+        "old_value": "COMMON STOCKS > SPECIALTY CHEMICALS",
+        "new_value": "COMMON STOCKS > RETAIL"
+      },
+      {
+        "row_idx": 260,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:TELECOMMUNICATIONS|fv=25,358,552",
+        "old_value": "COMMON STOCKS > TELECOMMUNICATIONS",
+        "new_value": "COMMON STOCKS > SPECIALTY CHEMICALS"
+      },
+      {
+        "row_idx": 285,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:TRANSPORTATION|fv=119,155,274",
+        "old_value": "COMMON STOCKS > TRANSPORTATION",
+        "new_value": "COMMON STOCKS > TELECOMMUNICATIONS"
+      },
+      {
+        "row_idx": 290,
+        "old_row_type": "SUBTOTAL",
+        "new_row_type": "SUBTOTAL",
+        "action": "converted",
+        "reason_code": "SHIFTED_SUBTOTAL_CORRECTED",
+        "confidence": "high",
+        "row_signature": "SUBTOTAL:WIRELESS COMMUNICATIONS|fv=6,901,922",
+        "old_value": "COMMON STOCKS > WIRELESS COMMUNICATIONS",
+        "new_value": "COMMON STOCKS > TRANSPORTATION"
+      }
+    ]
+  }
+}

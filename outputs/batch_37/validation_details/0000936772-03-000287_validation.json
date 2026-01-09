@@ -1,8 +1,8 @@
 {
   "source_name": "0000936772-03-000287",
-  "total_rows": 125,
+  "total_rows": 126,
   "holding_count": 87,
-  "subtotal_count": 34,
+  "subtotal_count": 35,
   "total_count": 4,
   "error_count": 7,
   "warning_count": 6,
@@ -95,15 +95,15 @@
     "ALLIANCE NATIONAL MUNICIPAL INCOME FUND > MUNICIPAL BONDS > Long-Term Municipal Bonds > District of Columbia": {
       "calculated_fv": "7948687",
       "calculated_cost": null,
-      "calculated_pct": null,
-      "extracted_fv": null,
+      "calculated_pct": "2.6",
+      "extracted_fv": "7948687",
       "extracted_cost": null,
-      "extracted_pct": null,
+      "extracted_pct": "2.6",
       "holding_count": 2,
       "child_count": 0,
-      "subtotal_count": 0,
+      "subtotal_count": 1,
       "total_count": 0,
-      "pct_bridged_from_subtotal": false,
+      "pct_bridged_from_subtotal": true,
       "multi_subtotal_sum": false,
       "hierarchy_detected": false,
       "parent_subtotals_excluded": 0
@@ -335,7 +335,7 @@
     "ALLIANCE NATIONAL MUNICIPAL INCOME FUND > MUNICIPAL BONDS > Long-Term Municipal Bonds": {
       "calculated_fv": "343771312",
       "calculated_cost": null,
-      "calculated_pct": "107.38",
+      "calculated_pct": "109.98",
       "extracted_fv": null,
       "extracted_cost": null,
       "extracted_pct": "160.8",
@@ -351,7 +351,7 @@
     "ALLIANCE NATIONAL MUNICIPAL INCOME FUND > MUNICIPAL BONDS": {
       "calculated_fv": "343771312",
       "calculated_cost": null,
-      "calculated_pct": "107.38",
+      "calculated_pct": "109.98",
       "extracted_fv": null,
       "extracted_cost": null,
       "extracted_pct": "162.2",
@@ -593,7 +593,7 @@
     "ALLIANCE NATIONAL MUNICIPAL INCOME FUND": {
       "calculated_fv": "501997813",
       "calculated_cost": null,
-      "calculated_pct": "95.48",
+      "calculated_pct": "98.08",
       "extracted_fv": null,
       "extracted_cost": null,
       "extracted_pct": null,
@@ -611,7 +611,7 @@
     "(root)": {
       "calculated_fv": "501997813",
       "calculated_cost": null,
-      "calculated_pct": "95.48",
+      "calculated_pct": "98.08",
       "extracted_fv": null,
       "extracted_cost": null,
       "extracted_pct": null,
@@ -629,39 +629,39 @@
     {
       "severity": "error",
       "code": "TOTAL_MISMATCH_PCT",
-      "message": "Section percent (95.48%) != Total row (162.2%), diff=66.72%",
+      "message": "Section percent (98.08%) != Total row (162.2%), diff=64.12%",
       "context": {
         "section_path": "ALLIANCE NATIONAL MUNICIPAL INCOME FUND",
         "label": "Total Investments",
-        "calculated": "95.48",
+        "calculated": "98.08",
         "extracted": "162.2",
-        "diff": "66.72",
+        "diff": "64.12",
         "suspect_misread_percent": null
       }
     },
     {
       "severity": "error",
       "code": "ARITH_MISMATCH_PCT",
-      "message": "Calculated percent (107.38%) != extracted subtotal (162.2%), diff=54.82%",
+      "message": "Calculated percent (109.98%) != extracted subtotal (162.2%), diff=52.22%",
       "context": {
         "section_path": "ALLIANCE NATIONAL MUNICIPAL INCOME FUND > MUNICIPAL BONDS",
         "label": "MUNICIPAL BONDS",
-        "calculated": "107.38",
+        "calculated": "109.98",
         "extracted": "162.2",
-        "diff": "54.82",
+        "diff": "52.22",
         "suspect_misread_percent": null
       }
     },
     {
       "severity": "error",
       "code": "ARITH_MISMATCH_PCT",
-      "message": "Calculated percent (107.38%) != extracted subtotal (160.8%), diff=53.42%",
+      "message": "Calculated percent (109.98%) != extracted subtotal (160.8%), diff=50.82%",
       "context": {
         "section_path": "ALLIANCE NATIONAL MUNICIPAL INCOME FUND > MUNICIPAL BONDS > Long-Term Municipal Bonds",
         "label": "Long-Term Municipal Bonds",
-        "calculated": "107.38",
+        "calculated": "109.98",
         "extracted": "160.8",
-        "diff": "53.42",
+        "diff": "50.82",
         "suspect_misread_percent": null
       }
     },
@@ -671,7 +671,7 @@
       "message": "Value digits '13615' don't match citation content digits '2300' (overlap: 20%)",
       "context": {
         "field": "quantity_raw",
-        "row": 111,
+        "row": 112,
         "citation_idx": 0,
         "overlap_ratio": 0.2
       }
@@ -682,7 +682,7 @@
       "message": "Value digits '28' don't match citation content digits '550' (overlap: 0%)",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 102,
+        "row": 103,
         "citation_idx": 0,
         "overlap_ratio": 0.0
       }
@@ -693,7 +693,7 @@
       "message": "Value digits '7186900' don't match citation content digits '10342400' (overlap: 43%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 97,
+        "row": 98,
         "citation_idx": 0,
         "overlap_ratio": 0.42857142857142855
       }
@@ -704,9 +704,18 @@
       "message": "Value digits '8824955' don't match citation content digits '10342400' (overlap: 29%)",
       "context": {
         "field": "fair_value_raw",
-        "row": 102,
+        "row": 103,
         "citation_idx": 0,
         "overlap_ratio": 0.2857142857142857
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "BBOX_OUT_OF_RANGE",
+      "message": "bbox.top=1.1622474747474747 out of [0,1]",
+      "context": {
+        "field": "fair_value_raw",
+        "row": 17
       }
     },
     {
@@ -715,7 +724,7 @@
       "message": "bbox.width=-0.004084967320261438 out of [0,1]",
       "context": {
         "field": "percent_net_assets_raw",
-        "row": 115
+        "row": 116
       }
     },
     {
@@ -729,29 +738,32 @@
     },
     {
       "severity": "warning",
-      "code": "MISSING_SUBTOTAL",
-      "message": "Section has 2 holdings but no SUBTOTAL row",
-      "context": {
-        "section_path": "ALLIANCE NATIONAL MUNICIPAL INCOME FUND > MUNICIPAL BONDS > Long-Term Municipal Bonds > District of Columbia"
-      }
-    },
-    {
-      "severity": "warning",
-      "code": "NORMALIZATION_APPLIED",
-      "message": "Sanitizer fixed 1 row(s): ROW_FROM_NON_SOI_PAGE=1",
-      "context": {
-        "fix_count": 1,
-        "dropped": 1,
-        "converted": 0
-      }
-    },
-    {
-      "severity": "warning",
       "code": "ORPHANED_TOTAL",
       "message": "Section has TOTAL row 'Total Long-Term Municipal Bonds' but no holdings or child sections",
       "context": {
         "section_path": "ALLIANCE NATIONAL MUNICIPAL INCOME FUND > Long-Term Municipal Bonds",
         "label": "Total Long-Term Municipal Bonds"
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "ROW_FROM_NON_SOI_PAGE",
+      "message": "Row from page 1 which is not in SOI split [3, 4, 5, 6, 7, 8, 9]",
+      "context": {
+        "row": 17,
+        "row_type": "SUBTOTAL",
+        "investment": null,
+        "label": "District of Columbia",
+        "original_page": 1,
+        "soi_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
       }
     },
     {
@@ -768,24 +780,5 @@
         ]
       }
     }
-  ],
-  "normalization": {
-    "fix_count": 1,
-    "dropped_count": 1,
-    "converted_count": 0,
-    "percent_corrected_count": 0,
-    "fix_log": [
-      {
-        "row_idx": 17,
-        "old_row_type": "SUBTOTAL",
-        "new_row_type": null,
-        "action": "dropped",
-        "reason_code": "ROW_FROM_NON_SOI_PAGE",
-        "confidence": "high",
-        "row_signature": "SUBTOTAL:District of Columbia|fv=7,948,687",
-        "old_value": "page=1",
-        "new_value": "valid_pages=[3, 4, 5, 6, 7, 8, 9]"
-      }
-    ]
-  }
+  ]
 }
