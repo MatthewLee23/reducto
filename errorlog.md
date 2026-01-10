@@ -336,3 +336,71 @@ PDFs re-processed in `pdfs-for-main-extraction/reruns/reruns-5/`:
 - [x] 0001144204-05-006328.pdf - Completed (errors expected, not sanitizer-related)
 - [ ] 0001133228-04-000267.pdf - Extraction interrupted, needs re-run
 - [ ] 0000900092-06-000075.pdf - Extraction interrupted, needs re-run
+
+---
+
+# Batch 46 Analysis - Gap-Filling Fix
+
+## Summary
+
+Analyzed 7 out of 10 random PDFs from batch_46. Identified a **critical bug** where gap-filling was not being applied before extraction, causing severe partial extraction errors.
+
+| File | Errors | Root Cause | Gap-Fill Applied |
+|------|--------|------------|------------------|
+| 0000935069-07-002406 | 25E | 12-page gap (4→17), only 22% coverage | Yes - added 12 pages |
+| 0000928816-03-000653 | 23E | 11-page gap (9→21), only 6.9% coverage | Yes - added 15 pages |
+| 0000930413-05-001717 | 8E | Calculated > extracted (duplicates?) | No gaps |
+| 0001047469-04-000524 | 76E | Cost mismatches, missing holdings | No gaps |
+| 0001233087-04-000005 | 61E | Calculated > extracted (duplicates?) | No gaps |
+| 0000928816-03-000753 | 813E | MISSING_ROW_TYPE (structural) | Multiple gaps |
+| 0000950136-08-003015 | 0E | Clean! | Multiple gaps |
+
+## Critical Bug Found: Gap-Filling Not Applied Before Extraction
+
+**Location:** `main.py`, `process_file()` function
+
+**Problem:** The `fill_page_gaps()` and `validate_split_completeness()` functions were defined and called in `_validate_single_file()` (line 492), but NOT in `process_file()` where the actual extraction happens (line 602). This means:
+1. The splitter identifies SOI pages with gaps (e.g., [2, 3, 4, 17, 18, 19])
+2. The extraction uses these gapped pages directly
+3. Gap-filling only happens during validation, which is too late - the extraction has already been done with incomplete pages
+
+**Impact:** Files with large gaps in SOI pages have severe partial extraction errors:
+- 0000935069-07-002406: Only 3.5%, 10.4%, 26.8% of holdings extracted (FUND_SEVERE_PARTIAL_EXTRACTION)
+- 0000928816-03-000653: Missing $11.7M in holdings (TOTAL_MISMATCH_FV)
+
+**Fix Applied:** Added gap-filling to `process_file()` after extracting SOI pages from split, BEFORE calling the extraction API:
+
+```python
+# CRITICAL: Apply gap-filling BEFORE extraction to capture continuation pages
+original_page_count = len(soi_pages)
+
+# First, validate split completeness (fills ALL gaps if coverage < 70%)
+soi_pages = validate_split_completeness(soi_pages, verbose=True)
+
+# Then apply standard gap-filling for remaining small gaps
+soi_pages = fill_page_gaps(soi_pages, max_gap=MAX_PAGE_GAP, verbose=True)
+
+# Log if we added pages
+if len(soi_pages) > original_page_count:
+    added_pages = len(soi_pages) - original_page_count
+    print(f"  [GAP-FILL] {pdf_path.name} - Added {added_pages} pages (now {len(soi_pages)} total)")
+```
+
+**Why This Fix Is General (Not Overfitting):**
+1. Gap-filling is a general technique that helps any document where the splitter misses continuation pages
+2. The split quality warnings already show that gaps are a common problem across many PDFs
+3. The fix uses existing functions (`fill_page_gaps`, `validate_split_completeness`) with reasonable defaults
+4. The 70% coverage threshold for aggressive gap-filling is based on the observation that legitimate SOI sections are typically contiguous
+
+## Verification (batch_47 - reruns-8)
+
+Re-running main.py on 5 problematic PDFs with the gap-filling fix applied:
+
+**Gap-Fill Results:**
+- 0000935069-07-002406: 6 pages → 18 pages (+12 pages)
+- 0000928816-03-000653: 7 pages → 22 pages (+15 pages)
+- 0000930413-05-001717: 10 pages → 11 pages (+1 page)
+- 0001047469-04-000524: 9 pages (no change - contiguous)
+- 0001233087-04-000005: 9 pages (no change - contiguous)
+
+**Validation Results:** Pending - Reducto API extraction in progress

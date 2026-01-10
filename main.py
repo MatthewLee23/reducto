@@ -616,6 +616,22 @@ async def process_file(
             split_warnings = validate_split_quality(split_json, verbose=True)
             if split_warnings:
                 print(f"  [SPLIT-QUALITY] {pdf_path.name} - {len(split_warnings)} quality warning(s)")
+            
+            # CRITICAL: Apply gap-filling BEFORE extraction to capture continuation pages
+            # The splitter often misses intermediate pages (e.g., pages 5-16 when it identifies
+            # pages 4 and 17). These gaps contain holdings that would otherwise be lost.
+            original_page_count = len(soi_pages)
+            
+            # First, validate split completeness (fills ALL gaps if coverage < 70%)
+            soi_pages = validate_split_completeness(soi_pages, verbose=True)
+            
+            # Then apply standard gap-filling for remaining small gaps
+            soi_pages = fill_page_gaps(soi_pages, max_gap=MAX_PAGE_GAP, verbose=True)
+            
+            # Log if we added pages
+            if len(soi_pages) > original_page_count:
+                added_pages = len(soi_pages) - original_page_count
+                print(f"  [GAP-FILL] {pdf_path.name} - Added {added_pages} pages (now {len(soi_pages)} total)")
 
             print(f"  [EXTRACT] {pdf_path.name} - {len(soi_pages)} SOI pages")
 
