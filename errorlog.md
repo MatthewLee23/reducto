@@ -130,25 +130,96 @@ Same bug as file #1 - the sanitizer's `drop_summary_tables()` function is incorr
 
 ---
 
-### 4. 0000900092-06-000075
+### 4. 0000900092-06-000075 (Deep Analysis - Batch 44)
 
 **Error Summary:**
 - `has_arithmetic_error`: true
-- `error_count`: 80
-- `warning_count`: 57
-- `max_dollar_diff`: 586,479,155
+- `error_count`: 77
+- `warning_count`: 185
+- `max_dollar_diff`: 12,189,308
 
-**Key Issues:**
-- 80 errors, mostly CITATION_VALUE_MISMATCH errors
-- Many BBOX_PAGE_OUT_OF_RANGE warnings (bbox.page=11 outside [1, 10])
-- Citation alignment issues throughout the document
+**Key Arithmetic Errors (non-citation):**
 
-**Root Cause Analysis:**
-This file has extensive citation/extraction alignment issues. The BBOX_PAGE_OUT_OF_RANGE warnings suggest the extraction may have pulled data from pages outside the expected SOI range. The citation mismatches indicate the extracted values don't match the source text locations.
+1. **ARITH_MISMATCH_FV in Insurance section:**
+   - Calculated fair_value: $15,394,328
+   - Extracted subtotal: $3,205,020
+   - Difference: $12,189,308
 
-This is likely a Reducto API extraction issue rather than a sanitizer bug. The system correctly identified the data but the citations are misaligned.
+2. **SHIFTED_SUBTOTAL_DETECTED:**
+   - Media subtotal ($13,440,797) appearing in Electric Utilities section
+   - Electric Utilities calculated: $6,846,902
+   - Difference: $6,593,895
 
-**Status:** Lower priority - citation alignment issue, not sanitizer bug
+3. **TOTAL_MISMATCH_PCT:**
+   - Section percent: 22.0%
+   - Total row: 23.2%
+   - Difference: 1.2%
+
+**Root Cause Analysis (Deep Investigation):**
+
+**Issue 1: Insurance Section Mismatch ($12.2M diff)**
+
+The Insurance section in "Preferred Securities > Preferred Stocks > Insurance" contains 10 holdings:
+- Row 39: ACE Ltd. Series C, 7.80% ($2,088,000)
+- Row 40: Aegon NV, 6.375% ($2,022,504)
+- Row 41: Axis Capital Holdings Ltd., 7.25% ($190,400)
+- Row 42: Endurance Specialty Holdings Ltd., 7.75% ($194,000)
+- Row 43: Genworth Financial, Inc. Series A, 5.25% ($1,525,314)
+- Row 44: Metlife, Inc. Series B, 6.50% ($1,866,240)
+- Row 45: Prudential Plc, 6.75% ($2,061,600)
+- Row 46: Zurich RegCaPS Funding Trust, 6.58% ($2,241,250)
+- Row 47: Pacific Gas & Electric Co. Series A, 6% ($2,076,000) **<-- UTILITY, NOT INSURANCE**
+- Row 48: Public Service Electric & Gas Series E, 5.28% ($1,129,020) **<-- UTILITY, NOT INSURANCE**
+
+**Root Cause:** The Reducto API incorrectly assigned rows 47-48 (Pacific Gas & Electric and Public Service Electric & Gas) to the Insurance section path. These are **utility companies**, not insurance companies. The calculated sum includes these misassigned utilities ($15,394,328), but the extracted subtotal ($3,205,020) only covers actual insurance holdings.
+
+This is an **upstream extraction/section path assignment issue** from the Reducto API, not a sanitization bug.
+
+**Issue 2: Shifted Subtotal (Media -> Electric Utilities)**
+
+- Row 234: "Electric Utilities" SUBTOTAL with fair_value_raw: $13,440,797
+- But $13,440,797 is the **Media section total** (calculated from Media holdings)
+- Electric Utilities holdings only sum to ~$6.8M
+
+**Root Cause:** Section path misalignment from the Reducto API. The subtotal value is being assigned to the wrong section.
+
+**Issue 3: SUMMARY_TABLE_BLOCK_DETECTED Dropping Legitimate Holdings**
+
+27 rows were dropped with reason "SUMMARY_TABLE_BLOCK_DETECTED", including:
+- Dresdner Funding Trust I, 8.151% ($1,229,484)
+- Lloyds TSB Bank Plc, 6.90% ($2,032,600)
+- Mizuho JGB Investment LLC, 9.87% ($3,317,826)
+- SB Treasury Co. LLC, 9.40% ($3,285,372)
+- Westpac Capital Trust III, 5.819% ($2,043,360)
+- Total Capital Trusts ($11,908,642)
+- Alexandria Real Estate Equities, Inc. ($1,332,760)
+- ABN AMRO North America Capital Funding ($2,109,520)
+- Southwest Gas Capital II, 7.70% ($1,047,544)
+- Total Preferred Securities ($76,778,858)
+- Municipal Bonds holdings and totals
+- Short-Term Securities holdings
+
+**Root Cause:** These rows are being dropped because they're in blocks with TOTAL rows that have low percentage values (< 50%). However, these are legitimate holdings that should not be dropped.
+
+**Split Results Analysis:**
+
+The split identified SOI pages as: 5, 6, 8, 11, 14, 15, 16, 17
+
+**Missing pages:** 7, 9, 10, 12, 13 are NOT included in the SOI split. This is suspicious - if the SOI spans pages 5-17, why are some pages in the middle missing? This could be contributing to extraction issues.
+
+**Conclusions:**
+
+1. **Primary Issue:** Reducto API section path assignment errors (utilities assigned to Insurance, Media subtotal assigned to Electric Utilities)
+2. **Secondary Issue:** SUMMARY_TABLE_BLOCK_DETECTED is still too aggressive, dropping legitimate holdings
+3. **Tertiary Issue:** Split may be missing some SOI pages (7, 9, 10, 12, 13)
+
+**Potential Fixes:**
+
+1. **Cannot fix:** Section path misalignment is an upstream Reducto API issue
+2. **Can investigate:** SUMMARY_TABLE_BLOCK_DETECTED logic may need refinement
+3. **Can investigate:** Split gap-filling logic may need improvement
+
+**Status:** Upstream extraction issue - limited fixes possible on our end
 
 ---
 

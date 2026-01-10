@@ -1656,10 +1656,14 @@ def drop_summary_tables(
     A summary table (e.g., "Top 10 Holdings", "Largest Investments") is identified by:
     1. Having a TOTAL row with percent_net_assets_raw < 50%
     2. Having fewer than SUMMARY_TABLE_MAX_ROWS holdings in the block
-    3. Optionally having keywords like "Top", "Largest", "Summary" in labels
+    3. Having keywords like "Top", "Largest", "Summary" in labels (REQUIRED)
     
     Note: The threshold was lowered from 80% to 50% to avoid incorrectly flagging
     legitimate SOI sections (e.g., a section with 76.4% of net assets was being dropped).
+    
+    IMPORTANT: We now require BOTH low percentage AND summary keywords to drop a block.
+    This prevents dropping legitimate subsections like "Capital Trusts" (4.6%) or 
+    "Municipal Bonds" (0.5%) that have low percentages but are part of the main SOI.
     
     This is a content-based defense that catches summary tables even if they're
     on pages included in the SOI split (via gap-filling or splitter error).
@@ -1689,9 +1693,11 @@ def drop_summary_tables(
         # Check if any row has summary table keywords
         has_summary_keyword = any(_has_summary_table_keyword(r) for r in block_rows)
         
-        # Drop if: (low percentage total AND few holdings) OR (has summary keywords AND few holdings)
-        # This ensures we catch both percentage-based and keyword-based summary tables
-        should_drop = (has_summary_total or has_summary_keyword) and holding_count < SUMMARY_TABLE_MAX_ROWS
+        # Drop if: (low percentage total AND summary keywords AND few holdings)
+        # We require BOTH low percentage AND summary keywords to avoid dropping legitimate
+        # subsections like "Capital Trusts" (4.6%) or "Municipal Bonds" (0.5%) that have
+        # low percentages but are part of the main SOI, not summary tables.
+        should_drop = has_summary_total and has_summary_keyword and holding_count < SUMMARY_TABLE_MAX_ROWS
         
         if should_drop:
             # This block is a summary table - mark all rows for dropping
